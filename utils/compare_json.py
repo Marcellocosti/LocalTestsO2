@@ -43,16 +43,13 @@ def transform_to_nested(data):
             data_removed[key] = new_dict
         else:
             if "." in key:
-                print(key)
                 keys = key.split('.')
                 del data_removed[key]
                 if transformed_data.get(keys[0]) is None:
                     transformed_data[keys[0]] = {}
                 transformed_data[keys[0]][keys[1]] = value
 
-    print(f"transformed_data: {transformed_data}")
     for key, value in transformed_data.items():
-        print(f"key: {key}")
         data_removed[key] = value
     
     return data_removed
@@ -76,6 +73,15 @@ def missing_keys(dict1, dict2, nick1, nick2, mother_key = ""):
 
     return missing_keys
 
+def diff_non_negl(a, b):
+    if isinstance(a, (int, float)) and  not isinstance(a, bool) and isinstance(b, (int, float)) and not isinstance(b, bool):
+        if abs(a-b) < 0.0001:
+            return False
+        else: 
+            return True
+    else:
+        return True
+
 def compare_subdicts(dict1, dict2, nick1, nick2, mother_key, path=""):
     """
     Compares two dictionaries and finds the differences.
@@ -97,7 +103,7 @@ def compare_subdicts(dict1, dict2, nick1, nick2, mother_key, path=""):
             # If the value is a dictionary, recursively compare
             if isinstance(dict1[key1], dict) and isinstance(dict2[key1], dict):
                 single_key_difference.extend(compare_subdicts(dict1[key1], dict2[key1], nick1, nick2, key1, path + key1 + "."))
-            elif dict1[key1] != dict2[key1]:
+            elif dict1[key1] != dict2[key1] and diff_non_negl(dict1[key1], dict2[key1]):
                 if mother_key != "":
                     single_key_difference.append(f"[{mother_key}, {key1}]: {nick1} = {dict1[key1]}, {nick2} = {dict2[key1]}")
                 else:
