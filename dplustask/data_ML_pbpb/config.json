@@ -380,7 +380,7 @@
         }
     },
     "hf-track-index-skim-creator-tag-sel-collisions": {
-        "hfEvSel.centralityMin": "10",
+        "hfEvSel.centralityMin": "40",
         "hfEvSel.bcMarginForSoftwareTrigger": "100",
         "triggerClassName": "",
         "hfEvSel.ccdbPathSoftwareTrigger": "Users/m/mpuccio/EventFiltering/OTS/Chunked/",
@@ -424,7 +424,7 @@
         "hfEvSel.occupancyMin": "0",
         "hfEvSel.useNoCollInTimeRangeNarrow": "0",
         "processTrigAndCentFV0ASel": "0",
-        "hfEvSel.centralityMax": "60"
+        "hfEvSel.centralityMax": "50"
     },
     
     "hf-track-index-skim-creator-tag-sel-tracks": {

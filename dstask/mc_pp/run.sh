@@ -1,5 +1,5 @@
 LOGFILE="log.txt"
-OPTION="-b --configuration json://config_noml.json"
+OPTION="-b --configuration json://config.json"
 
 
 o2-analysis-hf-tree-creator-ds-to-k-k-pi $OPTION |\
