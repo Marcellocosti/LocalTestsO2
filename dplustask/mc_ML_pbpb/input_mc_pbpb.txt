@@ -1,0 +1,3 @@
+/data/mdicosta/Dflow/localtests/mc_pbpb/001/AO2D.root
+/data/mdicosta/Dflow/localtests/mc_pbpb/002/AO2D.root
+/data/mdicosta/Dflow/localtests/mc_pbpb/003/AO2D.root

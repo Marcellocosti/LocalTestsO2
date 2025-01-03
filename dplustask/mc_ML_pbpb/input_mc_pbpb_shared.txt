@@ -1,0 +1,10 @@
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/001/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/002/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/003/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/004/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/005/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/006/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/007/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/008/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/009/AO2D.root
+/data/shared/DplFlowML/localtests/LHC24g2/2/544122/AOD/010/AO2D.root

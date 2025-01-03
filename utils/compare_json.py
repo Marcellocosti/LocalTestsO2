@@ -200,7 +200,11 @@ def save_differences_to_file(differences, output_file):
                 f.write("\n")
                 f.write(ordered_diff[idiff] + "\n")
             else:
-                f.write(ordered_diff[idiff] + "\n")
+                if isinstance(ordered_diff[idiff], list):  # If item is a list, join it into a string
+                    for subitem in ordered_diff[idiff]:
+                        f.write(str(subitem) + "\n")
+                else:
+                    f.write(ordered_diff[idiff] + "\n")
 
 parser = argparse.ArgumentParser(description="Compare two JSON files and save differences.")
 parser.add_argument('file1', type=str, help="Path to the first JSON file")
