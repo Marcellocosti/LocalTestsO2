@@ -26,6 +26,7 @@ o2-analysis-hf-task-ds $OPTION > "$LOGFILE" 2>&1
 rc=$?
 if [ $rc -eq 0 ]; then
   echo "No problems!"
+  python3 ~/LocalTestsO2/utils/check_thnsparse.py -dsdata
 else
   echo "Error: Exit code $rc"
   echo "Check the log file $LOGFILE"

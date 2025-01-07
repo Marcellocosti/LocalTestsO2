@@ -12,6 +12,7 @@ parser.add_argument("-dsmcgen", "--dsmcgen", help="Project Ds mc gen output", ac
 parser.add_argument("-dsdata", "--dsdata", help="Project Ds data output", action="store_true")
 parser.add_argument("-dpflow", "--dplusflow", help="Project D+ flow output", action="store_true")
 parser.add_argument("-s", "--suffix", help="Input and output suffix", type=str, default="")
+parser.add_argument("-o", "--outdir", help="Input and output suffix", type=str, default="")
 
 # Parse arguments
 args = parser.parse_args()
@@ -52,16 +53,19 @@ if args.dplusflow:
 if not any(vars(args).values()):
     print("No actions specified. Use --help for options.")
 
+AN_file = f"{args.outdir}/AnalysisResults" if args.outdir != "" else "AnalysisResults"
+proj_file = f"{args.outdir}/ThnSparseProj" if args.outdir != "" else "ThnSparseProj"
+
 if args.suffix != "":
-    test_file = TFile.Open(f'AnalysisResults_{args.suffix}.root')
+    test_file = TFile.Open(f'{AN_file}_{args.suffix}.root')
     if args.dsmcgen:
-        out_file = TFile(f'ThnSparseProj_{args.suffix}_gen.root', 'recreate')
+        out_file = TFile(f'{proj_file}_{args.suffix}_gen.root', 'recreate')
     else:
-        out_file = TFile(f'ThnSparseProj_{args.suffix}.root', 'recreate')
+        out_file = TFile(f'{proj_file}_{args.suffix}.root', 'recreate')
 else: 
-    test_file = TFile.Open('AnalysisResults.root')
+    test_file = TFile.Open(f'{AN_file}.root')
     suffix = args.suffix + "_gen" if args.dsmcgen else args.suffix
-    out_file = TFile('ThnSparseProj' + suffix +'.root', 'recreate')
+    out_file = TFile(f'{proj_file}' + suffix +'.root', 'recreate')
 
 out_file.cd()
 

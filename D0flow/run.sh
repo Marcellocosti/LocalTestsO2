@@ -24,9 +24,10 @@ o2-analysis-hf-candidate-creator-2prong $OPTION --aod-file @input_data.txt > "$L
 # report status
 rc=$?
 if [ $rc -eq 0 ]; then
-  echo "No problems!"
+  echo "No problems!" >> "$LOGFILE"
+  python3 ~/LocalTestsO2/utils/check_thnsparse.py -dpflow
 else
-  echo "Error: Exit code $rc"
+  echo "Error: Exit code $rc" >> "$LOGFILE"
   echo "Check the log file $LOGFILE"
   exit $rc
 fi
