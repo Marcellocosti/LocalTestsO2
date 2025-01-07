@@ -34,7 +34,7 @@ if args.dsmcreco:
     print("Projecting Ds mc reco")
 
 if args.dsmcgen:
-    sparses_gen = ["MC/Ds/Prompt/", "MC/Ds/NonPrompt/", "MC/Dplus/Prompt/", 
+    sparses = ["MC/Ds/Prompt/", "MC/Ds/NonPrompt/", "MC/Dplus/Prompt/", 
                    "MC/Dplus/NonPrompt/", "MC/Bkg/"]
     sparse_name = "hf-task-ds"
     print("Projecting Ds mc gen")
@@ -60,7 +60,8 @@ if args.suffix != "":
         out_file = TFile(f'ThnSparseProj_{args.suffix}.root', 'recreate')
 else: 
     test_file = TFile.Open('AnalysisResults.root')
-    out_file = TFile(f'ThnSparseProj.root', 'recreate')
+    suffix = args.suffix + "_gen" if args.dsmcgen else args.suffix
+    out_file = TFile('ThnSparseProj' + suffix +'.root', 'recreate')
 
 out_file.cd()
 

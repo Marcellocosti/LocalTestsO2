@@ -2067,8 +2067,8 @@
                 "2"
             ]
         },
-        "storeCentrality": "false",
-        "storeOccupancy": "false",
+        "storeCentrality": "true",
+        "storeOccupancy": "true",
         "thnConfigAxisY": {
             "values": [
                 "40",
@@ -2087,7 +2087,7 @@
             "values": [
                 "14",
                 "0",
-                "14000"
+                "140000"
             ]
         },
         "axisPtBHad": {
