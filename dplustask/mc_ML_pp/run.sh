@@ -25,7 +25,7 @@ o2-analysis-hf-candidate-creator-3prong $OPTION > "$LOGFILE" 2>&1
 rc=$?
 if [ $rc -eq 0 ]; then
   echo "No problems!"
-  python3 ~/LocalTestsO2/utils/check_thnsparse.py -dpmc
+  python3 ~/LocalTestsO2/utils/proj_thnsparse.py -dpmc
 else
   echo "Error: Exit code $rc"
   echo "Check the log file $LOGFILE"

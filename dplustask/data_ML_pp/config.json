@@ -2044,7 +2044,7 @@
         "yCandRecoMax": "0.80000000000000004",
         "yGenNBins": "100",
         "centEstimator": "2",
-        "occEstimator": "2",
+        "occEstimator": "1",
         "binsPt": {
             "values": [
                 "0",
@@ -2087,7 +2087,7 @@
             "values": [
                 "14",
                 "0",
-                "140000"
+                "1400"
             ]
         },
         "axisPtBHad": {

@@ -35,8 +35,8 @@ o2-analysis-track-to-collision-associator $OPTION > "$LOGFILE" 2>&1
 rc=$?
 if [ $rc -eq 0 ]; then
   echo "No problems!"
-  python3 ~/LocalTestsO2/utils/check_thnsparse.py -dsmcreco
-  python3 ~/LocalTestsO2/utils/check_thnsparse.py -dsmcgen
+  python3 ~/LocalTestsO2/utils/proj_thnsparse.py -dsmcreco
+  python3 ~/LocalTestsO2/utils/proj_thnsparse.py -dsmcgen
 else
   echo "Error: Exit code $rc"
   echo "Check the log file $LOGFILE"
