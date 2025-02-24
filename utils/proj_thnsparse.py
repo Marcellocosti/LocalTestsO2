@@ -13,6 +13,8 @@ parser.add_argument("-dsdata", "--dsdata", help="Project Ds data output", action
 parser.add_argument("-dpflow", "--dplusflow", help="Project D+ flow output", action="store_true")
 parser.add_argument("-s", "--suffix", help="Input and output suffix", type=str, default="")
 parser.add_argument("-o", "--outdir", help="Input and output suffix", type=str, default="")
+parser.add_argument("-in", "--inputname", help="Name of file to project", type=str, default="AnalysisResults")
+parser.add_argument("-on", "--outputname", help="Name of file to store projections", type=str, default="ThnSparseProj")
 
 # Parse arguments
 args = parser.parse_args()
@@ -53,8 +55,8 @@ if args.dplusflow:
 if not any(vars(args).values()):
     print("No actions specified. Use --help for options.")
 
-AN_file = f"{args.outdir}/AnalysisResults" if args.outdir != "" else "AnalysisResults"
-proj_file = f"{args.outdir}/ThnSparseProj" if args.outdir != "" else "ThnSparseProj"
+AN_file = f"{args.outdir}/{args.inputname}" if args.outdir != "" else f"{args.inputname}"
+proj_file = f"{args.outdir}/{args.outputname}" if args.outdir != "" else f"{args.outputname}"
 print(f"projecting {AN_file} to {proj_file}")
 
 if args.suffix != "":
