@@ -1,0 +1,4 @@
+/data/shared/Ds_pp_run3_ml/LHC24g5/526641/AO2D_001.root
+/data/shared/Ds_pp_run3_ml/LHC24g5/526641/AO2D_002.root
+/data/shared/Ds_pp_run3_ml/LHC24g5/526641/AO2D_003.root
+/data/shared/Ds_pp_run3_ml/LHC24g5/526641/AO2D_004.root

@@ -55,12 +55,17 @@ if not any(vars(args).values()):
 
 AN_file = f"{args.outdir}/AnalysisResults" if args.outdir != "" else "AnalysisResults"
 proj_file = f"{args.outdir}/ThnSparseProj" if args.outdir != "" else "ThnSparseProj"
+print(f"projecting {AN_file} to {proj_file}")
 
 if args.suffix != "":
     test_file = TFile.Open(f'{AN_file}_{args.suffix}.root')
+    print(f"Opening {AN_file}_{args.suffix}.root")
+    print(type(test_file))
     if args.dsmcgen:
         out_file = TFile(f'{proj_file}_{args.suffix}_gen.root', 'recreate')
     else:
+        print('CIAOO')
+        print(f'{proj_file}_{args.suffix}.root')
         out_file = TFile(f'{proj_file}_{args.suffix}.root', 'recreate')
 else: 
     test_file = TFile.Open(f'{AN_file}.root')

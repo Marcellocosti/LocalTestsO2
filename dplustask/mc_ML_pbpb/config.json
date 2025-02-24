@@ -132,8 +132,8 @@
         "createLc": "false",
         "createXic": "false",
         "hfEvSel": {
-            "centralityMin": "20",
-            "centralityMax": "50",
+            "centralityMin": "10",
+            "centralityMax": "20",
             "useSel8Trigger": "false",
             "triggerClass": "-1",
             "useTvxTrigger": "true",
@@ -180,6 +180,17 @@
         "processCollisionsCentFT0C": "true",
         "processCollisionsCentFT0M": "false"
     },
+    "track-to-collision-association": {
+        "timeMargin": "500",
+        "bcWindowForOneSigma": "60",
+        "usePVAssociation": "1",
+        "processStandardAssoc": "0",
+        "processAssocWithTime": "1",
+        "nSigmaForTimeCompat": "4",
+        "includeUnassigned": "1",
+        "fillTableOfCollIdsPerTrack": "0",
+        "setTrackSelections": "1"
+    },
     "hf-track-index-skim-creator-cascades": {
       "maxDZIni": "4",
       "minRelChi2Change": "0.9",
@@ -205,17 +216,6 @@
       "maxR": "200",
       "ptMinV0Daugh": "0.05",
       "useAbsDCA": "1"
-  },
-  "track-to-collision-association": {
-      "timeMargin": "500",
-      "bcWindowForOneSigma": "60",
-      "usePVAssociation": "1",
-      "processStandardAssoc": "0",
-      "processAssocWithTime": "1",
-      "nSigmaForTimeCompat": "4",
-      "includeUnassigned": "1",
-      "fillTableOfCollIdsPerTrack": "0",
-      "setTrackSelections": "1"
   },
   "hf-track-index-skim-creator-lf-cascades": {
       "maxDZIni": "4",
@@ -620,25 +620,25 @@
       "cutsTrack3Prong": {
           "values": [
               [
-                  0.0025,
+                  0.006,
                   10,
                   0,
                   100
               ],
               [
-                  0.0025,
+                  0.006,
                   10,
                   0,
                   100
               ],
               [
-                  0.0025,
+                  0.006,
                   10,
                   0,
                   100
               ],
               [
-                  0.0025,
+                  0.006,
                   10,
                   0,
                   100
