@@ -19,7 +19,7 @@ args = parser.parse_args()
 
 # Perform actions based on the flags
 if args.dplusmc:
-    sparses = ["Prompt", "FD", "Bkg", "NotMatched", "GenPrompt", "GenFD"]
+    sparses = ["Prompt", "FD", "GenPrompt", "GenFD"]
     sparse_name = "hf-task-dplus/hSparseMass"
     print("Projecting D+ mc")
 
@@ -60,11 +60,9 @@ print(f"projecting {AN_file} to {proj_file}")
 if args.suffix != "":
     test_file = TFile.Open(f'{AN_file}_{args.suffix}.root')
     print(f"Opening {AN_file}_{args.suffix}.root")
-    print(type(test_file))
     if args.dsmcgen:
         out_file = TFile(f'{proj_file}_{args.suffix}_gen.root', 'recreate')
     else:
-        print('CIAOO')
         print(f'{proj_file}_{args.suffix}.root')
         out_file = TFile(f'{proj_file}_{args.suffix}.root', 'recreate')
 else: 

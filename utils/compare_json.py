@@ -114,6 +114,13 @@ def compare_subdicts(dict1, dict2, nick1, nick2, mother_key, path=""):
         
     return differences
 
+def extract_cfg_from_grid(cfg_from_grid):
+    task_cfg = {}
+    for workflow in cfg_from_grid["workflows"]:
+        configuration = workflow.get("configuration", {})
+        task_cfg.update(configuration)
+    return task_cfg
+
 def compare_dicts(dict1, dict2, nick1, nick2, path=""):
     """
     Compares two dictionaries and finds the differences.
@@ -213,13 +220,20 @@ parser.add_argument('file2', type=str, help="Path to the second JSON file")
 parser.add_argument('nickname2', type=str, help="Handy name for the second JSON file")
 parser.add_argument('--output', type=str, default='differences.txt', help="Output file for differences")
 parser.add_argument('--reordered_output', type=str, default='reordered_output.json', help="Output file for reordered JSON")
+parser.add_argument('--from_grid_file1', "-fg1", action="store_true", help="First file is from grid")
+parser.add_argument('--from_grid_file2', "-fg2", action="store_true", help="Second file is from grid")
 
 # Parse the command line arguments
 args = parser.parse_args()
 with open(args.file1, 'r') as file:
     dict1 = preprocess(transform_to_nested(json.load(file)))
+    if (args.from_grid_file1):
+        dict1 = extract_cfg_from_grid(dict1)
 with open(args.file2, 'r') as file:
     dict2 = preprocess(transform_to_nested(json.load(file)))
+    if (args.from_grid_file2):
+        dict2 = extract_cfg_from_grid(dict2)
+
 
 differences = compare_dicts(dict1, dict2, args.nickname1, args.nickname2)
 save_differences_to_file(differences, args.output)
