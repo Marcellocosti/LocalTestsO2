@@ -395,7 +395,7 @@
         }
     },
     "hf-track-index-skim-creator-tag-sel-collisions": {
-        "hfEvSel.centralityMin": "10",
+        "hfEvSel.centralityMin": "50",
         "hfEvSel.bcMarginForSoftwareTrigger": "100",
         "triggerClassName": "",
         "hfEvSel.ccdbPathSoftwareTrigger": "Users/m/mpuccio/EventFiltering/OTS/Chunked/",
@@ -439,7 +439,7 @@
         "hfEvSel.occupancyMin": "0",
         "hfEvSel.useNoCollInTimeRangeNarrow": "0",
         "processTrigAndCentFV0ASel": "0",
-        "hfEvSel.centralityMax": "50"
+        "hfEvSel.centralityMax": "80"
     },
     "hf-track-index-skim-creator-tag-sel-tracks": {
         "etaMaxTrack2Prong": "0.8",
@@ -1413,7 +1413,7 @@
       "processMcCentFT0M": "0"
     },
     "hf-candidate-creator-3prong": {
-      "hfEvSel.centralityMin": "10",
+      "hfEvSel.centralityMin": "50",
       "processPvRefitWithKFParticleCentFT0C": "0",
       "processNoPvRefitWithDCAFitterN": "0",
       "processPvRefitWithKFParticle": "0",
@@ -1450,7 +1450,7 @@
       "hfEvSel.occupancyMin": "0",
       "processCollisionsCentFT0M": "0",
       "hfEvSel.useNoCollInTimeRangeNarrow": "0",
-      "hfEvSel.centralityMax": "50",
+      "hfEvSel.centralityMax": "80",
       "maxDZIni": "4",
       "ccdbPathGrpMag": "GLO/Config/GRPMagField",
       "hfEvSel.bcMarginForSoftwareTrigger": "100",
@@ -1487,12 +1487,15 @@
       "fillCandidateLiteTable": "1",
       "fillOnlySignal": "0",
       "downSampleBkgFactor": "1",
-      "processData": "1",
       "fillOnlyBackground": "0",
-      "fillOnlySignalMl": "0",
-      "processMc": "0",
+      "fillOnlySignalMl": "1",
+      "processMc": "1",
+      "processData": "0",
+      "processDataWCent": "0",
+      "processMcWCent": "0",
       "selectionFlagDplus": "15",
-      "ptMaxForDownSample": "10"
+      "ptMaxForDownSample": "10",
+      "centEstimator": "2"
     },
     "pid-multiplicity": {
       "processIU": "1",

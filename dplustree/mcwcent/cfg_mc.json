@@ -395,7 +395,7 @@
         }
     },
     "hf-track-index-skim-creator-tag-sel-collisions": {
-        "hfEvSel.centralityMin": "10",
+        "hfEvSel.centralityMin": "18",
         "hfEvSel.bcMarginForSoftwareTrigger": "100",
         "triggerClassName": "",
         "hfEvSel.ccdbPathSoftwareTrigger": "Users/m/mpuccio/EventFiltering/OTS/Chunked/",
@@ -1413,7 +1413,7 @@
       "processMcCentFT0M": "0"
     },
     "hf-candidate-creator-3prong": {
-      "hfEvSel.centralityMin": "10",
+      "hfEvSel.centralityMin": "18",
       "processPvRefitWithKFParticleCentFT0C": "0",
       "processNoPvRefitWithDCAFitterN": "0",
       "processPvRefitWithKFParticle": "0",
@@ -1488,9 +1488,12 @@
       "fillOnlySignal": "0",
       "downSampleBkgFactor": "1",
       "processData": "0",
+      "processDataWCent": "0",
+      "centEstimator": "2",
       "fillOnlyBackground": "0",
-      "fillOnlySignalMl": "1",
-      "processMc": "1",
+      "fillOnlySignalMl": "0",
+      "processMc": "0",
+      "processMcWCent": "1",
       "selectionFlagDplus": "15",
       "ptMaxForDownSample": "10"
     },

@@ -11,6 +11,7 @@ parser.add_argument("-dsmcreco", "--dsmcreco", help="Project Ds mc reco output",
 parser.add_argument("-dsmcgen", "--dsmcgen", help="Project Ds mc gen output", action="store_true")
 parser.add_argument("-dsdata", "--dsdata", help="Project Ds data output", action="store_true")
 parser.add_argument("-dpflow", "--dplusflow", help="Project D+ flow output", action="store_true")
+parser.add_argument("-dpflowep", "--dplusflowep", help="Project D+ flow output", action="store_true")
 parser.add_argument("-s", "--suffix", help="Input and output suffix", type=str, default="")
 parser.add_argument("-o", "--outdir", help="Input and output suffix", type=str, default="")
 parser.add_argument("-in", "--inputname", help="Name of file to project", type=str, default="AnalysisResults")
@@ -52,6 +53,11 @@ if args.dplusflow:
     sparse_name = "hf-task-flow-charm-hadrons"
     print("Projecting D+ flow")
 
+if args.dplusflowep:
+    sparses = ["ep/hSparseEp"]
+    sparse_name = "hf-task-flow-charm-hadrons"
+    print("Projecting D+ flow ep")
+
 if not any(vars(args).values()):
     print("No actions specified. Use --help for options.")
 
@@ -70,6 +76,7 @@ if args.suffix != "":
 else: 
     test_file = TFile.Open(f'{AN_file}.root')
     suffix = args.suffix + "_gen" if args.dsmcgen else args.suffix
+    print(f"Creating {proj_file}{suffix}.root")
     out_file = TFile(f'{proj_file}' + suffix +'.root', 'recreate')
 
 out_file.cd()
@@ -78,7 +85,8 @@ for sparse in sparses:
     out_file.mkdir(sparse)
     out_file.cd(sparse)
     
-    if args.dplusmc or args.dplusdata:
+    if args.dplusmc or args.dplusdata or args.dplusflowep:
+        print(f"Getting {sparse_name}/{sparse} from {AN_file}_{args.suffix}.root")
         thn_sparse = test_file.Get(f'{sparse_name}{sparse}')
     elif args.dsmcgen:
         thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseGen')
@@ -88,9 +96,10 @@ for sparse in sparses:
         thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseMass')
         
     thn_sparse_dimensions = thn_sparse.GetNdimensions()
-
+    print(f"thn_sparse.GetEntries(): {thn_sparse.GetEntries()}")
     for idim in range(thn_sparse_dimensions):
         histo = thn_sparse.Projection(idim)
+        print(f"histo.Integral(): {histo.Integral()}")
         histo.SetName(thn_sparse.GetAxis(idim).GetName())
         histo.SetTitle(thn_sparse.GetAxis(idim).GetTitle())
         histo.Write()

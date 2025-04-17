@@ -18,8 +18,8 @@ o2-analysis-tracks-extra-v002-converter $OPTION |\
 o2-analysis-track-to-collision-associator $OPTION |\
 o2-analysis-trackselection $OPTION |\
 o2-analysis-pid-tpc-base $OPTION |\
-o2-analysis-event-selection $OPTION |\
-o2-analysis-centrality-table $OPTION --aod-file @../input_mc_pbpb_shared.txt --aod-writer-json OutputDirector.json > log.txt 2>&1
+o2-analysis-centrality-table $OPTION |\
+o2-analysis-event-selection $OPTION --aod-file @../input_mc_pp.txt --aod-writer-json OutputDirector.json > log.txt 2>&1
 
 # report status
 rc=$?
