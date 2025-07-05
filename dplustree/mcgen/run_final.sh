@@ -5,7 +5,7 @@ o2-analysis-multiplicity-table $OPTION |\
 o2-analysis-hf-pid-creator $OPTION |\
 o2-analysis-pid-tpc $OPTION |\
 o2-analysis-track-propagation $OPTION |\
-o2-analysis-mccollision-converter $OPTION |\
+# o2-analysis-mccollision-converter $OPTION |\
 o2-analysis-ft0-corrected-table $OPTION |\
 o2-analysis-timestamp $OPTION |\
 o2-analysis-pid-tof-base $OPTION |\
@@ -19,7 +19,7 @@ o2-analysis-track-to-collision-associator $OPTION |\
 o2-analysis-trackselection $OPTION |\
 o2-analysis-pid-tpc-base $OPTION |\
 o2-analysis-event-selection $OPTION |\
-o2-analysis-centrality-table $OPTION --aod-file @../input_mc_pp.txt --aod-writer-json OutputDirector_gen.json > log.txt 2>&1
+o2-analysis-centrality-table $OPTION --aod-file @../input_mc_pp_corrbkgs.txt --aod-writer-json OutputDirector_gen.json --pipeline hf-track-index-skim-creator:20 --pipeline hf-candidate-creator-3prong:20 > log.txt 2>&1
 
 # report status
 rc=$?

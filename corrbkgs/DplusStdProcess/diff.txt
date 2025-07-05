@@ -1,0 +1,76 @@
+
+---------------------- internal-dpl-clock -------------------------
+
+---------------------- internal-dpl-aod-spawner -------------------------
+
+---------------------- internal-dpl-aod-index-builder -------------------------
+
+---------------------- track-selection -------------------------
+
+---------------------- track-to-collision-association -------------------------
+
+---------------------- hf-track-index-skim-creator-cascades -------------------------
+
+---------------------- hf-track-index-skim-creator-lf-cascades -------------------------
+
+---------------------- hf-track-index-skim-creator -------------------------
+
+---------------------- hf-track-index-skim-creator-tag-sel-collisions -------------------------
+
+            [hfEvSel, centralityMax]: old = 80, new = 50
+            [hfEvSel, centralityMin]: old = 50, new = 18
+
+---------------------- hf-track-index-skim-creator-tag-sel-tracks -------------------------
+
+---------------------- multiplicity-table -------------------------
+        KEY produceHistograms: old = 0, new = 1
+
+---------------------- hf-pid-creator -------------------------
+        KEY processFullPr: old = 0, new = 1
+
+---------------------- tpc-pid -------------------------
+
+---------------------- track-propagation -------------------------
+
+---------------------- mc-collision-converter -------------------------
+
+---------------------- ft0-corrected-table -------------------------
+
+---------------------- timestamp-task -------------------------
+
+---------------------- tof-signal -------------------------
+
+---------------------- tof-event-time -------------------------
+
+---------------------- tof-pid-full -------------------------
+
+---------------------- tracks-extra-spawner -------------------------
+
+---------------------- tracks-extra-v002-converter -------------------------
+
+---------------------- hf-candidate-selector-dplus-to-pi-k-pi -------------------------
+
+---------------------- hf-candidate-creator-3prong-expressions -------------------------
+    Keys present in new but not in old: matchCorrelatedBackgrounds
+
+---------------------- hf-candidate-creator-3prong -------------------------
+        KEY createLc: old = 0, new = 1
+        KEY createXic: old = 0, new = 1
+
+            [hfEvSel, centralityMax]: old = 80, new = 50
+            [hfEvSel, centralityMin]: old = 50, new = 18
+
+---------------------- hf-tree-creator-dplus-to-pi-k-pi -------------------------
+    Keys present in new but not in old: processDataWCent, processMcWMl, processMcSgnWCentMl, processMcCorrBkgsSgnWCentMl
+
+        KEY fillOnlySignalMl: old = 1, new = 0
+        KEY processMcWCent: old = 1, new = 0
+
+---------------------- pid-multiplicity -------------------------
+
+---------------------- bc-selection-task -------------------------
+
+---------------------- event-selection-task -------------------------
+
+---------------------- centrality-table -------------------------
+        KEY produceHistograms: old = 0, new = 1

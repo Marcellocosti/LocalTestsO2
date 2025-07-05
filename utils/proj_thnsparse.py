@@ -14,6 +14,7 @@ parser.add_argument("-dpflow", "--dplusflow", help="Project D+ flow output", act
 parser.add_argument("-dpflowep", "--dplusflowep", help="Project D+ flow output", action="store_true")
 parser.add_argument("-s", "--suffix", help="Input and output suffix", type=str, default="")
 parser.add_argument("-o", "--outdir", help="Input and output suffix", type=str, default="")
+parser.add_argument("-sn", "--sparsename", help="Path to sparse to project", type=str, default="")
 parser.add_argument("-in", "--inputname", help="Name of file to project", type=str, default="AnalysisResults")
 parser.add_argument("-on", "--outputname", help="Name of file to store projections", type=str, default="ThnSparseProj")
 
@@ -87,13 +88,25 @@ for sparse in sparses:
     
     if args.dplusmc or args.dplusdata or args.dplusflowep:
         print(f"Getting {sparse_name}/{sparse} from {AN_file}_{args.suffix}.root")
-        thn_sparse = test_file.Get(f'{sparse_name}{sparse}')
+        if args.sparsename != "":
+            thn_sparse = test_file.Get(args.sparsename)
+        else:
+            thn_sparse = test_file.Get(f'{sparse_name}{sparse}')
     elif args.dsmcgen:
-        thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseGen')
+        if args.sparsename != "":
+            thn_sparse = test_file.Get(args.sparsename)
+        else:
+            thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseGen')
     elif args.dplusflow:
-        thn_sparse = test_file.Get(f'{sparse_name}/hSparseFlowCharm')
+        if args.sparsename != "":
+            thn_sparse = test_file.Get(args.sparsename)
+        else:
+            thn_sparse = test_file.Get(f'{sparse_name}/hSparseFlowCharm')
     else:
-        thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseMass')
+        if args.sparsename != "":
+            thn_sparse = test_file.Get(args.sparsename)
+        else:
+            thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseMass')
         
     thn_sparse_dimensions = thn_sparse.GetNdimensions()
     print(f"thn_sparse.GetEntries(): {thn_sparse.GetEntries()}")

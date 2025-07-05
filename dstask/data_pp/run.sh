@@ -5,8 +5,7 @@ o2-analysis-tracks-extra-v002-converter $OPTION |\
 o2-analysis-track-to-collision-associator $OPTION |\
 o2-analysis-mccollision-converter $OPTION |\
 o2-analysis-track-propagation $OPTION |\
-o2-analysis-multiplicity-table $OPTION |\
-o2-analysis-centrality-table $OPTION |\
+o2-analysis-multcenttable $OPTION |\
 o2-analysis-ft0-corrected-table $OPTION |\
 o2-analysis-timestamp $OPTION |\
 o2-analysis-hf-pid-creator $OPTION |\

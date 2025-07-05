@@ -818,7 +818,7 @@
       "processTinyEl": "0",
       "processTinyMu": "0",
       "processTinyPr": "0",
-      "processFullPr": "0",
+      "processFullPr": "1",
       "processTinyPi": "0",
       "processFullKa": "1",
       "processDummy": "0",
@@ -1408,6 +1408,7 @@
       "matchInteractionsWithMaterial": "0",
       "rejectBackground": "0",
       "matchKinkedDecayTopology": "1",
+      "matchCorrBkgs": "true",
       "processMc": "0",
       "processMcCentFT0C": "1",
       "processMcCentFT0M": "0"

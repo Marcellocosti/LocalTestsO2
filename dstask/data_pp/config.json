@@ -424,7 +424,7 @@
         "hfEvSel.occupancyMin": "0",
         "hfEvSel.useNoCollInTimeRangeNarrow": "0",
         "processTrigAndCentFV0ASel": "0",
-        "hfEvSel.centralityMax": "60"
+        "hfEvSel.centralityMax": "30"
   },
   "hf-track-index-skim-creator-tag-sel-tracks": {
         "etaMaxTrack2Prong": "0.8",
@@ -1739,7 +1739,7 @@
           "processTinyPi": "false",
           "processFullKa": "true",
           "processTinyKa": "false",
-          "processFullPr": "false",
+          "processFullPr": "true",
           "processTinyPr": "false"
   },
   "hf-candidate-creator-3prong-expressions": {
@@ -2209,13 +2209,6 @@
         ]
     },
     "axisMlScore2": {
-        "values": [
-            "100",
-            "0",
-            "1"
-        ]
-    },
-    "axisCentrality": {
         "values": [
             "100",
             "0",

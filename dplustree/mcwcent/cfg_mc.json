@@ -1161,7 +1161,7 @@
         ]
       },
       "usePidTpcAndTof": "0",
-      "applyMl": "1",
+      "applyMl": "0",
       "ccdbUrl": "http://alice-ccdb.cern.ch",
       "timestampCCDB": "-1",
       "onnxFileNames": {
@@ -1487,14 +1487,16 @@
       "fillCandidateLiteTable": "1",
       "fillOnlySignal": "0",
       "downSampleBkgFactor": "1",
-      "processData": "0",
-      "processDataWCent": "0",
       "centEstimator": "2",
       "fillOnlyBackground": "0",
       "fillOnlySignalMl": "0",
-      "processMc": "0",
-      "processMcWCent": "1",
-      "selectionFlagDplus": "15",
+      "processData": "false",
+      "processDataWCent": "false",
+      "processMc": "false",
+      "processMcWCent": "true",
+      "processMcWMl": "false",
+      "processMcWCentMl": "false",
+      "selectionFlagDplus": "7",
       "ptMaxForDownSample": "10"
     },
     "pid-multiplicity": {
