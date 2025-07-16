@@ -1,0 +1,94 @@
+Keys present in local but not in grid: internal-dpl-clock, internal-dpl-aod-reader, internal-dpl-aod-spawner, internal-dpl-aod-index-builder, timestamp-task, bc-selection-task, lumi-task, event-selection-task, hf-track-index-skim-creator-tag-sel-collisions, hf-track-index-skim-creator-tag-sel-tracks, hf-track-index-skim-creator, hf-track-index-skim-creator-lf-cascades, hf-track-index-skim-creator-cascades, internal-dpl-aod-writer, internal-dpl-aod-global-analysis-file-sink, internal-dpl-injected-dummy-sink
+Keys present in grid but not in local: eventselection-run3
+
+---------------------- tracks-extra-v002-converter -------------------------
+
+---------------------- tracks-extra-spawner -------------------------
+        KEY tracks-extra-spawner, local = , grid = {}
+
+---------------------- track-propagation -------------------------
+        KEY trackTunerParams: local = debugInfo=0|updateTrackDCAs=1|updateTrackCovMat=1|updateCurvature=0|updateCurvatureIU=0|updatePulls=1|isInputFileFromCCDB=1|pathInputFile=Users/m/mfaggin/test/inputsTrackTuner/PbPb2023|nameInputFile=trackTuner_DataLHC23zziPass3_McLHC24d2b_run544184.root|pathFileQoverPt=Users/h/hsharma/qOverPtGraphs|nameFileQoverPt=D0sigma_Data_removal_itstps_MC_LHC22b1b.root|usePvRefitCorrections=0|qOverPtMC=-1.|qOverPtData=-1., grid = debugInfo=0|updateTrackDCAs=1|updateTrackCovMat=1|updateCurvature=0|updateCurvatureIU=0|updatePulls=0|isInputFileFromCCDB=1|pathInputFile=Users/m/mfaggin/test/inputsTrackTuner/PbPb2022|nameInputFile=trackTuner_DataLHC22sPass5_McLHC22l1b2_run529397.root|pathFileQoverPt=Users/h/hsharma/qOverPtGraphs|nameFileQoverPt=D0sigma_Data_removal_itstps_MC_LHC22b1b.root|usePvRefitCorrections=0|qOverPtMC=-1.|qOverPtData=-1.
+
+---------------------- tof-signal -------------------------
+
+---------------------- track-selection -------------------------
+        KEY etaMax: local = 0.800000012, grid = 1
+        KEY etaMin: local = -0.800000012, grid = -1
+
+---------------------- pid-multiplicity -------------------------
+
+---------------------- mult-cent-table -------------------------
+
+                [enabledTables] Keys present in local but not in grid: labels_rows, labels_cols
+
+---------------------- ft0-corrected-table -------------------------
+
+---------------------- track-to-collision-association -------------------------
+
+---------------------- q-vectors-table -------------------------
+        KEY cfgGainEqPath: local = Analysis/EventPlane/GainEq, grid = Users/j/junlee/Qvector/Pass4/GainEq
+        KEY cfgQvecCalibPath: local = Analysis/EventPlane/QVecCorrections, grid = Users/j/junlee/Qvector/Pass4/QvecCalib
+
+---------------------- tof-event-time -------------------------
+
+---------------------- de-dx-correction -------------------------
+
+---------------------- tpc-pid -------------------------
+        KEY processMcTuneOnData: local = 1, grid = 0
+        KEY processStandard: local = 0, grid = 1
+        KEY useNetworkAl: local = 1, grid = 0
+        KEY useNetworkDe: local = 1, grid = 0
+        KEY useNetworkHe: local = 1, grid = 0
+        KEY useNetworkMu: local = 1, grid = 0
+        KEY useNetworkTr: local = 1, grid = 0
+
+---------------------- tof-pid-full -------------------------
+
+                [enableParticle] Keys present in local but not in grid: labels_rows, labels_cols
+
+---------------------- hf-pid-creator -------------------------
+
+---------------------- hf-candidate-creator-3prong -------------------------
+    Keys present in local but not in grid: applyTopoConstraint, applyInvMassConstraint, processPvRefitWithDCAFitterNUpc, processNoPvRefitWithDCAFitterNUpc, processPvRefitWithKFParticleUpc, processNoPvRefitWithKFParticleUpc, processCollisionsUpc
+
+        KEY createXic: local = 1, grid = 0
+
+            [hfEvSel, centralityMin]: local = 18, grid = 30
+            [hfEvSel, useSel8Trigger]: local = 0, grid = 1
+            [hfEvSel, useTvxTrigger]: local = 1, grid = 0
+            [hfEvSel] Keys present in local but not in grid: requireGoodRct, rctLabel, rctCheckZDC, rctTreatLimitedAcceptanceAsBad
+
+---------------------- hf-candidate-creator-3prong-expressions -------------------------
+    Keys present in local but not in grid: matchCorrelatedBackground, pdgMothersCorrelBkg
+
+        KEY matchKinkedDecayTopology: local = 1, grid = 0
+        KEY processMcCentFT0C: local = 1, grid = 0
+        KEY rejectBackground: local = 0, grid = 1
+
+---------------------- hf-candidate-selector-dplus-to-pi-k-pi -------------------------
+    Keys present in local but not in grid: storeDsDplusBkg
+
+        KEY ptCandMin: local = 1, grid = 0
+
+                [binsPt, values]: local = [1, 3, 5, 8, 12, 24], grid = [0, 3, 5, 8, 12, 24]
+                [binsPtMl, values]: local = [1, 3, 5, 8, 12, 24], grid = [0, 3, 5, 8, 12, 24]
+                [cuts, values]: local = [[0.8, 0.3, 0.3, 0.01, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.01, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.01, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000]], grid = [[10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000]]
+                [cutsMl, values]: local = [[0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0]], grid = [[0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.4, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0]]
+                [cutsSingleTrack, values]: local = [[0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100]], grid = [[0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100]]
+
+---------------------- hf-task-flow-charm-hadrons -------------------------
+        KEY centralityMax: local = 100, grid = 50
+        KEY centralityMin: local = 0, grid = 30
+        KEY downSampleFactor: local = 0.5, grid = 1
+        KEY ptDownSampleMax: local = 3.5, grid = 10
+
+                [th2ConfigAxisOccupancy, values]: local = [14, 0, 14000], grid = [14, 0, 140000]
+                [thnConfigAxisCent, values]: local = [10000, 0, 100], grid = [0, 30, 40, 50]
+                [thnConfigAxisCosDeltaPhi, values]: local = [100, -1, 1], grid = [1, -1, 1]
+                [thnConfigAxisCosNPhi, values]: local = [100, -1, 1], grid = [1, -1, 1]
+                [thnConfigAxisInvMass, values]: local = [100, 1.78, 2.05], grid = [600, 1.6, 2.2]
+                [thnConfigAxisMlOne, values]: local = [1000, 0, 1], grid = [0, 0, 0.0002, 0.0004, 0.0006, 0.0008, 0.001, 0.0012, 0.0014, 0.0016, 0.0018, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007, 0.008, 0.009, 0.01, 0.011, 0.012, 0.013, 0.014, 0.015, 0.016, 0.017, 0.018, 0.019, 0.02, 0.021, 0.022, 0.023, 0.024, 0.025, 0.026, 0.027, 0.028, 0.029, 0.03, 0.031, 0.032, 0.033, 0.034, 0.035, 0.036, 0.037, 0.038, 0.039, 0.04, 0.041, 0.042, 0.043, 0.044, 0.045, 0.046, 0.047, 0.048, 0.049, 0.05, 0.051, 0.052, 0.053, 0.054, 0.055, 0.056, 0.057, 0.058, 0.059, 0.06, 0.061, 0.062, 0.063, 0.064, 0.065, 0.066, 0.067, 0.068, 0.069, 0.07, 0.071, 0.072, 0.073, 0.074, 0.075, 0.076, 0.077, 0.078, 0.079, 0.08, 0.081, 0.082, 0.083, 0.084, 0.085, 0.086, 0.087, 0.088, 0.089, 0.09, 0.091, 0.092, 0.093, 0.094, 0.095, 0.096, 0.097, 0.098, 0.099, 0.1, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19, 0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29, 0.3, 0.31, 0.32, 0.33, 0.34, 0.35, 0.36, 0.37, 0.38, 0.39, 0.4]
+                [thnConfigAxisMlTwo, values]: local = [1000, 0, 1], grid = [200, 0, 1]
+                [thnConfigAxisPsi, values]: local = [6000, 0, 6.283185482025147], grid = [6000, 0, 6.2831854820251465]
+                [thnConfigAxisPt, values]: local = [10, 0, 10], grid = [0, 0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 9, 10, 12, 14, 16, 20, 24]
+                [thnConfigAxisScalarProd, values]: local = [100, -4, 4], grid = [800, -4, 4]

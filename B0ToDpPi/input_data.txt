@@ -1,0 +1,5 @@
+/data/shared/Run3_LHC24i4/001/AO2D.root
+/data/shared/Run3_LHC24i4/002/AO2D.root
+/data/shared/Run3_LHC24i4/003/AO2D.root
+/data/shared/Run3_LHC24i4/004/AO2D.root
+/data/shared/Run3_LHC24i4/005/AO2D.root
