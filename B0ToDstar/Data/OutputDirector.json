@@ -21,10 +21,10 @@
       "table": "AOD/HFMCRECREDDPPI/0"
     },
     {
-      "table": "AOD/HFRED3PRONG/0"
+      "table": "AOD/HFRED2PRONG/0"
     },
     {
-      "table": "AOD/HFRED3PRONGSCOV/0"
+      "table": "AOD/HFRED2PRONGSCOV/0"
     },
     {
       "table": "AOD/HFREDCOLLISION/0"
@@ -40,6 +40,18 @@
     },
     {
       "table": "AOD/HFRED3PRONGML/1"
+    },
+    {
+      "table": "AOD/HFREDB0SOFTPI/0"
+    },
+    {
+      "table": "AOD/HFMCGENREDB0/0"
+    },
+    {
+      "table": "AOD/HFREDSOFTPIBASE/0"
+    },
+    {
+      "table": "AOD/HFREDSOFTPICOV/0"
     }
   ],
   "ntfmerge": 1

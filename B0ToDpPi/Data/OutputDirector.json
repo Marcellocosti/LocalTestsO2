@@ -1,0 +1,52 @@
+{ "OutputDirector": {
+  "debug_mode": true,
+  "resfile": "AO2D",
+  "OutputDescriptors": [
+    {
+      "table": "AOD/HFREDPIDDAU0/0"
+    },
+    {
+      "table": "AOD/HFREDPIDDAU1/0"
+    },
+    {
+      "table": "AOD/HFREDPIDDAU2/0"
+    },
+    {
+      "table": "AOD/HFREDCOLLEXTRA/0"
+    },
+    {
+      "table": "AOD/HFCANDB0CONFIG/0"
+    },
+    {
+      "table": "AOD/HFMCRECREDDPPI/0"
+    },
+    {
+      "table": "AOD/HFRED3PRONG/0"
+    },
+    {
+      "table": "AOD/HFRED3PRONGSCOV/0"
+    },
+    {
+      "table": "AOD/HFREDCOLLISION/0"
+    },
+    {
+      "table": "AOD/HFREDTRACKBASE/0"
+    },
+    {
+      "table": "AOD/HFREDTRACKCOV/0"
+    },
+    {
+      "table": "AOD/HFREDTRACKPID/0"
+    },
+    {
+      "table": "AOD/HFRED3PRONGML/1"
+    },
+    {
+      "table": "AOD/HFREDB0SOFTPI/0"
+    },
+    {
+      "table": "AOD/HFMCGENREDB0/0"
+    }
+  ],
+  "ntfmerge": 1
+} }
