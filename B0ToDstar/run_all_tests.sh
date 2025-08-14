@@ -1,0 +1,16 @@
+cd /home/mdicosta/LocalTestsO2/B0ToDstar/DataML/DataCreator
+bash run.sh
+cd /home/mdicosta/LocalTestsO2/B0ToDstar/DataML/Task
+bash run.sh
+cd /home/mdicosta/LocalTestsO2/B0ToDstar/DataNoML/DataCreator
+bash run.sh
+cd /home/mdicosta/LocalTestsO2/B0ToDstar/DataNoML/Task
+bash run.sh
+cd /home/mdicosta/LocalTestsO2/B0ToDstar/MCML/DataCreator
+bash run.sh
+cd /home/mdicosta/LocalTestsO2/B0ToDstar/MCML/Task
+bash run.sh
+cd /home/mdicosta/LocalTestsO2/B0ToDstar/MCNoML/DataCreator
+bash run.sh
+cd /home/mdicosta/LocalTestsO2/B0ToDstar/MCNoML/Task
+bash run.sh

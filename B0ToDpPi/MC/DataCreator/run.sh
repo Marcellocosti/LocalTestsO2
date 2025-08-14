@@ -13,11 +13,10 @@ o2-analysis-trackselection $OPTION |\
 o2-analysis-hf-candidate-selector-dplus-to-pi-k-pi $OPTION |\
 o2-analysis-hf-candidate-creator-3prong $OPTION |\
 o2-analysis-hf-data-creator-charm-had-pi-reduced $OPTION |\
-o2-analysis-timestamp $OPTION |\
 o2-analysis-pid-tpc-base $OPTION |\
 o2-analysis-track-to-collision-associator $OPTION |\
 o2-analysis-tracks-extra-v002-converter $OPTION |\
-o2-analysis-event-selection $OPTION --aod-writer-json OutputDirector.json --aod-file @input_data.txt --aod-parent-access-level 1 > $LOGFILE 2>&1
+o2-analysis-event-selection-service $OPTION --aod-writer-json ./../../OutputDirector_creator.json --aod-file @../../input_data.txt --aod-parent-access-level 1 > $LOGFILE 2>&1
 
 # report status
 rc=$?

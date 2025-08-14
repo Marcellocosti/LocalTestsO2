@@ -1,0 +1,1066 @@
+{
+    "internal-dpl-clock": {
+        "device_state": [
+            {
+                "timestamp": "1755171755303",
+                "value": "1"
+            }
+        ],
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755401",
+                "value": "3.48"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755401",
+                "value": "0"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755401",
+                "value": "24"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755401",
+                "value": "3490"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755401",
+                "value": "2.95556"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755401",
+                "value": "7.7953e+06"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755401",
+                "value": "95312"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755405",
+                "value": "25982"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755405",
+                "value": "64"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755405",
+                "value": "18068"
+            }
+        ]
+    },
+    "internal-dpl-aod-reader": {
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755402",
+                "value": "72.52"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755402",
+                "value": "1"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755402",
+                "value": "680"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755402",
+                "value": "72703"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755402",
+                "value": "0.21939"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755402",
+                "value": "578640"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755402",
+                "value": "195676"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755409",
+                "value": "74083"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755409",
+                "value": "364"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755409",
+                "value": "43604"
+            }
+        ],
+        "device_state": [
+            {
+                "timestamp": "1755171755597",
+                "value": "1"
+            }
+        ],
+        "aod-bytes-read-uncompressed": [
+            {
+                "timestamp": "1755171755786",
+                "value": "0"
+            }
+        ],
+        "aod-bytes-read-compressed": [
+            {
+                "timestamp": "1755171755786",
+                "value": "0"
+            }
+        ],
+        "table-bytes-AOD-HFCANDB0CONFIG-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "424"
+            }
+        ],
+        "table-bytes-AOD-HFORIGCOLCOUNT-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "4440"
+            }
+        ],
+        "table-bytes-AOD-HFRED3PRONG-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "15456"
+            }
+        ],
+        "table-bytes-AOD-HFRED3PRONGSCOV-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "11000"
+            }
+        ],
+        "table-bytes-AOD-HFREDCOLLEXTRA-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "3488"
+            }
+        ],
+        "table-bytes-AOD-HFREDCOLLISION-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "3288"
+            }
+        ],
+        "table-bytes-AOD-HFREDTRACKBASE-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "11080"
+            }
+        ],
+        "table-bytes-AOD-HFREDTRACKCOV-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "13760"
+            }
+        ],
+        "table-bytes-AOD-HFMCRECREDDPPI-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "4488"
+            }
+        ],
+        "table-bytes-AOD-HFREDTRACKPID-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "2248"
+            }
+        ],
+        "table-bytes-AOD-HFMCGENREDB0-0-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "140720"
+            }
+        ],
+        "table-bytes-AOD-HFREDPIDDAU2-1-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "4824"
+            }
+        ],
+        "table-bytes-AOD-HFREDPIDDAU1-1-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "4824"
+            }
+        ],
+        "table-bytes-AOD-HFREDPIDDAU0-1-created": [
+            {
+                "timestamp": "1755171755786",
+                "value": "4824"
+            }
+        ],
+        "aod-file-read-info": [
+            {
+                "timestamp": "1755171755786",
+                "value": "lfn=..\/..\/DataCreator\/Tree.root,size=193402,total_df=1,read_df=1,read_bytes=181099,read_calls=35,io_time=0.2,wait_time=0.0,level=0"
+            }
+        ]
+    },
+    "hf-candidate-creator-b0-reduced": {
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755401",
+                "value": "71.95"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755401",
+                "value": "1"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755401",
+                "value": "675"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755401",
+                "value": "72115"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755401",
+                "value": "0.210461"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755401",
+                "value": "555092"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755401",
+                "value": "194600"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755409",
+                "value": "73651"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755409",
+                "value": "88"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755409",
+                "value": "43224"
+            }
+        ],
+        "device_state": [
+            {
+                "timestamp": "1755171755598",
+                "value": "1"
+            }
+        ],
+        "table-bytes-AOD-HFCANDB0BASE-0-created": [
+            {
+                "timestamp": "1755171755799",
+                "value": "22008"
+            }
+        ],
+        "table-bytes-AOD-HFCANDB0DSTAR-0-created": [
+            {
+                "timestamp": "1755171755799",
+                "value": "2824"
+            }
+        ],
+        "table-bytes-AOD-HFREDB0PRONG-0-created": [
+            {
+                "timestamp": "1755171755799",
+                "value": "2448"
+            }
+        ],
+        "table-bytes-AOD-HFREDB0PRONGDST-0-created": [
+            {
+                "timestamp": "1755171755799",
+                "value": "576"
+            }
+        ],
+        "table-bytes-AOD-HFREDB0DPML-0-created": [
+            {
+                "timestamp": "1755171755799",
+                "value": "552"
+            }
+        ]
+    },
+    "hf-candidate-creator-b0-reduced-expressions": {
+        "device_state": [
+            {
+                "timestamp": "1755171755309",
+                "value": "1"
+            }
+        ],
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755405",
+                "value": "4.85"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755405",
+                "value": "0"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755405",
+                "value": "39"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755405",
+                "value": "4859"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755406",
+                "value": "2.95542"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755406",
+                "value": "7.79493e+06"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755406",
+                "value": "96332"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755409",
+                "value": "26380"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755409",
+                "value": "20"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755409",
+                "value": "18096"
+            }
+        ],
+        "table-bytes-AOD-HFMCRECREDB0-0-created": [
+            {
+                "timestamp": "1755171755898",
+                "value": "2760"
+            }
+        ],
+        "table-bytes-AOD-HFMCCHECKB0-0-created": [
+            {
+                "timestamp": "1755171755898",
+                "value": "880"
+            }
+        ],
+        "table-bytes-AOD-EXHFCANDB0EXT-0-created": [
+            {
+                "timestamp": "1755171755898",
+                "value": "3480"
+            }
+        ],
+        "table-bytes-AOD-EXHFCANDB0DSTEX-0-created": [
+            {
+                "timestamp": "1755171755898",
+                "value": "504"
+            }
+        ],
+        "table-bytes-AOD-EXHFREDTRACKEXT-0-created": [
+            {
+                "timestamp": "1755171755898",
+                "value": "1152"
+            }
+        ]
+    },
+    "hf-candidate-selector-b0-to-d-pi-reduced": {
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755419",
+                "value": "72.55"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755419",
+                "value": "2"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755419",
+                "value": "688"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755419",
+                "value": "72726"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755419",
+                "value": "0.216795"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755419",
+                "value": "571796"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755419",
+                "value": "198688"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755425",
+                "value": "75040"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755425",
+                "value": "4724"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755425",
+                "value": "43312"
+            }
+        ],
+        "device_state": [
+            {
+                "timestamp": "1755171755611",
+                "value": "1"
+            }
+        ],
+        "table-bytes-AOD-HFSELB0-0-created": [
+            {
+                "timestamp": "1755171755900",
+                "value": "1336"
+            }
+        ],
+        "table-bytes-AOD-HFMLB0-0-created": [
+            {
+                "timestamp": "1755171755900",
+                "value": "320"
+            }
+        ]
+    },
+    "hf-task-b0-reduced": {
+        "device_state": [
+            {
+                "timestamp": "1755171755324",
+                "value": "1"
+            }
+        ],
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755417",
+                "value": "8.38"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755417",
+                "value": "0"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755417",
+                "value": "37"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755417",
+                "value": "8403"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755417",
+                "value": "2.9563"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755417",
+                "value": "7.79724e+06"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755418",
+                "value": "99368"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755421",
+                "value": "28059"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755421",
+                "value": "128"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755421",
+                "value": "19772"
+            }
+        ],
+        "table-bytes-AOD-HFREDCANDB0LITE-0-created": [
+            {
+                "timestamp": "1755171755949",
+                "value": "12328"
+            }
+        ],
+        "table-bytes-AOD-HFREDB0MCCHECK-0-created": [
+            {
+                "timestamp": "1755171755949",
+                "value": "1584"
+            }
+        ]
+    },
+    "internal-dpl-aod-writer": {
+        "device_state": [
+            {
+                "timestamp": "1755171755324",
+                "value": "1"
+            }
+        ],
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755420",
+                "value": "5.06"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755420",
+                "value": "0"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755420",
+                "value": "36"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755420",
+                "value": "5076"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755420",
+                "value": "2.95578"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755420",
+                "value": "7.79587e+06"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755420",
+                "value": "96296"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755423",
+                "value": "26365"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755423",
+                "value": "36"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755423",
+                "value": "18368"
+            }
+        ]
+    },
+    "internal-dpl-aod-global-analysis-file-sink": {
+        "device_state": [
+            {
+                "timestamp": "1755171755328",
+                "value": "1"
+            }
+        ],
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755425",
+                "value": "3.77"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755425",
+                "value": "0"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755425",
+                "value": "28"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755425",
+                "value": "3777"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755425",
+                "value": "2.95567"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755425",
+                "value": "7.79557e+06"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755425",
+                "value": "96284"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755429",
+                "value": "26233"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755429",
+                "value": "64"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755429",
+                "value": "18180"
+            }
+        ]
+    },
+    "internal-dpl-injected-dummy-sink": {
+        "device_state": [
+            {
+                "timestamp": "1755171755333",
+                "value": "1"
+            }
+        ],
+        "cpuUsedPercentage": [
+            {
+                "timestamp": "1755171755431",
+                "value": "3.28"
+            }
+        ],
+        "involuntaryContextSwitches": [
+            {
+                "timestamp": "1755171755431",
+                "value": "0"
+            }
+        ],
+        "voluntaryContextSwitches": [
+            {
+                "timestamp": "1755171755431",
+                "value": "27"
+            }
+        ],
+        "cpuUsedAbsolute": [
+            {
+                "timestamp": "1755171755431",
+                "value": "3285"
+            }
+        ],
+        "memoryUsagePercentage": [
+            {
+                "timestamp": "1755171755432",
+                "value": "2.95558"
+            }
+        ],
+        "virtualMemorySize": [
+            {
+                "timestamp": "1755171755432",
+                "value": "7.79534e+06"
+            }
+        ],
+        "residentSetSize": [
+            {
+                "timestamp": "1755171755432",
+                "value": "96292"
+            }
+        ],
+        "proportionalSetSize": [
+            {
+                "timestamp": "1755171755435",
+                "value": "26151"
+            }
+        ],
+        "memoryPrivateClean": [
+            {
+                "timestamp": "1755171755435",
+                "value": "80"
+            }
+        ],
+        "memoryPrivateDirty": [
+            {
+                "timestamp": "1755171755435",
+                "value": "18092"
+            }
+        ]
+    },
+    "driver": {
+        "total-timeframes-read": [
+            {
+                "timestamp": "1755171755303",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755333",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755349",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755364",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755364",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755368",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755638",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755651",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755786",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755786",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755799",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755898",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755899",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755949",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171756426",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171756437",
+                "value": "1"
+            }
+        ],
+        "total-timeframes-consumed": [
+            {
+                "timestamp": "1755171755303",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755333",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755349",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755364",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755364",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755368",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755638",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755651",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755786",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755786",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755799",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755898",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755899",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755949",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171756426",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171756437",
+                "value": "2"
+            }
+        ],
+        "total-timeframes-in-fly": [
+            {
+                "timestamp": "1755171755303",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755333",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755349",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755364",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755364",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755368",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755638",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755651",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755786",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755786",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755799",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755898",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755899",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171755949",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171756426",
+                "value": "1"
+            },
+            {
+                "timestamp": "1755171756437",
+                "value": "-1"
+            }
+        ],
+        "arrow-bytes-delta": [
+            {
+                "timestamp": "1755171755303",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755333",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755349",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755364",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755364",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755368",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755638",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755651",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171755786",
+                "value": "224864"
+            },
+            {
+                "timestamp": "1755171755786",
+                "value": "224864"
+            },
+            {
+                "timestamp": "1755171755799",
+                "value": "217296"
+            },
+            {
+                "timestamp": "1755171755898",
+                "value": "221584"
+            },
+            {
+                "timestamp": "1755171755899",
+                "value": "222816"
+            },
+            {
+                "timestamp": "1755171755949",
+                "value": "20904"
+            },
+            {
+                "timestamp": "1755171756426",
+                "value": "0"
+            },
+            {
+                "timestamp": "1755171756437",
+                "value": "0"
+            }
+        ]
+    }
+}
