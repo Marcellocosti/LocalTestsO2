@@ -1,0 +1,14 @@
+{ "OutputDirector": {
+  "debug_mode": true,
+  "resfile": "AO2D",
+  "OutputDescriptors": [
+    {"table": "AOD/HFCANDBSBASE/0"},
+    {"table": "AOD/HFREDBSPRONG/0"},
+    {"table": "AOD/HFREDBSDSML/0"},
+    {"table": "AOD/HFSELBS/0"},
+    {"table": "AOD/HFMLBS/0"},
+    {"table": "AOD/HFREDCANDBSLITE/0"},
+    {"table": "AOD/HFREDB0MCCHECK/0"}
+  ],
+  "ntfmerge": 1
+} }

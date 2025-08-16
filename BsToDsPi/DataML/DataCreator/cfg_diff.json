@@ -1,0 +1,104 @@
+Keys present in dplus but not in ds: timestamp-task, bc-selection-task, lumi-task, event-selection-task, track-selection, hf-candidate-selector-dplus-to-pi-k-pi
+Keys present in ds but not in dplus: eventselection-run3, hf-candidate-selector-ds-to-k-k-pi, internal-dpl-aod-reader
+
+---------------------- internal-dpl-clock -------------------------
+
+---------------------- internal-dpl-aod-spawner -------------------------
+
+---------------------- internal-dpl-aod-index-builder -------------------------
+
+---------------------- mc-collision-converter -------------------------
+        KEY mc-collision-converter, dplus = , ds = {}
+
+---------------------- tracks-extra-v002-converter -------------------------
+
+---------------------- tracks-extra-spawner -------------------------
+        KEY tracks-extra-spawner, dplus = , ds = {}
+
+---------------------- track-propagation -------------------------
+        KEY processCovariance: dplus = 1, ds = 0
+        KEY processCovarianceMc: dplus = 0, ds = 1
+        KEY trackTunerConfigSource: dplus = 1, ds = 2
+        KEY trackTunerParams: dplus = debugInfo=0|updateTrackDCAs=1|updateTrackCovMat=1|updateCurvature=0|updateCurvatureIU=0|updatePulls=0|isInputFileFromCCDB=1|pathInputFile=Users/m/mfaggin/test/inputsTrackTuner/PbPb2022|nameInputFile=trackTuner_DataLHC22sPass5_McLHC22l1b2_run529397.root|pathFileQoverPt=Users/h/hsharma/qOverPtGraphs|nameFileQoverPt=D0sigma_Data_removal_itstps_MC_LHC22b1b.root|usePvRefitCorrections=0|qOverPtMC=-1.|qOverPtData=-1., ds = 
+
+            [trackTuner, isInputFileFromCCDB]: dplus = 0, ds = 1
+            [trackTuner, nPhiBins]: dplus = 0, ds = 24
+            [trackTuner, nameFileQoverPt]: dplus = , ds = D0sigma_Data_removal_itstps_MC_LHC22b1b.root
+            [trackTuner, nameInputFile]: dplus = , ds = trackTuner_DataLHC24zzh_apass4_McLHC24e2_MCflat13.root
+            [trackTuner, pathFileQoverPt]: dplus = , ds = Users/h/hsharma/qOverPtGraphs
+            [trackTuner, pathInputFile]: dplus = , ds = Users/m/mfaggin/test/inputsTrackTuner/PbPb2023/apass4/vsPhi
+            [trackTuner, qOverPtData]: dplus = -1, ds = 1.5
+            [trackTuner, qOverPtMC]: dplus = -1, ds = 1
+            [trackTuner, updateCurvatureIU]: dplus = 0, ds = 1
+            [trackTuner, updatePulls]: dplus = 0, ds = 1
+            [trackTuner, updateTrackCovMat]: dplus = 0, ds = 1
+            [trackTuner, updateTrackDCAs]: dplus = 0, ds = 1
+
+---------------------- tof-signal -------------------------
+        KEY distanceForGoodMatch: dplus = 999, ds = 3
+        KEY multThreshold: dplus = 0, ds = 50
+
+---------------------- pid-multiplicity -------------------------
+
+---------------------- mult-cent-table -------------------------
+
+                [enabledTables] Keys present in dplus but not in ds: labels_rows, labels_cols
+
+---------------------- ft0-corrected-table -------------------------
+
+---------------------- track-to-collision-association -------------------------
+
+---------------------- tof-event-time -------------------------
+        KEY processFT0: dplus = 1, ds = 0
+        KEY processNoFT0: dplus = 0, ds = 1
+
+---------------------- de-dx-correction -------------------------
+
+---------------------- tpc-pid -------------------------
+        KEY processMcTuneOnData: dplus = 0, ds = 1
+        KEY processStandard: dplus = 1, ds = 0
+
+---------------------- tof-pid-full -------------------------
+
+                [enableParticle] Keys present in dplus but not in ds: labels_rows, labels_cols
+
+---------------------- hf-pid-creator -------------------------
+
+---------------------- hf-data-creator-charm-had-pi-reduced -------------------------
+    Keys present in ds but not in dplus: selectionFlagDstar, processDstarPiDataWithMl, processDstarPiDataWithQvec, processDstarPiDataWithMlAndQvec, processDstarPiMc, processDstarPiMcWithMl
+
+        KEY checkDecayTypeMc: dplus = 1, ds = 0
+        KEY etaPionMax: dplus = 10, ds = 0.8
+        KEY invMassWindowCharmHadPi: dplus = 0.5, ds = 0.3
+        KEY processDplusPiDataWithMl: dplus = 1, ds = 0
+        KEY processDsPiDataWithMl: dplus = 0, ds = 1
+        KEY ptPionMin: dplus = 0.0, ds = 0.5
+
+            [hfEvSel, useTvxTrigger]: dplus = 1, ds = 0
+                [binsPtPion, values]: dplus = [0, 1.5, 2, 3, 1000], ds = [0, 0.5, 1, 1.5, 2, 3, 1000]
+                [cutsTrackPionDCA] Keys present in ds but not in dplus: labels_rows, labels_cols
+
+---------------------- hf-candidate-creator-3prong-expressions -------------------------
+    Keys present in ds but not in dplus: matchCorrelatedBackground, pdgMothersCorrelBkg
+
+        KEY matchInteractionsWithMaterial: dplus = 0, ds = 1
+        KEY matchKinkedDecayTopology: dplus = 0, ds = 1
+        KEY rejectBackground: dplus = 1, ds = 0
+
+---------------------- hf-candidate-creator-3prong -------------------------
+    Keys present in ds but not in dplus: applyTopoConstraint, applyInvMassConstraint, processNoPvRefitWithKFParticleUpc, processPvRefitWithDCAFitterNUpc, processCollisionsUpc, processNoPvRefitWithDCAFitterNUpc, processPvRefitWithKFParticleUpc
+
+        KEY createDs: dplus = 0, ds = 1
+
+            [hfEvSel, centralityMax]: dplus = 50, ds = 100
+            [hfEvSel, centralityMin]: dplus = 30, ds = 0
+            [hfEvSel, useSel8Trigger]: dplus = 1, ds = 0
+            [hfEvSel, useTvxTrigger]: dplus = 0, ds = 1
+            [hfEvSel] Keys present in ds but not in dplus: rctCheckZDC, requireGoodRct, rctLabel, rctTreatLimitedAcceptanceAsBad
+                [th2ConfigAxisOccupancy, values]: dplus = [14, 0, 140000], ds = [14, 0, 14000]
+
+---------------------- internal-dpl-aod-writer -------------------------
+
+---------------------- internal-dpl-aod-global-analysis-file-sink -------------------------
+
+---------------------- internal-dpl-injected-dummy-sink -------------------------
