@@ -22,7 +22,9 @@
     {"table": "AOD/HFREDPIDDAU1/1"},
     {"table": "AOD/HFCANDB0CONFIG/0"},
     {"table": "AOD/HFMCGENREDB0/0"},
-    {"table": "AOD/HFMCRECREDDSTPI/0"}
+    {"table": "AOD/HFMCRECREDDSTPI/0"},
+    {"table": "AOD/HFSELDSTAR/0"},
+    {"table": "AOD/HFMLDSTAR/0"}
   ],
   "ntfmerge": 1
 } }

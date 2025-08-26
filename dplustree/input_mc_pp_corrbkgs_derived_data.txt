@@ -1,0 +1,5 @@
+/data/shared/Train468214_pp_MC_CorrBkgsLHC25e2/001/AO2D.root
+/data/shared/Train468214_pp_MC_CorrBkgsLHC25e2/002/AO2D.root
+/data/shared/Train468214_pp_MC_CorrBkgsLHC25e2/003/AO2D.root
+/data/shared/Train468214_pp_MC_CorrBkgsLHC25e2/004/AO2D.root
+/data/shared/Train468214_pp_MC_CorrBkgsLHC25e2/005/AO2D.root

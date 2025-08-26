@@ -1,0 +1,53 @@
+Keys present in local but not in test: track-selection, track-to-collision-association, hf-track-index-skim-creator-cascades, hf-track-index-skim-creator-lf-cascades, hf-track-index-skim-creator, hf-track-index-skim-creator-tag-sel-collisions, hf-track-index-skim-creator-tag-sel-tracks, multiplicity-table, tpc-pid, track-propagation, timestamp-task, pid-multiplicity, bc-selection-task, event-selection-task, centrality-table
+Keys present in test but not in local: internal-dpl-aod-reader, eventselection-run3, propagation-service, mult-cent-table, pid-tpc-service, internal-dpl-aod-writer, internal-dpl-aod-global-analysis-file-sink, internal-dpl-injected-dummy-sink
+
+---------------------- internal-dpl-clock -------------------------
+
+---------------------- internal-dpl-aod-spawner -------------------------
+
+---------------------- internal-dpl-aod-index-builder -------------------------
+
+---------------------- hf-pid-creator -------------------------
+
+---------------------- mc-collision-converter -------------------------
+        KEY mc-collision-converter, local = {}, test = 
+
+---------------------- ft0-corrected-table -------------------------
+
+---------------------- tof-signal -------------------------
+
+---------------------- tof-event-time -------------------------
+
+---------------------- tof-pid-full -------------------------
+
+                [enableParticle] Keys present in test but not in local: labels_rows, labels_cols
+
+---------------------- tracks-extra-spawner -------------------------
+        KEY tracks-extra-spawner, local = {}, test = 
+
+---------------------- tracks-extra-v002-converter -------------------------
+
+---------------------- hf-candidate-selector-dplus-to-pi-k-pi -------------------------
+
+---------------------- hf-tree-creator-dplus-to-pi-k-pi -------------------------
+
+---------------------- hf-candidate-creator-3prong-expressions -------------------------
+    Keys present in local but not in test: matchCorrBkgs
+    Keys present in test but not in local: matchCorrelatedBackground, pdgMothersCorrelBkg
+
+        KEY matchKinkedDecayTopology: local = 1, test = 0
+        KEY rejectBackground: local = 0, test = 1
+
+---------------------- hf-candidate-creator-3prong -------------------------
+    Keys present in local but not in test: createDstarToPiKPiBkg
+    Keys present in test but not in local: applyTopoConstraint, applyInvMassConstraint, processPvRefitWithDCAFitterNUpc, processNoPvRefitWithDCAFitterNUpc, processPvRefitWithKFParticleUpc, processNoPvRefitWithKFParticleUpc, processCollisionsUpc
+
+        KEY createDs: local = 1, test = 0
+        KEY createLc: local = 1, test = 0
+        KEY createXic: local = 1, test = 0
+
+            [hfEvSel, ccdbPathSoftwareTrigger]: local = Users/m/mpuccio/EventFiltering/OTS/Chunked/, test = Users/m/mpuccio/EventFiltering/OTS/
+            [hfEvSel, centralityMax]: local = 50, test = 100
+            [hfEvSel, centralityMin]: local = 18, test = 0
+            [hfEvSel] Keys present in test but not in local: requireGoodRct, rctLabel, rctCheckZDC, rctTreatLimitedAcceptanceAsBad
+                [th2ConfigAxisOccupancy, values]: local = [14, 0, 140000], test = [14, 0, 14000]

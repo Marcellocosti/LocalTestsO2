@@ -1,0 +1,75 @@
+Keys present in grid but not in local: internal-dpl-aod-reader, eventselection-run3, propagation-service, mult-cent-table, pid-tpc-service, internal-dpl-aod-writer, internal-dpl-aod-global-analysis-file-sink, internal-dpl-injected-dummy-sink
+Keys present in local but not in grid: track-selection, track-to-collision-association, hf-track-index-skim-creator-cascades, hf-track-index-skim-creator-lf-cascades, hf-track-index-skim-creator, hf-track-index-skim-creator-tag-sel-collisions, hf-track-index-skim-creator-tag-sel-tracks, multiplicity-table, tpc-pid, track-propagation, timestamp-task, pid-multiplicity, bc-selection-task, event-selection-task, centrality-table
+
+---------------------- internal-dpl-clock -------------------------
+
+---------------------- internal-dpl-aod-spawner -------------------------
+
+---------------------- internal-dpl-aod-index-builder -------------------------
+
+---------------------- mc-collision-converter -------------------------
+        KEY mc-collision-converter, grid = , local = {}
+
+---------------------- tracks-extra-v002-converter -------------------------
+
+---------------------- tracks-extra-spawner -------------------------
+        KEY tracks-extra-spawner, grid = , local = {}
+
+---------------------- ft0-corrected-table -------------------------
+
+---------------------- tof-signal -------------------------
+
+---------------------- tof-event-time -------------------------
+
+---------------------- tof-pid-full -------------------------
+
+                [enableParticle] Keys present in grid but not in local: labels_rows, labels_cols
+
+---------------------- hf-pid-creator -------------------------
+
+---------------------- hf-candidate-creator-3prong -------------------------
+    Keys present in grid but not in local: applyTopoConstraint, applyInvMassConstraint, processPvRefitWithDCAFitterNUpc, processNoPvRefitWithDCAFitterNUpc, processPvRefitWithKFParticleUpc, processNoPvRefitWithKFParticleUpc, processCollisionsUpc
+    Keys present in local but not in grid: createDstarToPiKPiBkg
+
+        KEY createDs: grid = 0, local = 1
+        KEY createLc: grid = 0, local = 1
+        KEY createXic: grid = 0, local = 1
+
+            [hfEvSel, ccdbPathSoftwareTrigger]: grid = Users/m/mpuccio/EventFiltering/OTS/, local = Users/m/mpuccio/EventFiltering/OTS/Chunked/
+            [hfEvSel, centralityMax]: grid = 100, local = 50
+            [hfEvSel, centralityMin]: grid = 0, local = 18
+            [hfEvSel] Keys present in grid but not in local: requireGoodRct, rctLabel, rctCheckZDC, rctTreatLimitedAcceptanceAsBad
+                [th2ConfigAxisOccupancy, values]: grid = [14, 0, 14000], local = [14, 0, 140000]
+
+---------------------- hf-candidate-creator-3prong-expressions -------------------------
+    Keys present in grid but not in local: matchCorrelatedBackground, pdgMothersCorrelBkg
+    Keys present in local but not in grid: matchCorrBkgs
+
+        KEY matchKinkedDecayTopology: grid = 0, local = 1
+        KEY rejectBackground: grid = 1, local = 0
+
+---------------------- hf-candidate-selector-dplus-to-pi-k-pi -------------------------
+    Keys present in local but not in grid: storeDsDplusBkg
+
+        KEY ptCandMin: grid = 0, local = 1
+        KEY usePidTpcAndTof: grid = 1, local = 0
+
+                [binsPt, values]: grid = [0, 3, 5, 8, 12, 24], local = [1, 3, 5, 8, 12, 24]
+                [binsPtMl, values]: grid = [0, 3, 5, 8, 12, 24], local = [1, 3, 5, 8, 12, 24]
+                [cuts, values]: grid = [[10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000]], local = [[0.8, 0.3, 0.3, 0.01, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.01, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.01, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000], [0.8, 0.3, 0.3, 0.02, 0, 0.95, 0, 1000]]
+                [cutsMl, values]: grid = [[0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.4, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0]], local = [[0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0], [0.2, 0, 0]]
+                [cutsMl] Keys present in grid but not in local: labels_rows, labels_cols
+                [cutsSingleTrack, values]: grid = [[0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100]], local = [[0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100]]
+                [cutsSingleTrack] Keys present in grid but not in local: labels_rows, labels_cols
+                [cuts] Keys present in grid but not in local: labels_rows, labels_cols
+                [deltaMassPars, values]: grid = [[-0.00249999994, 9.99999975e-05]], local = [[-0.0024999999441206455, 9.999999747378752e-05]]
+                [deltaMassPars] Keys present in grid but not in local: labels_rows, labels_cols
+                [sigmaPars, values]: grid = [[0.00796000008, 0.00176000001]], local = [[0.007960000075399876, 0.0017600000137463212]]
+                [sigmaPars] Keys present in grid but not in local: labels_rows, labels_cols
+
+---------------------- hf-tree-creator-dplus-to-pi-k-pi -------------------------
+    Keys present in grid but not in local: fillCorrBkgs, classMlIndexes, processMcSgnWMl
+    Keys present in local but not in grid: fillOnlySignalMl, processMcWMl, processMcCorrBkgsSgnWCentMl
+
+        KEY processMcSgnWCentMl: grid = 1, local = 0
+        KEY selectionFlagDplus: grid = 7, local = 15

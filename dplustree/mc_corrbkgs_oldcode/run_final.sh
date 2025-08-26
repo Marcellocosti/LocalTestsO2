@@ -10,7 +10,7 @@ o2-analysis-ft0-corrected-table $OPTION |\
 o2-analysis-timestamp $OPTION |\
 o2-analysis-pid-tof-base $OPTION |\
 o2-analysis-pid-tof-full $OPTION |\
-o2-analysis-hf-track-index-skim-creator $OPTION |\
+# o2-analysis-hf-track-index-skim-creator $OPTION |\
 o2-analysis-hf-candidate-creator-3prong $OPTION |\
 o2-analysis-hf-candidate-selector-dplus-to-pi-k-pi $OPTION |\
 o2-analysis-hf-tree-creator-dplus-to-pi-k-pi $OPTION |\

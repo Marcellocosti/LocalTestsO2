@@ -1,4 +1,4 @@
-OPTION="-b --configuration json://cfg_grid.json"
+OPTION="-b --configuration json://cfg.json"
 LOGFILE="log.txt"
 o2-analysis-hf-data-creator-charm-had-pi-reduced $OPTION |\
 o2-analysis-pid-tof-full $OPTION |\

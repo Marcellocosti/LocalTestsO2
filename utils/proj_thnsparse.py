@@ -77,8 +77,8 @@ if args.suffix != "":
 else: 
     test_file = TFile.Open(f'{AN_file}.root')
     suffix = args.suffix + "_gen" if args.dsmcgen else args.suffix
-    print(f"Creating {proj_file}{suffix}.root")
-    out_file = TFile(f'{proj_file}' + suffix +'.root', 'recreate')
+    print(f"Creating {proj_file}_proj{suffix}.root")
+    out_file = TFile(f'{proj_file}_proj' + suffix +'.root', 'recreate')
 
 out_file.cd()
 
@@ -101,7 +101,10 @@ for sparse in sparses:
         if args.sparsename != "":
             thn_sparse = test_file.Get(args.sparsename)
         else:
+            print(f"{sparse_name}/hSparseFlowCharm")
+            print(test_file.ls())
             thn_sparse = test_file.Get(f'{sparse_name}/hSparseFlowCharm')
+            print(f"type(thn_sparse): {type(thn_sparse)}")
     else:
         if args.sparsename != "":
             thn_sparse = test_file.Get(args.sparsename)
