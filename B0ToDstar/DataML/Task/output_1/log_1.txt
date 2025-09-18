@@ -1,371 +1,361 @@
-[INFO] Loading metadata from file ../../DataCreator/Tree.root in PID 1330181
-[INFO] No metadata found in file "../../DataCreator/Tree.root" and parent level 0 prevents further lookup.
-[INFO] Initialising O2 Data Processing Layer. Driver PID: 1330181.
-[INFO] Driver listening on port: 18261
+[INFO] Loading metadata from file ../../DataCreator/AO2D_hytest.root in PID 2078604
+[INFO] No metadata found in file "../../DataCreator/AO2D_hytest.root" and parent level 0 prevents further lookup.
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 2078604.
+[INFO] Driver listening on port: 16684
 [INFO] Rate limiting set up at 1000 MB distributed over 1 readers
 [INFO] O2 Data Processing Layer initialised. We brake for nobody.
 [INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
 [INFO] Redeployment of configuration asked.
-[INFO] Starting internal-dpl-clock on pid 1330205
-[INFO] Starting internal-dpl-aod-reader on pid 1330206
-[INFO] Starting hf-candidate-creator-b0-reduced on pid 1330207
-[INFO] Starting hf-candidate-creator-b0-reduced-expressions on pid 1330208
-[INFO] Starting hf-candidate-selector-b0-to-d-pi-reduced on pid 1330209
-[INFO] Starting hf-task-b0-reduced on pid 1330210
-[INFO] Starting internal-dpl-aod-writer on pid 1330211
-[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 1330212
-[INFO] Starting internal-dpl-injected-dummy-sink on pid 1330213
+[INFO] Starting internal-dpl-clock on pid 2078613
+[INFO] Starting internal-dpl-aod-reader on pid 2078614
+[INFO] Starting hf-candidate-creator-b0-reduced on pid 2078615
+[INFO] Starting hf-candidate-creator-b0-reduced-expressions on pid 2078616
+[INFO] Starting hf-candidate-selector-b0-to-d-pi-reduced on pid 2078617
+[INFO] Starting hf-task-b0-reduced on pid 2078618
+[INFO] Starting internal-dpl-aod-writer on pid 2078619
+[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 2078620
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 2078621
 [INFO] Redeployment of configuration done.
-[1330205:internal-dpl-clock]: [INFO] Instrumenting crash signals
-[1330207:hf-candidate-creator-b0-reduced]: [INFO] Instrumenting crash signals
-[1330206:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [INFO] Instrumenting crash signals
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [INFO] Instrumenting crash signals
-[1330210:hf-task-b0-reduced]: [INFO] Instrumenting crash signals
-[1330211:internal-dpl-aod-writer]: [INFO] Instrumenting crash signals
-[1330205:internal-dpl-clock]: [INFO] Spawing new device internal-dpl-clock in process with pid 1330205
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [INFO] Instrumenting crash signals
-[1330207:hf-candidate-creator-b0-reduced]: [INFO] Spawing new device hf-candidate-creator-b0-reduced in process with pid 1330207
-[1330206:internal-dpl-aod-reader]: [INFO] Spawing new device internal-dpl-aod-reader in process with pid 1330206
-[1330205:internal-dpl-clock]: [12:02:47][INFO] 
-[1330205:internal-dpl-clock]:       ______      _    _______  _________ 
-[1330205:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330205:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330205:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330205:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330205:internal-dpl-clock]: 
-[1330205:internal-dpl-clock]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][INFO] 
-[1330207:hf-candidate-creator-b0-reduced]:       ______      _    _______  _________ 
-[1330207:hf-candidate-creator-b0-reduced]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330207:hf-candidate-creator-b0-reduced]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330207:hf-candidate-creator-b0-reduced]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330207:hf-candidate-creator-b0-reduced]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330207:hf-candidate-creator-b0-reduced]: 
-[1330206:internal-dpl-aod-reader]: [12:02:47][INFO] 
-[1330206:internal-dpl-aod-reader]:       ______      _    _______  _________ 
-[1330206:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330206:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330206:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330206:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330206:internal-dpl-aod-reader]: 
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330213:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [INFO] Spawing new device hf-candidate-creator-b0-reduced-expressions in process with pid 1330208
-[1330205:internal-dpl-clock]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][INFO] 
-[1330208:hf-candidate-creator-b0-reduced-expressions]:       ______      _    _______  _________ 
-[1330208:hf-candidate-creator-b0-reduced-expressions]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330208:hf-candidate-creator-b0-reduced-expressions]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330208:hf-candidate-creator-b0-reduced-expressions]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330208:hf-candidate-creator-b0-reduced-expressions]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330208:hf-candidate-creator-b0-reduced-expressions]: 
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330205:internal-dpl-clock]: [12:02:47][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330205:internal-dpl-clock]: [12:02:47][STATE] INITIALIZED ---> BINDING
-[1330205:internal-dpl-clock]: [12:02:47][STATE] BINDING ---> BOUND
-[1330205:internal-dpl-clock]: [12:02:47][STATE] BOUND ---> CONNECTING
-[1330205:internal-dpl-clock]: [12:02:47][STATE] CONNECTING ---> DEVICE READY
-[1330205:internal-dpl-clock]: [12:02:47][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330205:internal-dpl-clock]: [12:02:47][STATE] INITIALIZING TASK ---> READY
-[1330205:internal-dpl-clock]: [12:02:47][STATE] READY ---> RUNNING
-[1330205:internal-dpl-clock]: [12:02:47][INFO] fair::mq::Device running...
-[1330205:internal-dpl-clock]: [12:02:47][INFO] LHCPeriod is not available, using current month AUG
-[1330205:internal-dpl-clock]: [12:02:47][INFO] Correctly handshaken websocket connection.
+[2078615:hf-candidate-creator-b0-reduced]: [INFO] Instrumenting crash signals
+[2078613:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[2078614:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [INFO] Instrumenting crash signals
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [INFO] Instrumenting crash signals
+[2078618:hf-task-b0-reduced]: [INFO] Instrumenting crash signals
+[2078619:internal-dpl-aod-writer]: [INFO] Instrumenting crash signals
+[2078614:internal-dpl-aod-reader]: [INFO] Spawing new device internal-dpl-aod-reader in process with pid 2078614
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [INFO] Instrumenting crash signals
+[2078615:hf-candidate-creator-b0-reduced]: [INFO] Spawing new device hf-candidate-creator-b0-reduced in process with pid 2078615
+[2078613:internal-dpl-clock]: [INFO] Spawing new device internal-dpl-clock in process with pid 2078613
+[2078613:internal-dpl-clock]: [12:05:09][INFO] 
+[2078613:internal-dpl-clock]:       ______      _    _______  _________ 
+[2078613:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078613:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078613:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078613:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078613:internal-dpl-clock]: 
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] 
+[2078614:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[2078614:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078614:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078614:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078614:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078614:internal-dpl-aod-reader]: 
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] 
+[2078615:hf-candidate-creator-b0-reduced]:       ______      _    _______  _________ 
+[2078615:hf-candidate-creator-b0-reduced]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078615:hf-candidate-creator-b0-reduced]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078615:hf-candidate-creator-b0-reduced]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078615:hf-candidate-creator-b0-reduced]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078615:hf-candidate-creator-b0-reduced]: 
+[2078613:internal-dpl-clock]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [INFO] Spawing new device hf-candidate-creator-b0-reduced-expressions in process with pid 2078616
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][INFO] 
+[2078616:hf-candidate-creator-b0-reduced-expressions]:       ______      _    _______  _________ 
+[2078616:hf-candidate-creator-b0-reduced-expressions]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078616:hf-candidate-creator-b0-reduced-expressions]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078616:hf-candidate-creator-b0-reduced-expressions]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078616:hf-candidate-creator-b0-reduced-expressions]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078616:hf-candidate-creator-b0-reduced-expressions]: 
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078613:internal-dpl-clock]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078621:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[2078613:internal-dpl-clock]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078613:internal-dpl-clock]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078613:internal-dpl-clock]: [12:05:09][STATE] BINDING ---> BOUND
+[2078613:internal-dpl-clock]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078613:internal-dpl-clock]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078613:internal-dpl-clock]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078613:internal-dpl-clock]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078613:internal-dpl-clock]: [12:05:09][STATE] READY ---> RUNNING
+[2078613:internal-dpl-clock]: [12:05:09][INFO] fair::mq::Device running...
+[2078613:internal-dpl-clock]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
+[2078613:internal-dpl-clock]: [12:05:09][INFO] Correctly handshaken websocket connection.
 [INFO] Controller for internal-dpl-aod-reader not yet available.
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [INFO] Spawing new device hf-candidate-selector-b0-to-d-pi-reduced in process with pid 1330209
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:47][INFO] 
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]:       ______      _    _______  _________ 
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: 
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330210:hf-task-b0-reduced]: [INFO] Spawing new device hf-task-b0-reduced in process with pid 1330210
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] INITIALIZED ---> BINDING
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] BINDING ---> BOUND
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] BOUND ---> CONNECTING
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] CONNECTING ---> DEVICE READY
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330210:hf-task-b0-reduced]: [12:02:47][INFO] 
-[1330210:hf-task-b0-reduced]:       ______      _    _______  _________ 
-[1330210:hf-task-b0-reduced]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330210:hf-task-b0-reduced]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330210:hf-task-b0-reduced]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330210:hf-task-b0-reduced]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330210:hf-task-b0-reduced]: 
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] INITIALIZING TASK ---> READY
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][STATE] READY ---> RUNNING
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][INFO] fair::mq::Device running...
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][INFO] LHCPeriod is not available, using current month AUG
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:47][INFO] Correctly handshaken websocket connection.
-[1330211:internal-dpl-aod-writer]: [INFO] Spawing new device internal-dpl-aod-writer in process with pid 1330211
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330211:internal-dpl-aod-writer]: [12:02:47][INFO] 
-[1330211:internal-dpl-aod-writer]:       ______      _    _______  _________ 
-[1330211:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330211:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330211:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330211:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330211:internal-dpl-aod-writer]: 
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawing new device internal-dpl-aod-global-analysis-file-sink in process with pid 1330212
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][INFO] 
-[1330212:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
-[1330212:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330212:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330212:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330212:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330212:internal-dpl-aod-global-analysis-file-sink]: 
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] INITIALIZED ---> BINDING
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] BINDING ---> BOUND
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] BOUND ---> CONNECTING
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] CONNECTING ---> DEVICE READY
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330213:internal-dpl-injected-dummy-sink]: [INFO] Spawing new device internal-dpl-injected-dummy-sink in process with pid 1330213
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] INITIALIZED ---> BINDING
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] INITIALIZING TASK ---> READY
-[1330210:hf-task-b0-reduced]: [12:02:47][STATE] READY ---> RUNNING
-[1330210:hf-task-b0-reduced]: [12:02:47][INFO] fair::mq::Device running...
-[1330210:hf-task-b0-reduced]: [12:02:47][INFO] LHCPeriod is not available, using current month AUG
-[1330210:hf-task-b0-reduced]: [12:02:47][INFO] Correctly handshaken websocket connection.
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][INFO] 
-[1330213:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
-[1330213:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.0
-[1330213:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
-[1330213:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
-[1330213:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
-[1330213:internal-dpl-injected-dummy-sink]: 
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] Starting FairMQ state machine --> IDLE
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] BINDING ---> BOUND
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] BOUND ---> CONNECTING
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] CONNECTING ---> DEVICE READY
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] INITIALIZING TASK ---> READY
-[1330211:internal-dpl-aod-writer]: [12:02:47][STATE] READY ---> RUNNING
-[1330211:internal-dpl-aod-writer]: [12:02:47][INFO] fair::mq::Device running...
-[1330211:internal-dpl-aod-writer]: [12:02:47][INFO] LHCPeriod is not available, using current month AUG
-[1330211:internal-dpl-aod-writer]: [12:02:47][INFO] Correctly handshaken websocket connection.
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] INITIALIZED ---> BINDING
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] BINDING ---> BOUND
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] BOUND ---> CONNECTING
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] CONNECTING ---> DEVICE READY
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] INITIALIZING TASK ---> READY
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][STATE] READY ---> RUNNING
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][INFO] fair::mq::Device running...
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][INFO] LHCPeriod is not available, using current month AUG
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:47][INFO] Correctly handshaken websocket connection.
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] IDLE ---> INITIALIZING DEVICE
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] INITIALIZED ---> BINDING
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] BINDING ---> BOUND
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] BOUND ---> CONNECTING
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] CONNECTING ---> DEVICE READY
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] INITIALIZING TASK ---> READY
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][STATE] READY ---> RUNNING
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][INFO] fair::mq::Device running...
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][INFO] LHCPeriod is not available, using current month AUG
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:47][INFO] Correctly handshaken websocket connection.
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] INITIALIZED ---> BINDING
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] BINDING ---> BOUND
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] BOUND ---> CONNECTING
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] CONNECTING ---> DEVICE READY
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] INITIALIZING TASK ---> READY
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][STATE] READY ---> RUNNING
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][INFO] fair::mq::Device running...
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][INFO] LHCPeriod is not available, using current month AUG
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:47][INFO] Correctly handshaken websocket connection.
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] INITIALIZED ---> BINDING
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] BINDING ---> BOUND
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] BOUND ---> CONNECTING
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] CONNECTING ---> DEVICE READY
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] INITIALIZING TASK ---> READY
-[1330206:internal-dpl-aod-reader]: [12:02:47][STATE] READY ---> RUNNING
-[1330206:internal-dpl-aod-reader]: [12:02:47][INFO] fair::mq::Device running...
-[1330206:internal-dpl-aod-reader]: [12:02:47][INFO] LHCPeriod is not available, using current month AUG
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [INFO] Spawing new device hf-candidate-selector-b0-to-d-pi-reduced in process with pid 2078617
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] BINDING ---> BOUND
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][INFO] 
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]:       ______      _    _______  _________ 
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: 
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][STATE] READY ---> RUNNING
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][INFO] fair::mq::Device running...
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][INFO] Correctly handshaken websocket connection.
+[2078618:hf-task-b0-reduced]: [INFO] Spawing new device hf-task-b0-reduced in process with pid 2078618
+[2078618:hf-task-b0-reduced]: [12:05:09][INFO] 
+[2078618:hf-task-b0-reduced]:       ______      _    _______  _________ 
+[2078618:hf-task-b0-reduced]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078618:hf-task-b0-reduced]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078618:hf-task-b0-reduced]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078618:hf-task-b0-reduced]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078618:hf-task-b0-reduced]: 
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078619:internal-dpl-aod-writer]: [INFO] Spawing new device internal-dpl-aod-writer in process with pid 2078619
+[2078619:internal-dpl-aod-writer]: [12:05:09][INFO] 
+[2078619:internal-dpl-aod-writer]:       ______      _    _______  _________ 
+[2078619:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078619:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078619:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078619:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078619:internal-dpl-aod-writer]: 
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawing new device internal-dpl-aod-global-analysis-file-sink in process with pid 2078620
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][INFO] 
+[2078620:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
+[2078620:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078620:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078620:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078620:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078620:internal-dpl-aod-global-analysis-file-sink]: 
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] BINDING ---> BOUND
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078618:hf-task-b0-reduced]: [12:05:09][STATE] READY ---> RUNNING
+[2078618:hf-task-b0-reduced]: [12:05:09][INFO] fair::mq::Device running...
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] BINDING ---> BOUND
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078618:hf-task-b0-reduced]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
+[2078618:hf-task-b0-reduced]: [12:05:09][INFO] Correctly handshaken websocket connection.
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] BINDING ---> BOUND
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078619:internal-dpl-aod-writer]: [12:05:09][STATE] READY ---> RUNNING
+[2078619:internal-dpl-aod-writer]: [12:05:09][INFO] fair::mq::Device running...
+[2078619:internal-dpl-aod-writer]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
+[2078619:internal-dpl-aod-writer]: [12:05:09][INFO] Correctly handshaken websocket connection.
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078621:internal-dpl-injected-dummy-sink]: [INFO] Spawing new device internal-dpl-injected-dummy-sink in process with pid 2078621
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][STATE] READY ---> RUNNING
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][INFO] fair::mq::Device running...
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:09][INFO] Correctly handshaken websocket connection.
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][INFO] 
+[2078621:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[2078621:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.9.2
+[2078621:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2078621:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2078621:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2078621:internal-dpl-injected-dummy-sink]: 
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] Starting FairMQ state machine --> IDLE
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] IDLE ---> INITIALIZING DEVICE
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] BINDING ---> BOUND
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][STATE] READY ---> RUNNING
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][INFO] fair::mq::Device running...
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:09][INFO] Correctly handshaken websocket connection.
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] BINDING ---> BOUND
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][STATE] READY ---> RUNNING
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] fair::mq::Device running...
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] Correctly handshaken websocket connection.
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] BINDING ---> BOUND
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078614:internal-dpl-aod-reader]: [12:05:09][STATE] READY ---> RUNNING
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] fair::mq::Device running...
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
 [INFO] Controller for internal-dpl-aod-reader now available.
-[1330206:internal-dpl-aod-reader]: [12:02:47][INFO] Correctly handshaken websocket connection.
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] INITIALIZING DEVICE ---> INITIALIZED
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] INITIALIZED ---> BINDING
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] BINDING ---> BOUND
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] BOUND ---> CONNECTING
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] CONNECTING ---> DEVICE READY
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] DEVICE READY ---> INITIALIZING TASK
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] INITIALIZING TASK ---> READY
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] READY ---> RUNNING
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] fair::mq::Device running...
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] LHCPeriod is not available, using current month AUG
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] Correctly handshaken websocket connection.
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] Opening file: lfn=../../DataCreator/Tree.root,size=97612
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] No input files left to read for reader 0!
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] Read info: lfn=../../DataCreator/Tree.root,size=97612,total_df=1,read_df=1,read_bytes=62312,read_calls=37,io_time=0.2,wait_time=0.0,level=0
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_hf-candidate-creator-b0-reduced
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_hf-candidate-selector-b0-to-d-pi-reduced
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_hf-task-b0-reduced
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-writer
-[1330208:hf-candidate-creator-b0-reduced-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
-[1330208:hf-candidate-creator-b0-reduced-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
-[1330208:hf-candidate-creator-b0-reduced-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 +xsaves -avx512fp16 -usermsr -sm4 +sse4.1 -avx512ifma +xsave -avx512pf +sse4.2 -tsxldtrk -ptwrite -widekl -sm3 -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -avx512er -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -gfni -avxvnniint16 -amx-fp16 +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni +cx8 -avx512bw +sse3 -pku +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b +wbnoinvd -enqcmd -prefetchwt1 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
-[1330207:hf-candidate-creator-b0-reduced]: fitter 0: error (2 muted): overrode invalid track covariance from X:+5.5571e-01 Alp:-1.222e+00 Par: -6.1870e-02 -5.7263e+00 +1.3352e-02 +1.2514e-01 +8.5964e-02 |Q|:1 Pion
-[1330207:hf-candidate-creator-b0-reduced]:  Cov: [+4.192e-06] [+4.130e-06 +1.883e-06] [+1.942e-06 +1.059e-05 +4.973e-06] [+1.059e-05 +3.110e-06 +2.714e-05 +7.928e-06] [+7.745e-06 +2.374e-06 +1.985e-05 +6.054e-06 +6.371e-06]
-[1330207:hf-candidate-creator-b0-reduced]: fitter 0: error (3 muted): overrode invalid track covariance from X:+1.9422e+01 Alp:-1.222e+00 Par: +1.6709e-01 -3.3653e+00 +1.0918e-02 +1.2514e-01 +8.5964e-02 |Q|:1 Pion
-[1330207:hf-candidate-creator-b0-reduced]:  Cov: [+1.645e-03] [+1.004e-02 +2.974e-03] [+7.970e-05 +5.195e-04 +3.854e-06] [+5.211e-04 +1.535e-04 +2.697e-05 +7.928e-06] [+3.807e-04 +1.172e-04 +1.967e-05 +6.054e-06 +6.371e-06]
-[1330207:hf-candidate-creator-b0-reduced]: fitter 0: error (5 muted): overrode invalid track covariance from X:-1.5816e+01 Alp:+2.711e+00 Par: +6.8637e-03 +1.3093e+01 +5.1660e-03 -6.0576e-01 +2.1736e-01 |Q|:1 Pion
-[1330207:hf-candidate-creator-b0-reduced]:  Cov: [+1.233e-04] [-6.351e-04 +6.299e-04] [-8.397e-06 +3.985e-05 +5.956e-07] [+3.988e-05 -3.947e-05 -2.502e-06 +2.478e-06] [-8.855e-05 -2.354e-06 +5.714e-06 +1.478e-07 +1.290e-05]
-[1330207:hf-candidate-creator-b0-reduced]: fitter 0: error (9 muted): overrode invalid track covariance from X:+5.0902e+01 Alp:+1.011e+00 Par: -8.3388e-01 +3.0659e+01 -3.3138e-02 +4.7657e-01 +4.3316e-01 |Q|:1 Pion
-[1330207:hf-candidate-creator-b0-reduced]:  Cov: [+1.437e-02] [-2.357e-02 +5.832e-03] [+3.126e-04 -4.696e-04 +6.760e-06] [-4.625e-04 +1.144e-04 -9.214e-06 +2.244e-06] [-8.050e-04 +1.860e-04 -1.640e-05 +3.650e-06 +1.571e-05]
-[1330207:hf-candidate-creator-b0-reduced]: fitter 0: error (17 muted): overrode invalid track covariance from X:+3.7059e+01 Alp:-2.618e+00 Par: -3.7217e+00 +1.5877e+01 -1.0696e-01 +5.3343e-01 +2.3638e-01 |Q|:1 Pion
-[1330207:hf-candidate-creator-b0-reduced]:  Cov: [+6.664e-02] [-9.755e-02 +1.246e-02] [+1.860e-03 -2.644e-03 +5.189e-05] [-2.542e-03 +2.042e-04 -6.885e-05 +2.076e-06] [-2.815e-03 +1.276e-03 -7.700e-05 +3.064e-05 +6.107e-05]
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_hf-candidate-creator-b0-reduced-expressions
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_hf-candidate-selector-b0-to-d-pi-reduced
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_hf-task-b0-reduced
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_internal-dpl-aod-global-analysis-file-sink
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_internal-dpl-aod-writer
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced-expressions_to_hf-candidate-selector-b0-to-d-pi-reduced
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced-expressions_to_internal-dpl-aod-writer
-[1330210:hf-task-b0-reduced]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
-[1330210:hf-task-b0-reduced]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
-[1330210:hf-task-b0-reduced]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 +xsaves -avx512fp16 -usermsr -sm4 +sse4.1 -avx512ifma +xsave -avx512pf +sse4.2 -tsxldtrk -ptwrite -widekl -sm3 -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -avx512er -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -gfni -avxvnniint16 -amx-fp16 +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni +cx8 -avx512bw +sse3 -pku +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b +wbnoinvd -enqcmd -prefetchwt1 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-selector-b0-to-d-pi-reduced_to_hf-task-b0-reduced
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-selector-b0-to-d-pi-reduced_to_internal-dpl-aod-global-analysis-file-sink
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-candidate-selector-b0-to-d-pi-reduced_to_internal-dpl-aod-writer
-[1330210:hf-task-b0-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-task-b0-reduced_to_internal-dpl-aod-global-analysis-file-sink
-[1330210:hf-task-b0-reduced]: [12:02:48][INFO] Sending end-of-stream message to channel from_hf-task-b0-reduced_to_internal-dpl-aod-writer
-[1330211:internal-dpl-aod-writer]: [12:02:48][CRITICAL] Some Lifetime::Timeframe data got dropped starting at 1
-[1330211:internal-dpl-aod-writer]: [12:02:48][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-writer_to_internal-dpl-injected-dummy-sink
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] Correctly handshaken websocket connection.
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] INITIALIZED ---> BINDING
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] BINDING ---> BOUND
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] BOUND ---> CONNECTING
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] CONNECTING ---> DEVICE READY
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] DEVICE READY ---> INITIALIZING TASK
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] INITIALIZING TASK ---> READY
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][STATE] READY ---> RUNNING
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][INFO] fair::mq::Device running...
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][INFO] LHCPeriod is not available, using current month AUG
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][INFO] Correctly handshaken websocket connection.
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] Opening file: lfn=../../DataCreator/AO2D_hytest.root,size=627649
+[2078618:hf-task-b0-reduced]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[2078618:hf-task-b0-reduced]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[2078618:hf-task-b0-reduced]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 +xsaves -avx512fp16 -usermsr -sm4 +sse4.1 -avx512ifma +xsave -avx512pf +sse4.2 -tsxldtrk -ptwrite -widekl -sm3 -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -avx512er -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -gfni -avxvnniint16 -amx-fp16 +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni +cx8 -avx512bw +sse3 -pku +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b +wbnoinvd -enqcmd -prefetchwt1 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[2078616:hf-candidate-creator-b0-reduced-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[2078616:hf-candidate-creator-b0-reduced-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[2078616:hf-candidate-creator-b0-reduced-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.y4wlzRXi32/BUILD/94ae781e8a02c7842cbd71460d17ea6b140a17f2/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 +xsaves -avx512fp16 -usermsr -sm4 +sse4.1 -avx512ifma +xsave -avx512pf +sse4.2 -tsxldtrk -ptwrite -widekl -sm3 -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -avx512er -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -gfni -avxvnniint16 -amx-fp16 +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni +cx8 -avx512bw +sse3 -pku +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b +wbnoinvd -enqcmd -prefetchwt1 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] No input files left to read for reader 0!
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] Read info: lfn=../../DataCreator/AO2D_hytest.root,size=627649,total_df=42,read_df=42,read_bytes=564403,read_calls=868,io_time=0.3,wait_time=0.0,level=0
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_hf-candidate-creator-b0-reduced
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_hf-candidate-selector-b0-to-d-pi-reduced
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_hf-task-b0-reduced
+[2078614:internal-dpl-aod-reader]: [12:05:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-writer
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_hf-candidate-creator-b0-reduced-expressions
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_hf-candidate-selector-b0-to-d-pi-reduced
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_hf-task-b0-reduced
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_internal-dpl-aod-global-analysis-file-sink
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced_to_internal-dpl-aod-writer
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced-expressions_to_hf-candidate-selector-b0-to-d-pi-reduced
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-b0-reduced-expressions_to_internal-dpl-aod-writer
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-selector-b0-to-d-pi-reduced_to_hf-task-b0-reduced
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-selector-b0-to-d-pi-reduced_to_internal-dpl-aod-global-analysis-file-sink
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:09][INFO] Sending end-of-stream message to channel from_hf-candidate-selector-b0-to-d-pi-reduced_to_internal-dpl-aod-writer
+[2078619:internal-dpl-aod-writer]: [12:05:10][CRITICAL] Some Lifetime::Timeframe data got dropped starting at 42
+[2078618:hf-task-b0-reduced]: [12:05:10][INFO] Sending end-of-stream message to channel from_hf-task-b0-reduced_to_internal-dpl-aod-global-analysis-file-sink
+[2078618:hf-task-b0-reduced]: [12:05:10][INFO] Sending end-of-stream message to channel from_hf-task-b0-reduced_to_internal-dpl-aod-writer
+[2078619:internal-dpl-aod-writer]: [12:05:10][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-writer_to_internal-dpl-injected-dummy-sink
 [INFO] Quitting
 [INFO] QUIT_REQUESTED
-[1330205:internal-dpl-clock]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330205:internal-dpl-clock]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330205:internal-dpl-clock]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330205:internal-dpl-clock]: [12:02:48][INFO] Sending end-of-stream message to channel from_internal-dpl-clock_to_internal-dpl-aod-reader
-[1330205:internal-dpl-clock]: [12:02:48][STATE] RUNNING ---> READY
-[1330205:internal-dpl-clock]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330205:internal-dpl-clock]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330205:internal-dpl-clock]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330206:internal-dpl-aod-reader]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330206:internal-dpl-aod-reader]: [12:02:48][STATE] RUNNING ---> READY
-[1330206:internal-dpl-aod-reader]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330206:internal-dpl-aod-reader]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330206:internal-dpl-aod-reader]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][STATE] RUNNING ---> READY
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330205:internal-dpl-clock]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330205:internal-dpl-clock]: [12:02:48][STATE] IDLE ---> EXITING
-[1330206:internal-dpl-aod-reader]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330206:internal-dpl-aod-reader]: [12:02:48][STATE] IDLE ---> EXITING
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][STATE] IDLE ---> EXITING
-[1330205:internal-dpl-clock]: [12:02:48][STATE] Exiting FairMQ state machine
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][STATE] RUNNING ---> READY
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][STATE] IDLE ---> EXITING
-[1330206:internal-dpl-aod-reader]: [12:02:48][STATE] Exiting FairMQ state machine
-[1330207:hf-candidate-creator-b0-reduced]: [12:02:48][STATE] Exiting FairMQ state machine
-[1330208:hf-candidate-creator-b0-reduced-expressions]: [12:02:48][STATE] Exiting FairMQ state machine
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] RUNNING ---> READY
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] IDLE ---> EXITING
-[1330210:hf-task-b0-reduced]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330210:hf-task-b0-reduced]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330210:hf-task-b0-reduced]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330210:hf-task-b0-reduced]: [12:02:48][STATE] RUNNING ---> READY
-[1330210:hf-task-b0-reduced]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330210:hf-task-b0-reduced]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330210:hf-task-b0-reduced]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330210:hf-task-b0-reduced]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330210:hf-task-b0-reduced]: [12:02:48][STATE] IDLE ---> EXITING
-[1330209:hf-candidate-selector-b0-to-d-pi-reduced]: [12:02:48][STATE] Exiting FairMQ state machine
-[1330210:hf-task-b0-reduced]: [12:02:48][STATE] Exiting FairMQ state machine
-[1330211:internal-dpl-aod-writer]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330211:internal-dpl-aod-writer]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330211:internal-dpl-aod-writer]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330211:internal-dpl-aod-writer]: [12:02:48][STATE] RUNNING ---> READY
-[1330211:internal-dpl-aod-writer]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330211:internal-dpl-aod-writer]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330211:internal-dpl-aod-writer]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330211:internal-dpl-aod-writer]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330211:internal-dpl-aod-writer]: [12:02:48][STATE] IDLE ---> EXITING
-[1330211:internal-dpl-aod-writer]: [12:02:48][STATE] Exiting FairMQ state machine
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][STATE] RUNNING ---> READY
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][STATE] IDLE ---> EXITING
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][INFO] Received device shutdown request (signal 15).
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][STATE] RUNNING ---> READY
-[1330212:internal-dpl-aod-global-analysis-file-sink]: [12:02:48][STATE] Exiting FairMQ state machine
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][STATE] READY ---> RESETTING TASK
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][STATE] RESETTING TASK ---> DEVICE READY
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][STATE] DEVICE READY ---> RESETTING DEVICE
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][INFO] Cleaning up for shared memory id '8c2f44aa'...
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][INFO] Found 0 unmanaged regions...
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][INFO] Found 1 managed segments...
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][INFO] Successfully removed 'fmq_8c2f44aa_m_0'.
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][INFO] Successfully removed 'fmq_8c2f44aa_mng'.
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][STATE] RESETTING DEVICE ---> IDLE
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][STATE] IDLE ---> EXITING
-[1330213:internal-dpl-injected-dummy-sink]: [12:02:48][STATE] Exiting FairMQ state machine
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078613:internal-dpl-clock]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078613:internal-dpl-clock]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078614:internal-dpl-aod-reader]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078614:internal-dpl-aod-reader]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][STATE] RUNNING ---> READY
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078614:internal-dpl-aod-reader]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078613:internal-dpl-clock]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078614:internal-dpl-aod-reader]: [12:05:10][STATE] RUNNING ---> READY
+[2078614:internal-dpl-aod-reader]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078614:internal-dpl-aod-reader]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078614:internal-dpl-aod-reader]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078613:internal-dpl-clock]: [12:05:10][INFO] Sending end-of-stream message to channel from_internal-dpl-clock_to_internal-dpl-aod-reader
+[2078613:internal-dpl-clock]: [12:05:10][STATE] RUNNING ---> READY
+[2078613:internal-dpl-clock]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078613:internal-dpl-clock]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078613:internal-dpl-clock]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][STATE] IDLE ---> EXITING
+[2078613:internal-dpl-clock]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078613:internal-dpl-clock]: [12:05:10][STATE] IDLE ---> EXITING
+[2078614:internal-dpl-aod-reader]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078614:internal-dpl-aod-reader]: [12:05:10][STATE] IDLE ---> EXITING
+[2078613:internal-dpl-clock]: [12:05:10][STATE] Exiting FairMQ state machine
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][STATE] RUNNING ---> READY
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][STATE] IDLE ---> EXITING
+[2078616:hf-candidate-creator-b0-reduced-expressions]: [12:05:10][STATE] Exiting FairMQ state machine
+[2078615:hf-candidate-creator-b0-reduced]: [12:05:10][STATE] Exiting FairMQ state machine
+[2078614:internal-dpl-aod-reader]: [12:05:10][STATE] Exiting FairMQ state machine
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][STATE] RUNNING ---> READY
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][STATE] IDLE ---> EXITING
+[2078618:hf-task-b0-reduced]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078618:hf-task-b0-reduced]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078618:hf-task-b0-reduced]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078618:hf-task-b0-reduced]: [12:05:10][STATE] RUNNING ---> READY
+[2078618:hf-task-b0-reduced]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078618:hf-task-b0-reduced]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078618:hf-task-b0-reduced]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078618:hf-task-b0-reduced]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078618:hf-task-b0-reduced]: [12:05:10][STATE] IDLE ---> EXITING
+[2078617:hf-candidate-selector-b0-to-d-pi-reduced]: [12:05:10][STATE] Exiting FairMQ state machine
+[2078619:internal-dpl-aod-writer]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078619:internal-dpl-aod-writer]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078619:internal-dpl-aod-writer]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078619:internal-dpl-aod-writer]: [12:05:10][STATE] RUNNING ---> READY
+[2078619:internal-dpl-aod-writer]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078619:internal-dpl-aod-writer]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078619:internal-dpl-aod-writer]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078618:hf-task-b0-reduced]: [12:05:10][STATE] Exiting FairMQ state machine
+[2078619:internal-dpl-aod-writer]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078619:internal-dpl-aod-writer]: [12:05:10][STATE] IDLE ---> EXITING
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][STATE] RUNNING ---> READY
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078619:internal-dpl-aod-writer]: [12:05:10][STATE] Exiting FairMQ state machine
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][STATE] IDLE ---> EXITING
+[2078620:internal-dpl-aod-global-analysis-file-sink]: [12:05:10][STATE] Exiting FairMQ state machine
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][INFO] Received device shutdown request (signal 15).
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][STATE] RUNNING ---> READY
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][STATE] READY ---> RESETTING TASK
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][STATE] RESETTING TASK ---> DEVICE READY
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][STATE] DEVICE READY ---> RESETTING DEVICE
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][INFO] Cleaning up for shared memory id '92fc6cdf'...
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][INFO] Found 0 unmanaged regions...
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][INFO] Found 1 managed segments...
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][INFO] Successfully removed 'fmq_92fc6cdf_m_0'.
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][INFO] Successfully removed 'fmq_92fc6cdf_mng'.
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][STATE] RESETTING DEVICE ---> IDLE
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][STATE] IDLE ---> EXITING
+[2078621:internal-dpl-injected-dummy-sink]: [12:05:10][STATE] Exiting FairMQ state machine
 [INFO] Dumping performance metrics to performanceMetrics.json file
 [INFO] ## Processes completed. Run summary:
 [INFO] ### Devices started: 9
-[INFO]  - Device internal-dpl-clock: pid 1330205 (exit 0)
-[INFO]  - Device internal-dpl-aod-reader: pid 1330206 (exit 0)
-[INFO]  - Device hf-candidate-creator-b0-reduced: pid 1330207 (exit 0)
-[INFO]  - Device hf-candidate-creator-b0-reduced-expressions: pid 1330208 (exit 0)
-[INFO]  - Device hf-candidate-selector-b0-to-d-pi-reduced: pid 1330209 (exit 0)
-[INFO]  - Device hf-task-b0-reduced: pid 1330210 (exit 0)
-[INFO]  - Device internal-dpl-aod-writer: pid 1330211 (exit 0)
-[INFO]  - Device internal-dpl-aod-global-analysis-file-sink: pid 1330212 (exit 0)
-[INFO]  - Device internal-dpl-injected-dummy-sink: pid 1330213 (exit 0)
+[INFO]  - Device internal-dpl-clock: pid 2078613 (exit 0)
+[INFO]  - Device internal-dpl-aod-reader: pid 2078614 (exit 0)
+[INFO]  - Device hf-candidate-creator-b0-reduced: pid 2078615 (exit 0)
+[INFO]  - Device hf-candidate-creator-b0-reduced-expressions: pid 2078616 (exit 0)
+[INFO]  - Device hf-candidate-selector-b0-to-d-pi-reduced: pid 2078617 (exit 0)
+[INFO]  - Device hf-task-b0-reduced: pid 2078618 (exit 0)
+[INFO]  - Device internal-dpl-aod-writer: pid 2078619 (exit 0)
+[INFO]  - Device internal-dpl-aod-global-analysis-file-sink: pid 2078620 (exit 0)
+[INFO]  - Device internal-dpl-injected-dummy-sink: pid 2078621 (exit 0)
 [INFO] ## Analysis Run Summary ##
 [INFO] ### Files read stats ###
-[INFO] lfn=../../DataCreator/Tree.root,size=97612,total_df=1,read_df=1,read_bytes=62312,read_calls=37,io_time=0.2,wait_time=0.0,level=0
+[INFO] lfn=../../DataCreator/AO2D_hytest.root,size=627649,total_df=42,read_df=42,read_bytes=564403,read_calls=868,io_time=0.3,wait_time=0.0,level=0
 [INFO] ### Files opened stats ###
-[INFO] Last file opened: lfn=../../DataCreator/Tree.root,size=97612
+[INFO] Last file opened: lfn=../../DataCreator/AO2D_hytest.root,size=627649
 [INFO] Dumping used configuration in dpl-config.json

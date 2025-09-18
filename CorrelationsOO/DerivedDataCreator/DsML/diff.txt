@@ -1,0 +1,50 @@
+Keys present in dplus but not in ds: internal-dpl-aod-reader, hf-candidate-selector-dplus-to-pi-k-pi
+Keys present in ds but not in dplus: hf-candidate-selector-ds-to-k-k-pi
+
+---------------------- internal-dpl-clock -------------------------
+
+---------------------- internal-dpl-aod-spawner -------------------------
+
+---------------------- internal-dpl-aod-index-builder -------------------------
+
+---------------------- eventselection-run3 -------------------------
+
+---------------------- track-propagation -------------------------
+
+---------------------- ft0-corrected-table -------------------------
+
+---------------------- pid-tpc-service -------------------------
+
+---------------------- tof-signal -------------------------
+
+---------------------- track-selection -------------------------
+
+---------------------- mult-cent-table -------------------------
+
+---------------------- tof-event-time -------------------------
+
+---------------------- track-to-collision-association -------------------------
+
+---------------------- tof-pid-full -------------------------
+
+---------------------- hf-pid-creator -------------------------
+
+---------------------- hf-candidate-creator-3prong -------------------------
+        KEY createDplus: dplus = 1, ds = 0
+        KEY createDs: dplus = 0, ds = 1
+
+            [hfEvSel, useTvxTrigger]: dplus = 1, ds = 0
+                [th2ConfigAxisOccupancy, values]: dplus = [14, 0, 140000], ds = [14, 0, 14000]
+
+---------------------- hf-candidate-creator-3prong-expressions -------------------------
+        KEY matchKinkedDecayTopology: dplus = 1, ds = 0
+
+---------------------- hf-correlator-flow-charm-hadrons -------------------------
+        KEY processDplusWithMl: dplus = 1, ds = 0
+        KEY processDsWithMl: dplus = 0, ds = 1
+
+---------------------- internal-dpl-aod-writer -------------------------
+
+---------------------- internal-dpl-aod-global-analysis-file-sink -------------------------
+
+---------------------- internal-dpl-injected-dummy-sink -------------------------

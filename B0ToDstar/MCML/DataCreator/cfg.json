@@ -48,10 +48,10 @@
             "NumberOfOrbitsPerTF": "-1"
         },
         "evselOpts": {
-            "amIneeded": "-1",
+            "amIneeded": "1",
             "muonSelection": "0",
             "maxDiffZvtxFT0vsPV": "1",
-            "isMC": "-1",
+            "isMC": "1",
             "confSigmaBCforHighPtTracks": "4",
             "TimeIntervalForOccupancyCalculationMin": "-40",
             "TimeIntervalForOccupancyCalculationMax": "100",

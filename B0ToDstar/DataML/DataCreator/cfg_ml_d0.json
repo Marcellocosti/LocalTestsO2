@@ -1423,7 +1423,7 @@
         "keepOnlySidebandCandidates": "false",
         "distanceFromDeltaMassForSidebands": "0.050000000000000003",
         "activateQA": "true",
-        "applyMl": "false",
+        "applyMl": "true",
         "binsPtMl": {
             "values": [
                 "0",
@@ -1524,14 +1524,14 @@
         "namesInputFeatures": {
             "values": [
                 "ptProng0",
-                "impactParameterXY0",
+                "impactParameter0",
                 "impactParameterZ0",
                 "ptProng1",
-                "impactParameterXY1",
+                "impactParameter1",
                 "impactParameterZ1"
             ]
         },
-        "applyMlD0Daug": "true",
+        "applyMlD0Daug": "false",
         "ccdbUrl": "http:\/\/alice-ccdb.cern.ch",
         "modelPathsCCDB": {
             "values": [

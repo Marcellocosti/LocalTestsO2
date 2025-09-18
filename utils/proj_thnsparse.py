@@ -12,6 +12,7 @@ parser.add_argument("-dsmcgen", "--dsmcgen", help="Project Ds mc gen output", ac
 parser.add_argument("-dsdata", "--dsdata", help="Project Ds data output", action="store_true")
 parser.add_argument("-dpflow", "--dplusflow", help="Project D+ flow output", action="store_true")
 parser.add_argument("-dpflowep", "--dplusflowep", help="Project D+ flow output", action="store_true")
+parser.add_argument("-corrflow", "--correlationflow", help="Project correlation flow output", action="store_true")
 parser.add_argument("-s", "--suffix", help="Input and output suffix", type=str, default="")
 parser.add_argument("-o", "--outdir", help="Input and output suffix", type=str, default="")
 parser.add_argument("-sn", "--sparsename", help="Path to sparse to project", type=str, default="")
@@ -28,8 +29,8 @@ if args.dplusmc:
     print("Projecting D+ mc")
 
 if args.dplusdata:
-    sparses = [""]
-    sparse_name = "hf-task-dplus/hSparseMass"
+    sparses = ["hSparseMass"]
+    sparse_name = "hf-task-dplus/"
     print("Projecting D+ data")
 
 if args.dsmcreco:
@@ -59,6 +60,11 @@ if args.dplusflowep:
     sparse_name = "hf-task-flow-charm-hadrons"
     print("Projecting D+ flow ep")
 
+if args.correlationflow:
+    sparses = ["hSparseCorrelationsSECharmHad", "hSparseCorrelationsMECharmHad", "hSparseCorrelationsSEHadHad", "hSparseCorrelationsMEHadHad"]
+    sparse_name = "hf-correlator-flow-charm-hadrons-reduced"
+    print("Projecting correlation flow")
+
 if not any(vars(args).values()):
     print("No actions specified. Use --help for options.")
 
@@ -74,7 +80,8 @@ if args.suffix != "":
     else:
         print(f'{proj_file}_{args.suffix}.root')
         out_file = TFile(f'{proj_file}_{args.suffix}.root', 'recreate')
-else: 
+else:
+    print(f"Opening {AN_file}.root")
     test_file = TFile.Open(f'{AN_file}.root')
     suffix = args.suffix + "_gen" if args.dsmcgen else args.suffix
     print(f"Creating {proj_file}_proj{suffix}.root")
@@ -83,41 +90,44 @@ else:
 out_file.cd()
 
 for sparse in sparses:
-    out_file.mkdir(sparse)
-    out_file.cd(sparse)
-    
-    if args.dplusmc or args.dplusdata or args.dplusflowep:
-        print(f"Getting {sparse_name}/{sparse} from {AN_file}_{args.suffix}.root")
-        if args.sparsename != "":
-            thn_sparse = test_file.Get(args.sparsename)
+    try:
+        if args.dplusmc or args.dplusdata or args.dplusflowep or args.correlationflow:
+            if args.sparsename != "":
+                print(f"Getting sparse: {args.sparsename}")
+                thn_sparse = test_file.Get(args.sparsename)
+            else:
+                print(f"sparse_name: {sparse_name}")
+                print(f"sparse: {sparse}")
+                print(f"Getting sparse: {sparse_name}/{sparse}")
+                thn_sparse = test_file.Get(f'{sparse_name}/{sparse}')
+        elif args.dsmcgen:
+            if args.sparsename != "":
+                thn_sparse = test_file.Get(args.sparsename)
+            else:
+                thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseGen')
+        elif args.dplusflow:
+            if args.sparsename != "":
+                thn_sparse = test_file.Get(args.sparsename)
+            else:
+                thn_sparse = test_file.Get(f'{sparse_name}/hSparseFlowCharm')
         else:
-            thn_sparse = test_file.Get(f'{sparse_name}{sparse}')
-    elif args.dsmcgen:
-        if args.sparsename != "":
-            thn_sparse = test_file.Get(args.sparsename)
-        else:
-            thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseGen')
-    elif args.dplusflow:
-        if args.sparsename != "":
-            thn_sparse = test_file.Get(args.sparsename)
-        else:
-            print(f"{sparse_name}/hSparseFlowCharm")
-            print(test_file.ls())
-            thn_sparse = test_file.Get(f'{sparse_name}/hSparseFlowCharm')
-            print(f"type(thn_sparse): {type(thn_sparse)}")
-    else:
-        if args.sparsename != "":
-            thn_sparse = test_file.Get(args.sparsename)
-        else:
-            thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseMass')
-        
-    thn_sparse_dimensions = thn_sparse.GetNdimensions()
-    print(f"thn_sparse.GetEntries(): {thn_sparse.GetEntries()}")
-    for idim in range(thn_sparse_dimensions):
-        histo = thn_sparse.Projection(idim)
-        print(f"histo.Integral(): {histo.Integral()}")
-        histo.SetName(thn_sparse.GetAxis(idim).GetName())
-        histo.SetTitle(thn_sparse.GetAxis(idim).GetTitle())
-        histo.Write()
+            if args.sparsename != "":
+                thn_sparse = test_file.Get(args.sparsename)
+            else:
+                thn_sparse = test_file.Get(f'{sparse_name}/{sparse}/hSparseMass')
+            
+        thn_sparse_dimensions = thn_sparse.GetNdimensions()
+        print(f"thn_sparse.GetEntries(): {thn_sparse.GetEntries()}")
+        out_file.mkdir(sparse)
+        out_file.cd(sparse)
+        for idim in range(thn_sparse_dimensions):
+            histo = thn_sparse.Projection(idim)
+            histo.SetName(thn_sparse.GetAxis(idim).GetName())
+            histo.SetTitle(thn_sparse.GetAxis(idim).GetTitle())
+            histo.Write()
+
+    except Exception as e:
+        print(f"⚠️ Skipping sparse {sparse} due to error: {e}")
+        continue
 
 out_file.Close()
