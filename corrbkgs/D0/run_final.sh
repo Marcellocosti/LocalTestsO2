@@ -1,24 +1,20 @@
 OPTION="-b --configuration json://cfg.json"
 LOGFILE="log.txt"
 
-o2-analysis-multiplicity-table $OPTION |\
-o2-analysis-event-selection $OPTION |\
-o2-analysis-track-propagation $OPTION |\
+o2-analysis-hf-pid-creator $OPTION |\
 o2-analysis-ft0-corrected-table $OPTION |\
-o2-analysis-timestamp $OPTION |\
 o2-analysis-pid-tof-base $OPTION |\
 o2-analysis-pid-tof-full $OPTION |\
-o2-analysis-pid-tpc $OPTION |\
-o2-analysis-pid-tpc-base $OPTION |\
 o2-analysis-tracks-extra-v002-converter $OPTION |\
+o2-analysis-multcenttable $OPTION |\
+o2-analysis-event-selection-service $OPTION |\
+o2-analysis-track-propagation $OPTION |\
+o2-analysis-pid-tpc-service $OPTION |\
 o2-analysis-track-to-collision-associator $OPTION |\
 o2-analysis-trackselection $OPTION |\
-o2-analysis-hf-pid-creator $OPTION |\
-o2-analysis-hf-track-index-skim-creator $OPTION |\
 o2-analysis-hf-candidate-creator-2prong $OPTION |\
 o2-analysis-hf-candidate-selector-d0 $OPTION |\
-o2-analysis-hf-tree-creator-d0-to-k-pi $OPTION |\
-o2-analysis-centrality-table $OPTION --aod-file @../input_mc_pp_corrbkgs.txt --aod-writer-json OutputDirector.json > log.txt 2>&1
+o2-analysis-hf-tree-creator-d0-to-k-pi --aod-file @../input_mc_corrbkgs_derived.txt --aod-writer-json OutputDirector.json > log.txt 2>&1
 
 # report status
 rc=$?

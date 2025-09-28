@@ -1,7 +1,7 @@
 {
     "internal-dpl-clock": "",
     "internal-dpl-aod-reader": {
-        "aod-file-private": "@..\/..\/input_derived_data.txt",
+        "aod-file-private": "@input_derived_data_same_had_had.txt",
         "aod-max-io-rate": "0",
         "time-limit": "0",
         "orbit-offset-enumeration": "0",
@@ -36,8 +36,15 @@
         "deltaEtaAbsMax": "2",
         "dcaXYTrackMax": "1",
         "dcaZTrackMax": "1",
+        "bdtBkgScoreMax": "1.00999999",
         "tpcCrossedRowsMin": "1",
         "itsNClsMin": "1",
+        "downSamplePairsSE": "0.1",
+        "ptMaxForDownSampleSE": "10",
+        "centMaxForDownSampleSE": "10",
+        "downSamplePairsME": "1",
+        "ptMaxForDownSampleME": "10",
+        "centMaxForDownSampleME": "10",
         "zPoolBins": {
             "values": [
                 "0",
@@ -149,12 +156,12 @@
                 "1"
             ]
         },
-        "processSameEventCharmHadWCentMix": "false",
         "processSameEventCharmHadWMultMix": "false",
+        "processSameEventHadHadWMultMix": "false",
+        "processSameEventCharmHadWCentMix": "false",
+        "processSameEventHadHadWCentMix": "true",
         "processMixedEventCharmHadWCentMix": "false",
         "processMixedEventCharmHadWMultMix": "false",
-        "processSameEventHadHadWCentMix": "true",
-        "processSameEventHadHadWMultMix": "false",
         "processMixedEventHadHadWCentMix": "false",
         "processMixedEventHadHadWMultMix": "false"
     },

@@ -2,8 +2,11 @@
   "debug_mode": true,
   "resfile": "AO2D",
   "OutputDescriptors": [
-    {"table": "AOD/HFCREDCHHAD/0"},
-    {"table": "AOD/HFCREDHADHAD/0"}
+    {"table": "AOD/HFCREDSECHHAD/0"},
+    {"table": "AOD/HFCREDMECHHAD/0"},
+    {"table": "AOD/HFCREDSEHADHAD/0"},
+    {"table": "AOD/HFCREDMEHADHAD/0"},
+    {"table": "AOD/HFCREDCOLLINFO/0"}
   ],
   "ntfmerge": 1
 } }

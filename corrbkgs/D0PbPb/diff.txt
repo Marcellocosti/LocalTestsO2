@@ -1,0 +1,58 @@
+Keys present in chuntai but not in mio: mult-cent-table, eventselection-run3, pid-tpc-service, propagation-service
+Keys present in mio but not in chuntai: internal-dpl-clock, internal-dpl-aod-reader, internal-dpl-aod-spawner, internal-dpl-aod-index-builder, timestamp-task, lumi-task, bc-selection-task, track-propagation, event-selection-task, track-selection, pid-multiplicity, multiplicity-table, tpc-pid, track-to-collision-association, centrality-table, hf-track-index-skim-creator-tag-sel-collisions, hf-track-index-skim-creator-tag-sel-tracks, hf-track-index-skim-creator, hf-track-index-skim-creator-lf-cascades, hf-track-index-skim-creator-cascades, internal-dpl-aod-writer, internal-dpl-aod-global-analysis-file-sink, internal-dpl-injected-dummy-sink
+
+---------------------- hf-tree-creator-d0-to-k-pi -------------------------
+        KEY processMcWithDCAFitterAll: chuntai = 0, mio = 1
+        KEY processMcWithDCAFitterOnlySig: chuntai = 1, mio = 0
+
+---------------------- hf-candidate-selector-d0 -------------------------
+        KEY applyMl: chuntai = 1, mio = 0
+        KEY enableDebugMl: chuntai = 1, mio = 0
+        KEY loadModelsFromCCDB: chuntai = 1, mio = 0
+        KEY nSigmaTofCombinedMax: chuntai = 3, mio = 8
+        KEY nSigmaTofMax: chuntai = 3, mio = 8
+        KEY nSigmaTpcCombinedMax: chuntai = 3, mio = 8
+        KEY nSigmaTpcMax: chuntai = 3, mio = 8
+        KEY ptPidTofMax: chuntai = 99, mio = 5
+        KEY ptPidTofMin: chuntai = 0.15, mio = 0
+        KEY ptPidTpcMax: chuntai = 99, mio = 5
+        KEY usePid: chuntai = 1, mio = 0
+        KEY usePidTpcAndTof: chuntai = 1, mio = 0
+
+                [binsPt, values]: chuntai = [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 16, 24], mio = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 9, 10, 12, 16, 20, 24, 36, 50, 100]
+                [binsPtMl, values]: chuntai = [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 16, 24], mio = [0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 50]
+                [cuts, values]: chuntai = [[0.3, 0.04, 1, 0.2, 0.2, 1, 1, 1, 0.9, 0.8, 0, 10, 10, 0, 0], [0.3, 0.04, 1, 0.3, 0.3, 1, 1, 1, 0.9, 0.8, 0, 10, 10, 0, 0], [0.3, 0.04, 1, 0.4, 0.4, 1, 1, 1, 0.9, 0.8, 0, 10, 10, 0, 0], [0.3, 0.04, 1, 0.4, 0.4, 1, 1, 1, 0.9, 0.8, 0, 10, 10, 0, 0], [0.3, 0.04, 1, 0.4, 0.4, 1, 1, 1, 0.9, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.4, 0.4, 1, 1, 1, 0.92, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.92, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.92, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.92, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.92, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.92, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.92, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.8, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.8, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.8, 0.8, 0, 10, 10, 0, 0], [0.5, 0.04, 1, 0.5, 0.5, 1, 1, 1, 0.8, 0.8, 0, 10, 10, 0, 0], [0.4, 0.030000000000000002, 0.9, 0.7, 0.7, 0.1, 0.1, -5e-05, 0.85, 0.995, 0, 10, 10, 0, 0.1], [0.4, 0.030000000000000002, 0.9, 0.7, 0.7, 0.1, 0.1, -5e-05, 0.85, 0.995, 0, 10, 10, 0.06, 0.1], [0.4, 0.030000000000000002, 0.9, 0.7, 0.7, 0.1, 0.1, -5e-05, 0.85, 0.995, 0, 10, 10, 0.06, 0.1], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.0001, 0.83, 0.995, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.00999999, 0.83, 0.995, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.00999999, 0.8, 0.995, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.00999999, 0.8, 0.995, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.9, 0.7, 0.7, 0.1, 0.1, 0.00999999, 0.8, 0.995, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.9, 0.6, 0.6, 0.1, 0.1, 0.00999999, 0.8, 0.995, 0, 10, 10, 0.06, 0.5]], mio = [[0.4, 0.035, 0.8, 0.5, 0.5, 0.1, 0.1, -5e-05, 0.8, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.035, 0.8, 0.5, 0.5, 0.1, 0.1, -5e-05, 0.8, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.4, 0.4, 0.1, 0.1, -0.00025, 0.8, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.4, 0.4, 0.1, 0.1, -0.00025, 0.8, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -0.0002, 0.9, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -0.0002, 0.9, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -0.00012, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -0.00012, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -8e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -8e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -8e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -8e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -8e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -8e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -7.000000000000001e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.8, 0.7, 0.7, 0.1, 0.1, -7.000000000000001e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.9, 0.7, 0.7, 0.1, 0.1, -5e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.9, 0.7, 0.7, 0.1, 0.1, -5e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 0.9, 0.7, 0.7, 0.1, 0.1, -5e-05, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.0001, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.00999999, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.00999999, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.00999999, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.7, 0.7, 0.1, 0.1, 0.00999999, 0.85, 0, 0, 10, 10, 0.06, 0.5], [0.4, 0.030000000000000002, 1, 0.6, 0.6, 0.1, 0.1, 0.00999999, 0.8, 0, 0, 10, 10, 0.06, 0.5]]
+                [cutsMl, values]: chuntai = [[0.005, 0, 0], [0.005, 0, 0], [0.005, 0, 0], [0.005, 0, 0], [0.02, 0, 0], [0.02, 0, 0], [0.05, 0, 0], [0.05, 0, 0], [0.1, 0, 0], [0.1, 0, 0], [0.15, 0, 0], [0.15, 0, 0]], mio = [[0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5]]
+                [cutsMl] Keys present in mio but not in chuntai: labels_rows, labels_cols
+                [cuts] Keys present in mio but not in chuntai: labels_rows, labels_cols
+                [deltaMassPars, values]: chuntai = [[-0.0024999999441206455, 9.999999747378752e-05]], mio = [[-0.00249999994, 9.99999975e-05]]
+                [deltaMassPars] Keys present in mio but not in chuntai: labels_rows, labels_cols
+                [modelPathsCCDB, values]: chuntai = ['Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt0_1', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt1_2', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt2_3', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt3_4', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt4_5', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt5_6', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt6_7', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt7_8', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt8_10', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt10_12', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt12_16', 'Users/c/chuntai/BDT/D0_fllow/D4M4_med_PID/pt16_24'], mio = ['EventFiltering/PWGHF/BDTD0']
+                [namesInputFeatures, values]: chuntai = ['cpaXY', 'cpa', 'decayLength', 'decayLengthXY', 'impactParameterProduct', 'nSigTpcTofPiExpPi', 'nSigTpcTofKaExpKa'], mio = ['batch', 'b']
+                [onnxFileNames, values]: chuntai = ['ModelHandler_onnx_D0ToKPi_pT_0_1.onnx', 'ModelHandler_onnx_D0ToKPi_pT_1_2.onnx', 'ModelHandler_onnx_D0ToKPi_pT_2_3.onnx', 'ModelHandler_onnx_D0ToKPi_pT_3_4.onnx', 'ModelHandler_onnx_D0ToKPi_pT_4_5.onnx', 'ModelHandler_onnx_D0ToKPi_pT_5_6.onnx', 'ModelHandler_onnx_D0ToKPi_pT_6_7.onnx', 'ModelHandler_onnx_D0ToKPi_pT_7_8.onnx', 'ModelHandler_onnx_D0ToKPi_pT_8_10.onnx', 'ModelHandler_onnx_D0ToKPi_pT_10_12.onnx', 'ModelHandler_onnx_D0ToKPi_pT_12_16.onnx', 'ModelHandler_onnx_D0ToKPi_pT_16_24.onnx'], mio = ['ModelHandler_onnx_D0ToKPi.onnx']
+                [sigmaPars, values]: chuntai = [[0.014240000396966934, 0.0017800000496208668]], mio = [[0.0142400004, 0.00178000005]]
+                [sigmaPars] Keys present in mio but not in chuntai: labels_rows, labels_cols
+
+---------------------- hf-candidate-creator-2prong -------------------------
+    Keys present in chuntai but not in mio: processNoPvRefitWithKFParticleUpc, processPvRefitWithDCAFitterNUpc, processCollisionsUpc, processNoPvRefitWithDCAFitterNUpc, axisMass, processPvRefitWithKFParticleUpc
+
+        KEY processCollisions: chuntai = 0, mio = 1
+        KEY processCollisionsCentFT0C: chuntai = 1, mio = 0
+        KEY processNoPvRefitWithDCAFitterN: chuntai = 0, mio = 1
+        KEY processNoPvRefitWithDCAFitterNCentFT0C: chuntai = 1, mio = 0
+
+            [hfEvSel, centralityMax]: chuntai = 50, mio = 100
+            [hfEvSel, centralityMin]: chuntai = 30, mio = 0
+            [hfEvSel, useItsRofBorderCut]: chuntai = 0, mio = 1
+            [hfEvSel, useSel8Trigger]: chuntai = 0, mio = 1
+            [hfEvSel, useTimeFrameBorderCut]: chuntai = 0, mio = 1
+                [th2ConfigAxisCent, values]: chuntai = [20, 30, 50], mio = [100, 0, 100]
+                [th2ConfigAxisOccupancy, values]: chuntai = [14, 0, 140000], mio = [14, 0, 14000]
+
+---------------------- hf-candidate-creator-2prong-expressions -------------------------
+    Keys present in chuntai but not in mio: matchCorrelatedBackground
+    Keys present in mio but not in chuntai: matchCorrelatedBackgrounds
+
+        KEY processMc: chuntai = 0, mio = 1
+        KEY processMcCentFT0C: chuntai = 1, mio = 0
+        KEY rejectBackground: chuntai = 0, mio = 1

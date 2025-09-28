@@ -1,11 +1,20 @@
 {
     "internal-dpl-clock": "",
+    "internal-dpl-aod-reader": {
+        "aod-file-private": "@input_derived_data_mixed_had_had.txt",
+        "aod-max-io-rate": "0",
+        "time-limit": "0",
+        "orbit-offset-enumeration": "0",
+        "orbit-multiplier-enumeration": "0",
+        "start-value-enumeration": "0",
+        "end-value-enumeration": "-1",
+        "step-value-enumeration": "1"
+    },
     "hf-correlator-flow-charm-hadrons-reduced": {
-        "fillHistoData": "true",
         "fillSparses": "true",
         "fillTables": "true",
         "numberEventsMixed": "5",
-        "binsPtD": {
+        "binsPtTrig": {
             "values": [
                 "1",
                 "3",
@@ -15,7 +24,7 @@
                 "36"
             ]
         },
-        "binsPtHadron": {
+        "binsPtAssoc": {
             "values": [
                 "0.29999999999999999",
                 "1",
@@ -23,6 +32,15 @@
                 "50"
             ]
         },
+        "deltaEtaAbsMin": "0.5",
+        "deltaEtaAbsMax": "2",
+        "dcaXYTrackMax": "1",
+        "dcaZTrackMax": "1",
+        "tpcCrossedRowsMin": "1",
+        "itsNClsMin": "1",
+        "downSamplePairsME": "0.1",
+        "ptMaxForDownSampleME": "3",
+        "centMaxForDownSampleME": "101",
         "zPoolBins": {
             "values": [
                 "0",
@@ -55,6 +73,13 @@
                 "80",
                 "90",
                 "100"
+            ]
+        },
+        "binsInvMass": {
+            "values": [
+                "300",
+                "1.6000000000000001",
+                "2.2000000000000002"
             ]
         },
         "binsMultFT0M": {
@@ -92,6 +117,20 @@
                 "4.7123891115188599"
             ]
         },
+        "binsDeltaEta": {
+            "values": [
+                "100",
+                "-2",
+                "2"
+            ]
+        },
+        "binsDeltaPhi": {
+            "values": [
+                "64",
+                "-3",
+                "3"
+            ]
+        },
         "binsPoolBin": {
             "values": [
                 "50",
@@ -99,12 +138,26 @@
                 "48"
             ]
         },
-        "processSameEventCharmHadWCentMix": "false",
+        "binsMlOne": {
+            "values": [
+                "100",
+                "0",
+                "1"
+            ]
+        },
+        "binsMlTwo": {
+            "values": [
+                "100",
+                "0",
+                "1"
+            ]
+        },
         "processSameEventCharmHadWMultMix": "false",
+        "processSameEventHadHadWMultMix": "false",
+        "processSameEventCharmHadWCentMix": "false",
+        "processSameEventHadHadWCentMix": "false",
         "processMixedEventCharmHadWCentMix": "false",
         "processMixedEventCharmHadWMultMix": "false",
-        "processSameEventHadHadWCentMix": "false",
-        "processSameEventHadHadWMultMix": "false",
         "processMixedEventHadHadWCentMix": "true",
         "processMixedEventHadHadWMultMix": "false"
     },

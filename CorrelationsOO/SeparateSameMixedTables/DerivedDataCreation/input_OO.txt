@@ -1,5 +1,0 @@
-/data/shared/Train459304_data_OO_hf/001/AO2D.root
-/data/shared/Train459304_data_OO_hf/002/AO2D.root
-/data/shared/Train459304_data_OO_hf/003/AO2D.root
-/data/shared/Train459304_data_OO_hf/004/AO2D.root
-/data/shared/Train459304_data_OO_hf/005/AO2D.root

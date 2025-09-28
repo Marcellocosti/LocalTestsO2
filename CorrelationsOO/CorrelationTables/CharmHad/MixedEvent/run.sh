@@ -1,7 +1,7 @@
 OPTION="-b --configuration json://cfg.json"
 LOGFILE="log.txt"
 
-o2-analysis-hf-correlator-flow-charm-hadrons-reduced $OPTION --aod-writer-json ../../OutputDir.json --aod-file @../../input_derived_data.txt 1 > $LOGFILE 2>&1
+o2-analysis-hf-correlator-flow-charm-hadrons-reduced $OPTION --aod-writer-json ../../OutputDir.json --aod-file @input_derived_data_mixed_charm_had.txt 1 > $LOGFILE 2>&1
 
 # report status
 rc=$?

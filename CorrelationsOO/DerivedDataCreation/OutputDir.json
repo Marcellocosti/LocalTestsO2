@@ -1,0 +1,15 @@
+{ "OutputDirector": {
+  "debug_mode": true,
+  "resfile": "AO2D",
+  "OutputDescriptors": [
+    {"table": "AOD/HFCREDCORRCOLL/0"},
+    {"table": "AOD/HFCREDTRIGBASE/0"},
+    {"table": "AOD/HFCREDTRIGCHARM/0"},
+    {"table": "AOD/HFCREDTRIGTRACK/0"},
+    {"table": "AOD/HFCREDSECHBASE/0"},
+    {"table": "AOD/HFCREDSEHADBASE/0"},
+    {"table": "AOD/HFCREDASSBASE/0"},
+    {"table": "AOD/HFCREDASSTRACK/0"}
+  ],
+  "ntfmerge": 1
+} }

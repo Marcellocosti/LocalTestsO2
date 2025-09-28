@@ -1,0 +1,67 @@
+Keys present in dplus but not in ds: hf-candidate-selector-dplus-to-pi-k-pi
+Keys present in ds but not in dplus: hf-candidate-selector-ds-to-k-k-pi
+
+---------------------- internal-dpl-clock -------------------------
+
+---------------------- internal-dpl-aod-reader -------------------------
+        KEY channel-config: dplus = name=metric-feedback,type=pull,method=connect,address=ipc://@dpl_510709_metric-feedback-510709,transport=shmem,rateLogging=0, ds = name=metric-feedback,type=pull,method=connect,address=ipc://@dpl_510479_metric-feedback-510479,transport=shmem,rateLogging=0
+
+---------------------- internal-dpl-aod-spawner -------------------------
+
+---------------------- internal-dpl-aod-index-builder -------------------------
+
+---------------------- eventselection-run3 -------------------------
+
+---------------------- pid-tpc-service -------------------------
+
+---------------------- ft0-corrected-table -------------------------
+
+---------------------- propagation-service -------------------------
+
+---------------------- tof-signal -------------------------
+
+---------------------- track-selection -------------------------
+
+---------------------- mult-cent-table -------------------------
+
+---------------------- tof-event-time -------------------------
+
+---------------------- tof-pid-full -------------------------
+
+---------------------- hf-pid-creator -------------------------
+
+---------------------- hf-candidate-creator-3prong -------------------------
+        KEY createDplus: dplus = 1, ds = 0
+        KEY createDs: dplus = 0, ds = 1
+        KEY processCollisions: dplus = 0, ds = 1
+        KEY processCollisionsCentFT0C: dplus = 1, ds = 0
+        KEY processNoPvRefitWithDCAFitterN: dplus = 0, ds = 1
+        KEY processNoPvRefitWithDCAFitterNCentFT0C: dplus = 1, ds = 0
+
+            [hfEvSel, centralityMax]: dplus = 10, ds = 100
+            [hfEvSel, requireGoodRct]: dplus = 0, ds = 1
+            [hfEvSel, useIsGoodZvtxFT0vsPV]: dplus = 1, ds = 0
+            [hfEvSel, useItsRofBorderCut]: dplus = 0, ds = 1
+            [hfEvSel, useNoSameBunchPileup]: dplus = 1, ds = 0
+            [hfEvSel, useTimeFrameBorderCut]: dplus = 0, ds = 1
+            [hfEvSel, useTvxTrigger]: dplus = 0, ds = 1
+                [th2ConfigAxisOccupancy, values]: dplus = [14, 0, 140000], ds = [14, 0, 14000]
+
+---------------------- hf-candidate-creator-3prong-expressions -------------------------
+        KEY rejectBackground: dplus = 1, ds = 0
+
+---------------------- hf-derived-data-creator-correlations-reduced -------------------------
+        KEY deltaEtaAbsMax: dplus = 100, ds = 2
+        KEY processDplusSameEvent: dplus = 1, ds = 0
+        KEY processDsSameEvent: dplus = 0, ds = 1
+        KEY ptCandMin: dplus = 0, ds = 1
+
+            [hfEvSel, centralityMax]: dplus = 10, ds = 100
+                [binsPtAssoc, values]: dplus = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.2, 1.4, 1.6, 1.8, 2, 2.2, 2.4, 2.6, 2.8, 3], ds = [0.2, 1, 2, 50]
+
+---------------------- internal-dpl-aod-writer -------------------------
+
+---------------------- internal-dpl-aod-global-analysis-file-sink -------------------------
+
+---------------------- internal-dpl-injected-dummy-sink -------------------------
+        KEY channel-config: dplus = name=metric-feedback,type=push,method=bind,address=ipc://@dpl_510709_metric-feedback-510709,transport=shmem,rateLogging=0, ds = name=metric-feedback,type=push,method=bind,address=ipc://@dpl_510479_metric-feedback-510479,transport=shmem,rateLogging=0

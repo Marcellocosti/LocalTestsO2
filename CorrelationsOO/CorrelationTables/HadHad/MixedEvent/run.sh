@@ -1,7 +1,7 @@
 OPTION="-b --configuration json://cfg.json"
 LOGFILE="log.txt"
 
-o2-analysis-hf-correlator-flow-charm-hadrons-reduced $OPTION --aod-writer-json ../../OutputDir.json --shm-segment-size 300000000000 --aod-memory-rate-limit 50000000000 --aod-file @../../input_derived_data.txt 1 > $LOGFILE 2>&1
+o2-analysis-hf-correlator-flow-charm-hadrons-reduced $OPTION --aod-writer-json ../../OutputDir.json --shm-segment-size 300000000000 --aod-memory-rate-limit 50000000000 --aod-file @input_derived_data_mixed_had_had.txt 1 > $LOGFILE 2>&1
 
 # report status
 rc=$?

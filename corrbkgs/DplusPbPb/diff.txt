@@ -1,0 +1,99 @@
+Keys present in old but not in new: track-propagation, pid-multiplicity, de-dx-correction, tpc-pid
+Keys present in new but not in old: tof-pid-full, pid-tpc-service, propagation-service
+
+---------------------- internal-dpl-clock -------------------------
+
+---------------------- internal-dpl-aod-spawner -------------------------
+
+---------------------- internal-dpl-aod-index-builder -------------------------
+
+---------------------- mc-collision-converter -------------------------
+
+---------------------- tracks-extra-v002-converter -------------------------
+
+---------------------- tracks-extra-spawner -------------------------
+        KEY tracks-extra-spawner, old = , new = {}
+
+---------------------- eventselection-run3 -------------------------
+
+            [evselOpts] Keys present in new but not in old: TestAlternativeBcMatching, TestVzDiffMargin, TestVzDiffNsigma, TestVetoOnTRDinPast, TestModifyTimeVetoOnNearbyColl
+
+---------------------- tof-signal -------------------------
+    Keys present in new but not in old: processRun3, processRun2, distanceForGoodMatchLowMult, multThreshold, distanceForGoodMatch, timeShiftCCDBPath
+    Keys present in old but not in new: ccdb-path-grplhcif, timeShiftCCDBPathPos, timeShiftCCDBPathNeg, timeShiftCCDBPathPosMC, timeShiftCCDBPathNegMC, paramFileName, parametrizationPath, reconstructionPass, reconstructionPassDefault, fatalOnPassNotAvailable, enableTimeDependentResponse, collisionSystem, autoSetProcessFunctions
+
+---------------------- ft0-corrected-table -------------------------
+
+---------------------- mult-cent-table -------------------------
+        KEY generatorName: old = , new = PYTHIA
+        KEY processMonteCarlo2Mults: old = 0, new = 1
+        KEY processMonteCarlo: old = 0, new = 1
+
+                [enabledTables, values]: old = [[-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1]], new = [[-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1], [-1]]
+                [enabledTables] Keys present in old but not in new: labels_rows, labels_cols
+
+---------------------- tof-event-time -------------------------
+    Keys present in new but not in old: parametrizationPath, fatalOnPassNotAvailable, paramFileName, processOnlyFT0, enableTimeDependentResponse, processRun2, passName, inheritFromBaseTask, processNoFT0, ccdb-timestamp, processFT0, ccdb-url, loadResponseFromCCDB
+    Keys present in old but not in new: computeEvTimeWithTOF, computeEvTimeWithFT0
+
+        KEY sel8TOFEvTime: old = 1, new = 0
+
+---------------------- mc-pid-tof -------------------------
+
+---------------------- hf-pid-creator -------------------------
+
+---------------------- hf-candidate-creator-3prong -------------------------
+    Keys present in old but not in new: processPvRefitWithDCAFitterNUpc, processNoPvRefitWithDCAFitterNUpc, processPvRefitWithKFParticleUpc, processNoPvRefitWithKFParticleUpc, processCollisionsUpc
+
+            [hfEvSel, ccdbPathSoftwareTrigger]: old = Users/m/mpuccio/EventFiltering/OTS/Chunked/, new = Users/m/mpuccio/EventFiltering/OTS/
+            [hfEvSel, centralityMax]: old = 100, new = 50
+            [hfEvSel, centralityMin]: old = 0, new = 40
+            [hfEvSel, requireGoodRct]: old = 1, new = 0
+
+---------------------- hf-candidate-creator-3prong-expressions -------------------------
+    Keys present in old but not in new: matchCorrelatedBackground, pdgMothersCorrelBkg
+
+        KEY matchInteractionsWithMaterial: old = 1, new = 0
+        KEY matchKinkedDecayTopology: old = 1, new = 0
+        KEY rejectBackground: old = 0, new = 1
+
+---------------------- hf-candidate-selector-dplus-to-pi-k-pi -------------------------
+        KEY applyMl: old = 1, new = 0
+        KEY loadModelsFromCCDB: old = 1, new = 0
+        KEY nSigmaTofCombinedMax: old = 3, new = 10
+        KEY nSigmaTofMax: old = 3, new = 10
+        KEY nSigmaTpcCombinedMax: old = 3, new = 10
+        KEY nSigmaTpcMax: old = 3, new = 10
+        KEY ptCandMax: old = 50, new = 36
+        KEY ptCandMin: old = 1, new = 0
+        KEY ptPidTofMax: old = 100, new = 99
+        KEY ptPidTpcMax: old = 100, new = 99
+        KEY timestampCCDB: old = 1657032422771, new = -1
+        KEY usePidTpcAndTof: old = 1, new = 0
+
+                [binsPt, values]: old = [1, 5, 100], new = [0, 3, 5, 8, 12, 24, 36]
+                [binsPtMl, values]: old = [1, 100], new = [0, 3, 5, 8, 12, 24, 36]
+                [cutDirMl, values]: old = [0, 1, 1], new = [0, 2, 1]
+                [cuts, values]: old = [[0.2, 0.3, 0.3, 0.02, 0, 0.96, -1, 1000], [0.2, 0.3, 0.3, 0.03, 0, 0.98, -1, 1000], [0.2, 0.3, 0.3, 0.1, 5, 0.96, 0.98, 2.5], [0.2, 0.3, 0.3, 0.1, 5, 0.96, 0, 2.5], [0.2, 0.3, 0.3, 0.1, 5, 0.96, 0, 2.5], [0.2, 0.3, 0.3, 0.1, 5, 0.96, 0, 2.5], [0.2, 0.3, 0.3, 0.1, 5, 0.96, 0, 2.5], [0.2, 0.3, 0.3, 0.12, 5, 0.96, 0, 2.5], [0.2, 0.3, 0.3, 0.12, 5, 0.96, 0, 2.5], [0.2, 0.3, 0.3, 0.12, 5, 0.96, 0, 2.5], [0.2, 0.3, 0.3, 0.12, 5, 0.96, 0, 2.5], [0.2, 0.3, 0.3, 0.2, 5, 0.94, 0, 2.5]], new = [[10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000], [10, 0.4, 0.4, 0.05, 0, 0.95, 0, 1000]]
+                [cutsMl, values]: old = [[0.04, 0, 0], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5], [0.5, 0.5, 0.5]], new = [[1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0], [1, 0, 0]]
+                [cutsMl] Keys present in old but not in new: labels_rows, labels_cols
+                [cutsSingleTrack, values]: old = [[0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100]], new = [[0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0.0025, 10, 0, 100], [0, 10, 0, 100], [0, 10, 0, 100]]
+                [cutsSingleTrack] Keys present in old but not in new: labels_rows, labels_cols
+                [cuts] Keys present in old but not in new: labels_rows, labels_cols
+                [deltaMassPars, values]: old = [[-0.00249999994, 9.99999975e-05]], new = [[-0.0024999999441206455, 9.999999747378752e-05]]
+                [deltaMassPars] Keys present in old but not in new: labels_rows, labels_cols
+                [modelPathsCCDB, values]: old = ['EventFiltering/PWGHF/BDTSmearedDplus'], new = ['dummy/path']
+                [namesInputFeatures, values]: old = ['ptProng0', 'impactParameterXY0', 'impactParameterZ0', 'ptProng1', 'impactParameterXY1', 'impactParameterZ1', 'ptProng2', 'impactParameterXY2', 'impactParameterZ2'], new = ['nofeatures']
+                [onnxFileNames, values]: old = ['ModelHandler_onnx_DplusToKPiPi.onnx'], new = ['nomodels']
+                [sigmaPars, values]: old = [[0.00796000008, 0.00176000001]], new = [[0.007960000075399876, 0.0017600000137463212]]
+                [sigmaPars] Keys present in old but not in new: labels_rows, labels_cols
+
+---------------------- hf-tree-creator-dplus-to-pi-k-pi -------------------------
+        KEY ptMaxForDownSample: old = 1000, new = 10
+        KEY selectionFlagDplus: old = 14, new = 7
+
+---------------------- internal-dpl-aod-writer -------------------------
+
+---------------------- internal-dpl-aod-global-analysis-file-sink -------------------------
+
+---------------------- internal-dpl-injected-dummy-sink -------------------------

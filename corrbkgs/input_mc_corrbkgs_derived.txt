@@ -1,4 +1,3 @@
-/data/shared/Train468498_hf_pp_corrbkgs/0001/AO2D.root
 /data/shared/Train468498_hf_pp_corrbkgs/0002/AO2D.root
 /data/shared/Train468498_hf_pp_corrbkgs/0003/AO2D.root
 /data/shared/Train468498_hf_pp_corrbkgs/0004/AO2D.root
@@ -12,7 +11,3 @@
 /data/shared/Train468498_hf_pp_corrbkgs/0012/AO2D.root
 /data/shared/Train468498_hf_pp_corrbkgs/0013/AO2D.root
 /data/shared/Train468498_hf_pp_corrbkgs/0014/AO2D.root
-/data/shared/Train468498_hf_pp_corrbkgs/0015/AO2D.root
-/data/shared/Train468498_hf_pp_corrbkgs/0016/AO2D.root
-/data/shared/Train468498_hf_pp_corrbkgs/0017/AO2D.root
-/data/shared/Train468498_hf_pp_corrbkgs/0018/AO2D.root
