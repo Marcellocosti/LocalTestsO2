@@ -12,7 +12,7 @@
     },
     "hf-correlator-flow-charm-hadrons-reduced": {
         "fillSparses": "true",
-        "fillTables": "true",
+        "fillTables": "false",
         "numberEventsMixed": "5",
         "binsPtTrig": {
             "values": [
@@ -24,13 +24,22 @@
                 "36"
             ]
         },
-        "bkgScoresPtMaxs": {
+        "bdtScore0PtMaxs": {
             "values": [
-                "0.2",
-                "0.2",
-                "0.2",
-                "0.2",
-                "0.2"
+                "0.10000000000000001",
+                "0.10000000000000001",
+                "0.10000000000000001",
+                "0.10000000000000001",
+                "0.10000000000000001"
+            ]
+        },
+        "bdtScore1PtMins": {
+            "values": [
+                "0.10000000000000001",
+                "0.10000000000000001",
+                "0.10000000000000001",
+                "0.10000000000000001",
+                "0.10000000000000001"
             ]
         },
         "binsPtAssoc": {
@@ -41,15 +50,43 @@
                 "50"
             ]
         },
+        "centralityMin": "0",
+        "centralityMax": "10",
         "deltaEtaAbsMin": "0.5",
         "deltaEtaAbsMax": "2",
         "dcaXYTrackMax": "1",
         "dcaZTrackMax": "1",
         "tpcCrossedRowsMin": "1",
         "itsNClsMin": "1",
-        "downSamplePairsME": "1",
-        "ptMaxForDownSampleME": "10",
-        "centMaxForDownSampleME": "10",
+        "downSamplePairs": "1",
+        "ptMaxForDownSample": "10",
+        "centMaxForDownSample": "10",
+        "zPoolBins": {
+            "values": [
+                "0",
+                "-10",
+                "-2.5",
+                "2.5",
+                "10"
+            ]
+        },
+        "multPoolBins": {
+            "values": [
+                "0",
+                "0",
+                "900",
+                "1800",
+                "6000"
+            ]
+        },
+        "centPoolBins": {
+            "values": [
+                "0",
+                "0",
+                "5",
+                "10"
+            ]
+        },
         "binsInvMass": {
             "values": [
                 "300",
@@ -85,13 +122,6 @@
                 "2"
             ]
         },
-        "binsPhi": {
-            "values": [
-                "64",
-                "-1.5707963705062868",
-                "4.7123891115188599"
-            ]
-        },
         "binsDeltaEta": {
             "values": [
                 "100",
@@ -102,15 +132,8 @@
         "binsDeltaPhi": {
             "values": [
                 "64",
-                "-3",
-                "3"
-            ]
-        },
-        "binsPoolBin": {
-            "values": [
-                "50",
                 "-2",
-                "48"
+                "5"
             ]
         },
         "binsMlOne": {
@@ -134,9 +157,9 @@
         "processMixedEventCharmHadWCentMix": "false",
         "processMixedEventCharmHadWMultMix": "false",
         "processMixedEventHadHadWCentMix": "false",
-        "processMixedEventHadHadWMultMix": "false"
+        "processMixedEventHadHadWMultMix": "false",
+        "processCharmTriggers": "true"
     },
-    "internal-dpl-aod-writer": "",
     "internal-dpl-aod-global-analysis-file-sink": "",
     "internal-dpl-injected-dummy-sink": ""
 }

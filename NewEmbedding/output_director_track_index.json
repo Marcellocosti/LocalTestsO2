@@ -1,0 +1,18 @@
+{ 
+    "OutputDirector": {
+    "debug_mode": true,
+    "resfile": "AO2D",
+    "OutputDescriptors": [
+        {
+            "table": "AOD/HFDSTAR/1"
+        },
+        {
+            "table": "AOD/HF3PRONG/1"
+        },
+        {
+            "table": "AOD/HF2PRONG/1"
+        }
+    ],
+    "ntfmerge": 1
+    }
+}

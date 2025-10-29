@@ -20,3 +20,4 @@ rm ao2ds_to_merge.txt
 rm localhost*
 
 python3 ~/LocalTestsO2/utils/proj_thnsparse.py -corrflow
+python3 ~/LocalTestsO2/utils/proj_thnsparse.py -corrflowtrigger -on "Proj_trig"

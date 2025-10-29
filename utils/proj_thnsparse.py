@@ -13,6 +13,7 @@ parser.add_argument("-dsdata", "--dsdata", help="Project Ds data output", action
 parser.add_argument("-dpflow", "--dplusflow", help="Project D+ flow output", action="store_true")
 parser.add_argument("-dpflowep", "--dplusflowep", help="Project D+ flow output", action="store_true")
 parser.add_argument("-corrflow", "--correlationflow", help="Project correlation flow output", action="store_true")
+parser.add_argument("-corrflowtrigger", "--correlationflowtrigger", help="Project correlation flow trigger output", action="store_true")
 parser.add_argument("-s", "--suffix", help="Input and output suffix", type=str, default="")
 parser.add_argument("-o", "--outdir", help="Input and output suffix", type=str, default="")
 parser.add_argument("-sn", "--sparsename", help="Path to sparse to project", type=str, default="")
@@ -65,6 +66,11 @@ if args.correlationflow:
     sparse_name = "hf-correlator-flow-charm-hadrons-reduced"
     print("Projecting correlation flow")
 
+if args.correlationflowtrigger:
+    sparses = ["hSparseTrigCandsCharm"]
+    sparse_name = "hf-correlator-flow-charm-hadrons-reduced"
+    print("Projecting correlation flow trigger")
+
 if not any(vars(args).values()):
     print("No actions specified. Use --help for options.")
 
@@ -91,7 +97,12 @@ out_file.cd()
 
 for sparse in sparses:
     try:
-        if args.dplusmc or args.dplusdata or args.dplusflowep or args.correlationflow:
+        if args.dplusmc or args.dplusdata:
+            print(f"sparse_name: {sparse_name}")
+            print(f"sparse: {sparse}")
+            print(f"Getting sparse: {sparse_name}{sparse}")
+            thn_sparse = test_file.Get(f'{sparse_name}{sparse}')
+        elif args.dplusflowep or args.correlationflow or args.correlationflowtrigger:
             if args.sparsename != "":
                 print(f"Getting sparse: {args.sparsename}")
                 thn_sparse = test_file.Get(args.sparsename)
