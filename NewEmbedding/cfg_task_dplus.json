@@ -1374,7 +1374,7 @@
         "storeCentrality": "false",
         "storeOccupancy": "false",
         "storePvContributors": "false",
-        "fillMcBkgHistos": "false",
+        "fillMcBkgHistos": "true",
         "thnConfigAxisY": {
             "values": [
                 "40",

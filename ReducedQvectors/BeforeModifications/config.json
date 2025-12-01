@@ -873,17 +873,25 @@
         "processWoSlice": "false"
     },
     "hf-pid-creator": {
-        "processTinyKa": "0",
-        "processTinyEl": "0",
-        "processTinyMu": "0",
-        "processTinyPr": "0",
-        "processFullPr": "1",
-        "processTinyPi": "0",
-        "processFullKa": "1",
-        "processDummy": "0",
-        "processFullEl": "0",
-        "processFullMu": "0",
-        "processFullPi": "1"
+        "processDummy": "false",
+        "processFullEl": "false",
+        "processTinyEl": "false",
+        "processFullMu": "false",
+        "processTinyMu": "false",
+        "processFullPi": "true",
+        "processTinyPi": "false",
+        "processFullKa": "true",
+        "processTinyKa": "false",
+        "processFullPr": "true",
+        "processTinyPr": "false",
+        "processFullDe": "true",
+        "processTinyDe": "false",
+        "processFullTr": "true",
+        "processTinyTr": "false",
+        "processFullHe": "true",
+        "processTinyHe": "false",
+        "processFullAl": "true",
+        "processTinyAl": "false"
     },
     "hf-candidate-creator-3prong": {
         "propagateToPCA": "true",
@@ -987,7 +995,407 @@
         "processMcCentFT0C": "false",
         "processMcCentFT0M": "false"
     },
-    "hf-candidate-selector-dplus-to-pi-k-pi": "",
+    "hf-candidate-selector-dplus-to-pi-k-pi": {
+        "ptCandMin": "0",
+        "ptCandMax": "24",
+        "acceptPIDNotApplicable": "true",
+        "ptPidTpcMin": "0.14999999999999999",
+        "ptPidTpcMax": "20",
+        "nSigmaTpcMax": "5",
+        "nSigmaTpcCombinedMax": "5",
+        "ptPidTofMin": "0.14999999999999999",
+        "ptPidTofMax": "24",
+        "nSigmaTofMax": "5",
+        "nSigmaTofCombinedMax": "5",
+        "usePidTpcAndTof": "true",
+        "binsPt": {
+            "values": [
+                "0",
+                "3",
+                "5",
+                "8",
+                "12",
+                "24"
+            ]
+        },
+        "cuts": {
+            "labels_rows": [
+                "pT bin 0",
+                "pT bin 1",
+                "pT bin 2",
+                "pT bin 3",
+                "pT bin 4",
+                "pT bin 5",
+                "pT bin 6",
+                "pT bin 7",
+                "pT bin 8",
+                "pT bin 9",
+                "pT bin 10",
+                "pT bin 11"
+            ],
+            "labels_cols": [
+                "deltaM",
+                "pT Pi",
+                "pT K",
+                "decay length",
+                "normalized decay length XY",
+                "cos pointing angle",
+                "cos pointing angle XY",
+                "max normalized deltaIP"
+            ],
+            "values": [
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ],
+                [
+                    "10",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.050000000000000003",
+                    "0",
+                    "0.94999999999999996",
+                    "0",
+                    "1000"
+                ]
+            ]
+        },
+        "cutsSingleTrack": {
+            "labels_rows": "",
+            "labels_cols": [
+                "min_dcaxytoprimary",
+                "max_dcaxytoprimary",
+                "min_dcaztoprimary",
+                "max_dcaztoprimary"
+            ],
+            "values": [
+                [
+                    "0.0025000000000000001",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0.0025000000000000001",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0.0025000000000000001",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0.0025000000000000001",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0",
+                    "10",
+                    "0",
+                    "100"
+                ]
+            ]
+        },
+        "binsPtTrack": {
+            "values": [
+                "0",
+                "0.5",
+                "1",
+                "1.5",
+                "2",
+                "3",
+                "1000"
+            ]
+        },
+        "activateQA": "true",
+        "applyMl": "true",
+        "binsPtMl": {
+            "values": [
+                "0",
+                "3",
+                "5",
+                "8",
+                "12",
+                "24"
+            ]
+        },
+        "cutDirMl": {
+            "values": [
+                "0",
+                "2",
+                "1"
+            ]
+        },
+        "cutsMl": {
+            "labels_rows": [
+                "pT bin 0",
+                "pT bin 1",
+                "pT bin 2",
+                "pT bin 3",
+                "pT bin 4",
+                "pT bin 5",
+                "pT bin 6",
+                "pT bin 7",
+                "pT bin 8",
+                "pT bin 9",
+                "pT bin 10",
+                "pT bin 11"
+            ],
+            "labels_cols": [
+                "score class 1",
+                "score class 2",
+                "score class 3"
+            ],
+            "values": [
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.40000000000000002",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ],
+                [
+                    "0.20000000000000001",
+                    "0",
+                    "0"
+                ]
+            ]
+        },
+        "nClassesMl": "3",
+        "namesInputFeatures": {
+            "values": [
+                "decayLength",
+                "decayLengthXY",
+                "cpa",
+                "cpaXY",
+                "impactParameterXY0",
+                "impactParameterXY1",
+                "impactParameterXY2",
+                "tpcTofNSigmaPi0",
+                "tpcTofNSigmaKa1",
+                "tpcTofNSigmaPi2",
+                "chi2PCA"
+            ]
+        },
+        "ccdbUrl": "http:\/\/alice-ccdb.cern.ch",
+        "modelPathsCCDB": {
+            "values": [
+                "Users\/m\/mdicosta\/dplus\/pbpb\/medium_30_50_chi2cpa\/pT_1_3\/",
+                "Users\/m\/mdicosta\/dplus\/pbpb\/medium_30_50_chi2cpa\/pT_3_5\/",
+                "Users\/m\/mdicosta\/dplus\/pbpb\/medium_30_50_chi2cpa\/pT_5_8\/",
+                "Users\/m\/mdicosta\/dplus\/pbpb\/medium_30_50_chi2cpa\/pT_8_12\/",
+                "Users\/m\/mdicosta\/dplus\/pbpb\/medium_30_50_chi2cpa\/pT_12_24\/"
+            ]
+        },
+        "onnxFileNames": {
+            "values": [
+                "ModelHandler_pT_1_3_corrtof.onnx",
+                "ModelHandler_pT_3_5_corrtof.onnx",
+                "ModelHandler_pT_5_8_corrtof.onnx",
+                "ModelHandler_pT_8_12_corrtof.onnx",
+                "ModelHandler_pT_12_24_corrtof.onnx"
+            ]
+        },
+        "timestampCCDB": "-1",
+        "loadModelsFromCCDB": "true",
+        "useTriggerMassCut": "false",
+        "hfTrigger3ProngCuts": {
+            "nSigmaMax": "2",
+            "ptDeltaMassMax": "10",
+            "ptMassCutMax": "9999",
+            "deltaMassPars": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "constant",
+                    "linear"
+                ],
+                "values": [
+                    [
+                        "-0.00249999994",
+                        "9.99999975e-05"
+                    ]
+                ]
+            },
+            "sigmaPars": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "constant",
+                    "linear"
+                ],
+                "values": [
+                    [
+                        "0.00796000008",
+                        "0.00176000001"
+                    ]
+                ]
+            }
+        }
+    },
     "hf-task-flow-charm-hadrons": {
         "harmonic": "2",
         "qvecDetector": "3",

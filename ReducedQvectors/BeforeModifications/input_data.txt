@@ -1,0 +1,5 @@
+/home/mdicosta/LocalTestsO2/ReducedQvectors/InputsLHC23Pass4/AO2D_0001.root
+/home/mdicosta/LocalTestsO2/ReducedQvectors/InputsLHC23Pass4/AO2D_0002.root
+/home/mdicosta/LocalTestsO2/ReducedQvectors/InputsLHC23Pass4/AO2D_0003.root
+/home/mdicosta/LocalTestsO2/ReducedQvectors/InputsLHC23Pass4/AO2D_0004.root
+/home/mdicosta/LocalTestsO2/ReducedQvectors/InputsLHC23Pass4/AO2D_0005.root
