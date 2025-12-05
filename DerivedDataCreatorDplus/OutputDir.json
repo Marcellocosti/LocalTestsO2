@@ -1,0 +1,9 @@
+{ "OutputDirector": {
+  "debug_mode": true,
+  "resfile": "AO2D",
+  "OutputDescriptors": [
+    {"table": "AOD/HFDPML/0"},
+    {"table": "AOD/HFDPDAUG/0"}
+  ],
+  "ntfmerge": 1
+} }

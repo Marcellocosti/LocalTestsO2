@@ -1,0 +1,1 @@
+alien.py cp /alice/cern.ch/user/a/alihyperloop/jobs/0140/hy_1401099/0010/AO2D.root file:/home/mdicosta/LocalTestsO2/TestFiles/DataPPRef/Train338875/0140/hy_1401099/0010/AO2D.root
