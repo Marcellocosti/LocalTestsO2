@@ -1,0 +1,21 @@
+{
+  "timestamp-task": {
+    "rct-path": "RCT/Info/RunInformation",
+    "orbit-reset-path": "CTP/Calib/OrbitReset",
+    "fatalOnInvalidTimestamp": "0",
+    "ccdb-url": "http://alice-ccdb.cern.ch",
+    "verbose": "0",
+    "isRun2MC": "-1"
+  },
+  "lumi-stability-p-p": {
+    "doBCA": "1",
+    "doBCB": "1",
+    "doBCC": "1",
+    "doBCL": "1",
+    "doBCSL": "1",
+    "requireNoT0ForSLBC": "0",
+    "doBCE": "1",
+    "numEmptyBCsBeforeLeadingBC": "5"
+  },
+  "build-bc-flag-table": {}
+}
