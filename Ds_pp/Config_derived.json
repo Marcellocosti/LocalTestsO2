@@ -1,817 +1,1267 @@
 {
-  "internal-dpl-clock": "",
-  "internal-dpl-aod-reader": {
-      "aod-max-io-rate": "0",
-      "time-limit": "100000",
-      "orbit-offset-enumeration": "0",
-      "orbit-multiplier-enumeration": "0",
-      "start-value-enumeration": "0",
-      "end-value-enumeration": "-1",
-      "step-value-enumeration": "1"
-  },
-  "hf-task-ds": {
-    "axisNPvContributors": {
-      "values": [
-        200,
-        -0.5,
-        199.5
-      ]
+    "internal-dpl-clock": "",
+    "internal-dpl-aod-reader": {
+        "aod-file-private": "@input_data.txt",
+        "aod-max-io-rate": "0",
+        "time-limit": "300",
+        "orbit-offset-enumeration": "0",
+        "orbit-multiplier-enumeration": "0",
+        "start-value-enumeration": "0",
+        "end-value-enumeration": "-1",
+        "step-value-enumeration": "1"
     },
-    "decayChannel": "2",
-    "processDataWithMl": "0",
-    "occEstimator": "0",
-    "classMl": {
-      "values": [
-        0,
-        1,
-        2
-      ]
+    "internal-dpl-aod-spawner": "",
+    "internal-dpl-aod-index-builder": "",
+    "tracks-extra-v002-converter": {
+        "processV000ToV002": "false",
+        "processV001ToV002": "true"
     },
-    "reconstructionPass": "",
-    "axisPt": {
-      "values": [
-        240,
-        0,
-        24
-      ]
+    "tracks-extra-spawner": "",
+    "eventselection-run3": {
+        "timestamp": {
+            "verbose": "false",
+            "fatalOnInvalidTimestamp": "false",
+            "rct-path": "RCT\/Info\/RunInformation",
+            "orbit-reset-path": "CTP\/Calib\/OrbitReset",
+            "isRun2MC": "-1"
+        },
+        "bcselOpts": {
+            "amIneeded": "-1",
+            "triggerBcShift": "0",
+            "ITSROFrameStartBorderMargin": "-1",
+            "ITSROFrameEndBorderMargin": "-1",
+            "TimeFrameStartBorderMargin": "-1",
+            "TimeFrameEndBorderMargin": "-1",
+            "checkRunDurationLimits": "false",
+            "maxInactiveChipsPerLayer": {
+                "values": [
+                    "8",
+                    "8",
+                    "8",
+                    "111",
+                    "111",
+                    "195",
+                    "195"
+                ]
+            },
+            "NumberOfOrbitsPerTF": "-1"
+        },
+        "evselOpts": {
+            "amIneeded": "-1",
+            "muonSelection": "0",
+            "maxDiffZvtxFT0vsPV": "3",
+            "isMC": "-1",
+            "confSigmaBCforHighPtTracks": "4",
+            "TimeIntervalForOccupancyCalculationMin": "-40",
+            "TimeIntervalForOccupancyCalculationMax": "100",
+            "TimeRangeVetoOnCollStrict": "10",
+            "TimeRangeVetoOnCollNarrow": "0.25",
+            "FT0CamplPerCollCutVetoOnCollInTimeRange": "8000",
+            "FT0CamplPerCollCutVetoOnCollInROF": "5000",
+            "EpsilonVzDiffVetoInROF": "0.300000012",
+            "UseWeightsForOccupancyEstimator": "true",
+            "NumberOfOrbitsPerTF": "-1",
+            "VzDiffNsigma": "3",
+            "VzDiffMargin": "0.200000003"
+        },
+        "lumiOpts": {
+            "amIneeded": "-1"
+        },
+        "ccdburl": "http:\/\/alice-ccdb.cern.ch"
     },
-    "processMcWithMlAndCentFT0C": "0",
-    "yCandRecoMax": "0.8",
-    "axisMlScore1": {
-      "values": [
-        100,
-        0,
-        1
-      ]
+    "pid-tpc-service": {
+        "ccdburl": "http:\/\/alice-ccdb.cern.ch",
+        "pidTPC": {
+            "param-file": "",
+            "ccdbPath": "Analysis\/PID\/TPC\/Response",
+            "recoPass": "",
+            "ccdb-timestamp": "0",
+            "useNetworkCorrection": "true",
+            "autofetchNetworks": "true",
+            "skipTPCOnly": "-1",
+            "devicesRequiringTPCOnlyPID": {
+                "values": [
+                    "photon-conversion-builder"
+                ]
+            },
+            "networkPathLocally": "network.onnx",
+            "networkPathCCDB": "Analysis\/PID\/TPC\/ML",
+            "enableNetworkOptimizations": "true",
+            "networkSetNumThreads": "0",
+            "savedEdxsCorrected": "-1",
+            "useCorrecteddEdx": "false",
+            "pid-full-el": "-1",
+            "pid-full-mu": "-1",
+            "pid-full-pi": "-1",
+            "pid-full-ka": "-1",
+            "pid-full-pr": "-1",
+            "pid-full-de": "-1",
+            "pid-full-tr": "-1",
+            "pid-full-he": "-1",
+            "pid-full-al": "-1",
+            "pid-tiny-el": "-1",
+            "pid-tiny-mu": "-1",
+            "pid-tiny-pi": "-1",
+            "pid-tiny-ka": "-1",
+            "pid-tiny-pr": "-1",
+            "pid-tiny-de": "-1",
+            "pid-tiny-tr": "-1",
+            "pid-tiny-he": "-1",
+            "pid-tiny-al": "-1",
+            "enableTuneOnDataTable": "-1",
+            "useNetworkEl": "1",
+            "useNetworkMu": "0",
+            "useNetworkPi": "1",
+            "useNetworkKa": "1",
+            "useNetworkPr": "1",
+            "useNetworkDe": "0",
+            "useNetworkTr": "0",
+            "useNetworkHe": "0",
+            "useNetworkAl": "0",
+            "networkBetaGammaCutoff": "0.449999988",
+            "ccdb-path-grplhcif": "GLO\/Config\/GRPLHCIF"
+        },
+        "processTracksIU": "true",
+        "processTracksIUWithTracksQA": "false",
+        "processTracksMCIU": "false"
     },
-    "processMc": "0",
-    "yCandGenMax": "0.5",
-    "axisPtBHad": {
-      "values": [
-        50,
-        0,
-        100
-      ]
+    "ft0-corrected-table": {
+        "resoFT0A": "20",
+        "resoFT0C": "20",
+        "addHistograms": "false",
+        "collisionSystem": "-2",
+        "ccdb-url": "http:\/\/alice-ccdb.cern.ch",
+        "ccdb-path-grplhcif": "GLO\/Config\/GRPLHCIF",
+        "ccdb-timestamp": "-1",
+        "processStandard": "true",
+        "processWithBypassFT0timeInMC": "false"
     },
-    "axisMlScore0": {
-      "values": [
-        1000,
-        0,
-        1
-      ]
+    "propagation-service": {
+        "ccdburl": "http:\/\/alice-ccdb.cern.ch",
+        "ccdb": {
+            "ccdb-url": "http:\/\/alice-ccdb.cern.ch",
+            "lutPath": "GLO\/Param\/MatLUTInner",
+            "grpmagPath": "GLO\/Config\/GRPMagField",
+            "grpPath": "GLO\/GRP\/GRP",
+            "mVtxPath": "GLO\/Calib\/MeanVertex"
+        },
+        "enabledTables": {
+            "labels_rows": [
+                "V0Indices",
+                "V0CoresBase",
+                "V0Covs",
+                "CascIndices",
+                "KFCascIndices",
+                "TraCascIndices",
+                "StoredCascCores",
+                "StoredKFCascCores",
+                "StoredTraCascCores",
+                "CascCovs",
+                "KFCascCovs",
+                "TraCascCovs",
+                "V0TrackXs",
+                "CascTrackXs",
+                "CascBBs",
+                "V0DauCovs",
+                "V0DauCovIUs",
+                "V0TraPosAtDCAs",
+                "V0TraPosAtIUs",
+                "V0Ivanovs",
+                "McV0Labels",
+                "V0MCCores",
+                "V0CoreMCLabels",
+                "V0MCCollRefs",
+                "McCascLabels",
+                "McKFCascLabels",
+                "McTraCascLabels",
+                "McCascBBTags",
+                "CascMCCores",
+                "CascCoreMCLabels",
+                "CascMCCollRefs",
+                "CascToTraRefs",
+                "CascToKFRefs",
+                "TraToCascRefs",
+                "KFToCascRefs",
+                "V0FoundTags",
+                "CascFoundTags"
+            ],
+            "labels_cols": [
+                "enable"
+            ],
+            "values": [
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ],
+                [
+                    "-1"
+                ]
+            ]
+        },
+        "deduplicationAlgorithm": "1",
+        "useV0BufferForCascades": "false",
+        "mc_findableMode": "0",
+        "refitWithMaterialCorrection": "false",
+        "v0BuilderOpts": {
+            "generatePhotonCandidates": "false",
+            "moveTPCOnlyTracks": "true",
+            "minCrossedRows": "50",
+            "dcanegtopv": "0.0500000007",
+            "dcapostopv": "0.0500000007",
+            "v0cospa": "0.94999999999999996",
+            "dcav0dau": "1",
+            "v0radius": "0.899999976",
+            "maxDaughterEta": "5",
+            "mc_populateV0MCCoresSymmetric": "true",
+            "mc_populateV0MCCoresAsymmetric": "false",
+            "mc_treatPiToMuDecays": "true",
+            "mc_rapidityWindow": "0.5",
+            "mc_keepOnlyPhysicalPrimary": "false",
+            "mc_addGeneratedK0Short": "true",
+            "mc_addGeneratedLambda": "true",
+            "mc_addGeneratedAntiLambda": "true",
+            "mc_addGeneratedGamma": "false",
+            "mc_addGeneratedGammaMakeCollinear": "true",
+            "mc_findableDetachedV0": "false"
+        },
+        "cascadeBuilderOpts": {
+            "useCascadeMomentumAtPrimVtx": "false",
+            "minCrossedRows": "50",
+            "dcabachtopv": "0.0500000007",
+            "cascradius": "0.899999976",
+            "casccospa": "0.949999988",
+            "dcacascdau": "1",
+            "lambdaMassWindow": "0.00999999978",
+            "maxDaughterEta": "5",
+            "kfTuneForOmega": "false",
+            "kfConstructMethod": "2",
+            "kfUseV0MassConstraint": "true",
+            "kfUseCascadeMassConstraint": "false",
+            "kfDoDCAFitterPreMinimV0": "true",
+            "kfDoDCAFitterPreMinimCasc": "true",
+            "mc_populateCascMCCoresSymmetric": "true",
+            "mc_populateCascMCCoresAsymmetric": "false",
+            "mc_addGeneratedXiMinus": "true",
+            "mc_addGeneratedXiPlus": "true",
+            "mc_addGeneratedOmegaMinus": "true",
+            "mc_addGeneratedOmegaPlus": "true",
+            "mc_treatPiToMuDecays": "true",
+            "mc_rapidityWindow": "0.5",
+            "mc_keepOnlyPhysicalPrimary": "false",
+            "mc_findableDetachedCascade": "false"
+        },
+        "preSelectOpts": {
+            "preselectOnlyDesiredV0s": "false",
+            "preselectOnlyDesiredCascades": "false",
+            "lifetimeCut": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "lifetimeCutK0S",
+                    "lifetimeCutLambda",
+                    "lifetimeCutXi",
+                    "lifetimeCutOmega"
+                ],
+                "values": [
+                    [
+                        "20",
+                        "60",
+                        "40",
+                        "20"
+                    ]
+                ]
+            },
+            "massCutPhoton": "0.300000012",
+            "massCutK0": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "constant",
+                    "linear",
+                    "expoConstant",
+                    "expoRelax"
+                ],
+                "values": [
+                    [
+                        "0.00281882007",
+                        "0.00114057004",
+                        "0.00172138005",
+                        "0.500262022"
+                    ]
+                ]
+            },
+            "massCutLambda": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "constant",
+                    "linear",
+                    "expoConstant",
+                    "expoRelax"
+                ],
+                "values": [
+                    [
+                        "0.00117517996",
+                        "0.000124098995",
+                        "0.00547936978",
+                        "0.308008999"
+                    ]
+                ]
+            },
+            "massCutXi": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "constant",
+                    "linear",
+                    "expoConstant",
+                    "expoRelax"
+                ],
+                "values": [
+                    [
+                        "0.00143209996",
+                        "0.000203560994",
+                        "0.00243186997",
+                        "0.799668014"
+                    ]
+                ]
+            },
+            "massCutOm": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "constant",
+                    "linear",
+                    "expoConstant",
+                    "expoRelax"
+                ],
+                "values": [
+                    [
+                        "0.00143209996",
+                        "0.000203560994",
+                        "0.00243186997",
+                        "0.799668014"
+                    ]
+                ]
+            },
+            "massWindownumberOfSigmas": "20",
+            "massWindowSafetyMargin": "0.00100000005",
+            "maxTPCpidNsigma": "5"
+        },
+        "trackTuner": {
+            "debugInfo": "false",
+            "updateTrackDCAs": "false",
+            "updateTrackCovMat": "false",
+            "updateCurvature": "false",
+            "updateCurvatureIU": "false",
+            "updatePulls": "false",
+            "isInputFileFromCCDB": "false",
+            "pathInputFile": "",
+            "nameInputFile": "",
+            "pathFileQoverPt": "",
+            "nameFileQoverPt": "",
+            "usePvRefitCorrections": "false",
+            "qOverPtMC": "-1",
+            "qOverPtData": "-1",
+            "nPhiBins": "0",
+            "autoDetectDcaCalib": "false"
+        },
+        "trackPropagation": {
+            "minPropagationDistance": "5",
+            "useTrackTuner": "false",
+            "useTrkPid": "false",
+            "fillTrackTunerTable": "false",
+            "trackTunerConfigSource": "1",
+            "trackTunerParams": "debugInfo=0|updateTrackDCAs=1|updateTrackCovMat=1|updateCurvature=0|updateCurvatureIU=0|updatePulls=0|isInputFileFromCCDB=1|pathInputFile=Users\/m\/mfaggin\/test\/inputsTrackTuner\/PbPb2022|nameInputFile=trackTuner_DataLHC22sPass5_McLHC22l1b2_run529397.root|pathFileQoverPt=Users\/h\/hsharma\/qOverPtGraphs|nameFileQoverPt=D0sigma_Data_removal_itstps_MC_LHC22b1b.root|usePvRefitCorrections=0|qOverPtMC=-1.|qOverPtData=-1.",
+            "axisPtQA": {
+                "values": [
+                    "0",
+                    "0",
+                    "0.10000000149011612",
+                    "0.20000000298023224",
+                    "0.30000001192092896",
+                    "0.4000000059604645",
+                    "0.5",
+                    "0.6000000238418579",
+                    "0.699999988079071",
+                    "0.800000011920929",
+                    "0.8999999761581421",
+                    "1",
+                    "1.100000023841858",
+                    "1.2000000476837158",
+                    "1.2999999523162842",
+                    "1.399999976158142",
+                    "1.5",
+                    "1.600000023841858",
+                    "1.7000000476837158",
+                    "1.7999999523162842",
+                    "1.899999976158142",
+                    "2",
+                    "2.200000047683716",
+                    "2.4000000953674316",
+                    "2.5999999046325684",
+                    "2.799999952316284",
+                    "3",
+                    "3.200000047683716",
+                    "3.4000000953674316",
+                    "3.5999999046325684",
+                    "3.799999952316284",
+                    "4",
+                    "4.400000095367432",
+                    "4.800000190734863",
+                    "5.199999809265137",
+                    "5.599999904632568",
+                    "6",
+                    "6.5",
+                    "7",
+                    "7.5",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "17",
+                    "19",
+                    "21",
+                    "23",
+                    "25",
+                    "30",
+                    "35",
+                    "40",
+                    "50"
+                ]
+            }
+        },
+        "processRealData": "true",
+        "processMonteCarlo": "false",
+        "processRealDataWithPID": "false",
+        "processMonteCarloWithPID": "false"
     },
-    "axisOccupancy": {
-      "values": [
-        14,
-        0,
-        14000
-      ]
+    "tof-signal": {
+        "enableQaHistograms": "false",
+        "ccdb-url": "http:\/\/alice-ccdb.cern.ch",
+        "ccdb-path-grplhcif": "GLO\/Config\/GRPLHCIF",
+        "ccdb-timestamp": "-1",
+        "timeShiftCCDBPathPos": "Analysis\/PID\/TOFOffsetPos",
+        "timeShiftCCDBPathNeg": "Analysis\/PID\/TOFOffsetPos",
+        "timeShiftCCDBPathPosMC": "",
+        "timeShiftCCDBPathNegMC": "",
+        "paramFileName": "",
+        "parametrizationPath": "TOF\/Calib\/Params",
+        "reconstructionPass": "metadata",
+        "reconstructionPassDefault": "unanchored",
+        "fatalOnPassNotAvailable": "false",
+        "enableTimeDependentResponse": "true",
+        "collisionSystem": "-1",
+        "autoSetProcessFunctions": "true",
+        "processRun3": "true",
+        "processRun2": "false"
     },
-    "selectionFlagDs": "1",
-    "massDsSignalMin": "1.934",
-    "fillMcBkgHistos": "0",
-    "processDataWithMlAndCentFT0C": "0",
-    "axisMlScore2": {
-      "values": [
-        100,
-        0,
-        1
-      ]
+    "tof-event-time": {
+        "minMomentum": "0.5",
+        "maxMomentum": "2",
+        "maxEvTimeTOF": "100000",
+        "sel8TOFEvTime": "false",
+        "computeEvTimeWithTOF": "1",
+        "computeEvTimeWithFT0": "1",
+        "maxNtracksInSet": "10",
+        "processRun2": "false",
+        "processRun3": "true"
     },
-    "processMcWithMlAndCentNTracksPV": "0",
-    "fillPercentiles": "1",
-    "massDplusSignalMin": "1.866",
-    "ccdbPath": "Centrality/Calibration",
-    "processDataWithCentFT0M": "0",
-    "processDataWithMlAndCentFT0M": "0",
-    "processMcWithMlAndCentFT0M": "0",
-    "axisFlagBHad": {
-      "values": [
-        5,
-        0,
-        5
-      ]
+    "tof-pid-merge": {
+        "enableQaHistograms": "false",
+        "enableTOFParamsForBetaMass": "false",
+        "enableParticle": {
+            "labels_rows": [
+                "El",
+                "Mu",
+                "Pi",
+                "Ka",
+                "Pr",
+                "De",
+                "Tr",
+                "He",
+                "Al"
+            ],
+            "labels_cols": [
+                "Enable",
+                "EnableFull"
+            ],
+            "values": [
+                [
+                    "-1",
+                    "-1"
+                ],
+                [
+                    "-1",
+                    "-1"
+                ],
+                [
+                    "-1",
+                    "-1"
+                ],
+                [
+                    "-1",
+                    "-1"
+                ],
+                [
+                    "-1",
+                    "-1"
+                ],
+                [
+                    "-1",
+                    "-1"
+                ],
+                [
+                    "-1",
+                    "-1"
+                ],
+                [
+                    "-1",
+                    "-1"
+                ],
+                [
+                    "-1",
+                    "-1"
+                ]
+            ]
+        },
+        "processRun3": "true",
+        "processRun2": "false",
+        "processRun2BetaM": "false",
+        "processRun3BetaM": "true"
     },
-    "processData": "0",
-    "processDataWithCentFT0C": "0",
-    "axisCentrality": {
-      "values": [
-        100,
-        0,
-        1
-      ]
+    "hf-pid-creator": {
+        "processDummy": "false",
+        "processFullEl": "false",
+        "processTinyEl": "false",
+        "processFullMu": "false",
+        "processTinyMu": "false",
+        "processFullPi": "true",
+        "processTinyPi": "false",
+        "processFullKa": "true",
+        "processTinyKa": "false",
+        "processFullPr": "true",
+        "processTinyPr": "false",
+        "processFullDe": "true",
+        "processTinyDe": "false",
+        "processFullTr": "false",
+        "processTinyTr": "false",
+        "processFullHe": "false",
+        "processTinyHe": "false"
     },
-    "processMcWithCentFT0C": "0",
-    "processMcWithMl": "1",
-    "ccdburl": "http://alice-ccdb.cern.ch",
-    "fillDplusMc": "1",
-    "massDplusSignalMax": "1.906",
-    "processMcWithCentFT0M": "0",
-    "processDataWithMlAndCentNTracksPV": "0",
-    "massDsSignalMax": "1.994",
-    "processDataWithCentNTracksPV": "0",
-    "processMcWithCentNTracksPV": "0",
-    "storeOccupancy": "0"
-  },
-  "hf-candidate-selector-ds-to-k-k-pi": {
-    "ptPidTpcMin": "0",
-    "rejectCandsInDplusToPiKPiRegion": "0",
-    "nSigmaTpcCombinedMax": "500",
-    "ptPidTofMax": "50",
-    "cutDirMl": {
-      "values": [
-        0,
-        1,
-        1
-      ]
+    "hf-candidate-creator-3prong": {
+        "propagateToPCA": "true",
+        "useAbsDCA": "false",
+        "useWeightedFinalPCA": "false",
+        "maxR": "200",
+        "maxDZIni": "4",
+        "minParamChange": "0.001",
+        "minRelChi2Change": "0.90000000000000002",
+        "fillHistograms": "true",
+        "isRun2": "false",
+        "ccdbUrl": "http:\/\/alice-ccdb.cern.ch",
+        "ccdbPathGrp": "GLO\/GRP\/GRP",
+        "ccdbPathGrpMag": "GLO\/Config\/GRPMagField",
+        "createDplus": "false",
+        "createDs": "true",
+        "createLc": "false",
+        "createXic": "false",
+        "createCd": "false",
+        "applyTopoConstraint": "false",
+        "applyInvMassConstraint": "false",
+        "hfEvSel": {
+            "centralityMin": "-10",
+            "centralityMax": "100",
+            "useSel8Trigger": "true",
+            "triggerClass": "-1",
+            "useTvxTrigger": "true",
+            "useTimeFrameBorderCut": "true",
+            "useItsRofBorderCut": "true",
+            "useIsGoodZvtxFT0vsPV": "false",
+            "useNoSameBunchPileup": "false",
+            "useOccupancyCut": "false",
+            "occEstimator": "1",
+            "occupancyMin": "0",
+            "occupancyMax": "1000000",
+            "nPvContributorsMin": "0",
+            "chi2PvMax": "-1",
+            "zPvPosMin": "-10",
+            "zPvPosMax": "10",
+            "useNoCollInTimeRangeNarrow": "false",
+            "useNoCollInTimeRangeStandard": "false",
+            "useNoCollInRofStandard": "false",
+            "softwareTrigger": "",
+            "bcMarginForSoftwareTrigger": "100",
+            "ccdbPathSoftwareTrigger": "EventFiltering\/Zorro\/",
+            "th2ConfigAxisCent": {
+                "values": [
+                    "100",
+                    "0",
+                    "100"
+                ]
+            },
+            "th2ConfigAxisOccupancy": {
+                "values": [
+                    "100",
+                    "0",
+                    "100000"
+                ]
+            },
+            "th2ConfigAxisInteractionRate": {
+                "values": [
+                    "500",
+                    "0",
+                    "50000"
+                ]
+            },
+            "requireGoodRct": "true",
+            "rctLabel": "CBT_hadronPID",
+            "rctCheckZDC": "false",
+            "rctTreatLimitedAcceptanceAsBad": "false",
+            "irSource": "T0VTX"
+        },
+        "processPvRefitWithDCAFitterN": "false",
+        "processNoPvRefitWithDCAFitterN": "true",
+        "processPvRefitWithKFParticle": "false",
+        "processNoPvRefitWithKFParticle": "false",
+        "processPvRefitWithDCAFitterNCentFT0C": "false",
+        "processNoPvRefitWithDCAFitterNCentFT0C": "false",
+        "processPvRefitWithKFParticleCentFT0C": "false",
+        "processNoPvRefitWithKFParticleCentFT0C": "false",
+        "processPvRefitWithDCAFitterNCentFT0M": "false",
+        "processNoPvRefitWithDCAFitterNCentFT0M": "false",
+        "processPvRefitWithKFParticleCentFT0M": "false",
+        "processNoPvRefitWithKFParticleCentFT0M": "false",
+        "processPvRefitWithDCAFitterNUpc": "false",
+        "processNoPvRefitWithDCAFitterNUpc": "false",
+        "processPvRefitWithKFParticleUpc": "false",
+        "processNoPvRefitWithKFParticleUpc": "false",
+        "processCollisions": "true",
+        "processCollisionsCentFT0C": "false",
+        "processCollisionsCentFT0M": "false",
+        "processCollisionsUpc": "false"
     },
-    "binsPt": {
-      "values": [
-        0,
-        1,
-        1.5,
-        2,
-        4,
-        6,
-        8,
-        12,
-        24
-      ]
+    "hf-candidate-creator-3prong-expressions": {
+        "rejectBackground": "false",
+        "matchKinkedDecayTopology": "false",
+        "matchInteractionsWithMaterial": "false",
+        "matchCorrelatedBackground": "false",
+        "pdgMothersCorrelBkg": {
+            "values": [
+                "411",
+                "431",
+                "413",
+                "4122",
+                "4232"
+            ]
+        },
+        "processMc": "true",
+        "processMcCentFT0C": "false",
+        "processMcCentFT0M": "false"
     },
-    "ptCandMin": "0",
-    "cutsSingleTrack": {
-      "values": [
-        [
-          0,
-          10,
-          0,
-          100
-        ],
-        [
-          0,
-          10,
-          0,
-          100
-        ],
-        [
-          0,
-          10,
-          0,
-          100
-        ],
-        [
-          0,
-          10,
-          0,
-          100
-        ],
-        [
-          0,
-          10,
-          0,
-          100
-        ],
-        [
-          0,
-          10,
-          0,
-          100
-        ]
-      ]
+    "hf-candidate-selector-ds-to-k-k-pi": {
+        "ptCandMin": "0",
+        "ptCandMax": "50",
+        "ptPidTpcMin": "0",
+        "ptPidTpcMax": "50",
+        "nSigmaTpcMax": "4",
+        "nSigmaTpcCombinedMax": "5",
+        "ptPidTofMin": "0",
+        "ptPidTofMax": "50",
+        "nSigmaTofMax": "4",
+        "nSigmaTofCombinedMax": "5",
+        "usePidTpcAndTof": "false",
+        "binsPt": {
+            "values": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "4",
+                "6",
+                "8",
+                "12",
+                "24"
+            ]
+        },
+        "cuts": {
+            "labels_rows": [
+                "pT bin 0",
+                "pT bin 1",
+                "pT bin 2",
+                "pT bin 3",
+                "pT bin 4",
+                "pT bin 5",
+                "pT bin 6",
+                "pT bin 7"
+            ],
+            "labels_cols": [
+                "deltaM",
+                "pT Pi",
+                "pT K",
+                "decay length",
+                "normalized decay length XY",
+                "cos pointing angle",
+                "cos pointing angle XY",
+                "impact parameter XY",
+                "deltaM Phi",
+                "cos^3 theta_PiK",
+                "chi2PCA"
+            ],
+            "values": [
+                [
+                    "0.40000000000000002",
+                    "0.29999999999999999",
+                    "0.29999999999999999",
+                    "0.02",
+                    "2",
+                    "0.84999999999999998",
+                    "0.84999999999999998",
+                    "5",
+                    "0.02",
+                    "0",
+                    "10"
+                ],
+                [
+                    "0.40000000000000002",
+                    "0.29999999999999999",
+                    "0.29999999999999999",
+                    "0.02",
+                    "2",
+                    "0.84999999999999998",
+                    "0.84999999999999998",
+                    "5",
+                    "0.02",
+                    "0",
+                    "10"
+                ],
+                [
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.02",
+                    "2",
+                    "0.84999999999999998",
+                    "0.84999999999999998",
+                    "5",
+                    "0.02",
+                    "0",
+                    "10"
+                ],
+                [
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.02",
+                    "2",
+                    "0.84999999999999998",
+                    "0.84999999999999998",
+                    "5",
+                    "0.02",
+                    "0",
+                    "10"
+                ],
+                [
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.02",
+                    "2",
+                    "0.84999999999999998",
+                    "0.84999999999999998",
+                    "5",
+                    "0.02",
+                    "0",
+                    "10"
+                ],
+                [
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.02",
+                    "2",
+                    "0.84999999999999998",
+                    "0.84999999999999998",
+                    "5",
+                    "0.02",
+                    "0",
+                    "10"
+                ],
+                [
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.02",
+                    "2",
+                    "0.84999999999999998",
+                    "0.84999999999999998",
+                    "5",
+                    "0.02",
+                    "0",
+                    "10"
+                ],
+                [
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.40000000000000002",
+                    "0.029999999999999999",
+                    "2",
+                    "0.84999999999999998",
+                    "0.84999999999999998",
+                    "5",
+                    "0.02",
+                    "0",
+                    "10"
+                ]
+            ]
+        },
+        "rejectCandsInDplusToPiKPiRegion": "false",
+        "deltaMRegionDplusToPiKPi": "0.0299999993",
+        "cutsSingleTrack": {
+            "labels_rows": "",
+            "labels_cols": [
+                "min_dcaxytoprimary",
+                "max_dcaxytoprimary",
+                "min_dcaztoprimary",
+                "max_dcaztoprimary"
+            ],
+            "values": [
+                [
+                    "0",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0",
+                    "10",
+                    "0",
+                    "100"
+                ],
+                [
+                    "0",
+                    "10",
+                    "0",
+                    "100"
+                ]
+            ]
+        },
+        "binsPtTrack": {
+            "values": [
+                "0",
+                "0.5",
+                "1",
+                "1.5",
+                "2",
+                "3",
+                "1000"
+            ]
+        },
+        "activateQA": "true",
+        "applyMl": "true",
+        "binsPtMl": {
+            "values": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "12",
+                "24"
+            ]
+        },
+        "cutDirMl": {
+            "values": [
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        "cutsMl": {
+            "labels_rows": [
+                "pT bin 0",
+                "pT bin 1",
+                "pT bin 2",
+                "pT bin 3",
+                "pT bin 4",
+                "pT bin 5",
+                "pT bin 6",
+                "pT bin 7",
+                "pT bin 8",
+                "pT bin 9",
+                "pT bin 10",
+                "pT bin 11"
+            ],
+            "labels_cols": [
+                "score class 1",
+                "score class 2",
+                "score class 3"
+            ],
+            "values": [
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                [
+                    "1",
+                    "0",
+                    "0"
+                ]
+            ]
+        },
+        "nClassesMl": "3",
+        "namesInputFeatures": {
+            "values": [
+                "cpa",
+                "cpaXY",
+                "decayLength",
+                "decayLengthXY",
+                "impactParameterXY",
+                "absCos3PiK",
+                "impactParameterXY0",
+                "impactParameterXY1",
+                "impactParameterXY2",
+                "nSigTpcTofKaExpKa0",
+                "nSigTpcTofKa1",
+                "nSigTpcTofPiExpPi2"
+            ]
+        },
+        "ccdbUrl": "http:\/\/alice-ccdb.cern.ch",
+        "modelPathsCCDB": {
+            "values": [
+                "Users\/f\/fchinu\/BDTDs\/pp\/Ratio_Ds_Dplus\/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024\/pt_0_2",
+                "Users\/f\/fchinu\/BDTDs\/pp\/Ratio_Ds_Dplus\/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024\/pt_2_4",
+                "Users\/f\/fchinu\/BDTDs\/pp\/Ratio_Ds_Dplus\/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024\/pt_4_6",
+                "Users\/f\/fchinu\/BDTDs\/pp\/Ratio_Ds_Dplus\/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024\/pt_6_8",
+                "Users\/f\/fchinu\/BDTDs\/pp\/Ratio_Ds_Dplus\/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024\/pt_8_12",
+                "Users\/f\/fchinu\/BDTDs\/pp\/Ratio_Ds_Dplus\/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024\/pt_12_24"
+            ]
+        },
+        "onnxFileNames": {
+            "values": [
+                "ModelHandler_pT_0_2.onnx",
+                "ModelHandler_pT_2_4.onnx",
+                "ModelHandler_pT_4_6.onnx",
+                "ModelHandler_pT_6_8.onnx",
+                "ModelHandler_pT_8_12.onnx",
+                "ModelHandler_pT_12_24.onnx"
+            ]
+        },
+        "timestampCCDB": "-1",
+        "loadModelsFromCCDB": "true",
+        "useTriggerMassCut": "false",
+        "hfTrigger3ProngCuts": {
+            "nSigmaMax": "2",
+            "ptDeltaMassMax": "10",
+            "ptMassCutMax": "9999",
+            "deltaMassPars": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "constant",
+                    "linear"
+                ],
+                "values": [
+                    [
+                        "-0.00249999994",
+                        "9.99999975e-05"
+                    ]
+                ]
+            },
+            "sigmaPars": {
+                "labels_rows": "",
+                "labels_cols": [
+                    "constant",
+                    "linear"
+                ],
+                "values": [
+                    [
+                        "0.00796000008",
+                        "0.00176000001"
+                    ]
+                ]
+            }
+        }
     },
-    "namesInputFeatures": {
-      "values": [
-        "cpa",
-        "cpaXY",
-        "decayLength",
-        "decayLengthXY",
-        "impactParameterXY",
-        "absCos3PiK",
-        "impactParameterXY0",
-        "impactParameterXY1",
-        "impactParameterXY2",
-        "nSigTpcTofKaExpKa0",
-        "nSigTpcTofKa1",
-        "nSigTpcTofPiExpPi2"
-      ]
+    "hf-task-ds": {
+        "decayChannel": "1",
+        "fillDplusMc": "true",
+        "selectionFlagDs": "7",
+        "classMl": {
+            "values": [
+                "0",
+                "1",
+                "2"
+            ]
+        },
+        "yCandGenMax": "0.5",
+        "yCandRecoMax": "0.800000012",
+        "massDsSignalMin": "1.93400002",
+        "massDsSignalMax": "1.99399996",
+        "massDplusSignalMin": "1.86600006",
+        "massDplusSignalMax": "1.90600002",
+        "fillPercentiles": "true",
+        "storeOccupancy": "false",
+        "occEstimator": "0",
+        "fillMcBkgHistos": "false",
+        "produceMiniTrees": "true",
+        "extendWithDecayLength": "true",
+        "extendWithImpactParameter": "true",
+        "ccdburl": "http:\/\/alice-ccdb.cern.ch",
+        "ccdbPath": "Centrality\/Calibration",
+        "reconstructionPass": "",
+        "axisPt": {
+            "values": [
+                "240",
+                "0",
+                "24"
+            ]
+        },
+        "axisPtBHad": {
+            "values": [
+                "50",
+                "0",
+                "100"
+            ]
+        },
+        "axisFlagBHad": {
+            "values": [
+                "5",
+                "0",
+                "5"
+            ]
+        },
+        "axisNPvContributors": {
+            "values": [
+                "200",
+                "-0.5",
+                "199.5"
+            ]
+        },
+        "axisMlScore0": {
+            "values": [
+                "1000",
+                "0",
+                "1"
+            ]
+        },
+        "axisMlScore1": {
+            "values": [
+                "100",
+                "0",
+                "1"
+            ]
+        },
+        "axisMlScore2": {
+            "values": [
+                "100",
+                "0",
+                "1"
+            ]
+        },
+        "axisCentrality": {
+            "values": [
+                "100",
+                "0",
+                "100"
+            ]
+        },
+        "axisOccupancy": {
+            "values": [
+                "14",
+                "0",
+                "14000"
+            ]
+        },
+        "processDataWithCentFT0C": "false",
+        "processDataWithCentFT0M": "false",
+        "processDataWithCentNTracksPV": "false",
+        "processData": "false",
+        "processDataWithMlAndCentFT0C": "false",
+        "processDataWithMlAndCentFT0M": "false",
+        "processDataWithMlAndCentNTracksPV": "false",
+        "processDataWithMl": "false",
+        "processMcWithCentFT0C": "false",
+        "processMcWithCentFT0M": "false",
+        "processMcWithCentNTracksPV": "false",
+        "processMc": "false",
+        "processMcWithMlAndCentFT0C": "false",
+        "processMcWithMlAndCentFT0M": "false",
+        "processMcWithMlAndCentNTracksPV": "false",
+        "processMcWithMl": "true"
     },
-    "binsPtTrack": {
-      "values": [
-        0,
-        0.5,
-        1,
-        1.5,
-        2,
-        3,
-        1000
-      ]
-    },
-    "hfTrigger3ProngCuts.deltaMassPars": {
-      "values": [
-        [
-          -0.0024999999441206455,
-          9.999999747378752e-05
-        ]
-      ]
-    },
-    "usePidTpcAndTof": "0",
-    "applyMl": "1",
-    "ccdbUrl": "http://alice-ccdb.cern.ch",
-    "timestampCCDB": "-1",
-    "onnxFileNames": {
-      "values": [
-        "ModelHandler_pT_0_2.onnx",
-        "ModelHandler_pT_2_4.onnx",
-        "ModelHandler_pT_4_6.onnx",
-        "ModelHandler_pT_6_8.onnx",
-        "ModelHandler_pT_8_12.onnx",
-        "ModelHandler_pT_12_24.onnx"
-      ]
-    },
-    "nSigmaTpcMax": "100",
-    "cuts": {
-      "values": [
-        [
-          "0.4",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.8",
-          "0.8",
-          "10.",
-          "10.0",
-          "0.0",
-          "50"
-        ],
-        [
-          "0.4",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.8",
-          "0.8",
-          "10.",
-          "10.0",
-          "0.0",
-          "50"
-        ],
-        [
-          "0.4",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.8",
-          "0.8",
-          "10.",
-          "10.0",
-          "0.0",
-          "50"
-        ],
-        [
-          "0.4",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.8",
-          "0.8",
-          "10.",
-          "10.0",
-          "0.0",
-          "50"
-        ],
-        [
-          "0.4",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.8",
-          "0.8",
-          "10.",
-          "10.0",
-          "0.0",
-          "50"
-        ],
-        [
-          "0.4",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.8",
-          "0.8",
-          "10.",
-          "10.0",
-          "0.0",
-          "50"
-        ],
-        [
-          "0.4",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.8",
-          "0.8",
-          "10.",
-          "10.0",
-          "0.0",
-          "50"
-        ],
-        [
-          "0.4",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.0",
-          "0.8",
-          "0.8",
-          "10.",
-          "10.0",
-          "0.0",
-          "50"
-        ]
-      ]
-    },
-  "hfTrigger3ProngCuts.sigmaPars": {
-      "values": [
-        [
-          0.007960000075399876,
-          0.0017600000137463212
-        ]
-      ]
-    },
-    "nClassesMl": "3",
-    "cutsMl": {
-      "values": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          1,
-          0,
-          0
-        ]
-      ]
-    },
-    "useTriggerMassCut": "0",
-    "deltaMRegionDplusToPiKPi": "0.03",
-    "hfTrigger3ProngCuts.nSigmaMax": "2",
-    "activateQA": "1",
-    "hfTrigger3ProngCuts.ptMassCutMax": "9999",
-    "ptPidTofMin": "0",
-    "modelPathsCCDB": {
-      "values": [
-        "Users/f/fchinu/BDTDs/pp/Ratio_Ds_Dplus/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024/pt_0_2",
-        "Users/f/fchinu/BDTDs/pp/Ratio_Ds_Dplus/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024/pt_2_4",
-        "Users/f/fchinu/BDTDs/pp/Ratio_Ds_Dplus/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024/pt_4_6",
-        "Users/f/fchinu/BDTDs/pp/Ratio_Ds_Dplus/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024/pt_6_8",
-        "Users/f/fchinu/BDTDs/pp/Ratio_Ds_Dplus/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024/pt_8_12",
-        "Users/f/fchinu/BDTDs/pp/Ratio_Ds_Dplus/Ds_pass7_TT_pt_smear_1p5_TPC_NN_with_swapped_prongs_pid_LHC24d3a_b_No_Norm_Vars_15102024/pt_12_24"
-      ]
-    },
-    "ptCandMax": "50",
-    "nSigmaTofMax": "100",
-    "loadModelsFromCCDB": "1",
-    "ptPidTpcMax": "50",
-    "nSigmaTofCombinedMax": "500",
-    "hfTrigger3ProngCuts.ptDeltaMassMax": "10",
-    "binsPtMl": {
-      "values": [
-        0,
-        2,
-        4,
-        6,
-        8,
-        12,
-        24
-      ]
-    }
-  },
-  "hf-candidate-creator-3prong-expressions": {
-    "matchInteractionsWithMaterial": "1",
-    "rejectBackground": "0",
-    "matchCorrelatedBackground": "1",
-    "matchKinkedDecayTopology": "1",
-    "processMc": "1",
-    "processMcCentFT0C": "0",
-    "processMcCentFT0M": "0",
-    "pdgMothersCorrelBkg": {
-      "values": [
-        411,
-        431,
-        413,
-        4122,
-        4232
-      ]
-    }
-  },
-  "hf-candidate-creator-3prong": {
-    "hfEvSel.centralityMin": "0",
-    "processPvRefitWithKFParticleCentFT0C": "0",
-    "processNoPvRefitWithDCAFitterN": "1",
-    "processPvRefitWithKFParticle": "0",
-    "processNoPvRefitWithKFParticle": "0",
-    "processNoPvRefitWithKFParticleCentFT0C": "0",
-    "propagateToPCA": "1",
-    "ccdbPathGrp": "GLO/GRP/GRP",
-    "createLc": "0",
-    "processPvRefitWithDCAFitterN": "0",
-    "ccdbUrl": "http://alice-ccdb.cern.ch",
-    "hfEvSel.th2ConfigAxisCent": {
-      "values": [
-        100,
-        0,
-        100
-      ]
-    },
-    "hfEvSel.rctCheckZDC": "0",
-    "hfEvSel.useTimeFrameBorderCut": "0",
-    "hfEvSel.requireGoodRct": "0",
-    "hfEvSel.useTvxTrigger": "0",
-    "useAbsDCA": "0",
-    "minRelChi2Change": "0.9",
-    "hfEvSel.zPvPosMax": "10",
-    "processNoPvRefitWithDCAFitterNCentFT0M": "0",
-    "hfEvSel.useIsGoodZvtxFT0vsPV": "0",
-    "hfEvSel.occupancyMax": "1000000",
-    "hfEvSel.useSel8Trigger": "0",
-    "applyTopoConstraint": "0",
-    "useWeightedFinalPCA": "0",
-    "createDs": "1",
-    "hfEvSel.useNoCollInRofStandard": "0",
-    "applyInvMassConstraint": "0",
-    "hfEvSel.useNoSameBunchPileup": "0",
-    "processNoPvRefitWithDCAFitterNCentFT0C": "0",
-    "minParamChange": "0.001",
-    "processNoPvRefitWithKFParticleUpc": "0",
-    "hfEvSel.triggerClass": "-1",
-    "hfEvSel.occupancyMin": "0",
-    "processCollisionsCentFT0M": "0",
-    "hfEvSel.useNoCollInTimeRangeNarrow": "0",
-    "hfEvSel.centralityMax": "100",
-    "maxDZIni": "4",
-    "processPvRefitWithDCAFitterNUpc": "0",
-    "processCollisionsUpc": "0",
-    "ccdbPathGrpMag": "GLO/Config/GRPMagField",
-    "hfEvSel.bcMarginForSoftwareTrigger": "100",
-    "hfEvSel.rctLabel": "CBT_hadronPID",
-    "hfEvSel.rctTreatLimitedAcceptanceAsBad": "0",
-    "hfEvSel.ccdbPathSoftwareTrigger": "Users/m/mpuccio/EventFiltering/OTS/Chunked/",
-    "processCollisionsCentFT0C": "0",
-    "processPvRefitWithDCAFitterNCentFT0C": "0",
-    "hfEvSel.nPvContributorsMin": "0",
-    "processNoPvRefitWithDCAFitterNUpc": "0",
-    "hfEvSel.zPvPosMin": "-10",
-    "hfEvSel.useItsRofBorderCut": "0",
-    "processPvRefitWithDCAFitterNCentFT0M": "0",
-    "createXic": "0",
-    "maxR": "200",
-    "hfEvSel.useNoCollInTimeRangeStandard": "0",
-    "hfEvSel.useOccupancyCut": "0",
-    "hfEvSel.chi2PvMax": "-1",
-    "processPvRefitWithKFParticleUpc": "0",
-    "hfEvSel.occEstimator": "1",
-    "processCollisions": "1",
-    "hfEvSel.th2ConfigAxisOccupancy": {
-      "values": [
-        14,
-        0,
-        14000
-      ]
-    },
-    "createDplus": "1",
-    "hfEvSel.softwareTrigger": "",
-    "fillHistograms": "0",
-    "processNoPvRefitWithKFParticleCentFT0M": "0",
-    "isRun2": "0",
-    "processPvRefitWithKFParticleCentFT0M": "0"
-  },
-  "hf-pid-creator": {
-    "processTinyKa": "0",
-    "processTinyEl": "0",
-    "processTinyMu": "0",
-    "processTinyPr": "0",
-    "processFullPr": "1",
-    "processTinyPi": "0",
-    "processFullKa": "1",
-    "processDummy": "0",
-    "processFullEl": "0",
-    "processFullMu": "0",
-    "processFullPi": "1"
-  },
-  "tpc-pid": {
-    "param-file": "",
-    "pid-tiny-ka": "-1",
-    "useNetworkDe": "0",
-    "useNetworkPr": "1",
-    "useNetworkHe": "0",
-    "networkPathCCDB": "Analysis/PID/TPC/ML",
-    "useNetworkTr": "0",
-    "useNetworkPi": "1",
-    "enableTuneOnDataTable": "-1",
-    "pid-tiny-mu": "-1",
-    "pid-tiny-el": "-1",
-    "useNetworkKa": "1",
-    "pid-tiny-al": "-1",
-    "pid-full-ka": "-1",
-    "networkSetNumThreads": "0",
-    "skipTPCOnly": "1",
-    "recoPass": "",
-    "processStandard": "0",
-    "pid-full-mu": "-1",
-    "useNetworkEl": "1",
-    "pid-full-al": "-1",
-    "useNetworkMu": "0",
-    "processStandard2": "0",
-    "networkBetaGammaCutoff": "0.45",
-    "pid-full-el": "-1",
-    "pid-tiny-pi": "-1",
-    "pid-tiny-tr": "-1",
-    "pid-tiny-he": "-1",
-    "pid-tiny-pr": "-1",
-    "ccdbPath": "Analysis/PID/TPC/Response",
-    "pid-tiny-de": "-1",
-    "pid-full-pi": "-1",
-    "autofetchNetworks": "1",
-    "ccdb-timestamp": "0",
-    "enableNetworkOptimizations": "1",
-    "processMcTuneOnData": "1",
-    "pid-full-de": "-1",
-    "pid-full-pr": "-1",
-    "ccdb-url": "http://alice-ccdb.cern.ch",
-    "useNetworkCorrection": "1",
-    "pid-full-he": "-1",
-    "pid-full-tr": "-1",
-    "useNetworkAl": "0",
-    "networkPathLocally": "network.onnx"
-  },
-  "mc-collision-converter": {},
-  "tof-signal": {
-    "parametrizationPath": "TOF/Calib/Params",
-    "timeShiftCCDBPathPosMC": "",
-    "fatalOnPassNotAvailable": "1",
-    "paramFileName": "",
-    "enableTimeDependentResponse": "0",
-    "ccdb-path-grplhcif": "GLO/Config/GRPLHCIF",
-    "collisionSystem": "-1",
-    "enableQaHistograms": "0",
-    "timeShiftCCDBPathPos": "",
-    "ccdb-timestamp": "-1",
-    "timeShiftCCDBPathNeg": "",
-    "autoSetProcessFunctions": "1",
-    "reconstructionPass": "unanchored",
-    "timeShiftCCDBPathNegMC": "",
-    "ccdb-url": "http://alice-ccdb.cern.ch",
-    "reconstructionPassDefault": "unanchored"
-  },
-  "tof-event-time": {
-    "computeEvTimeWithTOF": "-1",
-    "minMomentum": "0.5",
-    "sel8TOFEvTime": "1",
-    "maxNtracksInSet": "10",
-    "maxMomentum": "2",
-    "maxEvTimeTOF": "100000",
-    "computeEvTimeWithFT0": "-1"
-  },
-  "mc-pid-tof": {
-    "mcRecalib.enable": "1",
-    "mcRecalib.ccdbPath": "Users/f/fgrosa/RecalibMcPidTOF/",
-    "processFillTables": "1",
-    "processDummy": "0",
-    "enableQaHistograms": "0"
-  },
-  "tracks-extra-spawner": {},
-  "tracks-extra-v002-converter": {
-    "processV000ToV002": "0",
-    "processV001ToV002": "1"
-  },
-  "track-propagation": {
-    "trackTuner.updateCurvature": "0",
-    "lutPath": "GLO/Param/MatLUT",
-    "trackTuner.usePvRefitCorrections": "0",
-    "trackTuner.isInputFileFromCCDB": "1",
-    "trackTuner.nameInputFile": "trackTuner_DataLHC23pass4ThinSmall_McLHC23k4gSmall.root",
-    "trackTuner.updateTrackCovMat": "1",
-    "useTrackTuner": "1",
-    "trackTunerConfigSource": "2",
-    "trackTuner.updatePulls": "1",
-    "processStandard": "0",
-    "trackTuner.nPhiBins": "24",
-    "trackTuner.pathFileQoverPt": "Users/h/hsharma/qOverPtGraphs",
-    "trackTuner.qOverPtMC": "1",
-    "processCovarianceMc": "1",
-    "trackTunerParams": "debugInfo=0|updateTrackDCAs=1|updateTrackCovMat=1|updateCurvature=0|updateCurvatureIU=0|updatePulls=0|isInputFileFromCCDB=1|pathInputFile=Users/m/mfaggin/test/inputsTrackTuner/PbPb2022|nameInputFile=trackTuner_DataLHC22sPass5_McLHC22l1b2_run529397.root|pathFileQoverPt=Users/h/hsharma/qOverPtGraphs|nameFileQoverPt=D0sigma_Data_removal_itstps_MC_LHC22b1b.root|usePvRefitCorrections=0|qOverPtMC=-1.|qOverPtData=-1.",
-    "trackTuner.updateTrackDCAs": "1",
-    "geoPath": "GLO/Config/GeometryAligned",
-    "minPropagationDistance": "5",
-    "trackTuner.nameFileQoverPt": "D0sigma_Data_removal_itstps_MC_LHC22b1b.root",
-    "axisPtQA": {
-      "values": [
-        0,
-        0,
-        0.10000000149011612,
-        0.20000000298023224,
-        0.30000001192092896,
-        0.4000000059604645,
-        0.5,
-        0.6000000238418579,
-        0.699999988079071,
-        0.800000011920929,
-        0.8999999761581421,
-        1,
-        1.100000023841858,
-        1.2000000476837158,
-        1.2999999523162842,
-        1.399999976158142,
-        1.5,
-        1.600000023841858,
-        1.7000000476837158,
-        1.7999999523162842,
-        1.899999976158142,
-        2,
-        2.200000047683716,
-        2.4000000953674316,
-        2.5999999046325684,
-        2.799999952316284,
-        3,
-        3.200000047683716,
-        3.4000000953674316,
-        3.5999999046325684,
-        3.799999952316284,
-        4,
-        4.400000095367432,
-        4.800000190734863,
-        5.199999809265137,
-        5.599999904632568,
-        6,
-        6.5,
-        7,
-        7.5,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        17,
-        19,
-        21,
-        23,
-        25,
-        30,
-        35,
-        40,
-        50
-      ]
-    },
-    "trackTuner.pathInputFile": "Users/m/mfaggin/test/inputsTrackTuner/pp2023/pass4/vsPhi",
-    "trackTuner.qOverPtData": "1.5",
-    "trackTuner.debugInfo": "0",
-    "trackTuner.updateCurvatureIU": "1",
-    "processCovarianceWithPID": "0",
-    "fillTrackTunerTable": "0",
-    "mVtxPath": "GLO/Calib/MeanVertex",
-    "grpmagPath": "GLO/Config/GRPMagField",
-    "ccdb-url": "http://alice-ccdb.cern.ch",
-    "processCovariance": "0",
-    "processStandardWithPID": "0"
-  },
-  "eventselection-run3": {
-    "timestamp.fatalOnInvalidTimestamp": "0",
-    "evselOpts.NumberOfOrbitsPerTF": "-1",
-    "evselOpts.TimeRangeVetoOnCollNarrow": "2",
-    "evselOpts.maxDiffZvtxFT0vsPV": "1",
-    "evselOpts.TimeRangeVetoOnCollStandard": "10",
-    "bcselOpts.checkRunDurationLimits": "0",
-    "evselOpts.amIneeded": "-1",
-    "evselOpts.EpsilonVzDiffVetoInROF": "0.3",
-    "evselOpts.isMC": "-1",
-    "bcselOpts.ITSROFrameStartBorderMargin": "-1",
-    "timestamp.isRun2MC": "-1",
-    "bcselOpts.TimeFrameStartBorderMargin": "-1",
-    "bcselOpts.triggerBcShift": "0",
-    "evselOpts.FT0CamplPerCollCutVetoOnCollInROF": "5000",
-    "timestamp.orbit-reset-path": "CTP/Calib/OrbitReset",
-    "evselOpts.TimeIntervalForOccupancyCalculationMin": "-40",
-    "timestamp.rct-path": "RCT/Info/RunInformation",
-    "bcselOpts.maxInactiveChipsPerLayer": {
-      "values": [
-        8,
-        8,
-        8,
-        111,
-        111,
-        195,
-        195
-      ]
-    },
-    "lumiOpts.amIneeded": "-1",
-    "evselOpts.confSigmaBCforHighPtTracks": "4",
-    "evselOpts.FT0CamplPerCollCutVetoOnCollInTimeRange": "8000",
-    "bcselOpts.ITSROFrameEndBorderMargin": "-1",
-    "bcselOpts.amIneeded": "-1",
-    "evselOpts.TimeIntervalForOccupancyCalculationMax": "100",
-    "ccdburl": "http://alice-ccdb.cern.ch",
-    "evselOpts.muonSelection": "0",
-    "evselOpts.UseWeightsForOccupancyEstimator": "1",
-    "timestamp.verbose": "0",
-    "bcselOpts.TimeFrameEndBorderMargin": "-1",
-    "bcselOpts.NumberOfOrbitsPerTF": "-1"
-  },
-  "pid-multiplicity": {
-    "processIU": "1",
-    "processStandard": "0"
-  },
-  "de-dx-correction": {
-    "processRun3": "0",
-    "processDummy": "1"
-  },
-  "ft0-corrected-table": {
-    "ccdb-timestamp": "-1",
-    "resoFT0C": "20",
-    "ccdb-path-grplhcif": "GLO/Config/GRPLHCIF",
-    "resoFT0A": "20",
-    "collisionSystem": "-2",
-    "addHistograms": "0",
-    "ccdb-url": "http://alice-ccdb.cern.ch",
-    "processWithBypassFT0timeInMC": "0",
-    "processStandard": "1"
-  },
-  "hf-tree-creator-ds-to-k-k-pi": {
-    "decayChannel": "1",
-    "fillDplusMc": "true",
-    "selectionFlagDs": "1",
-    "fillCandidateLiteTable": "true",
-    "fillOnlySignal": "true",
-    "fillOnlyBackground": "false",
-    "downSampleBkgFactor": "1",
-    "ptMaxForDownSample": "10",
-    "processDataWithFT0C": "false",
-    "processDataWithFT0M": "false",
-    "processDataWithNTracksPV": "false",
-    "processData": "false",
-    "processMcWithFT0C": "false",
-    "processMcWithFT0M": "false",
-    "processMcWithNTracksPV": "false",
-    "processMc": "true"
-  }
+    "internal-dpl-aod-writer": "",
+    "internal-dpl-aod-global-analysis-file-sink": "",
+    "internal-dpl-injected-dummy-sink": ""
 }

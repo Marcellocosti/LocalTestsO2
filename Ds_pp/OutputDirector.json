@@ -1,0 +1,23 @@
+{ "OutputDirector": {
+    "debug_mode": true,
+    "resfile": "AO2D",
+    "OutputDescriptors": [
+      {
+        "table": "AOD/HFDSMINI/0"
+      },
+      {
+        "table": "AOD/HFDSDLMINI/0"
+      },
+      {
+        "table": "AOD/HFDSD0MINI/0"
+      },
+      {
+        "table": "AOD/HFDSD0MCMINI/0"
+      },
+      {
+        "table": "AOD/HFDSMCMINI/0"
+      }
+    ],
+    "ntfmerge": 1
+  }
+}
