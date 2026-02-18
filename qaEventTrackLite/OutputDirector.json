@@ -1,0 +1,23 @@
+{ "OutputDirector": {
+    "debug_mode": true,
+    "resfile": "AO2D",
+    "OutputDescriptors": [
+      {
+        "table": "AOD/DPGCollisions/0"
+      },
+      {
+        "table": "AOD/DPGCollsBig/0"
+      },
+      {
+        "table": "AOD/DPGNonRecoPart/0"
+      },
+      {
+        "table": "AOD/DPGRecoPart/0"
+      },
+      {
+        "table": "AOD/DPGTracks/0"
+      }
+    ],
+    "ntfmerge": 1
+  }
+}
