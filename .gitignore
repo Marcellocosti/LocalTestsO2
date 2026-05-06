@@ -3,3 +3,4 @@ log.txt
 *.onnx
 core_dump*
 dpl-config.json
+**/.ALICE3/**

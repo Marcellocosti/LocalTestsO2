@@ -1,0 +1,1216 @@
+[INFO] Loading metadata from file AO2DGen.root in PID 2509157
+[INFO] No metadata found in file "AO2DGen.root" and parent level 0 prevents further lookup.
+[INFO] Could not open JSON file "OutputDir.json"
+[INFO] Could not open JSON file "OutputDir.json"
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 2509157.
+[INFO] Driver listening on port: 27237
+[INFO] Rate limiting set up at 2000 MB and 64 timeframes distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 2509166
+[INFO] Starting internal-dpl-aod-reader on pid 2509167
+[INFO] Starting internal-dpl-aod-spawner on pid 2509168
+[INFO] Starting on-the-fly-tracker on pid 2509169
+[INFO] Starting on-the-fly-detector-geometry-provider on pid 2509170
+[INFO] Starting on-the-fly-tracker-initializer on pid 2509171
+[INFO] Starting internal-dpl-aod-writer on pid 2509172
+[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 2509173
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 2509174
+[INFO] Redeployment of configuration done.
+[2509170:on-the-fly-detector-geometry-provider]: [INFO] Could not open JSON file "OutputDir.json"
+[2509170:on-the-fly-detector-geometry-provider]: [INFO] Instrumenting crash signals
+[2509166:internal-dpl-clock]: [INFO] Could not open JSON file "OutputDir.json"
+[2509167:internal-dpl-aod-reader]: [INFO] Could not open JSON file "OutputDir.json"
+[2509168:internal-dpl-aod-spawner]: [INFO] Could not open JSON file "OutputDir.json"
+[2509169:on-the-fly-tracker]: [INFO] Could not open JSON file "OutputDir.json"
+[2509170:on-the-fly-detector-geometry-provider]: [INFO] Could not open JSON file "OutputDir.json"
+[2509166:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[2509168:internal-dpl-aod-spawner]: [INFO] Instrumenting crash signals
+[2509167:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
+[2509166:internal-dpl-clock]: [INFO] Could not open JSON file "OutputDir.json"
+[2509171:on-the-fly-tracker-initializer]: [INFO] Could not open JSON file "OutputDir.json"
+[2509169:on-the-fly-tracker]: [INFO] Instrumenting crash signals
+[2509168:internal-dpl-aod-spawner]: [INFO] Could not open JSON file "OutputDir.json"
+[2509167:internal-dpl-aod-reader]: [INFO] Could not open JSON file "OutputDir.json"
+[2509170:on-the-fly-detector-geometry-provider]: [INFO] Spawning new device on-the-fly-detector-geometry-provider in process with pid 2509170
+[2509172:internal-dpl-aod-writer]: [INFO] Could not open JSON file "OutputDir.json"
+[2509169:on-the-fly-tracker]: [INFO] Could not open JSON file "OutputDir.json"
+[2509171:on-the-fly-tracker-initializer]: [INFO] Instrumenting crash signals
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] 
+[2509170:on-the-fly-detector-geometry-provider]:       ______      _    _______  _________ 
+[2509170:on-the-fly-detector-geometry-provider]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509170:on-the-fly-detector-geometry-provider]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509170:on-the-fly-detector-geometry-provider]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509170:on-the-fly-detector-geometry-provider]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509170:on-the-fly-detector-geometry-provider]: 
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [INFO] Could not open JSON file "OutputDir.json"
+[2509166:internal-dpl-clock]: [INFO] Spawning new device internal-dpl-clock in process with pid 2509166
+[2509171:on-the-fly-tracker-initializer]: [INFO] Could not open JSON file "OutputDir.json"
+[2509172:internal-dpl-aod-writer]: [INFO] Instrumenting crash signals
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [INFO] Instrumenting crash signals
+[2509174:internal-dpl-injected-dummy-sink]: [INFO] Could not open JSON file "OutputDir.json"
+[2509168:internal-dpl-aod-spawner]: [INFO] Spawning new device internal-dpl-aod-spawner in process with pid 2509168
+[2509167:internal-dpl-aod-reader]: [INFO] Spawning new device internal-dpl-aod-reader in process with pid 2509167
+[2509172:internal-dpl-aod-writer]: [INFO] Could not open JSON file "OutputDir.json"
+[2509166:internal-dpl-clock]: [13:40:34][INFO] 
+[2509166:internal-dpl-clock]:       ______      _    _______  _________ 
+[2509166:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509166:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509166:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509166:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509166:internal-dpl-clock]: 
+[2509168:internal-dpl-aod-spawner]: [13:40:34][INFO] 
+[2509168:internal-dpl-aod-spawner]:       ______      _    _______  _________ 
+[2509168:internal-dpl-aod-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509168:internal-dpl-aod-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509168:internal-dpl-aod-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509168:internal-dpl-aod-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509168:internal-dpl-aod-spawner]: 
+[2509166:internal-dpl-clock]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509169:on-the-fly-tracker]: [INFO] Spawning new device on-the-fly-tracker in process with pid 2509169
+[2509167:internal-dpl-aod-reader]: [13:40:34][INFO] 
+[2509167:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[2509167:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509167:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509167:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509167:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509167:internal-dpl-aod-reader]: 
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [INFO] Could not open JSON file "OutputDir.json"
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509174:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[2509171:on-the-fly-tracker-initializer]: [INFO] Spawning new device on-the-fly-tracker-initializer in process with pid 2509171
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] 
+[2509169:on-the-fly-tracker]:       ______      _    _______  _________ 
+[2509169:on-the-fly-tracker]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509169:on-the-fly-tracker]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509169:on-the-fly-tracker]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509169:on-the-fly-tracker]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509169:on-the-fly-tracker]: 
+[2509174:internal-dpl-injected-dummy-sink]: [INFO] Could not open JSON file "OutputDir.json"
+[2509169:on-the-fly-tracker]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][INFO] 
+[2509171:on-the-fly-tracker-initializer]:       ______      _    _______  _________ 
+[2509171:on-the-fly-tracker-initializer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509171:on-the-fly-tracker-initializer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509171:on-the-fly-tracker-initializer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509171:on-the-fly-tracker-initializer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509171:on-the-fly-tracker-initializer]: 
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509172:internal-dpl-aod-writer]: [INFO] Spawning new device internal-dpl-aod-writer in process with pid 2509172
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawning new device internal-dpl-aod-global-analysis-file-sink in process with pid 2509173
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] Init CcdApi with UserAgentID: o2-analysis-on-/o2-analysis-on-the-fly-detector-geometry-provider@2509170 target/Linux_x86_64 init/1778067634287 id/mdicosta@aliceml session/tvUEyOw3, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[2509172:internal-dpl-aod-writer]: [13:40:34][INFO] 
+[2509172:internal-dpl-aod-writer]:       ______      _    _______  _________ 
+[2509172:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509172:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509172:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509172:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509172:internal-dpl-aod-writer]: 
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] Init CcdApi with UserAgentID: o2-analysis-on-/o2-analysis-on-the-fly-detector-geometry-provider@2509170 target/Linux_x86_64 init/1778067634287 id/mdicosta@aliceml session/tvUEyOw3, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] On-the-fly detector geometry provider running.
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] Loading detector geometry from configuration file: $O2PHYSICS_ROOT/share/alice3/a3geometry_v3.ini
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] Parsing TEnv configuration file: /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2Physics/red_q_vecs-local1/share/alice3/a3geometry_v3.ini
+[2509170:on-the-fly-detector-geometry-provider]: bpipe0.r:                 0.48                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe0.z:                 250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe0.x0:                0.001592                       [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe0.xrho:              0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe0.resRPhi:           0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe0.resZ:              0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe0.eff:               0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe0.type:              0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B00.r:                    0.5                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B00.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B00.x0:                   0.00076                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B00.xrho:                 0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B00.resRPhi:              0.00025                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B00.resZ:                 0.00025                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B00.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B00.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B01.r:                    1.2                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B01.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B01.x0:                   0.00096                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B01.xrho:                 0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B01.resRPhi:              0.00025                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B01.resZ:                 0.00025                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B01.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B01.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B02.r:                    2.5                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B02.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B02.x0:                   0.00167                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B02.xrho:                 0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B02.resRPhi:              0.00025                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B02.resZ:                 0.00025                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B02.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B02.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: coldplate.r:              2.6                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: coldplate.z:              250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: coldplate.x0:             0.02f                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: coldplate.xrho:           0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: coldplate.resRPhi:        0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: coldplate.resZ:           0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: coldplate.eff:            0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: coldplate.type:           0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe1.r:                 5.7                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe1.z:                 250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe1.x0:                0.0023f                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe1.xrho:              0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe1.resRPhi:           0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe1.resZ:              0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe1.eff:               0.0f                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: bpipe1.type:              0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B03.r:                    7.                             [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B03.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B03.x0:                   0.01                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B03.xrho:                 2.3292e-01                     [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B03.resRPhi:              0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B03.resZ:                 0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B03.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B03.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B04.r:                    9.                             [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B04.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B04.x0:                   0.01                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B04.xrho:                 2.3292e-01                     [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B04.resRPhi:              0.001                          [Local]
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][INFO] 
+[2509173:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
+[2509173:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509173:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509173:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509173:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509173:internal-dpl-aod-global-analysis-file-sink]: 
+[2509170:on-the-fly-detector-geometry-provider]: B04.resZ:                 0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B04.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B04.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B05.r:                    12.                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B05.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B05.x0:                   0.01                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B05.xrho:                 2.3292e-01                     [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B05.resRPhi:              0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B05.resZ:                 0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B05.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B05.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: iTOF.r:                   19                             [Local]
+[2509170:on-the-fly-detector-geometry-provider]: iTOF.z:                   250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: iTOF.x0:                  0.01*3.                        [Local]
+[2509170:on-the-fly-detector-geometry-provider]: iTOF.xrho:                0.03                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: iTOF.resRPhi:             0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: iTOF.resZ:                0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: iTOF.eff:                 1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: iTOF.type:                0                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B06.r:                    20.                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B06.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B06.x0:                   0.01                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B06.xrho:                 2.3292e-01                     [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B06.resRPhi:              0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B06.resZ:                 0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B06.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B06.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B07.r:                    30.                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B07.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B07.x0:                   0.01                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B07.xrho:                 2.3292e-01                     [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B07.resRPhi:              0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B07.resZ:                 0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B07.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B07.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B08.r:                    45.                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B08.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B08.x0:                   0.01                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B08.xrho:                 2.3292e-01                     [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B08.resRPhi:              0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B08.resZ:                 0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B08.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B08.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B09.r:                    60.                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B09.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B09.x0:                   0.01                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B09.xrho:                 2.3292e-01                     [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B09.resRPhi:              0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B09.resZ:                 0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B09.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B09.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B10.r:                    80.                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B10.z:                    250                            [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B10.x0:                   0.01                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B10.xrho:                 2.3292e-01                     [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B10.resRPhi:              0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B10.resZ:                 0.001                          [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B10.eff:                  1.00                           [Local]
+[2509170:on-the-fly-detector-geometry-provider]: B10.type:                 1                              [Local]
+[2509170:on-the-fly-detector-geometry-provider]: global.lutEl:             ccdb:/Users/j/jekarlss/LUTs/v3/b/el [Local]
+[2509170:on-the-fly-detector-geometry-provider]: global.lutMu:             ccdb:/Users/j/jekarlss/LUTs/v3/b/mu [Local]
+[2509170:on-the-fly-detector-geometry-provider]: global.lutPi:             ccdb:/Users/j/jekarlss/LUTs/v3/b/pi [Local]
+[2509170:on-the-fly-detector-geometry-provider]: global.lutKa:             ccdb:/Users/j/jekarlss/LUTs/v3/b/ka [Local]
+[2509170:on-the-fly-detector-geometry-provider]: global.lutPr:             ccdb:/Users/j/jekarlss/LUTs/v3/b/pr [Local]
+[2509170:on-the-fly-detector-geometry-provider]: global.magneticfield:     20                             [Local]
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer bpipe0
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509166:internal-dpl-clock]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509174:internal-dpl-injected-dummy-sink]: [INFO] Spawning new device internal-dpl-injected-dummy-sink in process with pid 2509174
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509166:internal-dpl-clock]: [13:40:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509166:internal-dpl-clock]: [13:40:34][STATE] INITIALIZED ---> BINDING
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][INFO] 
+[2509174:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[2509174:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[2509174:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[2509174:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[2509174:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[2509174:internal-dpl-injected-dummy-sink]: 
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] Starting FairMQ state machine --> IDLE
+[2509166:internal-dpl-clock]: [13:40:34][STATE] BINDING ---> BOUND
+[2509166:internal-dpl-clock]: [13:40:34][STATE] BOUND ---> CONNECTING
+[2509166:internal-dpl-clock]: [13:40:34][STATE] CONNECTING ---> DEVICE READY
+[2509166:internal-dpl-clock]: [13:40:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[2509166:internal-dpl-clock]: [13:40:34][STATE] INITIALIZING TASK ---> READY
+[2509166:internal-dpl-clock]: [13:40:34][STATE] READY ---> RUNNING
+[2509166:internal-dpl-clock]: [13:40:34][INFO] fair::mq::Device running...
+[2509166:internal-dpl-clock]: [13:40:34][INFO] LHCPeriod is not available, using current month MAY
+[2509166:internal-dpl-clock]: [13:40:34][INFO] Correctly handshaken websocket connection.
+[INFO] Controller for internal-dpl-aod-reader not yet available.
+[2509168:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[2509168:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : skylake-avx512
+[2509168:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs +invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect +avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 +evex512 -avxvnni +rtm +adx +avx2 -hreset -movdiri -serialize -sha512 -vpclmulqdq +avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd +avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 +avx512bw +sse3 +pku -nf -amx-tf32 -amx-avx512 +fsgsbase -clzero -mwaitx -lwp +lzcnt -sha -movdir64b -ppx -wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg -rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs -rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr +avx512dq -sse4a]
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] INITIALIZED ---> BINDING
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] BINDING ---> BOUND
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] BOUND ---> CONNECTING
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] CONNECTING ---> DEVICE READY
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] INITIALIZING TASK ---> READY
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][STATE] READY ---> RUNNING
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][INFO] fair::mq::Device running...
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][INFO] LHCPeriod is not available, using current month MAY
+[2509171:on-the-fly-tracker-initializer]: [13:40:34][INFO] Correctly handshaken websocket connection.
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509172:internal-dpl-aod-writer]: [13:40:34][INFO] Could not open JSON file "OutputDir.json"
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] INITIALIZED ---> BINDING
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] INITIALIZED ---> BINDING
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] BINDING ---> BOUND
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] BOUND ---> CONNECTING
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] BINDING ---> BOUND
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] BOUND ---> CONNECTING
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] CONNECTING ---> DEVICE READY
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] CONNECTING ---> DEVICE READY
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] INITIALIZING TASK ---> READY
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][STATE] READY ---> RUNNING
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][INFO] fair::mq::Device running...
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][INFO] LHCPeriod is not available, using current month MAY
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:34][INFO] Correctly handshaken websocket connection.
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] INITIALIZING TASK ---> READY
+[2509172:internal-dpl-aod-writer]: [13:40:34][STATE] READY ---> RUNNING
+[2509172:internal-dpl-aod-writer]: [13:40:34][INFO] fair::mq::Device running...
+[2509172:internal-dpl-aod-writer]: [13:40:34][INFO] LHCPeriod is not available, using current month MAY
+[2509172:internal-dpl-aod-writer]: [13:40:34][INFO] Correctly handshaken websocket connection.
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] INITIALIZED ---> BINDING
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] BINDING ---> BOUND
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] BOUND ---> CONNECTING
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] CONNECTING ---> DEVICE READY
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] INITIALIZING TASK ---> READY
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][STATE] READY ---> RUNNING
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][INFO] fair::mq::Device running...
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][INFO] LHCPeriod is not available, using current month MAY
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:34][INFO] Correctly handshaken websocket connection.
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] INITIALIZED ---> BINDING
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] BINDING ---> BOUND
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] BOUND ---> CONNECTING
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] CONNECTING ---> DEVICE READY
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] INITIALIZING TASK ---> READY
+[2509168:internal-dpl-aod-spawner]: [13:40:34][STATE] READY ---> RUNNING
+[2509168:internal-dpl-aod-spawner]: [13:40:34][INFO] fair::mq::Device running...
+[2509168:internal-dpl-aod-spawner]: [13:40:34][INFO] LHCPeriod is not available, using current month MAY
+[2509168:internal-dpl-aod-spawner]: [13:40:34][INFO] Correctly handshaken websocket connection.
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B00
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B01
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B02
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer coldplate
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer bpipe1
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B03
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B04
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B05
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer iTOF
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B06
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B07
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B08
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B09
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer B10
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO]  Reading layer global
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] Loaded geometry configuration from file: /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2Physics/red_q_vecs-local1/share/alice3/a3geometry_v3.ini with 16 layers.
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] Initialization completed
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] INITIALIZED ---> BINDING
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] BINDING ---> BOUND
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] BOUND ---> CONNECTING
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] CONNECTING ---> DEVICE READY
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] INITIALIZING TASK ---> READY
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][STATE] READY ---> RUNNING
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] fair::mq::Device running...
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] LHCPeriod is not available, using current month MAY
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:34][INFO] Correctly handshaken websocket connection.
+[2509169:on-the-fly-tracker]: Warning in <TDatabasePDG::AddParticle>: Particle with PDGcode=1000030040 already defined
+[2509169:on-the-fly-tracker]: [13:40:34][STATE] IDLE ---> INITIALIZING DEVICE
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Init CcdApi with UserAgentID: o2-analysis-ont/o2-analysis-onthefly-tracker@2509169 target/Linux_x86_64 init/1778067634630 id/mdicosta@aliceml session/Zun2cTRC, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Initializing OnTheFlyTracker task
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Init CcdApi with UserAgentID: o2-analysis-ont/o2-analysis-onthefly-tracker@2509169 target/Linux_x86_64 init/1778067634630 id/mdicosta@aliceml session/Zun2cTRC, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Size of detector configuration: 1
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Detector geometry configuration file used: $O2PHYSICS_ROOT/share/alice3/a3geometry_v3.ini
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Parsing TEnv configuration file: /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2Physics/red_q_vecs-local1/share/alice3/a3geometry_v3.ini
+[2509169:on-the-fly-tracker]: bpipe0.r:                 0.48                           [Local]
+[2509169:on-the-fly-tracker]: bpipe0.z:                 250                            [Local]
+[2509169:on-the-fly-tracker]: bpipe0.x0:                0.001592                       [Local]
+[2509169:on-the-fly-tracker]: bpipe0.xrho:              0                              [Local]
+[2509169:on-the-fly-tracker]: bpipe0.resRPhi:           0.0f                           [Local]
+[2509169:on-the-fly-tracker]: bpipe0.resZ:              0.0f                           [Local]
+[2509169:on-the-fly-tracker]: bpipe0.eff:               0.0f                           [Local]
+[2509169:on-the-fly-tracker]: bpipe0.type:              0                              [Local]
+[2509169:on-the-fly-tracker]: B00.r:                    0.5                            [Local]
+[2509169:on-the-fly-tracker]: B00.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B00.x0:                   0.00076                        [Local]
+[2509169:on-the-fly-tracker]: B00.xrho:                 0                              [Local]
+[2509169:on-the-fly-tracker]: B00.resRPhi:              0.00025                        [Local]
+[2509169:on-the-fly-tracker]: B00.resZ:                 0.00025                        [Local]
+[2509169:on-the-fly-tracker]: B00.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B00.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: B01.r:                    1.2                            [Local]
+[2509169:on-the-fly-tracker]: B01.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B01.x0:                   0.00096                        [Local]
+[2509169:on-the-fly-tracker]: B01.xrho:                 0                              [Local]
+[2509169:on-the-fly-tracker]: B01.resRPhi:              0.00025                        [Local]
+[2509169:on-the-fly-tracker]: B01.resZ:                 0.00025                        [Local]
+[2509169:on-the-fly-tracker]: B01.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B01.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: B02.r:                    2.5                            [Local]
+[2509169:on-the-fly-tracker]: B02.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B02.x0:                   0.00167                        [Local]
+[2509169:on-the-fly-tracker]: B02.xrho:                 0                              [Local]
+[2509169:on-the-fly-tracker]: B02.resRPhi:              0.00025                        [Local]
+[2509169:on-the-fly-tracker]: B02.resZ:                 0.00025                        [Local]
+[2509169:on-the-fly-tracker]: B02.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B02.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: coldplate.r:              2.6                            [Local]
+[2509169:on-the-fly-tracker]: coldplate.z:              250                            [Local]
+[2509169:on-the-fly-tracker]: coldplate.x0:             0.02f                          [Local]
+[2509169:on-the-fly-tracker]: coldplate.xrho:           0                              [Local]
+[2509169:on-the-fly-tracker]: coldplate.resRPhi:        0.0f                           [Local]
+[2509169:on-the-fly-tracker]: coldplate.resZ:           0.0f                           [Local]
+[2509169:on-the-fly-tracker]: coldplate.eff:            0.0f                           [Local]
+[2509169:on-the-fly-tracker]: coldplate.type:           0                              [Local]
+[2509169:on-the-fly-tracker]: bpipe1.r:                 5.7                            [Local]
+[2509169:on-the-fly-tracker]: bpipe1.z:                 250                            [Local]
+[2509169:on-the-fly-tracker]: bpipe1.x0:                0.0023f                        [Local]
+[2509169:on-the-fly-tracker]: bpipe1.xrho:              0                              [Local]
+[2509169:on-the-fly-tracker]: bpipe1.resRPhi:           0.0f                           [Local]
+[2509169:on-the-fly-tracker]: bpipe1.resZ:              0.0f                           [Local]
+[2509169:on-the-fly-tracker]: bpipe1.eff:               0.0f                           [Local]
+[2509169:on-the-fly-tracker]: bpipe1.type:              0                              [Local]
+[2509169:on-the-fly-tracker]: B03.r:                    7.                             [Local]
+[2509169:on-the-fly-tracker]: B03.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B03.x0:                   0.01                           [Local]
+[2509169:on-the-fly-tracker]: B03.xrho:                 2.3292e-01                     [Local]
+[2509169:on-the-fly-tracker]: B03.resRPhi:              0.001                          [Local]
+[2509169:on-the-fly-tracker]: B03.resZ:                 0.001                          [Local]
+[2509169:on-the-fly-tracker]: B03.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B03.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: B04.r:                    9.                             [Local]
+[2509169:on-the-fly-tracker]: B04.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B04.x0:                   0.01                           [Local]
+[2509169:on-the-fly-tracker]: B04.xrho:                 2.3292e-01                     [Local]
+[2509169:on-the-fly-tracker]: B04.resRPhi:              0.001                          [Local]
+[2509169:on-the-fly-tracker]: B04.resZ:                 0.001                          [Local]
+[2509169:on-the-fly-tracker]: B04.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B04.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: B05.r:                    12.                            [Local]
+[2509169:on-the-fly-tracker]: B05.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B05.x0:                   0.01                           [Local]
+[2509169:on-the-fly-tracker]: B05.xrho:                 2.3292e-01                     [Local]
+[2509169:on-the-fly-tracker]: B05.resRPhi:              0.001                          [Local]
+[2509169:on-the-fly-tracker]: B05.resZ:                 0.001                          [Local]
+[2509169:on-the-fly-tracker]: B05.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B05.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: iTOF.r:                   19                             [Local]
+[2509169:on-the-fly-tracker]: iTOF.z:                   250                            [Local]
+[2509169:on-the-fly-tracker]: iTOF.x0:                  0.01*3.                        [Local]
+[2509169:on-the-fly-tracker]: iTOF.xrho:                0.03                           [Local]
+[2509169:on-the-fly-tracker]: iTOF.resRPhi:             0.001                          [Local]
+[2509169:on-the-fly-tracker]: iTOF.resZ:                0.001                          [Local]
+[2509169:on-the-fly-tracker]: iTOF.eff:                 1.00                           [Local]
+[2509169:on-the-fly-tracker]: iTOF.type:                0                              [Local]
+[2509169:on-the-fly-tracker]: B06.r:                    20.                            [Local]
+[2509169:on-the-fly-tracker]: B06.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B06.x0:                   0.01                           [Local]
+[2509169:on-the-fly-tracker]: B06.xrho:                 2.3292e-01                     [Local]
+[2509169:on-the-fly-tracker]: B06.resRPhi:              0.001                          [Local]
+[2509169:on-the-fly-tracker]: B06.resZ:                 0.001                          [Local]
+[2509169:on-the-fly-tracker]: B06.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B06.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: B07.r:                    30.                            [Local]
+[2509169:on-the-fly-tracker]: B07.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B07.x0:                   0.01                           [Local]
+[2509169:on-the-fly-tracker]: B07.xrho:                 2.3292e-01                     [Local]
+[2509169:on-the-fly-tracker]: B07.resRPhi:              0.001                          [Local]
+[2509169:on-the-fly-tracker]: B07.resZ:                 0.001                          [Local]
+[2509169:on-the-fly-tracker]: B07.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B07.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: B08.r:                    45.                            [Local]
+[2509169:on-the-fly-tracker]: B08.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B08.x0:                   0.01                           [Local]
+[2509169:on-the-fly-tracker]: B08.xrho:                 2.3292e-01                     [Local]
+[2509169:on-the-fly-tracker]: B08.resRPhi:              0.001                          [Local]
+[2509169:on-the-fly-tracker]: B08.resZ:                 0.001                          [Local]
+[2509169:on-the-fly-tracker]: B08.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B08.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: B09.r:                    60.                            [Local]
+[2509169:on-the-fly-tracker]: B09.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B09.x0:                   0.01                           [Local]
+[2509169:on-the-fly-tracker]: B09.xrho:                 2.3292e-01                     [Local]
+[2509169:on-the-fly-tracker]: B09.resRPhi:              0.001                          [Local]
+[2509169:on-the-fly-tracker]: B09.resZ:                 0.001                          [Local]
+[2509169:on-the-fly-tracker]: B09.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B09.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: B10.r:                    80.                            [Local]
+[2509169:on-the-fly-tracker]: B10.z:                    250                            [Local]
+[2509169:on-the-fly-tracker]: B10.x0:                   0.01                           [Local]
+[2509169:on-the-fly-tracker]: B10.xrho:                 2.3292e-01                     [Local]
+[2509169:on-the-fly-tracker]: B10.resRPhi:              0.001                          [Local]
+[2509169:on-the-fly-tracker]: B10.resZ:                 0.001                          [Local]
+[2509169:on-the-fly-tracker]: B10.eff:                  1.00                           [Local]
+[2509169:on-the-fly-tracker]: B10.type:                 1                              [Local]
+[2509169:on-the-fly-tracker]: global.lutEl:             ccdb:/Users/j/jekarlss/LUTs/v3/b/el [Local]
+[2509169:on-the-fly-tracker]: global.lutMu:             ccdb:/Users/j/jekarlss/LUTs/v3/b/mu [Local]
+[2509169:on-the-fly-tracker]: global.lutPi:             ccdb:/Users/j/jekarlss/LUTs/v3/b/pi [Local]
+[2509169:on-the-fly-tracker]: global.lutKa:             ccdb:/Users/j/jekarlss/LUTs/v3/b/ka [Local]
+[2509169:on-the-fly-tracker]: global.lutPr:             ccdb:/Users/j/jekarlss/LUTs/v3/b/pr [Local]
+[2509169:on-the-fly-tracker]: global.magneticfield:     20                             [Local]
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer bpipe0
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B00
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B01
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B02
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer coldplate
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer bpipe1
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B03
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B04
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B05
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer iTOF
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B06
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B07
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B08
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B09
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer B10
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  Reading layer global
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Loaded geometry configuration from file: /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2Physics/red_q_vecs-local1/share/alice3/a3geometry_v3.ini with 16 layers.
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Loading LUT for pdg 11 for config 0 from provided file 'ccdb:/Users/j/jekarlss/LUTs/v3/b/el'
+[2509169:on-the-fly-tracker]: [13:40:34][INFO] Loading electron LUT file: 'ccdb:/Users/j/jekarlss/LUTs/v3/b/el'
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] INITIALIZED ---> BINDING
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  --- Attempting to acquire lock for: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/el/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:34][INFO]  --- CCDB source detected for detector geometry ccdb:/Users/j/jekarlss/LUTs/v3/b/el
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] BINDING ---> BOUND
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] BOUND ---> CONNECTING
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] CONNECTING ---> DEVICE READY
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[INFO] Controller for internal-dpl-aod-reader now available.
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] INITIALIZING TASK ---> READY
+[2509167:internal-dpl-aod-reader]: [13:40:34][STATE] READY ---> RUNNING
+[2509167:internal-dpl-aod-reader]: [13:40:34][INFO] fair::mq::Device running...
+[2509167:internal-dpl-aod-reader]: [13:40:34][INFO] LHCPeriod is not available, using current month MAY
+[2509167:internal-dpl-aod-reader]: [13:40:34][INFO] Correctly handshaken websocket connection.
+[2509167:internal-dpl-aod-reader]: [13:40:34][INFO] Opening file: lfn=AO2DGen.root,size=61272800
+[2509169:on-the-fly-tracker]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[2509169:on-the-fly-tracker]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[2509169:on-the-fly-tracker]: BEGIN >>> 2026-04-27 12:39:19
+[2509169:on-the-fly-tracker]: EXPIRE >>> 2026-05-28 14:39:19
+[2509169:on-the-fly-tracker]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[2509169:on-the-fly-tracker]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.47
+[2509169:on-the-fly-tracker]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.47
+[2509169:on-the-fly-tracker]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/j/jekarlss/LUTs/v3/b/el/05/29224/0bacc5aa-0b1e-11f1-8de7-200114580301 in SE <ALICE::CERN::OCDB>
+[2509167:internal-dpl-aod-reader]: [13:40:36][WARN] Timed out sending after 1s. Downstream backpressure detected on from_internal-dpl-aod-reader_to_on-the-fly-tracker[0].
+[2509168:internal-dpl-aod-spawner]: [13:40:36][WARN] Timed out sending after 1s. Downstream backpressure detected on from_internal-dpl-aod-spawner_to_on-the-fly-tracker[0].
+[2509169:on-the-fly-tracker]: [13:40:36][INFO] ccdb reads http://alice-ccdb.cern.ch//Users/j/jekarlss/LUTs/v3/b/el/1/0bacc5aa-0b1e-11f1-8de7-200114580301 for 1 (retrieve, agent_id: o2-analysis-ont/o2-analysis-onthefly-tracker@2509169 target/Linux_x86_64 init/1778067634630 id/mdicosta@aliceml session/Zun2cTRC), 
+[2509169:on-the-fly-tracker]: [13:40:36][INFO]  --- Retrieved geometry configuration from CCDB to: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/el/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:36][INFO]  --- File integrity verified. Size: 99840080 bytes
+[2509169:on-the-fly-tracker]: [13:40:36][INFO]  --- Deleting geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/el/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:36][INFO]  --- Operating deletion of geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/el/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] Successfully loaded LUT from ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/el/snapshot.root: 320000 entries
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] Successfully read LUT for PDG 11: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/el/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  version: 20210801 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]      pdg: 11 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]    field: 2.000000 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]   nchmap: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] nbins = 20, min = 0.500000, max = 3.500000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]   radmap: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] nbins = 1, min = 0.000000, max = 100.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]   etamap: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] nbins = 80, min = -4.000000, max = 4.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]    ptmap: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] nbins = 200, min = -2.000000, max = 2.000000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] Loading LUT for pdg 321 for config 0 from provided file 'ccdb:/Users/j/jekarlss/LUTs/v3/b/ka'
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] Loading kaon LUT file: 'ccdb:/Users/j/jekarlss/LUTs/v3/b/ka'
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  --- Attempting to acquire lock for: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/ka/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  --- CCDB source detected for detector geometry ccdb:/Users/j/jekarlss/LUTs/v3/b/ka
+[2509169:on-the-fly-tracker]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/j/jekarlss/LUTs/v3/b/ka/10/40762/125cf242-0b1e-11f1-8de7-200114580301 in SE <ALICE::CERN::OCDB>
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] ccdb reads http://alice-ccdb.cern.ch//Users/j/jekarlss/LUTs/v3/b/ka/1/125cf242-0b1e-11f1-8de7-200114580301 for 1 (retrieve, agent_id: o2-analysis-ont/o2-analysis-onthefly-tracker@2509169 target/Linux_x86_64 init/1778067634630 id/mdicosta@aliceml session/Zun2cTRC), 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  --- Retrieved geometry configuration from CCDB to: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/ka/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  --- File integrity verified. Size: 99840080 bytes
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  --- Deleting geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/ka/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  --- Operating deletion of geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/ka/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] Successfully loaded LUT from ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/ka/snapshot.root: 320000 entries
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] Successfully read LUT for PDG 321: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/ka/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  version: 20210801 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]      pdg: 321 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]    field: 2.000000 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]   nchmap: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] nbins = 20, min = 0.500000, max = 3.500000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]   radmap: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] nbins = 1, min = 0.000000, max = 100.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]   etamap: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] nbins = 80, min = -4.000000, max = 4.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]    ptmap: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] nbins = 200, min = -2.000000, max = 2.000000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] Loading LUT for pdg 13 for config 0 from provided file 'ccdb:/Users/j/jekarlss/LUTs/v3/b/mu'
+[2509169:on-the-fly-tracker]: [13:40:37][INFO] Loading muon LUT file: 'ccdb:/Users/j/jekarlss/LUTs/v3/b/mu'
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  --- Attempting to acquire lock for: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/mu/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:37][INFO]  --- CCDB source detected for detector geometry ccdb:/Users/j/jekarlss/LUTs/v3/b/mu
+[2509169:on-the-fly-tracker]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/j/jekarlss/LUTs/v3/b/mu/07/30736/182f0c32-0b1e-11f1-98bb-200114580301 in SE <ALICE::CERN::OCDB>
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] ccdb reads http://alice-ccdb.cern.ch//Users/j/jekarlss/LUTs/v3/b/mu/1/182f0c32-0b1e-11f1-98bb-200114580301 for 1 (retrieve, agent_id: o2-analysis-ont/o2-analysis-onthefly-tracker@2509169 target/Linux_x86_64 init/1778067634630 id/mdicosta@aliceml session/Zun2cTRC), 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]  --- Retrieved geometry configuration from CCDB to: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/mu/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]  --- File integrity verified. Size: 99840080 bytes
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]  --- Deleting geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/mu/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]  --- Operating deletion of geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/mu/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] Successfully loaded LUT from ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/mu/snapshot.root: 320000 entries
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] Successfully read LUT for PDG 13: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/mu/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]  version: 20210801 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]      pdg: 13 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]    field: 2.000000 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]   nchmap: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] nbins = 20, min = 0.500000, max = 3.500000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]   radmap: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] nbins = 1, min = 0.000000, max = 100.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]   etamap: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] nbins = 80, min = -4.000000, max = 4.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]    ptmap: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] nbins = 200, min = -2.000000, max = 2.000000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] Loading LUT for pdg 211 for config 0 from provided file 'ccdb:/Users/j/jekarlss/LUTs/v3/b/pi'
+[2509169:on-the-fly-tracker]: [13:40:38][INFO] Loading pion LUT file: 'ccdb:/Users/j/jekarlss/LUTs/v3/b/pi'
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]  --- Attempting to acquire lock for: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pi/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:38][INFO]  --- CCDB source detected for detector geometry ccdb:/Users/j/jekarlss/LUTs/v3/b/pi
+[2509169:on-the-fly-tracker]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/j/jekarlss/LUTs/v3/b/pi/04/44370/1df1019d-0b1e-11f1-8de7-200114580301 in SE <ALICE::CERN::OCDB>
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] ccdb reads http://alice-ccdb.cern.ch//Users/j/jekarlss/LUTs/v3/b/pi/1/1df1019d-0b1e-11f1-8de7-200114580301 for 1 (retrieve, agent_id: o2-analysis-ont/o2-analysis-onthefly-tracker@2509169 target/Linux_x86_64 init/1778067634630 id/mdicosta@aliceml session/Zun2cTRC), 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- Retrieved geometry configuration from CCDB to: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pi/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- File integrity verified. Size: 99840080 bytes
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- Deleting geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pi/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- Operating deletion of geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pi/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] Successfully loaded LUT from ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pi/snapshot.root: 320000 entries
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] Successfully read LUT for PDG 211: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pi/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  version: 20210801 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]      pdg: 211 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]    field: 2.000000 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]   nchmap: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] nbins = 20, min = 0.500000, max = 3.500000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]   radmap: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] nbins = 1, min = 0.000000, max = 100.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]   etamap: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] nbins = 80, min = -4.000000, max = 4.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]    ptmap: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] nbins = 200, min = -2.000000, max = 2.000000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] Loading LUT for pdg 2212 for config 0 from provided file 'ccdb:/Users/j/jekarlss/LUTs/v3/b/pr'
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] Loading proton LUT file: 'ccdb:/Users/j/jekarlss/LUTs/v3/b/pr'
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- Attempting to acquire lock for: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pr/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- CCDB source detected for detector geometry ccdb:/Users/j/jekarlss/LUTs/v3/b/pr
+[2509169:on-the-fly-tracker]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/j/jekarlss/LUTs/v3/b/pr/04/06830/234ab127-0b1e-11f1-98bb-200114580301 in SE <ALICE::CERN::OCDB>
+[2509169:on-the-fly-tracker]: [13:40:39][INFO] ccdb reads http://alice-ccdb.cern.ch//Users/j/jekarlss/LUTs/v3/b/pr/1/234ab127-0b1e-11f1-98bb-200114580301 for 1 (retrieve, agent_id: o2-analysis-ont/o2-analysis-onthefly-tracker@2509169 target/Linux_x86_64 init/1778067634630 id/mdicosta@aliceml session/Zun2cTRC), 
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- Retrieved geometry configuration from CCDB to: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pr/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- File integrity verified. Size: 99840080 bytes
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- Deleting geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pr/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:39][INFO]  --- Operating deletion of geometry configuration file after timeout: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pr/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Successfully loaded LUT from ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pr/snapshot.root: 320000 entries
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Successfully read LUT for PDG 2212: ./.ALICE3/LUTs///Users/j/jekarlss/LUTs/v3/b/pr/snapshot.root
+[2509169:on-the-fly-tracker]: [13:40:40][INFO]  version: 20210801 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO]      pdg: 2212 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO]    field: 2.000000 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO]   nchmap: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] nbins = 20, min = 0.500000, max = 3.500000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO]   radmap: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] nbins = 1, min = 0.000000, max = 100.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO]   etamap: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] nbins = 80, min = -4.000000, max = 4.000000, log = off 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO]    ptmap: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] nbins = 200, min = -2.000000, max = 2.000000, log = on 
+[2509169:on-the-fly-tracker]: 
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Initializing magnetic field to value: 20 kG
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] MagneticField::Print: MagneticFieldMap:
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] MagneticField::Print: Solenoid (4*)5 kG, Dipole OFF (-0)  |Constant Field!
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] MagneticField::Print: Uses Sol30_Dip6_Uniform  of /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2/daily-20260423-0000-local1/share/Common/maps/mfchebKGI_sym.root
+[2509169:on-the-fly-tracker]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[2509169:on-the-fly-tracker]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Check field at (0, 0, 0): 20.0 kG, nominal: 20.0
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Initializing empty material cylinder LUT - could be better in the future
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] MatLayerCylSet::optimizePhiSlices()
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] mapping 0:11 to new slice 0
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Updated Nslices = 1
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Setting lut now...
+[2509169:on-the-fly-tracker]: [13:40:40][WARN] No bunch filling provided, impose default one
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Deducing mu=1.54383e-05 per BC from IR=100 with 576 BCs
+[2509169:on-the-fly-tracker]: pvertexer [Hash#fb17628]
+[2509169:on-the-fly-tracker]: pvertexer.sysErrY2 : 0                       [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.sysErrZ2 : 0                       [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.dbscanMaxDist2 : 36                [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.dbscanDeltaT : 24                  [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.dbscanAdaptCoef : 20               [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.dbscanMaxSigZCorPoint : 0.1        [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxVerticesPerCluster : 10         [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxTrialsPerCluster : 100          [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxTimeMSPerCluster : 10000        [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.meanVertexExtraErrSelection : 0.02 [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.dcaTolerance : 3                   [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.pullIniCut : 100                   [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.maxTimeErrorMUS : 10               [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.trackMaxX : 5                      [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.minIBHits : 1                      [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.histoBinZSize : 0.05               [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.histoBinTSize : 0.05               [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.addTimeSigma2 : 0.01               [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.addZSigma2 : 0.1                   [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.meanVertexExtraErrConstraint : 0   [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.useMeanVertexConstraint : true     [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.tukey : 20                         [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.iniScale2 : 5                      [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.minScale2 : 2                      [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.acceptableScale2 : 9               [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.maxScale2 : 50                     [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.upscaleFactor : 9                  [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.slowConvergenceFactor : 0.5        [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.applyDebrisReduction : true        [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.applyReattachment : true           [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.timeMarginReattach : 3             [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.maxTDiffDebris : 7                 [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxZDiffDebris : 1                 [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxMultRatDebris : 1               [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.maxChi2TZDebris : 100              [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.addTimeSigma2Debris : 1            [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.addZSigma2Debris : 0.01            [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.maxTDiffDebrisExtra : 0            [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxZDiffDebrisExtra : 0.05         [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxMultRatDebrisExtra : 1          [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxChi2TZDebrisExtra : 100         [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.addTimeSigma2DebrisExtra : 225     [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.addZSigma2DebrisExtra : 0.001      [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxITSOnlyFraction : 1             [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.minITSOnlyFraction : 0             [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxTMAD : -1                       [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.minTMAD : -1                       [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxZMAD : -1                       [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.minZMAD : -1                       [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.minNContributorsForIRcutIni : -1   [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.minNContributorsForIRcut : 10      [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxTError : 0.2                    [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.minTError : 0.003                  [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.nSigmaTimeCut : 10                 [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.timeBiasMS : 0                     [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.doBCValidation : false             [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.maxChi2Mean : 30                   [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.minTracksPerVtx : 2                [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxIterations : 20                 [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxNScaleIncreased : 2             [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.maxNScaleSlowConvergence : 3       [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.useTimeInChi2 : true               [ CODE ]
+[2509169:on-the-fly-tracker]: pvertexer.nSigmaTimeTrack : 4                [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.timeMarginTrackTime : 0.5          [ RT ]
+[2509169:on-the-fly-tracker]: pvertexer.timeMarginVertexTime : 7           [ RT ]
+[2509169:on-the-fly-tracker]: [13:40:40][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[2509169:on-the-fly-tracker]: [13:40:40][STATE] INITIALIZED ---> BINDING
+[2509169:on-the-fly-tracker]: [13:40:40][STATE] BINDING ---> BOUND
+[2509169:on-the-fly-tracker]: [13:40:40][STATE] BOUND ---> CONNECTING
+[2509169:on-the-fly-tracker]: [13:40:40][STATE] CONNECTING ---> DEVICE READY
+[2509169:on-the-fly-tracker]: [13:40:40][STATE] DEVICE READY ---> INITIALIZING TASK
+[2509167:internal-dpl-aod-reader]: [13:40:40][INFO] Downstream backpressure on from_internal-dpl-aod-reader_to_on-the-fly-tracker[0] recovered.
+[2509168:internal-dpl-aod-spawner]: [13:40:40][INFO] Downstream backpressure on from_internal-dpl-aod-spawner_to_on-the-fly-tracker[0] recovered.
+[2509169:on-the-fly-tracker]: [13:40:40][STATE] INITIALIZING TASK ---> READY
+[2509169:on-the-fly-tracker]: [13:40:40][STATE] READY ---> RUNNING
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] fair::mq::Device running...
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] LHCPeriod is not available, using current month MAY
+[2509169:on-the-fly-tracker]: [13:40:40][INFO] Correctly handshaken websocket connection.
+[2509171:on-the-fly-tracker-initializer]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[2509171:on-the-fly-tracker-initializer]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : skylake-avx512
+[2509171:on-the-fly-tracker-initializer]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs +invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect +avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 +evex512 -avxvnni +rtm +adx +avx2 -hreset -movdiri -serialize -sha512 -vpclmulqdq +avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd +avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 +avx512bw +sse3 +pku -nf -amx-tf32 -amx-avx512 +fsgsbase -clzero -mwaitx -lwp +lzcnt -sha -movdir64b -ppx -wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg -rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs -rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr +avx512dq -sse4a]
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 969999864. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 969999864. Data is not lost and it will be scheduled again.
+[2509172:internal-dpl-aod-writer]: [13:40:41][INFO] No AODs to be saved.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 969999991. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 969999991. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000019. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000019. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000035. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000035. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000039. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000039. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000053. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000053. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000056. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000056. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000073. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000073. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000076. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000076. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000090. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000090. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000093. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000093. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000109. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000109. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000113. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000113. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000127. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000127. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000131. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000131. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000145. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000145. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000149. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000149. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000162. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000162. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000165. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000165. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000179. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000179. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000182. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000182. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000186. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000186. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000203. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000203. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000206. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000206. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000221. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000221. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000224. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000224. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000239. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000239. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000243. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000243. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000258. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000258. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000261. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000261. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000275. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000275. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000277. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000277. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000296. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000296. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000299. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000299. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000313. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000313. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000316. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000316. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000331. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000331. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000334. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000334. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000348. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000348. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000352. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000352. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000365. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000365. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000368. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000368. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000383. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000386. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000386. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000401. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000401. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000404. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000404. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000414. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000414. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000432. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000432. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000435. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000435. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000450. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000450. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000454. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000454. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000462. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000462. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000479. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000479. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000482. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000482. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000497. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000497. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000500. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000500. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000516. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000516. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000519. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000519. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000533. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000533. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000536. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000536. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000549. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000549. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000553. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000553. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000565. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000565. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000568. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000568. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000574. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000574. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000589. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000589. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000593. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000593. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000606. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000606. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000610. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000610. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000622. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000622. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000626. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000626. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000642. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000642. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000645. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000645. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000657. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000657. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000660. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000660. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000676. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000676. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000680. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000680. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000694. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000694. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000697. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000697. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000711. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000711. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000714. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000714. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000729. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000729. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000732. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000732. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000746. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000746. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000749. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000749. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000766. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000766. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000769. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000769. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000784. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000784. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000787. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000787. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000801. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000801. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000804. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000804. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000820. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000820. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000824. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000824. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000838. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:41][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000838. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000841. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000841. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000856. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000856. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000859. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000859. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000875. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000877. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000877. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000898. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000898. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000916. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000916. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000920. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000920. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000937. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000937. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000940. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000940. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000958. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000958. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000974. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000974. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000977. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000977. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000993. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000993. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970000997. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970000997. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001015. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001015. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001030. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001030. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001033. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001033. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001048. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001048. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001051. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001051. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001065. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001065. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001068. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001068. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001081. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001081. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001084. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001084. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001097. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001097. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001100. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001100. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001118. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001118. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001121. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001121. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001139. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001139. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001141. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001141. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001155. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001155. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001159. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001159. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001172. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001172. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001175. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001175. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001195. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001195. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001198. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001198. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001204. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001204. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001221. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001221. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001224. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001224. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001235. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001235. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001246. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001246. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001250. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001250. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001263. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001263. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001266. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001266. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001282. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001282. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001285. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001285. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001302. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001302. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001305. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001305. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001320. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001320. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001323. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001323. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001338. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001338. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001341. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001341. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001350. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001350. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:42][INFO] No input files left to read for reader 0!
+[2509167:internal-dpl-aod-reader]: [13:40:42][INFO] Read info: lfn=AO2DGen.root,size=61272800,total_df=200,read_df=200,read_bytes=59983149,read_calls=1403,io_time=1.2,wait_time=6.6,level=0
+[2509167:internal-dpl-aod-reader]: [13:40:42][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-spawner
+[2509167:internal-dpl-aod-reader]: [13:40:42][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_on-the-fly-tracker
+[2509167:internal-dpl-aod-reader]: [13:40:42][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-writer
+[2509168:internal-dpl-aod-spawner]: [13:40:42][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_on-the-fly-tracker
+[2509172:internal-dpl-aod-writer]: [13:40:42][CRITICAL] Some Lifetime::Timeframe data got dropped starting at 200
+[2509169:on-the-fly-tracker]: [13:40:42][INFO] CCDBManager summary: 0 queries, 0 fetched / 0 requested bytes for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: o2-analysis-ont/o2-analysis-onthefly-tracker@2509169 target/Linux_x86_64 init/1778067634630 id/mdicosta@aliceml session/Zun2cTRC
+[2509169:on-the-fly-tracker]: [13:40:42][INFO] CCDB cache miss/hit/failures
+[2509169:on-the-fly-tracker]: [13:40:42][INFO] Sending end-of-stream message to channel from_on-the-fly-tracker_to_on-the-fly-detector-geometry-provider
+[2509169:on-the-fly-tracker]: [13:40:42][INFO] Sending end-of-stream message to channel from_on-the-fly-tracker_to_on-the-fly-tracker-initializer
+[2509169:on-the-fly-tracker]: [13:40:42][INFO] Sending end-of-stream message to channel from_on-the-fly-tracker_to_internal-dpl-aod-global-analysis-file-sink
+[2509169:on-the-fly-tracker]: [13:40:42][INFO] Sending end-of-stream message to channel from_on-the-fly-tracker_to_internal-dpl-aod-writer
+[2509171:on-the-fly-tracker-initializer]: [13:40:42][INFO] Sending end-of-stream message to channel from_on-the-fly-tracker-initializer_to_internal-dpl-aod-writer
+[2509172:internal-dpl-aod-writer]: [13:40:42][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-writer_to_internal-dpl-injected-dummy-sink
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:42][INFO] CCDBManager summary: 0 queries, 0 fetched / 0 requested bytes for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: o2-analysis-on-/o2-analysis-on-the-fly-detector-geometry-provider@2509170 target/Linux_x86_64 init/1778067634287 id/mdicosta@aliceml session/tvUEyOw3
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:42][INFO] CCDB cache miss/hit/failures
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:42][INFO] Sending end-of-stream message to channel from_on-the-fly-detector-geometry-provider_to_internal-dpl-aod-global-analysis-file-sink
+[INFO] Quitting
+[INFO] Quit requested at Wed May  6 13:40:43 2026
+
+[2509167:internal-dpl-aod-reader]: [13:40:43][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 970001380. Data is not lost and it will be scheduled again.
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][STATE] RUNNING ---> READY
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][STATE] IDLE ---> EXITING
+[2509170:on-the-fly-detector-geometry-provider]: [13:40:43][STATE] Exiting FairMQ state machine
+[2509168:internal-dpl-aod-spawner]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509168:internal-dpl-aod-spawner]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509168:internal-dpl-aod-spawner]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509168:internal-dpl-aod-spawner]: [13:40:43][STATE] RUNNING ---> READY
+[2509166:internal-dpl-clock]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509166:internal-dpl-clock]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509168:internal-dpl-aod-spawner]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509168:internal-dpl-aod-spawner]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509168:internal-dpl-aod-spawner]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509167:internal-dpl-aod-reader]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509167:internal-dpl-aod-reader]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509166:internal-dpl-clock]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509167:internal-dpl-aod-reader]: [13:40:43][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 970001380. Data is not lost and it will be scheduled again.
+[2509167:internal-dpl-aod-reader]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509167:internal-dpl-aod-reader]: [13:40:43][STATE] RUNNING ---> READY
+[2509167:internal-dpl-aod-reader]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509167:internal-dpl-aod-reader]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509167:internal-dpl-aod-reader]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509166:internal-dpl-clock]: [13:40:43][INFO] Sending end-of-stream message to channel from_internal-dpl-clock_to_internal-dpl-aod-reader
+[2509166:internal-dpl-clock]: [13:40:43][STATE] RUNNING ---> READY
+[2509166:internal-dpl-clock]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509166:internal-dpl-clock]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509166:internal-dpl-clock]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509166:internal-dpl-clock]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509166:internal-dpl-clock]: [13:40:43][STATE] IDLE ---> EXITING
+[2509166:internal-dpl-clock]: [13:40:43][STATE] Exiting FairMQ state machine
+[2509168:internal-dpl-aod-spawner]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509168:internal-dpl-aod-spawner]: [13:40:43][STATE] IDLE ---> EXITING
+[2509167:internal-dpl-aod-reader]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509167:internal-dpl-aod-reader]: [13:40:43][STATE] IDLE ---> EXITING
+[2509168:internal-dpl-aod-spawner]: [13:40:43][STATE] Exiting FairMQ state machine
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][STATE] RUNNING ---> READY
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][STATE] IDLE ---> EXITING
+[2509171:on-the-fly-tracker-initializer]: [13:40:43][STATE] Exiting FairMQ state machine
+[2509167:internal-dpl-aod-reader]: [13:40:43][STATE] Exiting FairMQ state machine
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][STATE] RUNNING ---> READY
+[2509172:internal-dpl-aod-writer]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509172:internal-dpl-aod-writer]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509172:internal-dpl-aod-writer]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509172:internal-dpl-aod-writer]: [13:40:43][STATE] RUNNING ---> READY
+[2509172:internal-dpl-aod-writer]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509172:internal-dpl-aod-writer]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509172:internal-dpl-aod-writer]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][STATE] IDLE ---> EXITING
+[2509173:internal-dpl-aod-global-analysis-file-sink]: [13:40:43][STATE] Exiting FairMQ state machine
+[2509172:internal-dpl-aod-writer]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509172:internal-dpl-aod-writer]: [13:40:43][STATE] IDLE ---> EXITING
+[2509172:internal-dpl-aod-writer]: [13:40:43][STATE] Exiting FairMQ state machine
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][STATE] RUNNING ---> READY
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][STATE] IDLE ---> EXITING
+[2509174:internal-dpl-injected-dummy-sink]: [13:40:43][STATE] Exiting FairMQ state machine
+[2509169:on-the-fly-tracker]: [13:40:43][INFO] Received device shutdown request (signal 15).
+[2509169:on-the-fly-tracker]: [13:40:43][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[2509169:on-the-fly-tracker]: [13:40:43][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[2509169:on-the-fly-tracker]: [13:40:43][STATE] RUNNING ---> READY
+[2509169:on-the-fly-tracker]: [13:40:43][STATE] READY ---> RESETTING TASK
+[2509169:on-the-fly-tracker]: [13:40:43][STATE] RESETTING TASK ---> DEVICE READY
+[2509169:on-the-fly-tracker]: [13:40:43][STATE] DEVICE READY ---> RESETTING DEVICE
+[2509169:on-the-fly-tracker]: [13:40:43][INFO] Cleaning up for shared memory id 'f9d148c7'...
+[2509169:on-the-fly-tracker]: [13:40:43][INFO] Found 0 unmanaged regions...
+[2509169:on-the-fly-tracker]: [13:40:43][INFO] Found 1 managed segments...
+[2509169:on-the-fly-tracker]: [13:40:43][INFO] Successfully removed 'fmq_f9d148c7_m_0'.
+[2509169:on-the-fly-tracker]: [13:40:43][INFO] Successfully removed 'fmq_f9d148c7_mng'.
+[2509169:on-the-fly-tracker]: [13:40:43][STATE] RESETTING DEVICE ---> IDLE
+[2509169:on-the-fly-tracker]: [13:40:43][STATE] IDLE ---> EXITING
+[2509169:on-the-fly-tracker]: [13:40:43][STATE] Exiting FairMQ state machine
+[INFO] ## Processes completed. Run summary:
+[INFO] ### Devices started: 9
+[INFO]  - Device internal-dpl-clock: pid 2509166 (exit 0)
+[INFO]  - Device internal-dpl-aod-reader: pid 2509167 (exit 0)
+[INFO]  - Device internal-dpl-aod-spawner: pid 2509168 (exit 0)
+[INFO]  - Device on-the-fly-tracker: pid 2509169 (exit 0)
+[INFO]  - Device on-the-fly-detector-geometry-provider: pid 2509170 (exit 0)
+[INFO]  - Device on-the-fly-tracker-initializer: pid 2509171 (exit 0)
+[INFO]  - Device internal-dpl-aod-writer: pid 2509172 (exit 0)
+[INFO]  - Device internal-dpl-aod-global-analysis-file-sink: pid 2509173 (exit 0)
+[INFO]  - Device internal-dpl-injected-dummy-sink: pid 2509174 (exit 0)
+[INFO] ## Analysis Run Summary ##
+[INFO] ### Files read stats ###
+[INFO] lfn=AO2DGen.root,size=61272800,total_df=200,read_df=200,read_bytes=59983149,read_calls=1403,io_time=1.2,wait_time=6.6,level=0
+[INFO] ### Files opened stats ###
+[INFO] Last file opened: lfn=AO2DGen.root,size=61272800
+[INFO] Dumping used configuration in dpl-config.json

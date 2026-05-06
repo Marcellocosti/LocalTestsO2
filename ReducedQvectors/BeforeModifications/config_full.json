@@ -778,7 +778,8 @@
         "cfgCorrLevel": "4",
         "cfgnMods": {
             "values": [
-                "2"
+                "2",
+                "3"
             ]
         },
         "cfgMaxCentrality": "100",
@@ -1277,7 +1278,7 @@
             ]
         },
         "activateQA": "true",
-        "applyMl": "true",
+        "applyMl": "false",
         "binsPtMl": {
             "values": [
                 "0",
@@ -1836,7 +1837,7 @@
         "processDsMl": "false",
         "processDs": "false",
         "processDplusMl": "false",
-        "processDplus": "false",
+        "processDplus": "true",
         "processD0Ml": "false",
         "processD0": "false",
         "processLcMl": "false",
