@@ -785,7 +785,7 @@
         "cfgMaxCentrality": "100",
         "useCorrectionForRun": "true",
         "cfgGainEqPath": "Users\/j\/junlee\/Qvector\/Pass4\/GainEq",
-        "cfgQvecCalibPath": "Users\/j\/junlee\/Qvector\/Pass4\/QvecCalib",
+        "cfgQvecCalibPath": "Users\/m\/mdicosta\/TestEsEQVecCalib",
         "cfgQvecEseCalibPath": "Analysis\/EventPlane\/QVecEseCorrections",
         "cfgShiftCorr": "false",
         "cfgShiftPath": "",

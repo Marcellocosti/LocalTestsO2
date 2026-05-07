@@ -785,7 +785,7 @@
         "cfgMaxCentrality": "100",
         "useCorrectionForRun": "true",
         "cfgGainEqPath": "Users\/j\/junlee\/Qvector\/Pass4\/GainEq",
-        "cfgQvecCalibPath": "Users\/j\/junlee\/Qvector\/Pass4\/QvecCalib",
+        "cfgQvecCalibPath": "Users\/m\/mdicosta\/TestEsEQVecCalib",
         "cfgQvecEseCalibPath": "Analysis\/EventPlane\/QVecEseCorrections",
         "cfgShiftCorr": "false",
         "cfgShiftPath": "",
@@ -1278,7 +1278,7 @@
             ]
         },
         "activateQA": "true",
-        "applyMl": "true",
+        "applyMl": "false",
         "binsPtMl": {
             "values": [
                 "0",
@@ -1837,7 +1837,7 @@
         "processDsMl": "false",
         "processDs": "false",
         "processDplusMl": "false",
-        "processDplus": "false",
+        "processDplus": "true",
         "processD0Ml": "false",
         "processD0": "false",
         "processLcMl": "false",

@@ -1,0 +1,1796 @@
+[INFO] Loading metadata from file /home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_001.root in PID 3922821
+[INFO] Metadata for file "/home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_001.root":
+[INFO] - O2Version: 1.2.0
+[INFO] - LPMProductionTag: LHC23zzh
+[INFO] - ROOTVersion: 6.30/01
+[INFO] - RecoPassName: apass4
+[INFO] - Run: 3
+[INFO] - AnchorPassName: 
+[INFO] - DataType: RAW
+[INFO] - AnchorProduction: 
+[INFO] Event selection autoconfiguring from metadata. Availability of info for Run 2/3 is 0
+[WARN] Metadata info missing or incomplete. Make sure --aod-file is provided at the end of the last workflow and that the AO2D has metadata stored.
+[WARN] Initializing with Run 3 data as default. Please note you will not be able to change settings manually.
+[WARN] You should instead make sure the metadata is read in correctly.
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 3922821.
+[INFO] Driver listening on port: 30901
+[INFO] Rate limiting set up at 209 MB and 2 timeframes distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 3922846
+[INFO] Starting internal-dpl-aod-reader on pid 3922847
+[INFO] Starting internal-dpl-aod-spawner on pid 3922848
+[INFO] Starting internal-dpl-aod-index-builder on pid 3922849
+[INFO] Starting tracks-extra-v002-converter on pid 3922850
+[INFO] Starting tracks-extra-spawner on pid 3922851
+[INFO] Starting eventselection-run3 on pid 3922852
+[INFO] Starting pid-tpc-service on pid 3922853
+[INFO] Starting ft0-corrected-table on pid 3922854
+[INFO] Starting propagation-service on pid 3922855
+[INFO] Starting tof-signal on pid 3922856
+[INFO] Starting track-selection on pid 3922857
+[INFO] Starting mult-cent-table on pid 3922858
+[INFO] Starting tof-event-time on pid 3922859
+[INFO] Starting track-to-collision-association on pid 3922860
+[INFO] Starting tof-pid-merge on pid 3922861
+[INFO] Starting hf-track-index-skim-creator-tag-sel-collisions on pid 3922862
+[INFO] Starting hf-pid-creator on pid 3922863
+[INFO] Starting hf-track-index-skim-creator-tag-sel-tracks on pid 3922864
+[INFO] Starting hf-track-index-skim-creator on pid 3922865
+[INFO] Starting hf-track-index-skim-creator-lf-cascades on pid 3922866
+[INFO] Starting hf-track-index-skim-creator-cascades on pid 3922867
+[INFO] Starting internal-dpl-aod-writer on pid 3922868
+[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 3922869
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 3922870
+[INFO] Redeployment of configuration done.
+[3922852:eventselection-run3]: [INFO] Setting metadata AnchorPassName to ''
+[3922852:eventselection-run3]: [INFO] Setting metadata AnchorProduction to ''
+[3922852:eventselection-run3]: [INFO] Setting metadata DataType to 'RAW'
+[3922852:eventselection-run3]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[3922852:eventselection-run3]: [INFO] Setting metadata O2Version to '1.2.0'
+[3922852:eventselection-run3]: [INFO] Setting metadata ROOTVersion to '6.30/01'
+[3922852:eventselection-run3]: [INFO] Setting metadata RecoPassName to 'apass4'
+[3922852:eventselection-run3]: [INFO] Setting metadata Run to '3'
+[3922852:eventselection-run3]: [INFO] Event selection autoconfiguring from metadata. Availability of info for Run 2/3 is 1
+[3922852:eventselection-run3]: [INFO] Metadata successfully read in. Is this Run 3? 1 - will self-configure.
+[3922853:pid-tpc-service]: [INFO] Setting metadata AnchorPassName to ''
+[3922853:pid-tpc-service]: [INFO] Setting metadata AnchorProduction to ''
+[3922853:pid-tpc-service]: [INFO] Setting metadata DataType to 'RAW'
+[3922853:pid-tpc-service]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[3922853:pid-tpc-service]: [INFO] Setting metadata O2Version to '1.2.0'
+[3922853:pid-tpc-service]: [INFO] Setting metadata ROOTVersion to '6.30/01'
+[3922853:pid-tpc-service]: [INFO] Setting metadata RecoPassName to 'apass4'
+[3922853:pid-tpc-service]: [INFO] Setting metadata Run to '3'
+[3922848:internal-dpl-aod-spawner]: [INFO] Instrumenting crash signals
+[3922847:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
+[3922858:mult-cent-table]: [INFO] Setting metadata AnchorPassName to ''
+[3922858:mult-cent-table]: [INFO] Setting metadata AnchorProduction to ''
+[3922858:mult-cent-table]: [INFO] Setting metadata DataType to 'RAW'
+[3922858:mult-cent-table]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[3922858:mult-cent-table]: [INFO] Setting metadata O2Version to '1.2.0'
+[3922858:mult-cent-table]: [INFO] Setting metadata ROOTVersion to '6.30/01'
+[3922858:mult-cent-table]: [INFO] Setting metadata RecoPassName to 'apass4'
+[3922858:mult-cent-table]: [INFO] Setting metadata Run to '3'
+[3922846:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[3922850:tracks-extra-v002-converter]: [INFO] Instrumenting crash signals
+[3922852:eventselection-run3]: [INFO] Instrumenting crash signals
+[3922851:tracks-extra-spawner]: [INFO] Instrumenting crash signals
+[3922859:tof-event-time]: [INFO] Setting metadata AnchorPassName to ''
+[3922859:tof-event-time]: [INFO] Setting metadata AnchorProduction to ''
+[3922859:tof-event-time]: [INFO] Setting metadata DataType to 'RAW'
+[3922859:tof-event-time]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[3922859:tof-event-time]: [INFO] Setting metadata O2Version to '1.2.0'
+[3922859:tof-event-time]: [INFO] Setting metadata ROOTVersion to '6.30/01'
+[3922859:tof-event-time]: [INFO] Setting metadata RecoPassName to 'apass4'
+[3922859:tof-event-time]: [INFO] Setting metadata Run to '3'
+[3922856:tof-signal]: [INFO] Setting metadata AnchorPassName to ''
+[3922856:tof-signal]: [INFO] Setting metadata AnchorProduction to ''
+[3922856:tof-signal]: [INFO] Setting metadata DataType to 'RAW'
+[3922856:tof-signal]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[3922856:tof-signal]: [INFO] Setting metadata O2Version to '1.2.0'
+[3922856:tof-signal]: [INFO] Setting metadata ROOTVersion to '6.30/01'
+[3922856:tof-signal]: [INFO] Setting metadata RecoPassName to 'apass4'
+[3922856:tof-signal]: [INFO] Setting metadata Run to '3'
+[3922861:tof-pid-merge]: [INFO] Setting metadata AnchorPassName to ''
+[3922861:tof-pid-merge]: [INFO] Setting metadata AnchorProduction to ''
+[3922861:tof-pid-merge]: [INFO] Setting metadata DataType to 'RAW'
+[3922861:tof-pid-merge]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[3922861:tof-pid-merge]: [INFO] Setting metadata O2Version to '1.2.0'
+[3922861:tof-pid-merge]: [INFO] Setting metadata ROOTVersion to '6.30/01'
+[3922861:tof-pid-merge]: [INFO] Setting metadata RecoPassName to 'apass4'
+[3922861:tof-pid-merge]: [INFO] Setting metadata Run to '3'
+[3922848:internal-dpl-aod-spawner]: [INFO] Spawning new device internal-dpl-aod-spawner in process with pid 3922848
+[3922848:internal-dpl-aod-spawner]: [09:51:03][INFO] 
+[3922848:internal-dpl-aod-spawner]:       ______      _    _______  _________ 
+[3922848:internal-dpl-aod-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922848:internal-dpl-aod-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922848:internal-dpl-aod-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922848:internal-dpl-aod-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922848:internal-dpl-aod-spawner]: 
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922854:ft0-corrected-table]: [INFO] Instrumenting crash signals
+[3922853:pid-tpc-service]: [INFO] Instrumenting crash signals
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922848:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[3922848:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[3922848:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[3922847:internal-dpl-aod-reader]: [INFO] Spawning new device internal-dpl-aod-reader in process with pid 3922847
+[3922855:propagation-service]: [INFO] Instrumenting crash signals
+[3922847:internal-dpl-aod-reader]: [09:51:03][INFO] 
+[3922847:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[3922847:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922847:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922847:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922847:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922847:internal-dpl-aod-reader]: 
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922850:tracks-extra-v002-converter]: [INFO] Spawning new device tracks-extra-v002-converter in process with pid 3922850
+[3922857:track-selection]: [INFO] Instrumenting crash signals
+[3922846:internal-dpl-clock]: [INFO] Spawning new device internal-dpl-clock in process with pid 3922846
+[3922850:tracks-extra-v002-converter]: [09:51:03][INFO] 
+[3922850:tracks-extra-v002-converter]:       ______      _    _______  _________ 
+[3922850:tracks-extra-v002-converter]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922850:tracks-extra-v002-converter]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922850:tracks-extra-v002-converter]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922850:tracks-extra-v002-converter]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922850:tracks-extra-v002-converter]: 
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922846:internal-dpl-clock]: [09:51:03][INFO] 
+[3922846:internal-dpl-clock]:       ______      _    _______  _________ 
+[3922846:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922846:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922846:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922846:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922846:internal-dpl-clock]: 
+[3922846:internal-dpl-clock]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] BINDING ---> BOUND
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922850:tracks-extra-v002-converter]: [09:51:03][STATE] READY ---> RUNNING
+[3922850:tracks-extra-v002-converter]: [09:51:03][INFO] fair::mq::Device running...
+[3922850:tracks-extra-v002-converter]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922850:tracks-extra-v002-converter]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922846:internal-dpl-clock]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922858:mult-cent-table]: [INFO] Instrumenting crash signals
+[3922859:tof-event-time]: [INFO] Instrumenting crash signals
+[3922846:internal-dpl-clock]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922846:internal-dpl-clock]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922846:internal-dpl-clock]: [09:51:03][STATE] BINDING ---> BOUND
+[3922846:internal-dpl-clock]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922846:internal-dpl-clock]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922846:internal-dpl-clock]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922846:internal-dpl-clock]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922846:internal-dpl-clock]: [09:51:03][STATE] READY ---> RUNNING
+[3922846:internal-dpl-clock]: [09:51:03][INFO] fair::mq::Device running...
+[3922846:internal-dpl-clock]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922846:internal-dpl-clock]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[INFO] Controller for internal-dpl-aod-reader not yet available.
+[3922860:track-to-collision-association]: [INFO] Instrumenting crash signals
+[3922851:tracks-extra-spawner]: [INFO] Spawning new device tracks-extra-spawner in process with pid 3922851
+[3922851:tracks-extra-spawner]: [09:51:03][INFO] 
+[3922851:tracks-extra-spawner]:       ______      _    _______  _________ 
+[3922851:tracks-extra-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922851:tracks-extra-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922851:tracks-extra-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922851:tracks-extra-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922851:tracks-extra-spawner]: 
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922852:eventselection-run3]: [INFO] Spawning new device eventselection-run3 in process with pid 3922852
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] BINDING ---> BOUND
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922851:tracks-extra-spawner]: [09:51:03][STATE] READY ---> RUNNING
+[3922851:tracks-extra-spawner]: [09:51:03][INFO] fair::mq::Device running...
+[3922852:eventselection-run3]: [09:51:03][INFO] 
+[3922852:eventselection-run3]:       ______      _    _______  _________ 
+[3922852:eventselection-run3]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922852:eventselection-run3]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922852:eventselection-run3]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922852:eventselection-run3]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922852:eventselection-run3]: 
+[3922851:tracks-extra-spawner]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922851:tracks-extra-spawner]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922852:eventselection-run3]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922861:tof-pid-merge]: [INFO] Instrumenting crash signals
+[3922852:eventselection-run3]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922856:tof-signal]: [INFO] Instrumenting crash signals
+[3922852:eventselection-run3]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922852:eventselection-run3]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922852:eventselection-run3]: [09:51:03][INFO] From metadata this data is from Run 3
+[3922852:eventselection-run3]: [09:51:03][INFO] Auto-enabling table: BcSels
+[3922852:eventselection-run3]: [09:51:03][INFO] Auto-enabling table: EvSels
+[3922852:eventselection-run3]: [09:51:03][INFO] BC Selection / Autodetection for aod::BcSels: subscription present, will generate.
+[3922852:eventselection-run3]: [09:51:03][INFO] From metadata this data is from Data
+[3922852:eventselection-run3]: [09:51:03][INFO] Auto-enabling table: EvSels
+[3922852:eventselection-run3]: [09:51:03][INFO] Event Selection / Autodetecting for aod::EvSels: subscription present, will generate.
+[3922852:eventselection-run3]: [09:51:03][INFO] From metadata this data is from Data
+[3922852:eventselection-run3]: [09:51:03][INFO] Autosetting the MC mode based on metadata (isMC? 0)
+[3922852:eventselection-run3]: [09:51:03][INFO] From metadata this data is from Data
+[3922852:eventselection-run3]: [09:51:03][INFO] Auto-enabling table: BcSels
+[3922852:eventselection-run3]: [09:51:03][INFO] Auto-enabling table: EvSels
+[3922852:eventselection-run3]: [09:51:03][INFO] Luminosity / Autodetection for aod::BcSels: subscription present, will generate.
+[3922853:pid-tpc-service]: [INFO] Spawning new device pid-tpc-service in process with pid 3922853
+[3922853:pid-tpc-service]: [09:51:03][INFO] 
+[3922853:pid-tpc-service]:       ______      _    _______  _________ 
+[3922853:pid-tpc-service]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922853:pid-tpc-service]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922853:pid-tpc-service]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922853:pid-tpc-service]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922853:pid-tpc-service]: 
+[3922853:pid-tpc-service]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922849:internal-dpl-aod-index-builder]: [INFO] Instrumenting crash signals
+[3922853:pid-tpc-service]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922853:pid-tpc-service]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tpc-service@3922853 target/Linux_x86_64 init/1777189863702 id/mdicosta@ali50xl session/SKNT8WZ9, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922853:pid-tpc-service]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tpc-service@3922853 target/Linux_x86_64 init/1777189863702 id/mdicosta@ali50xl session/SKNT8WZ9, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922853:pid-tpc-service]: [09:51:03][INFO] ***************************************************
+[3922853:pid-tpc-service]: [09:51:03][INFO]  the skipTPConly flag has a value of -1! 
+[3922853:pid-tpc-service]: [09:51:03][INFO]  ---> autodetecting TPC-only track necessity now 
+[3922853:pid-tpc-service]: [09:51:03][INFO] ***************************************************
+[3922853:pid-tpc-service]: [09:51:03][INFO] Will search for #0 device requiring TPC PID for TPC only: photon-conversion-builder
+[3922853:pid-tpc-service]: [09:51:03][INFO] ***************************************************
+[3922853:pid-tpc-service]: [09:51:03][INFO]  ---> propagation service detected, checking if photons enabled...
+[3922853:pid-tpc-service]: [09:51:03][INFO]  ---> propagation service: photons disabled, TPC PID not required for TPC-only tracks
+[3922853:pid-tpc-service]: [09:51:03][INFO] ***************************************************
+[3922853:pid-tpc-service]: [09:51:03][INFO] No need for TPC only information detected. Will not generate Nsigma for TPC only tracks
+[3922853:pid-tpc-service]: [09:51:03][INFO] If this is unexpected behaviour and a necessity was not identified, please add the
+[3922853:pid-tpc-service]: [09:51:03][INFO] corresponding task to the configurable 'devicesRequiringTPCOnlyPID' of this task
+[3922853:pid-tpc-service]: [09:51:03][INFO] To do that, please get in touch with core service wagon maintainers and ask:
+[3922853:pid-tpc-service]: [09:51:03][INFO] It is always best to use core service wagons instead of private copies
+[3922853:pid-tpc-service]: [09:51:03][INFO] ***************************************************
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: DEdxsCorrected
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCFullEl
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCFullMu
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-enabling table: pidTPCFullPi
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-enabling table: pidTPCFullKa
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-enabling table: pidTPCFullPr
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-enabling table: pidTPCFullDe
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-enabling table: pidTPCFullTr
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-enabling table: pidTPCFullHe
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-enabling table: pidTPCFullAl
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCEl
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCMu
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCPi
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCKa
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCPr
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCDe
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCTr
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCHe
+[3922853:pid-tpc-service]: [09:51:03][INFO] Auto-disabling table: pidTPCAl
+[3922853:pid-tpc-service]: [09:51:03][INFO] From metadata this data is from Data
+[3922853:pid-tpc-service]: [09:51:03][INFO] Automatically setting reco pass for TPC Response to apass4 from AO2D
+[3922853:pid-tpc-service]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922853:pid-tpc-service]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922853:pid-tpc-service]: [09:51:03][STATE] BINDING ---> BOUND
+[3922853:pid-tpc-service]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922853:pid-tpc-service]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922853:pid-tpc-service]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922854:ft0-corrected-table]: [INFO] Spawning new device ft0-corrected-table in process with pid 3922854
+[3922853:pid-tpc-service]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922853:pid-tpc-service]: [09:51:03][STATE] READY ---> RUNNING
+[3922853:pid-tpc-service]: [09:51:03][INFO] fair::mq::Device running...
+[3922853:pid-tpc-service]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922853:pid-tpc-service]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922854:ft0-corrected-table]: [09:51:03][INFO] 
+[3922854:ft0-corrected-table]:       ______      _    _______  _________ 
+[3922854:ft0-corrected-table]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922854:ft0-corrected-table]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922854:ft0-corrected-table]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922854:ft0-corrected-table]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922854:ft0-corrected-table]: 
+[3922854:ft0-corrected-table]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922863:hf-pid-creator]: [INFO] Instrumenting crash signals
+[3922858:mult-cent-table]: [INFO] Spawning new device mult-cent-table in process with pid 3922858
+[3922854:ft0-corrected-table]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922859:tof-event-time]: [INFO] Spawning new device tof-event-time in process with pid 3922859
+[3922858:mult-cent-table]: [09:51:03][INFO] 
+[3922858:mult-cent-table]:       ______      _    _______  _________ 
+[3922858:mult-cent-table]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922858:mult-cent-table]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922858:mult-cent-table]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922858:mult-cent-table]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922858:mult-cent-table]: 
+[3922858:mult-cent-table]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922859:tof-event-time]: [09:51:03][INFO] 
+[3922859:tof-event-time]:       ______      _    _______  _________ 
+[3922859:tof-event-time]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922859:tof-event-time]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922859:tof-event-time]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922859:tof-event-time]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922859:tof-event-time]: 
+[3922859:tof-event-time]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922854:ft0-corrected-table]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-ft0/o2-analysis-ft0-corrected-table@3922854 target/Linux_x86_64 init/1777189863718 id/mdicosta@ali50xl session/oNr1EdEK, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922854:ft0-corrected-table]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-ft0/o2-analysis-ft0-corrected-table@3922854 target/Linux_x86_64 init/1777189863718 id/mdicosta@ali50xl session/oNr1EdEK, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922854:ft0-corrected-table]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922854:ft0-corrected-table]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922854:ft0-corrected-table]: [09:51:03][STATE] BINDING ---> BOUND
+[3922854:ft0-corrected-table]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922854:ft0-corrected-table]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922854:ft0-corrected-table]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922854:ft0-corrected-table]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922854:ft0-corrected-table]: [09:51:03][STATE] READY ---> RUNNING
+[3922854:ft0-corrected-table]: [09:51:03][INFO] fair::mq::Device running...
+[3922854:ft0-corrected-table]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922854:ft0-corrected-table]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922855:propagation-service]: [INFO] Spawning new device propagation-service in process with pid 3922855
+[3922859:tof-event-time]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922860:track-to-collision-association]: [INFO] Spawning new device track-to-collision-association in process with pid 3922860
+[3922860:track-to-collision-association]: [09:51:03][INFO] 
+[3922860:track-to-collision-association]:       ______      _    _______  _________ 
+[3922860:track-to-collision-association]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922860:track-to-collision-association]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922860:track-to-collision-association]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922860:track-to-collision-association]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922860:track-to-collision-association]: 
+[3922859:tof-event-time]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@3922859 target/Linux_x86_64 init/1777189863726 id/mdicosta@ali50xl session/sgWM6xVf, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922860:track-to-collision-association]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922859:tof-event-time]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@3922859 target/Linux_x86_64 init/1777189863726 id/mdicosta@ali50xl session/sgWM6xVf, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922859:tof-event-time]: [09:51:03][INFO] Getting pass from metadata
+[3922859:tof-event-time]: [09:51:03][INFO] From metadata this data is from Data
+[3922859:tof-event-time]: [09:51:03][INFO] Passed autodetect mode for pass. Taking 'apass4'
+[3922859:tof-event-time]: [09:51:03][INFO] Using parameter collection, starting from pass 'apass4'
+[3922859:tof-event-time]: [09:51:03][INFO] From metadata this data is from Data
+[3922859:tof-event-time]: [09:51:03][INFO]  test getTimeShift at 0 pos: 0
+[3922859:tof-event-time]: [09:51:03][INFO] From metadata this data is from Data
+[3922859:tof-event-time]: [09:51:03][INFO]  test getTimeShift at 0 neg: 0
+[3922859:tof-event-time]: [09:51:03][INFO] Parametrization at init time:
+[3922859:tof-event-time]: [09:51:03][INFO] Parameters 'TOFResoParamsV3'
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 0/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 1/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 2/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 3/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 4/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 5/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 6/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 7/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 8/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 9/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 10/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 11/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] Parameter 12/12 time_resolution is 60
+[3922859:tof-event-time]: [09:51:03][INFO] TOF momentum shift parameters
+[3922859:tof-event-time]: [09:51:03][INFO] etaN: 0
+[3922859:tof-event-time]: [09:51:03][INFO] etaStart: 0
+[3922859:tof-event-time]: [09:51:03][INFO] etaStop: 0
+[3922859:tof-event-time]: [09:51:03][INFO] content size 0
+[3922859:tof-event-time]: [09:51:03][INFO] Using no time shift for Pos vs correction 0
+[3922859:tof-event-time]: [09:51:03][INFO] Using no time shift for Neg vs correction 0
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for El is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for Mu is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for Pi is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for Ka is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for Pr is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for De is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for Tr is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for He is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Resolution function for Al is not defined yet
+[3922859:tof-event-time]: [09:51:03][INFO] Table TOFEvTime enabled!
+[3922859:tof-event-time]: [09:51:03][INFO] Autodetecting process functions
+[3922859:tof-event-time]: [09:51:03][INFO] From metadata this data is from Run 3
+[3922859:tof-event-time]: [09:51:03][INFO] From metadata this data is from Run 3
+[3922859:tof-event-time]: [09:51:03][INFO] From metadata this data is from Run 3
+[3922859:tof-event-time]: [09:51:03][INFO] Configuring track sample for TOF ev. time: 0.5 < p < 2
+[3922859:tof-event-time]: [09:51:03][INFO] Enabling process function: processRun3
+[3922859:tof-event-time]: [09:51:03][INFO] eventTimeContainer configuration:
+[3922859:tof-event-time]: [09:51:03][INFO]  maxNtracksInSet = 10
+[3922859:tof-event-time]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922859:tof-event-time]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922857:track-selection]: [INFO] Spawning new device track-selection in process with pid 3922857
+[3922855:propagation-service]: [09:51:03][INFO] 
+[3922855:propagation-service]:       ______      _    _______  _________ 
+[3922855:propagation-service]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922855:propagation-service]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922855:propagation-service]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922855:propagation-service]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922855:propagation-service]: 
+[3922855:propagation-service]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922859:tof-event-time]: [09:51:03][STATE] BINDING ---> BOUND
+[3922859:tof-event-time]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922859:tof-event-time]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922859:tof-event-time]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922857:track-selection]: [09:51:03][INFO] 
+[3922857:track-selection]:       ______      _    _______  _________ 
+[3922857:track-selection]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922857:track-selection]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922857:track-selection]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922857:track-selection]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922857:track-selection]: 
+[3922859:tof-event-time]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922857:track-selection]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922859:tof-event-time]: [09:51:03][STATE] READY ---> RUNNING
+[3922859:tof-event-time]: [09:51:03][INFO] fair::mq::Device running...
+[3922859:tof-event-time]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922859:tof-event-time]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922860:track-to-collision-association]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922860:track-to-collision-association]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922860:track-to-collision-association]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922855:propagation-service]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922860:track-to-collision-association]: [09:51:03][STATE] BINDING ---> BOUND
+[3922860:track-to-collision-association]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922860:track-to-collision-association]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922860:track-to-collision-association]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922860:track-to-collision-association]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922860:track-to-collision-association]: [09:51:03][STATE] READY ---> RUNNING
+[3922860:track-to-collision-association]: [09:51:03][INFO] fair::mq::Device running...
+[3922860:track-to-collision-association]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922860:track-to-collision-association]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922857:track-selection]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922857:track-selection]: [09:51:03][INFO] Auto-enabling table: TrackSelection
+[3922857:track-selection]: [09:51:03][INFO] Auto-disabling table: TrackSelectionExtension
+[3922857:track-selection]: [09:51:03][INFO] setting up getGlobalTrackSelectionRun3ITSMatch(TrackSelection::GlobalTrackRun3ITSMatching::Run3ITSibAny, 0);
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 254
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.1 - 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.8 - 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require ITS refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require TPC refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require golden chi2: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows TPC: 70
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster TPC: 4
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster ITS: 36
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA z: 2
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.1 - 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.8 - 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection:
+[3922857:track-selection]: [09:51:03][INFO] TrackType == 1
+[3922857:track-selection]: [09:51:03][INFO] PtRange in [0.1, 1e+10]
+[3922857:track-selection]: [09:51:03][INFO] EtaRange in [-0.8, 0.8]
+[3922857:track-selection]: [09:51:03][INFO] TPCNCls > 0
+[3922857:track-selection]: [09:51:03][INFO] TPCCrossedRows > 70
+[3922857:track-selection]: [09:51:03][INFO] TPCCrossedRowsOverNCls > 0.8
+[3922857:track-selection]: [09:51:03][INFO] TPCChi2NDF < 4
+[3922857:track-selection]: [09:51:03][INFO] TPCRefit == 1
+[3922857:track-selection]: [09:51:03][INFO] ITSNCls > 0
+[3922857:track-selection]: [09:51:03][INFO] ITSChi2NDF < 36
+[3922857:track-selection]: [09:51:03][INFO] ITSRefit == 1
+[3922857:track-selection]: [09:51:03][INFO] ITSHits == 
+[3922857:track-selection]: [09:51:03][INFO] GoldenChi2 == 1
+[3922857:track-selection]: [09:51:03][INFO] DCAxy < 1e+10
+[3922857:track-selection]: [09:51:03][INFO] DCAz < 2
+[3922857:track-selection]: [09:51:03][INFO] TPCFracSharedCls < 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 254
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.1 - 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.8 - 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require ITS refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require TPC refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require golden chi2: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows TPC: 70
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster TPC: 4
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster ITS: 36
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA z: 2
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require no hits in ITS layers
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922855:propagation-service]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pro/o2-analysis-propagationservice@3922855 target/Linux_x86_64 init/1777189863738 id/mdicosta@ali50xl session/34NvqCmX, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.1 - 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.8 - 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 254
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.1 - 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.8 - 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require ITS refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require TPC refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require golden chi2: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows TPC: 70
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster TPC: 4
+[3922855:propagation-service]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pro/o2-analysis-propagationservice@3922855 target/Linux_x86_64 init/1777189863738 id/mdicosta@ali50xl session/34NvqCmX, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster ITS: 36
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA z: 2
+[3922855:propagation-service]: [09:51:03][INFO]  Track propagation table detection results:
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 1
+[3922855:propagation-service]: [09:51:03][INFO]  ---> Will generate Tracks table.
+[3922855:propagation-service]: [09:51:03][INFO]  ---> Will generate TracksCov table.
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 254
+[3922855:propagation-service]: [09:51:03][INFO]  ---> Will generate TracksDCA table.
+[3922855:propagation-service]: [09:51:03][INFO] **************************************************************
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.1 - 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.8 - 0.8
+[3922855:propagation-service]: [09:51:03][INFO]  Warning: TracksCov has been requested due to a subscription!
+[3922855:propagation-service]: [09:51:03][INFO]  Please be mindful that generating track covariances requires
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require ITS refit: 1
+[3922855:propagation-service]: [09:51:03][INFO]  a significant extra amount of CPU and memory. If not strictly
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require TPC refit: 1
+[3922855:propagation-service]: [09:51:03][INFO]  necessary, requesting TracksCov should be avoided to save
+[3922855:propagation-service]: [09:51:03][INFO]  these additional resouces.
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require golden chi2: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows TPC: 70
+[3922855:propagation-service]: [09:51:03][INFO] **************************************************************
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster TPC: 4
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster ITS: 36
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA z: 2
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 2
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.1 - 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.8 - 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require ITS refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require TPC refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require golden chi2: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows TPC: 70
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster TPC: 4
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster ITS: 36
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA z: 2
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA xy: 0.25
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 254
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.1 - 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.8 - 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require ITS refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require TPC refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require golden chi2: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows TPC: 70
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster TPC: 4
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster ITS: 36
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA z: 2
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 2
+[3922857:track-selection]: [09:51:03][INFO] setting up filtBit5 = getJEGlobalTrackSelectionRun2();
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set track type: 254
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require ITS refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require TPC refit: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require golden chi2: 1
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows TPC: 70
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster TPC: 4
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max chi2 per cluster ITS: 36
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set pt range: 0.15 - 1000
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set eta range: -0.9 - 0.9
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA xy pt dep: 1e+10
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA xy: 2.4
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max DCA z: 3.2
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set require hits in ITS layers: 0
+[3922857:track-selection]: [09:51:03][INFO] Track selection, set max fraction of shared clusters TPC: 0.4
+[3922855:propagation-service]: [09:51:03][INFO] Checking if strangeness building is required
+[3922857:track-selection]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922857:track-selection]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922855:propagation-service]: [09:51:03][INFO] Strangeness building not required. Will suppress all functionality, including logs, from this point forward.
+[3922855:propagation-service]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922855:propagation-service]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922857:track-selection]: [09:51:03][STATE] BINDING ---> BOUND
+[3922857:track-selection]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922857:track-selection]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922857:track-selection]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922855:propagation-service]: [09:51:03][STATE] BINDING ---> BOUND
+[3922855:propagation-service]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922857:track-selection]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922857:track-selection]: [09:51:03][STATE] READY ---> RUNNING
+[3922857:track-selection]: [09:51:03][INFO] fair::mq::Device running...
+[3922857:track-selection]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922857:track-selection]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922861:tof-pid-merge]: [INFO] Spawning new device tof-pid-merge in process with pid 3922861
+[3922861:tof-pid-merge]: [09:51:03][INFO] 
+[3922861:tof-pid-merge]:       ______      _    _______  _________ 
+[3922861:tof-pid-merge]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922861:tof-pid-merge]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922861:tof-pid-merge]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922861:tof-pid-merge]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922861:tof-pid-merge]: 
+[3922861:tof-pid-merge]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922861:tof-pid-merge]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922861:tof-pid-merge]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@3922861 target/Linux_x86_64 init/1777189863754 id/mdicosta@ali50xl session/fiq8SceT, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922861:tof-pid-merge]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@3922861 target/Linux_x86_64 init/1777189863754 id/mdicosta@ali50xl session/fiq8SceT, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922861:tof-pid-merge]: [09:51:03][INFO] Getting pass from metadata
+[3922861:tof-pid-merge]: [09:51:03][INFO] From metadata this data is from Data
+[3922861:tof-pid-merge]: [09:51:03][INFO] Passed autodetect mode for pass. Taking 'apass4'
+[3922861:tof-pid-merge]: [09:51:03][INFO] Using parameter collection, starting from pass 'apass4'
+[3922856:tof-signal]: [INFO] Spawning new device tof-signal in process with pid 3922856
+[3922861:tof-pid-merge]: [09:51:03][INFO] From metadata this data is from Data
+[3922861:tof-pid-merge]: [09:51:03][INFO]  test getTimeShift at 0 pos: 0
+[3922861:tof-pid-merge]: [09:51:03][INFO] From metadata this data is from Data
+[3922861:tof-pid-merge]: [09:51:03][INFO]  test getTimeShift at 0 neg: 0
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parametrization at init time:
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameters 'TOFResoParamsV3'
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 0/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 1/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 2/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 3/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 4/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 5/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 6/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 7/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 8/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 9/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 10/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 11/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] Parameter 12/12 time_resolution is 60
+[3922861:tof-pid-merge]: [09:51:03][INFO] TOF momentum shift parameters
+[3922861:tof-pid-merge]: [09:51:03][INFO] etaN: 0
+[3922861:tof-pid-merge]: [09:51:03][INFO] etaStart: 0
+[3922861:tof-pid-merge]: [09:51:03][INFO] etaStop: 0
+[3922861:tof-pid-merge]: [09:51:03][INFO] content size 0
+[3922861:tof-pid-merge]: [09:51:03][INFO] Using no time shift for Pos vs correction 0
+[3922861:tof-pid-merge]: [09:51:03][INFO] Using no time shift for Neg vs correction 0
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for El is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for Mu is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for Pi is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for Ka is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for Pr is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for De is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for Tr is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for He is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Resolution function for Al is not defined yet
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFEl
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFFullEl
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFMu
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFFullMu
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFPi
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-enabling table: pidTOFFullPi
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFKa
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-enabling table: pidTOFFullKa
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFPr
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-enabling table: pidTOFFullPr
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFDe
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-enabling table: pidTOFFullDe
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFTr
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-enabling table: pidTOFFullTr
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFHe
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-enabling table: pidTOFFullHe
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-disabling table: pidTOFAl
+[3922861:tof-pid-merge]: [09:51:03][INFO] Auto-enabling table: pidTOFFullAl
+[3922861:tof-pid-merge]: [09:51:03][INFO] Autodetecting process functions for mass and beta
+[3922861:tof-pid-merge]: [09:51:03][INFO] From metadata this data is from Run 3
+[3922861:tof-pid-merge]: [09:51:03][INFO] ++ Enabled tables:
+[3922861:tof-pid-merge]: [09:51:03][INFO] ++  pidTOFFullPi is enabled
+[3922861:tof-pid-merge]: [09:51:03][INFO] ++  pidTOFFullKa is enabled
+[3922861:tof-pid-merge]: [09:51:03][INFO] ++  pidTOFFullPr is enabled
+[3922861:tof-pid-merge]: [09:51:03][INFO] ++  pidTOFFullDe is enabled
+[3922861:tof-pid-merge]: [09:51:03][INFO] ++  pidTOFFullTr is enabled
+[3922861:tof-pid-merge]: [09:51:03][INFO] ++  pidTOFFullHe is enabled
+[3922861:tof-pid-merge]: [09:51:03][INFO] ++  pidTOFFullAl is enabled
+[3922861:tof-pid-merge]: [09:51:03][INFO] No table for TOF mass and beta is required. Disabling beta and mass tables
+[3922861:tof-pid-merge]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922861:tof-pid-merge]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922856:tof-signal]: [09:51:03][INFO] 
+[3922856:tof-signal]:       ______      _    _______  _________ 
+[3922856:tof-signal]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922856:tof-signal]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922856:tof-signal]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922856:tof-signal]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922856:tof-signal]: 
+[3922856:tof-signal]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922861:tof-pid-merge]: [09:51:03][STATE] BINDING ---> BOUND
+[3922861:tof-pid-merge]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922861:tof-pid-merge]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922861:tof-pid-merge]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922861:tof-pid-merge]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922861:tof-pid-merge]: [09:51:03][STATE] READY ---> RUNNING
+[3922861:tof-pid-merge]: [09:51:03][INFO] fair::mq::Device running...
+[3922861:tof-pid-merge]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922861:tof-pid-merge]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922855:propagation-service]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922855:propagation-service]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922855:propagation-service]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922855:propagation-service]: [09:51:03][STATE] READY ---> RUNNING
+[3922855:propagation-service]: [09:51:03][INFO] fair::mq::Device running...
+[3922855:propagation-service]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922855:propagation-service]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922856:tof-signal]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922849:internal-dpl-aod-index-builder]: [INFO] Spawning new device internal-dpl-aod-index-builder in process with pid 3922849
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][INFO] 
+[3922849:internal-dpl-aod-index-builder]:       ______      _    _______  _________ 
+[3922849:internal-dpl-aod-index-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922849:internal-dpl-aod-index-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922849:internal-dpl-aod-index-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922849:internal-dpl-aod-index-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922849:internal-dpl-aod-index-builder]: 
+[3922856:tof-signal]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@3922856 target/Linux_x86_64 init/1777189863765 id/mdicosta@ali50xl session/QDN6lKa5, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922856:tof-signal]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@3922856 target/Linux_x86_64 init/1777189863765 id/mdicosta@ali50xl session/QDN6lKa5, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922856:tof-signal]: [09:51:03][INFO] Getting pass from metadata
+[3922856:tof-signal]: [09:51:03][INFO] From metadata this data is from Data
+[3922856:tof-signal]: [09:51:03][INFO] Passed autodetect mode for pass. Taking 'apass4'
+[3922856:tof-signal]: [09:51:03][INFO] Using parameter collection, starting from pass 'apass4'
+[3922856:tof-signal]: [09:51:03][INFO] From metadata this data is from Data
+[3922856:tof-signal]: [09:51:03][INFO]  test getTimeShift at 0 pos: 0
+[3922856:tof-signal]: [09:51:03][INFO] From metadata this data is from Data
+[3922856:tof-signal]: [09:51:03][INFO]  test getTimeShift at 0 neg: 0
+[3922856:tof-signal]: [09:51:03][INFO] Parametrization at init time:
+[3922856:tof-signal]: [09:51:03][INFO] Parameters 'TOFResoParamsV3'
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 0/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 1/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 2/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 3/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 4/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 5/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 6/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 7/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 8/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 9/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 10/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 11/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] Parameter 12/12 time_resolution is 60
+[3922856:tof-signal]: [09:51:03][INFO] TOF momentum shift parameters
+[3922856:tof-signal]: [09:51:03][INFO] etaN: 0
+[3922856:tof-signal]: [09:51:03][INFO] etaStart: 0
+[3922856:tof-signal]: [09:51:03][INFO] etaStop: 0
+[3922856:tof-signal]: [09:51:03][INFO] content size 0
+[3922856:tof-signal]: [09:51:03][INFO] Using no time shift for Pos vs correction 0
+[3922856:tof-signal]: [09:51:03][INFO] Using no time shift for Neg vs correction 0
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for El is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for Mu is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for Pi is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for Ka is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for Pr is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for De is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for Tr is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for He is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Resolution function for Al is not defined yet
+[3922856:tof-signal]: [09:51:03][INFO] Table TOFSignal enabled!
+[3922856:tof-signal]: [09:51:03][INFO] Autodetecting process functions
+[3922856:tof-signal]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922856:tof-signal]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922856:tof-signal]: [09:51:03][STATE] BINDING ---> BOUND
+[3922856:tof-signal]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922856:tof-signal]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922856:tof-signal]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922856:tof-signal]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922856:tof-signal]: [09:51:03][STATE] READY ---> RUNNING
+[3922856:tof-signal]: [09:51:03][INFO] fair::mq::Device running...
+[3922856:tof-signal]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922856:tof-signal]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] BINDING ---> BOUND
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][STATE] READY ---> RUNNING
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][INFO] fair::mq::Device running...
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922849:internal-dpl-aod-index-builder]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [INFO] Instrumenting crash signals
+[3922863:hf-pid-creator]: [INFO] Spawning new device hf-pid-creator in process with pid 3922863
+[3922863:hf-pid-creator]: [09:51:03][INFO] 
+[3922863:hf-pid-creator]:       ______      _    _______  _________ 
+[3922863:hf-pid-creator]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922863:hf-pid-creator]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922863:hf-pid-creator]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922863:hf-pid-creator]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922863:hf-pid-creator]: 
+[3922863:hf-pid-creator]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922865:hf-track-index-skim-creator]: [INFO] Instrumenting crash signals
+[3922863:hf-pid-creator]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922863:hf-pid-creator]: [09:51:03][WARN] Table PidTpcTofFullPi is requested but not needed. Disabling the corresponding process function!
+[3922863:hf-pid-creator]: [09:51:03][WARN] Table PidTpcTofFullKa is requested but not needed. Disabling the corresponding process function!
+[3922863:hf-pid-creator]: [09:51:03][WARN] Table PidTpcTofFullPr is requested but not needed. Disabling the corresponding process function!
+[3922863:hf-pid-creator]: [09:51:03][WARN] Table PidTpcTofFullDe is requested but not needed. Disabling the corresponding process function!
+[3922863:hf-pid-creator]: [09:51:03][WARN] Table PidTpcTofFullTr is requested but not needed. Disabling the corresponding process function!
+[3922863:hf-pid-creator]: [09:51:03][WARN] Table PidTpcTofFullHe is requested but not needed. Disabling the corresponding process function!
+[3922863:hf-pid-creator]: [09:51:03][WARN] Table PidTpcTofFullAl is requested but not needed. Disabling the corresponding process function!
+[3922863:hf-pid-creator]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922863:hf-pid-creator]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922863:hf-pid-creator]: [09:51:03][STATE] BINDING ---> BOUND
+[3922863:hf-pid-creator]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922863:hf-pid-creator]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922863:hf-pid-creator]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922863:hf-pid-creator]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922863:hf-pid-creator]: [09:51:03][STATE] READY ---> RUNNING
+[3922863:hf-pid-creator]: [09:51:03][INFO] fair::mq::Device running...
+[3922863:hf-pid-creator]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922863:hf-pid-creator]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922867:hf-track-index-skim-creator-cascades]: [INFO] Instrumenting crash signals
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [INFO] Instrumenting crash signals
+[3922866:hf-track-index-skim-creator-lf-cascades]: [INFO] Instrumenting crash signals
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [INFO] Instrumenting crash signals
+[3922868:internal-dpl-aod-writer]: [INFO] Instrumenting crash signals
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [INFO] Spawning new device hf-track-index-skim-creator-tag-sel-collisions in process with pid 3922862
+[3922870:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:03][INFO] 
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]:       ______      _    _______  _________ 
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: 
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922862 target/Linux_x86_64 init/1777189863714 id/mdicosta@ali50xl session/Eigi3WfR, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922865:hf-track-index-skim-creator]: [INFO] Spawning new device hf-track-index-skim-creator in process with pid 3922865
+[3922865:hf-track-index-skim-creator]: [09:51:03][INFO] 
+[3922865:hf-track-index-skim-creator]:       ______      _    _______  _________ 
+[3922865:hf-track-index-skim-creator]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922865:hf-track-index-skim-creator]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922865:hf-track-index-skim-creator]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922865:hf-track-index-skim-creator]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922865:hf-track-index-skim-creator]: 
+[3922865:hf-track-index-skim-creator]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922867:hf-track-index-skim-creator-cascades]: [INFO] Spawning new device hf-track-index-skim-creator-cascades in process with pid 3922867
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][INFO] 
+[3922867:hf-track-index-skim-creator-cascades]:       ______      _    _______  _________ 
+[3922867:hf-track-index-skim-creator-cascades]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922867:hf-track-index-skim-creator-cascades]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922867:hf-track-index-skim-creator-cascades]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922867:hf-track-index-skim-creator-cascades]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922867:hf-track-index-skim-creator-cascades]: 
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922865:hf-track-index-skim-creator]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922865:hf-track-index-skim-creator]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922865 target/Linux_x86_64 init/1777189863735 id/mdicosta@ali50xl session/cR4Jm0u8, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922865:hf-track-index-skim-creator]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922865 target/Linux_x86_64 init/1777189863735 id/mdicosta@ali50xl session/cR4Jm0u8, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922867 target/Linux_x86_64 init/1777189863745 id/mdicosta@ali50xl session/vHmRGSuU, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] BINDING ---> BOUND
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][STATE] READY ---> RUNNING
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][INFO] fair::mq::Device running...
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922867:hf-track-index-skim-creator-cascades]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawning new device internal-dpl-aod-global-analysis-file-sink in process with pid 3922869
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][INFO] 
+[3922869:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
+[3922869:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922869:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922869:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922869:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922869:internal-dpl-aod-global-analysis-file-sink]: 
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] BINDING ---> BOUND
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][STATE] READY ---> RUNNING
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][INFO] fair::mq::Device running...
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [INFO] Spawning new device hf-track-index-skim-creator-tag-sel-tracks in process with pid 3922864
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:03][INFO] 
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]:       ______      _    _______  _________ 
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: 
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] BINDING ---> BOUND
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[INFO] Controller for internal-dpl-aod-reader now available.
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922847:internal-dpl-aod-reader]: [09:51:03][STATE] READY ---> RUNNING
+[3922847:internal-dpl-aod-reader]: [09:51:03][INFO] fair::mq::Device running...
+[3922847:internal-dpl-aod-reader]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922847:internal-dpl-aod-reader]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922864 target/Linux_x86_64 init/1777189863730 id/mdicosta@ali50xl session/2kU6TWyU, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922866:hf-track-index-skim-creator-lf-cascades]: [INFO] Spawning new device hf-track-index-skim-creator-lf-cascades in process with pid 3922866
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][INFO] 
+[3922866:hf-track-index-skim-creator-lf-cascades]:       ______      _    _______  _________ 
+[3922866:hf-track-index-skim-creator-lf-cascades]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922866:hf-track-index-skim-creator-lf-cascades]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922866:hf-track-index-skim-creator-lf-cascades]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922866:hf-track-index-skim-creator-lf-cascades]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922866:hf-track-index-skim-creator-lf-cascades]: 
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922868:internal-dpl-aod-writer]: [INFO] Spawning new device internal-dpl-aod-writer in process with pid 3922868
+[3922868:internal-dpl-aod-writer]: [09:51:03][INFO] 
+[3922868:internal-dpl-aod-writer]:       ______      _    _______  _________ 
+[3922868:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922868:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922868:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922868:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922868:internal-dpl-aod-writer]: 
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][INFO] Init CcdApi with UserAgentID: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922866 target/Linux_x86_64 init/1777189863737 id/mdicosta@ali50xl session/fbkhNIaR, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] BINDING ---> BOUND
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] BINDING ---> BOUND
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][STATE] READY ---> RUNNING
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][INFO] fair::mq::Device running...
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] BINDING ---> BOUND
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922866:hf-track-index-skim-creator-lf-cascades]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922848:internal-dpl-aod-spawner]: [09:51:03][STATE] READY ---> RUNNING
+[3922848:internal-dpl-aod-spawner]: [09:51:03][INFO] fair::mq::Device running...
+[3922848:internal-dpl-aod-spawner]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922848:internal-dpl-aod-spawner]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922868:internal-dpl-aod-writer]: [09:51:03][STATE] READY ---> RUNNING
+[3922868:internal-dpl-aod-writer]: [09:51:03][INFO] fair::mq::Device running...
+[3922868:internal-dpl-aod-writer]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922868:internal-dpl-aod-writer]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922870:internal-dpl-injected-dummy-sink]: [INFO] Spawning new device internal-dpl-injected-dummy-sink in process with pid 3922870
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][INFO] 
+[3922870:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[3922870:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3922870:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3922870:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3922870:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3922870:internal-dpl-injected-dummy-sink]: 
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] Starting FairMQ state machine --> IDLE
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] BINDING ---> BOUND
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][STATE] READY ---> RUNNING
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][INFO] fair::mq::Device running...
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922870:internal-dpl-injected-dummy-sink]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922852:eventselection-run3]: [09:51:03][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922852:eventselection-run3]: [09:51:03][STATE] INITIALIZED ---> BINDING
+[3922852:eventselection-run3]: [09:51:03][STATE] BINDING ---> BOUND
+[3922852:eventselection-run3]: [09:51:03][STATE] BOUND ---> CONNECTING
+[3922852:eventselection-run3]: [09:51:03][STATE] CONNECTING ---> DEVICE READY
+[3922852:eventselection-run3]: [09:51:03][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922852:eventselection-run3]: [09:51:03][STATE] INITIALIZING TASK ---> READY
+[3922852:eventselection-run3]: [09:51:03][STATE] READY ---> RUNNING
+[3922852:eventselection-run3]: [09:51:03][INFO] fair::mq::Device running...
+[3922852:eventselection-run3]: [09:51:03][INFO] LHCPeriod is not available, using current month APR
+[3922852:eventselection-run3]: [09:51:03][INFO] Correctly handshaken websocket connection.
+[3922847:internal-dpl-aod-reader]: [09:51:03][INFO] Opening file: lfn=/home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_001.root,size=4002332178
+[3922858:mult-cent-table]: Warning in <TDatabasePDG::AddParticle>: Particle with PDGcode=1000030040 already defined
+[3922858:mult-cent-table]: [09:51:03][STATE] IDLE ---> INITIALIZING DEVICE
+[3922858:mult-cent-table]: [09:51:04][INFO] Init CcdApi with UserAgentID: o2-analysis-mul/o2-analysis-multcenttable@3922858 target/Linux_x86_64 init/1777189864000 id/mdicosta@ali50xl session/GoeU6gBy, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[3922858:mult-cent-table]: [09:51:04][INFO] Init CcdApi with UserAgentID: o2-analysis-mul/o2-analysis-multcenttable@3922858 target/Linux_x86_64 init/1777189864000 id/mdicosta@ali50xl session/GoeU6gBy, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[3922858:mult-cent-table]: [09:51:04][INFO] Configuring tables to generate
+[3922858:mult-cent-table]: [09:51:04][INFO] From metadata this data is from Data
+[3922858:mult-cent-table]: [09:51:04][INFO] Metadata information: isMC? 0
+[3922858:mult-cent-table]: [09:51:04][INFO] Device hf-track-index-skim-creator-tag-sel-collisions has subscribed to CentFT0Cs (version 0)
+[3922858:mult-cent-table]: [09:51:04][INFO]  -~> Table enabled: FT0MultZeqs, requested by dependency check 
+[3922858:mult-cent-table]: [09:51:04][INFO]  -~> Table enabled: CentFT0Cs, requested by hf-track-index-skim-creator-tag-sel-collisions 
+[3922858:mult-cent-table]: [09:51:04][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922858:mult-cent-table]: [09:51:04][STATE] INITIALIZED ---> BINDING
+[3922858:mult-cent-table]: [09:51:04][STATE] BINDING ---> BOUND
+[3922858:mult-cent-table]: [09:51:04][STATE] BOUND ---> CONNECTING
+[3922858:mult-cent-table]: [09:51:04][STATE] CONNECTING ---> DEVICE READY
+[3922858:mult-cent-table]: [09:51:04][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922858:mult-cent-table]: [09:51:04][STATE] INITIALIZING TASK ---> READY
+[3922858:mult-cent-table]: [09:51:04][STATE] READY ---> RUNNING
+[3922858:mult-cent-table]: [09:51:04][INFO] fair::mq::Device running...
+[3922858:mult-cent-table]: [09:51:04][INFO] LHCPeriod is not available, using current month APR
+[3922858:mult-cent-table]: [09:51:04][INFO] Correctly handshaken websocket connection.
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][STATE] INITIALIZED ---> BINDING
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][STATE] BINDING ---> BOUND
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][STATE] BOUND ---> CONNECTING
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][STATE] CONNECTING ---> DEVICE READY
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][STATE] INITIALIZING TASK ---> READY
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][STATE] READY ---> RUNNING
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][INFO] fair::mq::Device running...
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][INFO] LHCPeriod is not available, using current month APR
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [09:51:04][INFO] Correctly handshaken websocket connection.
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][STATE] INITIALIZED ---> BINDING
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][STATE] BINDING ---> BOUND
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][STATE] BOUND ---> CONNECTING
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][STATE] CONNECTING ---> DEVICE READY
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][STATE] INITIALIZING TASK ---> READY
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][STATE] READY ---> RUNNING
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][INFO] fair::mq::Device running...
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][INFO] LHCPeriod is not available, using current month APR
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:04][INFO] Correctly handshaken websocket connection.
+[3922865:hf-track-index-skim-creator]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[3922865:hf-track-index-skim-creator]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[3922865:hf-track-index-skim-creator]: BEGIN >>> 2026-04-20 13:36:16
+[3922865:hf-track-index-skim-creator]: EXPIRE >>> 2026-05-21 15:36:16
+[3922865:hf-track-index-skim-creator]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[3922865:hf-track-index-skim-creator]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.60
+[3922847:internal-dpl-aod-reader]: [09:51:06][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 502331532. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:06][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 502331532. Data is not lost and it will be scheduled again.
+[3922851:tracks-extra-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[3922851:tracks-extra-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[3922851:tracks-extra-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[3922852:eventselection-run3]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[3922852:eventselection-run3]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[3922852:eventselection-run3]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[3922852:eventselection-run3]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[3922852:eventselection-run3]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[3922852:eventselection-run3]: BEGIN >>> 2026-04-20 13:36:16
+[3922852:eventselection-run3]: EXPIRE >>> 2026-05-21 15:36:16
+[3922852:eventselection-run3]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[3922852:eventselection-run3]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.50
+[3922847:internal-dpl-aod-reader]: [09:51:08][WARN] Not enough resources to schedule computation. 4 skipped so far. Last scheduled at 502331532. Data is not lost and it will be scheduled again.
+[3922865:hf-track-index-skim-creator]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.60
+[3922852:eventselection-run3]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.50
+[3922865:hf-track-index-skim-creator]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Param/MatLUT/09/07140/3e09b8d8-2220-11f1-b747-808de0f5250c in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Calib/OrbitReset/08/03541/8e9235ed-63d1-11ee-8014-0aa140641b9a in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:09][INFO] ccdb reads http://alice-ccdb.cern.ch/CTP/Calib/OrbitReset/1696546217987/8e9235ed-63d1-11ee-8014-0aa140641b9a for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: [09:51:09][INFO] Add new run number 544121 with orbit-reset timestamp 1696546217986806, SOR: 1696553064773, EOR: 1696557882162 to cache
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPECS/10/18210/c2f3f0ca-63ec-11ee-8033-0aa145271b9a in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:10][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPECS/1696553013965/c2f3f0ca-63ec-11ee-8033-0aa145271b9a for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPLHCIF/00/20529/c0998e8f-63d6-11ee-8015-0aa1229c1b9a in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:10][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1696548450045/c0998e8f-63d6-11ee-8015-0aa1229c1b9a for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Calib/FirstRunOrbit/08/01228/7f927d57-63e1-11ee-8016-0aa140641b9a in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:11][INFO] ccdb reads http://alice-ccdb.cern.ch/CTP/Calib/FirstRunOrbit/1696553064805/7f927d57-63e1-11ee-8016-0aa140641b9a for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: [09:51:11][INFO] BcSelectionModule: isMC = false, NumberOfOrbitsPerTF extracted from AggregatedRunInfo = 32
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/EventSelection/EventSelectionParams/05/07443/5f880452-f6ff-11ee-82dc-90ce809b250c in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:12][INFO] ccdb reads http://alice-ccdb.cern.ch/EventSelection/EventSelectionParams/1543767116001/5f880452-f6ff-11ee-82dc-90ce809b250c for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922865:hf-track-index-skim-creator]: [09:51:12][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUT/1767222000000/3e09b8d8-2220-11f1-b747-808de0f5250c for 1777189863880 (retrieve, agent_id: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922865 target/Linux_x86_64 init/1777189863735 id/mdicosta@ali50xl session/cR4Jm0u8), 
+[3922865:hf-track-index-skim-creator]: [09:51:12][INFO] Initializing voxel layer lookup
+[3922865:hf-track-index-skim-creator]: [09:51:12][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3922865:hf-track-index-skim-creator]: [09:51:12][STATE] INITIALIZED ---> BINDING
+[3922865:hf-track-index-skim-creator]: [09:51:12][STATE] BINDING ---> BOUND
+[3922865:hf-track-index-skim-creator]: [09:51:12][STATE] BOUND ---> CONNECTING
+[3922865:hf-track-index-skim-creator]: [09:51:12][STATE] CONNECTING ---> DEVICE READY
+[3922865:hf-track-index-skim-creator]: [09:51:12][STATE] DEVICE READY ---> INITIALIZING TASK
+[3922865:hf-track-index-skim-creator]: [09:51:12][STATE] INITIALIZING TASK ---> READY
+[3922865:hf-track-index-skim-creator]: [09:51:12][STATE] READY ---> RUNNING
+[3922865:hf-track-index-skim-creator]: [09:51:12][INFO] fair::mq::Device running...
+[3922865:hf-track-index-skim-creator]: [09:51:12][INFO] LHCPeriod is not available, using current month APR
+[3922865:hf-track-index-skim-creator]: [09:51:12][INFO] Correctly handshaken websocket connection.
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/ITS/Config/AlpideParam/08/59055/55865c37-639c-11ee-8013-0aa1229c1b9a in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:13][INFO] ccdb reads http://alice-ccdb.cern.ch/ITS/Config/AlpideParam/1696523359595/55865c37-639c-11ee-8013-0aa1229c1b9a for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/EventSelection/TriggerAliases/08/23107/e033c5ef-6827-11ee-bc26-90ce809b250c in SE <ALICE::CERN::OCDB>
+[3922847:internal-dpl-aod-reader]: [09:51:13][WARN] Not enough resources to schedule computation. 8 skipped so far. Last scheduled at 502331532. Data is not lost and it will be scheduled again.
+[3922852:eventselection-run3]: [09:51:14][INFO] ccdb reads http://alice-ccdb.cern.ch/EventSelection/TriggerAliases/1696553013965/e033c5ef-6827-11ee-bc26-90ce809b250c for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/ITS/Calib/TimeDeadMap/01/54663/1f47aa31-b3ba-11ee-8f76-200114580202 in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:15][INFO] ccdb reads http://alice-ccdb.cern.ch/ITS/Calib/TimeDeadMap/1696552953965/1f47aa31-b3ba-11ee-8f76-200114580202 for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: [09:51:15][INFO] accessing pass-specific rct object for run=544121 and passName=apass4 from ccdb
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/RCT/Flags/RunFlags/07/27427/d603d00b-73a4-11f0-8003-808d5c2324ee in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:15][INFO] ccdb reads http://alice-ccdb.cern.ch/RCT/Flags/RunFlags/1696553054773/d603d00b-73a4-11f0-8003-808d5c2324ee for 1696555473467 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: [09:51:15][INFO] EventSelectionModule: isMC = false, NumberOfOrbitsPerTF extracted from AggregatedRunInfo = 32
+[3922852:eventselection-run3]: [09:51:15][INFO] beamZ1=82 beamZ2=82 sqrts=5361.0024
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Config/Config/05/32581/61ba8db1-63e1-11ee-8016-0aa140651b9a in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:16][INFO] ccdb reads http://alice-ccdb.cern.ch/CTP/Config/Config/1696552415343/61ba8db1-63e1-11ee-8016-0aa140651b9a for 1696553064773 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922852:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Calib/Scalers/15/07676/b6d9dc2b-63ec-11ee-8033-0aa140651b9a in SE <ALICE::CERN::OCDB>
+[3922852:eventselection-run3]: [09:51:17][INFO] ccdb reads http://alice-ccdb.cern.ch/CTP/Calib/Scalers/1696552415343/b6d9dc2b-63ec-11ee-8033-0aa140651b9a for 1696553064773 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0), 
+[3922853:pid-tpc-service]: [09:51:17][INFO] Retrieving latest TPC response object for timestamp 1696553064773:
+[3922853:pid-tpc-service]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[3922853:pid-tpc-service]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[3922853:pid-tpc-service]: BEGIN >>> 2026-04-20 13:36:16
+[3922853:pid-tpc-service]: EXPIRE >>> 2026-05-21 15:36:16
+[3922853:pid-tpc-service]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[3922853:pid-tpc-service]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.76
+[3922853:pid-tpc-service]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.76
+[3922853:pid-tpc-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Analysis/PID/TPC/Response/04/55469/5c85353b-c155-11ef-b238-8cb53d0b250c in SE <ALICE::CERN::OCDB>
+[3922853:pid-tpc-service]: [09:51:18][INFO] ccdb reads http://alice-ccdb.cern.ch/Analysis/PID/TPC/Response/1696527047467/5c85353b-c155-11ef-b238-8cb53d0b250c for 1696553064773 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tpc-service@3922853 target/Linux_x86_64 init/1777189863702 id/mdicosta@ali50xl session/SKNT8WZ9), 
+[3922853:pid-tpc-service]: [09:51:18][INFO] Successfully retrieved TPC PID object from CCDB for timestamp 1696553064773, period LHC23zzh, recoPass apass4
+[3922853:pid-tpc-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPLHCIF/00/20529/c0998e8f-63d6-11ee-8015-0aa1229c1b9a in SE <ALICE::CERN::OCDB>
+[3922853:pid-tpc-service]: [09:51:18][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1696548450045/c0998e8f-63d6-11ee-8015-0aa1229c1b9a for 1696553064773 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tpc-service@3922853 target/Linux_x86_64 init/1777189863702 id/mdicosta@ali50xl session/SKNT8WZ9), 
+[3922853:pid-tpc-service]: [09:51:18][INFO] Collisions type::1
+[3922853:pid-tpc-service]: [09:51:18][INFO] ==== TPC PID response parameters: ====
+[3922853:pid-tpc-service]: [09:51:18][INFO] BB param [0] = 0.203215
+[3922853:pid-tpc-service]: [09:51:18][INFO] BB param [1] = 4.41563
+[3922853:pid-tpc-service]: [09:51:18][INFO] BB param [2] = 0.0071937
+[3922853:pid-tpc-service]: [09:51:18][INFO] BB param [3] = 2.27165
+[3922853:pid-tpc-service]: [09:51:18][INFO] BB param [4] = 0.917329
+[3922853:pid-tpc-service]: [09:51:18][INFO] use default resolution parametrization = true
+[3922853:pid-tpc-service]: [09:51:18][INFO] Default Resolution parametrization: 
+[3922853:pid-tpc-service]: [09:51:18][INFO] Resolution param [0] = 0.07
+[3922853:pid-tpc-service]: [09:51:18][INFO] Resolution param [1] = 0
+[3922853:pid-tpc-service]: [09:51:18][INFO] mMIP = 50
+[3922853:pid-tpc-service]: [09:51:18][INFO] mChargeFactor = 2.3
+[3922853:pid-tpc-service]: [09:51:18][INFO] mMultNormalization = 11000
+[3922853:pid-tpc-service]: [09:51:18][INFO] nClNorm = 152
+[3922855:propagation-service]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[3922855:propagation-service]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[3922855:propagation-service]: BEGIN >>> 2026-04-20 13:36:16
+[3922855:propagation-service]: EXPIRE >>> 2026-05-21 15:36:16
+[3922855:propagation-service]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[3922855:propagation-service]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.29
+[3922855:propagation-service]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.29
+[3922855:propagation-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPMagField/07/61367/03cf166c-5f60-11ee-8003-0aa1229c1b9a in SE <ALICE::CERN::OCDB>
+[3922855:propagation-service]: [09:51:23][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPMagField/1696057648043/03cf166c-5f60-11ee-8003-0aa1229c1b9a for 1696555473467 (retrieve, agent_id: o2-analysis-pro/o2-analysis-propagationservice@3922855 target/Linux_x86_64 init/1777189863738 id/mdicosta@ali50xl session/34NvqCmX), 
+[3922855:propagation-service]: [09:51:23][INFO] Setting global propagator magnetic field to current 29999.8 A for run 544121 from its GRPMagField CCDB object
+[3922855:propagation-service]: [09:51:23][INFO] MagneticField::Print: MagneticFieldMap:
+[3922855:propagation-service]: [09:51:23][INFO] MagneticField::Print: Solenoid (0.999995*)5 kG, Dipole ON (0.999993) 
+[3922855:propagation-service]: [09:51:23][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[3922855:propagation-service]: [09:51:23][INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2/daily-20260424-0000-local1/share/Common/maps/mfchebKGI_sym.root
+[3922855:propagation-service]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[3922855:propagation-service]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[3922855:propagation-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Calib/MeanVertex/05/42058/11129937-63e8-11ee-8032-0aa200321b9a in SE <ALICE::CERN::OCDB>
+[3922855:propagation-service]: [09:51:23][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Calib/MeanVertex/1696555402379/11129937-63e8-11ee-8032-0aa200321b9a for 1696555473467 (retrieve, agent_id: o2-analysis-pro/o2-analysis-propagationservice@3922855 target/Linux_x86_64 init/1777189863738 id/mdicosta@ali50xl session/34NvqCmX), 
+[3922855:propagation-service]: [09:51:23][INFO] Loading material look-up table for timestamp: 544121
+[3922855:propagation-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Param/MatLUTInner/02/16901/59dbb323-99d9-11ee-ae3f-200114580202 in SE <ALICE::CERN::OCDB>
+[3922855:propagation-service]: [09:51:24][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUTInner/1546300800000/59dbb323-99d9-11ee-ae3f-200114580202 for 1696555473467 (retrieve, agent_id: o2-analysis-pro/o2-analysis-propagationservice@3922855 target/Linux_x86_64 init/1777189863738 id/mdicosta@ali50xl session/34NvqCmX), 
+[3922855:propagation-service]: [09:51:24][INFO] Initializing voxel layer lookup
+[3922855:propagation-service]: [09:51:24][INFO] Setting global propagator material propagation LUT
+[3922855:propagation-service]: [09:51:24][INFO] Loaded 440 params from $(O2_ROOT)/share/Common/maps/sol5k.txt
+[3922858:mult-cent-table]: [09:51:26][INFO] centrality loading procedure for timestamp=1696553064773, run number=544121
+[3922858:mult-cent-table]: [09:51:26][INFO] From metadata this data is from Data
+[3922858:mult-cent-table]: [09:51:26][INFO] From metadata this data is from Data
+[3922858:mult-cent-table]: [09:51:26][INFO] centrality loading procedure for timestamp=1696553064773, run number=544121
+[3922858:mult-cent-table]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[3922858:mult-cent-table]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[3922858:mult-cent-table]: BEGIN >>> 2026-04-20 13:36:16
+[3922858:mult-cent-table]: EXPIRE >>> 2026-05-21 15:36:16
+[3922858:mult-cent-table]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[3922858:mult-cent-table]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.53
+[3922858:mult-cent-table]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.53
+[3922858:mult-cent-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Centrality/Estimators/10/42625/f22ac4f4-3055-11f1-90c5-d9c29a4424ee in SE <ALICE::CERN::OCDB>
+[3922858:mult-cent-table]: [09:51:28][INFO] ccdb reads http://alice-ccdb.cern.ch/Centrality/Estimators/1696553013665/f22ac4f4-3055-11f1-90c5-d9c29a4424ee for 1696555473467 (retrieve, agent_id: o2-analysis-mul/o2-analysis-multcenttable@3922858 target/Linux_x86_64 init/1777189864000 id/mdicosta@ali50xl session/GoeU6gBy), 
+[3922858:mult-cent-table]: [09:51:28][INFO] Getting new histograms with 0 run number for 544121 run number
+[3922859:tof-event-time]: [09:51:28][INFO] Updating the parametrization from last run -1 to 544121 and timestamp from -1 1696553064773
+[3922859:tof-event-time]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[3922859:tof-event-time]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[3922859:tof-event-time]: BEGIN >>> 2026-04-20 13:36:16
+[3922859:tof-event-time]: EXPIRE >>> 2026-05-21 15:36:16
+[3922847:internal-dpl-aod-reader]: [09:51:28][WARN] Not enough resources to schedule computation. 16 skipped so far. Last scheduled at 502331532. Data is not lost and it will be scheduled again.
+[3922859:tof-event-time]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[3922859:tof-event-time]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.52
+[3922859:tof-event-time]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.52
+[3922859:tof-event-time]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPLHCIF/00/20529/c0998e8f-63d6-11ee-8015-0aa1229c1b9a in SE <ALICE::CERN::OCDB>
+[3922859:tof-event-time]: [09:51:29][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1696548450045/c0998e8f-63d6-11ee-8015-0aa1229c1b9a for 1696553064773 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@3922859 target/Linux_x86_64 init/1777189863726 id/mdicosta@ali50xl session/sgWM6xVf), 
+[3922859:tof-event-time]: [09:51:29][INFO] Updating parametrization from path 'TOF/Calib/Params' and timestamp 1696553064773 and reconstruction pass 'apass4' for run number 544121
+[3922859:tof-event-time]: [09:51:29][INFO] Updating parametrization from ccdb
+[3922859:tof-event-time]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/TOF/Calib/Params/12/40346/3f9ff634-3ffb-11f0-b0a3-808de0f524ee in SE <ALICE::CERN::OCDB>
+[3922859:tof-event-time]: [09:51:30][INFO] ccdb reads http://alice-ccdb.cern.ch/TOF/Calib/Params/1696467684347/3f9ff634-3ffb-11f0-b0a3-808de0f524ee for 1696553064773 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@3922859 target/Linux_x86_64 init/1777189863726 id/mdicosta@ali50xl session/sgWM6xVf), 
+[3922859:tof-event-time]: [09:51:30][INFO] From metadata this data is from Run 3
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for El with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for Mu with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for Pi with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for Ka with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for Pr with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for De with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for Tr with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for He with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[3922859:tof-event-time]: [09:51:30][INFO] Set the resolution function for Al with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for El is tofResTrack.El_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Mu is tofResTrack.Mu_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Pi is tofResTrack.Pi_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Ka is tofResTrack.Ka_ with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Pr is tofResTrack.Pr_ with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for De is tofResTrack.De_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Tr is tofResTrack.Tr_ with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for He is tofResTrack.He_ with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Al is tofResTrack.Al_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922859:tof-event-time]: [09:51:30][INFO] From metadata this data is from Data
+[3922859:tof-event-time]: [09:51:30][INFO] Updating the time shift for positive from ccdb 'Analysis/PID/TOFOffsetPos' and timestamp 1696553064773 and pass 'apass4'
+[3922859:tof-event-time]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Analysis/PID/TOFOffsetPos/06/48050/0adc958a-a018-11ef-8ed0-5d44bdbe250c in SE <ALICE::CERN::OCDB>
+[3922859:tof-event-time]: [09:51:30][INFO] ccdb reads http://alice-ccdb.cern.ch/Analysis/PID/TOFOffsetPos/1696553013965/0adc958a-a018-11ef-8ed0-5d44bdbe250c for 1696553064773 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@3922859 target/Linux_x86_64 init/1777189863726 id/mdicosta@ali50xl session/sgWM6xVf), 
+[3922859:tof-event-time]: [09:51:30][INFO] Set the Time Shift parameters from object ccdb_object _run544121 for positive
+[3922859:tof-event-time]: [09:51:30][INFO]  test getTimeShift at 0 pos: 0
+[3922859:tof-event-time]: [09:51:30][INFO] From metadata this data is from Data
+[3922859:tof-event-time]: [09:51:30][INFO] Updating the time shift for negative from ccdb 'Analysis/PID/TOFOffsetPos' and timestamp 1696553064773 and pass 'apass4'
+[3922859:tof-event-time]: [09:51:30][INFO] Set the Time Shift parameters from object ccdb_object _run544121 for negative
+[3922859:tof-event-time]: [09:51:30][INFO]  test getTimeShift at 0 neg: 0
+[3922859:tof-event-time]: [09:51:30][INFO] Parametrization at setup time:
+[3922859:tof-event-time]: [09:51:30][INFO] Parameters 'TOFResoParamsV3'
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 0/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 1/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 2/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 3/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 4/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 5/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 6/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 7/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 8/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 9/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 10/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 11/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] Parameter 12/12 time_resolution is 62
+[3922859:tof-event-time]: [09:51:30][INFO] TOF momentum shift parameters
+[3922859:tof-event-time]: [09:51:30][INFO] etaN: 0
+[3922859:tof-event-time]: [09:51:30][INFO] etaStart: 0
+[3922859:tof-event-time]: [09:51:30][INFO] etaStop: 0
+[3922859:tof-event-time]: [09:51:30][INFO] content size 0
+[3922859:tof-event-time]: [09:51:30][INFO] Using a time shift for Pos ccdb_object _run544121 value at 0: 0 vs correction 0
+[3922859:tof-event-time]: [09:51:30][INFO] Using a time shift for Neg ccdb_object _run544121 value at 0: 0 vs correction 0
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for El is tofResTrack.El_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Mu is tofResTrack.Mu_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Pi is tofResTrack.Pi_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Ka is tofResTrack.Ka_ with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Pr is tofResTrack.Pr_ with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for De is tofResTrack.De_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Tr is tofResTrack.Tr_ with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for He is tofResTrack.He_ with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[3922859:tof-event-time]: [09:51:30][INFO] Resolution function for Al is tofResTrack.Al_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922860:track-to-collision-association]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[3922860:track-to-collision-association]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[3922860:track-to-collision-association]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[3922861:tof-pid-merge]: [09:51:30][INFO] Updating the parametrization from last run -1 to 544121 and timestamp from -1 1696553064773
+[3922861:tof-pid-merge]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[3922861:tof-pid-merge]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[3922861:tof-pid-merge]: BEGIN >>> 2026-04-20 13:36:16
+[3922861:tof-pid-merge]: EXPIRE >>> 2026-05-21 15:36:16
+[3922861:tof-pid-merge]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[3922861:tof-pid-merge]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.33
+[3922861:tof-pid-merge]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.33
+[3922861:tof-pid-merge]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPLHCIF/00/20529/c0998e8f-63d6-11ee-8015-0aa1229c1b9a in SE <ALICE::CERN::OCDB>
+[3922861:tof-pid-merge]: [09:51:32][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1696548450045/c0998e8f-63d6-11ee-8015-0aa1229c1b9a for 1696553064773 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@3922861 target/Linux_x86_64 init/1777189863754 id/mdicosta@ali50xl session/fiq8SceT), 
+[3922861:tof-pid-merge]: [09:51:32][INFO] Updating parametrization from path 'TOF/Calib/Params' and timestamp 1696553064773 and reconstruction pass 'apass4' for run number 544121
+[3922861:tof-pid-merge]: [09:51:32][INFO] Updating parametrization from ccdb
+[3922861:tof-pid-merge]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/TOF/Calib/Params/12/40346/3f9ff634-3ffb-11f0-b0a3-808de0f524ee in SE <ALICE::CERN::OCDB>
+[3922861:tof-pid-merge]: [09:51:32][INFO] ccdb reads http://alice-ccdb.cern.ch/TOF/Calib/Params/1696467684347/3f9ff634-3ffb-11f0-b0a3-808de0f524ee for 1696553064773 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@3922861 target/Linux_x86_64 init/1777189863754 id/mdicosta@ali50xl session/fiq8SceT), 
+[3922861:tof-pid-merge]: [09:51:32][INFO] From metadata this data is from Run 3
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for El with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for Mu with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for Pi with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for Ka with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for Pr with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for De with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for Tr with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for He with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the resolution function for Al with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for El is tofResTrack.El_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Mu is tofResTrack.Mu_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Pi is tofResTrack.Pi_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Ka is tofResTrack.Ka_ with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Pr is tofResTrack.Pr_ with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for De is tofResTrack.De_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Tr is tofResTrack.Tr_ with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for He is tofResTrack.He_ with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Al is tofResTrack.Al_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922861:tof-pid-merge]: [09:51:32][INFO] From metadata this data is from Data
+[3922861:tof-pid-merge]: [09:51:32][INFO] Updating the time shift for positive from ccdb 'Analysis/PID/TOFOffsetPos' and timestamp 1696553064773 and pass 'apass4'
+[3922861:tof-pid-merge]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Analysis/PID/TOFOffsetPos/06/48050/0adc958a-a018-11ef-8ed0-5d44bdbe250c in SE <ALICE::CERN::OCDB>
+[3922861:tof-pid-merge]: [09:51:32][INFO] ccdb reads http://alice-ccdb.cern.ch/Analysis/PID/TOFOffsetPos/1696553013965/0adc958a-a018-11ef-8ed0-5d44bdbe250c for 1696553064773 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@3922861 target/Linux_x86_64 init/1777189863754 id/mdicosta@ali50xl session/fiq8SceT), 
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the Time Shift parameters from object ccdb_object _run544121 for positive
+[3922861:tof-pid-merge]: [09:51:32][INFO]  test getTimeShift at 0 pos: 0
+[3922861:tof-pid-merge]: [09:51:32][INFO] From metadata this data is from Data
+[3922861:tof-pid-merge]: [09:51:32][INFO] Updating the time shift for negative from ccdb 'Analysis/PID/TOFOffsetPos' and timestamp 1696553064773 and pass 'apass4'
+[3922861:tof-pid-merge]: [09:51:32][INFO] Set the Time Shift parameters from object ccdb_object _run544121 for negative
+[3922861:tof-pid-merge]: [09:51:32][INFO]  test getTimeShift at 0 neg: 0
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parametrization at setup time:
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameters 'TOFResoParamsV3'
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 0/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 1/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 2/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 3/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 4/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 5/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 6/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 7/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 8/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 9/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 10/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 11/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] Parameter 12/12 time_resolution is 62
+[3922861:tof-pid-merge]: [09:51:32][INFO] TOF momentum shift parameters
+[3922861:tof-pid-merge]: [09:51:32][INFO] etaN: 0
+[3922861:tof-pid-merge]: [09:51:32][INFO] etaStart: 0
+[3922861:tof-pid-merge]: [09:51:32][INFO] etaStop: 0
+[3922861:tof-pid-merge]: [09:51:32][INFO] content size 0
+[3922861:tof-pid-merge]: [09:51:32][INFO] Using a time shift for Pos ccdb_object _run544121 value at 0: 0 vs correction 0
+[3922861:tof-pid-merge]: [09:51:32][INFO] Using a time shift for Neg ccdb_object _run544121 value at 0: 0 vs correction 0
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for El is tofResTrack.El_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Mu is tofResTrack.Mu_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Pi is tofResTrack.Pi_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Ka is tofResTrack.Ka_ with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Pr is tofResTrack.Pr_ with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for De is tofResTrack.De_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Tr is tofResTrack.Tr_ with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for He is tofResTrack.He_ with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[3922861:tof-pid-merge]: [09:51:32][INFO] Resolution function for Al is tofResTrack.Al_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[3922865:hf-track-index-skim-creator]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[3922865:hf-track-index-skim-creator]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[3922865:hf-track-index-skim-creator]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[3922866:hf-track-index-skim-creator-lf-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[3922866:hf-track-index-skim-creator-lf-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[3922866:hf-track-index-skim-creator-lf-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[3922867:hf-track-index-skim-creator-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[3922867:hf-track-index-skim-creator-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:282: Detected CPU Name : znver2
+[3922867:hf-track-index-skim-creator-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2404/daily-tags.V7Kbs1b9X0/BUILD/7e336b140a3fa362430b2d0b65e26b15c9a638fe/arrow/src_tmp/cpp/src/gandiva/engine.cc:283: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[3922868:internal-dpl-aod-writer]: [09:51:33][INFO] No AODs to be saved.
+[3922847:internal-dpl-aod-reader]: [09:51:33][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 502359632. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:34][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 502360005. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:34][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 502360005. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:36][WARN] Not enough resources to schedule computation. 4 skipped so far. Last scheduled at 502360005. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:38][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 502364053. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:38][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 502364053. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:38][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:38][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:38][WARN] Not enough resources to schedule computation. 4 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922858:mult-cent-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Centrality/Calibration/01/25381/341f036d-99f3-11ee-ae3f-20010871025e in SE <ALICE::CERN::OCDB>
+[3922858:mult-cent-table]: [09:51:41][INFO] ccdb reads http://alice-ccdb.cern.ch/Centrality/Calibration/1695750420000/341f036d-99f3-11ee-ae3f-20010871025e for 1696555473467 (retrieve, agent_id: o2-analysis-mul/o2-analysis-multcenttable@3922858 target/Linux_x86_64 init/1777189864000 id/mdicosta@ali50xl session/GoeU6gBy), 
+[3922858:mult-cent-table]: [09:51:41][INFO] MFT track counter: vertex-Z calibration not loaded, will run without.
+[3922858:mult-cent-table]: [09:51:41][INFO] Global track counter: vertex-Z calibration not loaded, will run without.
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:42][INFO] ====== initCCDB function called (isRun2==0)
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: DN >>> C=ch/O=AliEn2/CN=Users/CN=mdicosta/OU=mdicosta
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: ISSUER >>> C=ch/O=AliEn2/CN=AliEn CA
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: BEGIN >>> 2026-04-20 13:36:16
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: EXPIRE >>> 2026-05-21 15:36:16
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.46
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.46
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPMagField/07/61367/03cf166c-5f60-11ee-8003-0aa1229c1b9a in SE <ALICE::CERN::OCDB>
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:44][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPMagField/1696057648043/03cf166c-5f60-11ee-8003-0aa1229c1b9a for 1696553068530 (retrieve, agent_id: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922864 target/Linux_x86_64 init/1777189863730 id/mdicosta@ali50xl session/2kU6TWyU), 
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:44][INFO] MagneticField::Print: MagneticFieldMap:
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:44][INFO] MagneticField::Print: Solenoid (0.999995*)5 kG, Dipole ON (0.999993) 
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:44][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:44][INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2/daily-20260424-0000-local1/share/Common/maps/mfchebKGI_sym.root
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:44][INFO] Setting magnetic field to current 29999.835938 A for run 544121 from its GRP CCDB object (type o2::parameters::GRPMagField)
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [09:51:44][INFO] Loaded 440 params from $(O2_ROOT)/share/Common/maps/sol5k.txt
+[3922865:hf-track-index-skim-creator]: [09:51:44][INFO] ====== initCCDB function called (isRun2==0)
+[3922865:hf-track-index-skim-creator]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPMagField/07/61367/03cf166c-5f60-11ee-8003-0aa1229c1b9a in SE <ALICE::CERN::OCDB>
+[3922865:hf-track-index-skim-creator]: [09:51:45][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPMagField/1696057648043/03cf166c-5f60-11ee-8003-0aa1229c1b9a for 1696553068530 (retrieve, agent_id: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922865 target/Linux_x86_64 init/1777189863735 id/mdicosta@ali50xl session/cR4Jm0u8), 
+[3922865:hf-track-index-skim-creator]: [09:51:45][INFO] MagneticField::Print: MagneticFieldMap:
+[3922865:hf-track-index-skim-creator]: [09:51:45][INFO] MagneticField::Print: Solenoid (0.999995*)5 kG, Dipole ON (0.999993) 
+[3922865:hf-track-index-skim-creator]: [09:51:45][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[3922865:hf-track-index-skim-creator]: [09:51:45][INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2/daily-20260424-0000-local1/share/Common/maps/mfchebKGI_sym.root
+[3922865:hf-track-index-skim-creator]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[3922865:hf-track-index-skim-creator]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[3922865:hf-track-index-skim-creator]: [09:51:45][INFO] Setting magnetic field to current 29999.835938 A for run 544121 from its GRP CCDB object (type o2::parameters::GRPMagField)
+[3922865:hf-track-index-skim-creator]: [09:51:45][INFO] Loaded 440 params from $(O2_ROOT)/share/Common/maps/sol5k.txt
+[3922847:internal-dpl-aod-reader]: [09:51:46][WARN] Not enough resources to schedule computation. 8 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:51:53][WARN] Not enough resources to schedule computation. 16 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:52:19][WARN] Not enough resources to schedule computation. 32 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:53:09][WARN] Not enough resources to schedule computation. 64 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:54:55][WARN] Not enough resources to schedule computation. 128 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [09:58:17][WARN] Not enough resources to schedule computation. 256 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [10:05:05][WARN] Not enough resources to schedule computation. 512 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [10:18:36][WARN] Not enough resources to schedule computation. 1024 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [10:45:48][WARN] Not enough resources to schedule computation. 2048 skipped so far. Last scheduled at 502364519. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Run time exceeds run time limit of 300 seconds. Exiting gracefully...
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Stopping reader 0 after time frame 5.
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Read info: lfn=/home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_001.root,size=4002332178,total_df=69,read_df=7,read_bytes=311937811,read_calls=168,io_time=4.2,wait_time=3594.6,level=0
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-spawner
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-index-builder
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_eventselection-run3
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_propagation-service
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_track-to-collision-association
+[3922847:internal-dpl-aod-reader]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-writer
+[3922847:internal-dpl-aod-reader]: [10:51:02][WARN] Not enough resources to schedule computation. 1 skipped so far. Last scheduled at 505929103. Data is not lost and it will be scheduled again.
+[3922849:internal-dpl-aod-index-builder]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-index-builder_to_eventselection-run3
+[3922848:internal-dpl-aod-spawner]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_tracks-extra-v002-converter
+[3922848:internal-dpl-aod-spawner]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_eventselection-run3
+[3922848:internal-dpl-aod-spawner]: [10:51:02][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_pid-tpc-service
+[3922850:tracks-extra-v002-converter]: [10:51:02][INFO] Sending end-of-stream message to channel from_tracks-extra-v002-converter_to_tracks-extra-spawner
+[3922851:tracks-extra-spawner]: [10:51:02][INFO] Sending end-of-stream message to channel from_tracks-extra-spawner_to_eventselection-run3
+[3922852:eventselection-run3]: [10:51:02][INFO] CCDBManager summary: 22 queries, 232,701 fetched / 243,145 requested bytes for 12 objects, 11 good fetches (and 0 failed ones) in 9,794 ms, instance: o2-analysis-eve/o2-analysis-event-selection-service@3922852 target/Linux_x86_64 init/1777189863683 id/mdicosta@ali50xl session/aTP5s6h0
+[3922852:eventselection-run3]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922852:eventselection-run3]: [10:51:02][INFO]   CTP/Config/Config: 1/0/0 (3895-3895 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   ITS/Calib/TimeDeadMap: 1/0/0 (15307-15307 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   ITS/Config/AlpideParam: 1/1/0 (1416-1416 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   CTP/Calib/FirstRunOrbit: 1/1/0 (579-579 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   EventSelection/EventSelectionParams: 1/0/0 (1610-1610 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   GLO/Config/GRPLHCIF: 1/3/0 (1815-1815 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   GLO/Config/GRPECS: 1/1/0 (1878-1878 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   CTP/Calib/Scalers: 1/0/0 (203770-203770 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   RCT/Flags/RunFlags: 1/0/0 (746-746 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   EventSelection/TriggerAliases: 1/0/0 (1122-1122 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   CTP/Calib/OrbitReset: 1/2/0 (563-563 bytes)
+[3922852:eventselection-run3]: [10:51:02][INFO]   RCT-Run-Info HeaderOnly: 1/2/0 (0-0 bytes)
+[3922868:internal-dpl-aod-writer]: [10:51:02][CRITICAL] Some Lifetime::Timeframe data got dropped starting at 6
+[3922852:eventselection-run3]: [10:51:02][INFO] Sending end-of-stream message to channel from_eventselection-run3_to_pid-tpc-service
+[3922852:eventselection-run3]: [10:51:02][INFO] Sending end-of-stream message to channel from_eventselection-run3_to_ft0-corrected-table
+[3922852:eventselection-run3]: [10:51:02][INFO] Sending end-of-stream message to channel from_eventselection-run3_to_mult-cent-table
+[3922852:eventselection-run3]: [10:51:02][INFO] Sending end-of-stream message to channel from_eventselection-run3_to_internal-dpl-aod-global-analysis-file-sink
+[3922853:pid-tpc-service]: [10:51:02][INFO] CCDBManager summary: 2 queries, 3,021 fetched / 3,021 requested bytes for 2 objects, 2 good fetches (and 0 failed ones) in 1,862 ms, instance: o2-analysis-pid/o2-analysis-pid-tpc-service@3922853 target/Linux_x86_64 init/1777189863702 id/mdicosta@ali50xl session/SKNT8WZ9
+[3922853:pid-tpc-service]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922853:pid-tpc-service]: [10:51:02][INFO]   GLO/Config/GRPLHCIF: 1/0/0 (1815-1815 bytes)
+[3922853:pid-tpc-service]: [10:51:02][INFO]   Analysis/PID/TPC/Response: 1/0/0 (1206-1206 bytes)
+[3922853:pid-tpc-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_pid-tpc-service_to_ft0-corrected-table
+[3922853:pid-tpc-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_pid-tpc-service_to_propagation-service
+[3922853:pid-tpc-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_pid-tpc-service_to_hf-pid-creator
+[3922853:pid-tpc-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_pid-tpc-service_to_internal-dpl-aod-writer
+[3922854:ft0-corrected-table]: [10:51:02][INFO] CCDBManager summary: 0 queries, 0 fetched / 0 requested bytes for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: o2-analysis-ft0/o2-analysis-ft0-corrected-table@3922854 target/Linux_x86_64 init/1777189863718 id/mdicosta@ali50xl session/oNr1EdEK
+[3922854:ft0-corrected-table]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922854:ft0-corrected-table]: [10:51:02][INFO] Sending end-of-stream message to channel from_ft0-corrected-table_to_propagation-service
+[3922854:ft0-corrected-table]: [10:51:02][INFO] Sending end-of-stream message to channel from_ft0-corrected-table_to_mult-cent-table
+[3922854:ft0-corrected-table]: [10:51:02][INFO] Sending end-of-stream message to channel from_ft0-corrected-table_to_tof-event-time
+[3922854:ft0-corrected-table]: [10:51:02][INFO] Sending end-of-stream message to channel from_ft0-corrected-table_to_internal-dpl-aod-global-analysis-file-sink
+[3922855:propagation-service]: [10:51:02][INFO] CCDBManager summary: 6 queries, 3,032,171 fetched / 3,032,171 requested bytes for 4 objects, 3 good fetches (and 0 failed ones) in 4,550 ms, instance: o2-analysis-pro/o2-analysis-propagationservice@3922855 target/Linux_x86_64 init/1777189863738 id/mdicosta@ali50xl session/34NvqCmX
+[3922855:propagation-service]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922855:propagation-service]: [10:51:02][INFO]   GLO/Param/MatLUTInner: 1/0/0 (3029451-3029451 bytes)
+[3922855:propagation-service]: [10:51:02][INFO]   GLO/Calib/MeanVertex: 1/0/0 (1605-1605 bytes)
+[3922855:propagation-service]: [10:51:02][INFO]   GLO/Config/GRPMagField: 1/0/0 (1115-1115 bytes)
+[3922855:propagation-service]: [10:51:02][INFO]   RCT-Run-Info HeaderOnly: 1/2/0 (0-0 bytes)
+[3922855:propagation-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_propagation-service_to_tof-signal
+[3922855:propagation-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_propagation-service_to_track-selection
+[3922855:propagation-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_propagation-service_to_mult-cent-table
+[3922855:propagation-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_propagation-service_to_hf-track-index-skim-creator-tag-sel-tracks
+[3922855:propagation-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_propagation-service_to_internal-dpl-aod-global-analysis-file-sink
+[3922855:propagation-service]: [10:51:02][INFO] Sending end-of-stream message to channel from_propagation-service_to_internal-dpl-aod-writer
+[3922856:tof-signal]: [10:51:02][INFO] CCDBManager summary: 0 queries, 0 fetched / 0 requested bytes for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: o2-analysis-pid/o2-analysis-pid-tof-merge@3922856 target/Linux_x86_64 init/1777189863765 id/mdicosta@ali50xl session/QDN6lKa5
+[3922856:tof-signal]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922856:tof-signal]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-signal_to_track-selection
+[3922856:tof-signal]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-signal_to_mult-cent-table
+[3922856:tof-signal]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-signal_to_tof-event-time
+[3922856:tof-signal]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-signal_to_internal-dpl-aod-global-analysis-file-sink
+[3922856:tof-signal]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-signal_to_internal-dpl-aod-writer
+[3922857:track-selection]: [10:51:02][INFO] Sending end-of-stream message to channel from_track-selection_to_mult-cent-table
+[3922857:track-selection]: [10:51:02][INFO] Sending end-of-stream message to channel from_track-selection_to_track-to-collision-association
+[3922857:track-selection]: [10:51:02][INFO] Sending end-of-stream message to channel from_track-selection_to_hf-track-index-skim-creator-tag-sel-tracks
+[3922857:track-selection]: [10:51:02][INFO] Sending end-of-stream message to channel from_track-selection_to_internal-dpl-aod-writer
+[3922858:mult-cent-table]: [10:51:02][INFO] CCDBManager summary: 4 queries, 13,547 fetched / 13,547 requested bytes for 3 objects, 2 good fetches (and 0 failed ones) in 1,634 ms, instance: o2-analysis-mul/o2-analysis-multcenttable@3922858 target/Linux_x86_64 init/1777189864000 id/mdicosta@ali50xl session/GoeU6gBy
+[3922858:mult-cent-table]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922858:mult-cent-table]: [10:51:02][INFO]   Centrality/Calibration: 1/0/0 (3719-3719 bytes)
+[3922858:mult-cent-table]: [10:51:02][INFO]   Centrality/Estimators: 1/0/0 (9828-9828 bytes)
+[3922858:mult-cent-table]: [10:51:02][INFO]   RCT-Run-Info HeaderOnly: 1/1/0 (0-0 bytes)
+[3922858:mult-cent-table]: [10:51:02][INFO] Sending end-of-stream message to channel from_mult-cent-table_to_tof-event-time
+[3922858:mult-cent-table]: [10:51:02][INFO] Sending end-of-stream message to channel from_mult-cent-table_to_hf-track-index-skim-creator-tag-sel-collisions
+[3922858:mult-cent-table]: [10:51:02][INFO] Sending end-of-stream message to channel from_mult-cent-table_to_internal-dpl-aod-writer
+[3922859:tof-event-time]: [10:51:02][INFO] CCDBManager summary: 4 queries, 7,226 fetched / 10,883 requested bytes for 3 objects, 3 good fetches (and 0 failed ones) in 2,137 ms, instance: o2-analysis-pid/o2-analysis-pid-tof-merge@3922859 target/Linux_x86_64 init/1777189863726 id/mdicosta@ali50xl session/sgWM6xVf
+[3922859:tof-event-time]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922859:tof-event-time]: [10:51:02][INFO]   Analysis/PID/TOFOffsetPos: 1/1/0 (3657-3657 bytes)
+[3922859:tof-event-time]: [10:51:02][INFO]   TOF/Calib/Params: 1/0/0 (1754-1754 bytes)
+[3922859:tof-event-time]: [10:51:02][INFO]   GLO/Config/GRPLHCIF: 1/0/0 (1815-1815 bytes)
+[3922859:tof-event-time]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-event-time_to_track-to-collision-association
+[3922859:tof-event-time]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-event-time_to_tof-pid-merge
+[3922859:tof-event-time]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-event-time_to_hf-track-index-skim-creator-tag-sel-collisions
+[3922859:tof-event-time]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-event-time_to_internal-dpl-aod-writer
+[3922860:track-to-collision-association]: [10:51:02][INFO] Sending end-of-stream message to channel from_track-to-collision-association_to_tof-pid-merge
+[3922860:track-to-collision-association]: [10:51:02][INFO] Sending end-of-stream message to channel from_track-to-collision-association_to_hf-track-index-skim-creator-tag-sel-tracks
+[3922860:track-to-collision-association]: [10:51:02][INFO] Sending end-of-stream message to channel from_track-to-collision-association_to_internal-dpl-aod-writer
+[3922861:tof-pid-merge]: [10:51:02][INFO] CCDBManager summary: 4 queries, 7,226 fetched / 10,883 requested bytes for 3 objects, 3 good fetches (and 0 failed ones) in 2,104 ms, instance: o2-analysis-pid/o2-analysis-pid-tof-merge@3922861 target/Linux_x86_64 init/1777189863754 id/mdicosta@ali50xl session/fiq8SceT
+[3922861:tof-pid-merge]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922861:tof-pid-merge]: [10:51:02][INFO]   Analysis/PID/TOFOffsetPos: 1/1/0 (3657-3657 bytes)
+[3922861:tof-pid-merge]: [10:51:02][INFO]   TOF/Calib/Params: 1/0/0 (1754-1754 bytes)
+[3922861:tof-pid-merge]: [10:51:02][INFO]   GLO/Config/GRPLHCIF: 1/0/0 (1815-1815 bytes)
+[3922861:tof-pid-merge]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-pid-merge_to_hf-track-index-skim-creator-tag-sel-collisions
+[3922861:tof-pid-merge]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-pid-merge_to_hf-pid-creator
+[3922861:tof-pid-merge]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-pid-merge_to_hf-track-index-skim-creator-tag-sel-tracks
+[3922861:tof-pid-merge]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-pid-merge_to_internal-dpl-aod-global-analysis-file-sink
+[3922861:tof-pid-merge]: [10:51:02][INFO] Sending end-of-stream message to channel from_tof-pid-merge_to_internal-dpl-aod-writer
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:02][INFO] CCDBManager summary: 0 queries, 0 fetched / 0 requested bytes for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922862 target/Linux_x86_64 init/1777189863714 id/mdicosta@ali50xl session/Eigi3WfR
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:02][INFO] CCDB cache miss/hit/failures
+[3922863:hf-pid-creator]: [10:51:02][INFO] Sending end-of-stream message to channel from_hf-pid-creator_to_hf-track-index-skim-creator-tag-sel-tracks
+[3922863:hf-pid-creator]: [10:51:02][INFO] Sending end-of-stream message to channel from_hf-pid-creator_to_internal-dpl-aod-writer
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-collisions_to_hf-track-index-skim-creator-tag-sel-tracks
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-collisions_to_hf-track-index-skim-creator
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-collisions_to_internal-dpl-aod-global-analysis-file-sink
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO] CCDBManager summary: 1 queries, 1,115 fetched / 1,115 requested bytes for 1 objects, 1 good fetches (and 0 failed ones) in 1,757 ms, instance: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922864 target/Linux_x86_64 init/1777189863730 id/mdicosta@ali50xl session/2kU6TWyU
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO] CCDB cache miss/hit/failures
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO]   GLO/Config/GRPMagField: 1/0/0 (1115-1115 bytes)
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-tracks_to_hf-track-index-skim-creator
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-tracks_to_internal-dpl-aod-global-analysis-file-sink
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-tracks_to_internal-dpl-aod-writer
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO] CCDBManager summary: 2 queries, 23,435,734 fetched / 23,435,734 requested bytes for 2 objects, 2 good fetches (and 0 failed ones) in 9,252 ms, instance: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922865 target/Linux_x86_64 init/1777189863735 id/mdicosta@ali50xl session/cR4Jm0u8
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO] CCDB cache miss/hit/failures
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO]   GLO/Config/GRPMagField: 1/0/0 (1115-1115 bytes)
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO]   GLO/Param/MatLUT: 1/0/0 (23434619-23434619 bytes)
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator_to_hf-track-index-skim-creator-lf-cascades
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator_to_internal-dpl-aod-global-analysis-file-sink
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator_to_internal-dpl-aod-writer
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][INFO] CCDBManager summary: 0 queries, 0 fetched / 0 requested bytes for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922866 target/Linux_x86_64 init/1777189863737 id/mdicosta@ali50xl session/fbkhNIaR
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][INFO] CCDB cache miss/hit/failures
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-lf-cascades_to_hf-track-index-skim-creator-cascades
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-lf-cascades_to_internal-dpl-aod-global-analysis-file-sink
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-lf-cascades_to_internal-dpl-aod-writer
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][INFO] CCDBManager summary: 0 queries, 0 fetched / 0 requested bytes for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: o2-analysis-hf-/o2-analysis-hf-track-index-skim-creator@3922867 target/Linux_x86_64 init/1777189863745 id/mdicosta@ali50xl session/vHmRGSuU
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][INFO] CCDB cache miss/hit/failures
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-cascades_to_internal-dpl-aod-global-analysis-file-sink
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-cascades_to_internal-dpl-aod-writer
+[3922868:internal-dpl-aod-writer]: [10:51:03][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-writer_to_internal-dpl-injected-dummy-sink
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][ERROR] Cannot read class info from buffer of ATSK/cf5f41649c43____/0.
+[INFO] Quitting
+[INFO] Quit requested at Sun Apr 26 10:51:03 2026
+
+[3922847:internal-dpl-aod-reader]: [10:51:03][WARN] Not enough resources to schedule computation. 2 skipped so far. Last scheduled at 505929103. Data is not lost and it will be scheduled again.
+[3922856:tof-signal]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922856:tof-signal]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922856:tof-signal]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922856:tof-signal]: [10:51:03][STATE] RUNNING ---> READY
+[3922856:tof-signal]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922856:tof-signal]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922856:tof-signal]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922852:eventselection-run3]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922852:eventselection-run3]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922852:eventselection-run3]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922852:eventselection-run3]: [10:51:03][STATE] RUNNING ---> READY
+[3922852:eventselection-run3]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922852:eventselection-run3]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922852:eventselection-run3]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922856:tof-signal]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922856:tof-signal]: [10:51:03][STATE] IDLE ---> EXITING
+[3922852:eventselection-run3]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922852:eventselection-run3]: [10:51:03][STATE] IDLE ---> EXITING
+[3922853:pid-tpc-service]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922853:pid-tpc-service]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922853:pid-tpc-service]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922853:pid-tpc-service]: [10:51:03][STATE] RUNNING ---> READY
+[3922853:pid-tpc-service]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922853:pid-tpc-service]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922853:pid-tpc-service]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922865:hf-track-index-skim-creator]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922865:hf-track-index-skim-creator]: [10:51:03][STATE] RUNNING ---> READY
+[3922865:hf-track-index-skim-creator]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922865:hf-track-index-skim-creator]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922865:hf-track-index-skim-creator]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922868:internal-dpl-aod-writer]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922868:internal-dpl-aod-writer]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922868:internal-dpl-aod-writer]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922868:internal-dpl-aod-writer]: [10:51:03][STATE] RUNNING ---> READY
+[3922868:internal-dpl-aod-writer]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922868:internal-dpl-aod-writer]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922868:internal-dpl-aod-writer]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][STATE] RUNNING ---> READY
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922868:internal-dpl-aod-writer]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922868:internal-dpl-aod-writer]: [10:51:03][STATE] IDLE ---> EXITING
+[3922854:ft0-corrected-table]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922854:ft0-corrected-table]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922854:ft0-corrected-table]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922854:ft0-corrected-table]: [10:51:03][STATE] RUNNING ---> READY
+[3922854:ft0-corrected-table]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922854:ft0-corrected-table]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922854:ft0-corrected-table]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][STATE] RUNNING ---> READY
+[3922856:tof-signal]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][STATE] RUNNING ---> READY
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922847:internal-dpl-aod-reader]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922847:internal-dpl-aod-reader]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922847:internal-dpl-aod-reader]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922847:internal-dpl-aod-reader]: [10:51:03][WARN] Not enough resources to schedule computation. 4 skipped so far. Last scheduled at 505929103. Data is not lost and it will be scheduled again.
+[3922847:internal-dpl-aod-reader]: [10:51:03][STATE] RUNNING ---> READY
+[3922847:internal-dpl-aod-reader]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922847:internal-dpl-aod-reader]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922847:internal-dpl-aod-reader]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922854:ft0-corrected-table]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922854:ft0-corrected-table]: [10:51:03][STATE] IDLE ---> EXITING
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][STATE] IDLE ---> EXITING
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][STATE] IDLE ---> EXITING
+[3922851:tracks-extra-spawner]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922851:tracks-extra-spawner]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922851:tracks-extra-spawner]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922851:tracks-extra-spawner]: [10:51:03][STATE] RUNNING ---> READY
+[3922851:tracks-extra-spawner]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922851:tracks-extra-spawner]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922851:tracks-extra-spawner]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922865:hf-track-index-skim-creator]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922865:hf-track-index-skim-creator]: [10:51:03][STATE] IDLE ---> EXITING
+[3922851:tracks-extra-spawner]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922851:tracks-extra-spawner]: [10:51:03][STATE] IDLE ---> EXITING
+[3922853:pid-tpc-service]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922853:pid-tpc-service]: [10:51:03][STATE] IDLE ---> EXITING
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][STATE] IDLE ---> EXITING
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][STATE] RUNNING ---> READY
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922848:internal-dpl-aod-spawner]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922848:internal-dpl-aod-spawner]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922848:internal-dpl-aod-spawner]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922848:internal-dpl-aod-spawner]: [10:51:03][STATE] RUNNING ---> READY
+[3922848:internal-dpl-aod-spawner]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922848:internal-dpl-aod-spawner]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922848:internal-dpl-aod-spawner]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922849:internal-dpl-aod-index-builder]: [10:51:03][STATE] IDLE ---> EXITING
+[3922857:track-selection]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922857:track-selection]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922857:track-selection]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922857:track-selection]: [10:51:03][STATE] RUNNING ---> READY
+[3922857:track-selection]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922857:track-selection]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922857:track-selection]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922863:hf-pid-creator]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922863:hf-pid-creator]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922863:hf-pid-creator]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922863:hf-pid-creator]: [10:51:03][STATE] RUNNING ---> READY
+[3922863:hf-pid-creator]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922863:hf-pid-creator]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922863:hf-pid-creator]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922855:propagation-service]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922855:propagation-service]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922864:hf-track-index-skim-creator-tag-sel-tracks]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922855:propagation-service]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922855:propagation-service]: [10:51:03][STATE] RUNNING ---> READY
+[3922855:propagation-service]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922855:propagation-service]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922855:propagation-service]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922863:hf-pid-creator]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922863:hf-pid-creator]: [10:51:03][STATE] IDLE ---> EXITING
+[3922858:mult-cent-table]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922858:mult-cent-table]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922858:mult-cent-table]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922858:mult-cent-table]: [10:51:03][STATE] RUNNING ---> READY
+[3922858:mult-cent-table]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922858:mult-cent-table]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922858:mult-cent-table]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922868:internal-dpl-aod-writer]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922861:tof-pid-merge]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922861:tof-pid-merge]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922865:hf-track-index-skim-creator]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922861:tof-pid-merge]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922861:tof-pid-merge]: [10:51:03][STATE] RUNNING ---> READY
+[3922861:tof-pid-merge]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922861:tof-pid-merge]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922861:tof-pid-merge]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922858:mult-cent-table]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922858:mult-cent-table]: [10:51:03][STATE] IDLE ---> EXITING
+[3922847:internal-dpl-aod-reader]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922847:internal-dpl-aod-reader]: [10:51:03][STATE] IDLE ---> EXITING
+[3922857:track-selection]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922857:track-selection]: [10:51:03][STATE] IDLE ---> EXITING
+[3922852:eventselection-run3]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][STATE] RUNNING ---> READY
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][STATE] RUNNING ---> READY
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][STATE] IDLE ---> EXITING
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:03][STATE] IDLE ---> EXITING
+[3922860:track-to-collision-association]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922860:track-to-collision-association]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922853:pid-tpc-service]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922860:track-to-collision-association]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922848:internal-dpl-aod-spawner]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922860:track-to-collision-association]: [10:51:03][STATE] RUNNING ---> READY
+[3922860:track-to-collision-association]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922848:internal-dpl-aod-spawner]: [10:51:03][STATE] IDLE ---> EXITING
+[3922860:track-to-collision-association]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922860:track-to-collision-association]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922866:hf-track-index-skim-creator-lf-cascades]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922857:track-selection]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922861:tof-pid-merge]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922861:tof-pid-merge]: [10:51:03][STATE] IDLE ---> EXITING
+[3922860:track-to-collision-association]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922860:track-to-collision-association]: [10:51:03][STATE] IDLE ---> EXITING
+[3922859:tof-event-time]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922859:tof-event-time]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922859:tof-event-time]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922859:tof-event-time]: [10:51:03][STATE] RUNNING ---> READY
+[3922859:tof-event-time]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922858:mult-cent-table]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922859:tof-event-time]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922859:tof-event-time]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922850:tracks-extra-v002-converter]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922850:tracks-extra-v002-converter]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922850:tracks-extra-v002-converter]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922850:tracks-extra-v002-converter]: [10:51:03][STATE] RUNNING ---> READY
+[3922850:tracks-extra-v002-converter]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922850:tracks-extra-v002-converter]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922850:tracks-extra-v002-converter]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922847:internal-dpl-aod-reader]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922869:internal-dpl-aod-global-analysis-file-sink]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922859:tof-event-time]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922859:tof-event-time]: [10:51:03][STATE] IDLE ---> EXITING
+[3922855:propagation-service]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922855:propagation-service]: [10:51:03][STATE] IDLE ---> EXITING
+[3922846:internal-dpl-clock]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922846:internal-dpl-clock]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922846:internal-dpl-clock]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922851:tracks-extra-spawner]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922867:hf-track-index-skim-creator-cascades]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][INFO] Received device shutdown request (signal 15).
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][STATE] RUNNING ---> READY
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][STATE] READY ---> RESETTING TASK
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][STATE] RESETTING TASK ---> DEVICE READY
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922863:hf-pid-creator]: [10:51:03][STATE] Exiting FairMQ state machine
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][STATE] RESETTING DEVICE ---> IDLE
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:03][STATE] IDLE ---> EXITING
+[3922854:ft0-corrected-table]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922849:internal-dpl-aod-index-builder]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922850:tracks-extra-v002-converter]: [10:51:04][STATE] RESETTING DEVICE ---> IDLE
+[3922850:tracks-extra-v002-converter]: [10:51:04][STATE] IDLE ---> EXITING
+[3922861:tof-pid-merge]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922862:hf-track-index-skim-creator-tag-sel-collisions]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922859:tof-event-time]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922855:propagation-service]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922870:internal-dpl-injected-dummy-sink]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922850:tracks-extra-v002-converter]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922848:internal-dpl-aod-spawner]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922860:track-to-collision-association]: [10:51:04][STATE] Exiting FairMQ state machine
+[3922846:internal-dpl-clock]: [10:51:04][INFO] Sending end-of-stream message to channel from_internal-dpl-clock_to_internal-dpl-aod-reader
+[3922846:internal-dpl-clock]: [10:51:04][STATE] RUNNING ---> READY
+[3922846:internal-dpl-clock]: [10:51:04][STATE] READY ---> RESETTING TASK
+[3922846:internal-dpl-clock]: [10:51:04][STATE] RESETTING TASK ---> DEVICE READY
+[3922846:internal-dpl-clock]: [10:51:04][STATE] DEVICE READY ---> RESETTING DEVICE
+[3922846:internal-dpl-clock]: [10:51:04][STATE] RESETTING DEVICE ---> IDLE
+[3922846:internal-dpl-clock]: [10:51:04][STATE] IDLE ---> EXITING
+[3922846:internal-dpl-clock]: [10:51:04][STATE] Exiting FairMQ state machine
+[INFO] Dumping performance metrics to performanceMetrics.json.json file
+[INFO] ## Processes completed. Run summary:
+[INFO] ### Devices started: 25
+[INFO]  - Device internal-dpl-clock: pid 3922846 (exit 0)
+[INFO]  - Device internal-dpl-aod-reader: pid 3922847 (exit 0)
+[INFO]  - Device internal-dpl-aod-spawner: pid 3922848 (exit 0)
+[INFO]  - Device internal-dpl-aod-index-builder: pid 3922849 (exit 0)
+[INFO]  - Device tracks-extra-v002-converter: pid 3922850 (exit 0)
+[INFO]  - Device tracks-extra-spawner: pid 3922851 (exit 0)
+[INFO]  - Device eventselection-run3: pid 3922852 (exit 0)
+[INFO]  - Device pid-tpc-service: pid 3922853 (exit 0)
+[INFO]  - Device ft0-corrected-table: pid 3922854 (exit 0)
+[INFO]  - Device propagation-service: pid 3922855 (exit 0)
+[INFO]  - Device tof-signal: pid 3922856 (exit 0)
+[INFO]  - Device track-selection: pid 3922857 (exit 0)
+[INFO]  - Device mult-cent-table: pid 3922858 (exit 0)
+[INFO]  - Device tof-event-time: pid 3922859 (exit 0)
+[INFO]  - Device track-to-collision-association: pid 3922860 (exit 0)
+[INFO]  - Device tof-pid-merge: pid 3922861 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator-tag-sel-collisions: pid 3922862 (exit 0)
+[INFO]  - Device hf-pid-creator: pid 3922863 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator-tag-sel-tracks: pid 3922864 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator: pid 3922865 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator-lf-cascades: pid 3922866 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator-cascades: pid 3922867 (exit 0)
+[INFO]  - Device internal-dpl-aod-writer: pid 3922868 (exit 0)
+[INFO]  - Device internal-dpl-aod-global-analysis-file-sink: pid 3922869 (exit 0)
+[INFO]  - Device internal-dpl-injected-dummy-sink: pid 3922870 (exit 0)
+[INFO] ## Analysis Run Summary ##
+[INFO] ### Files read stats ###
+[INFO] lfn=/home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_001.root,size=4002332178,total_df=69,read_df=7,read_bytes=311937811,read_calls=168,io_time=4.2,wait_time=3594.6,level=0
+[INFO] ### Files opened stats ###
+[INFO] Last file opened: lfn=/home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_001.root,size=4002332178
+[INFO] Dumping used configuration in dpl-config.json
+No problems!
