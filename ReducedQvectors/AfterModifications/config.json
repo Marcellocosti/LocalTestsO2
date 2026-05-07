@@ -778,7 +778,8 @@
         "cfgCorrLevel": "4",
         "cfgnMods": {
             "values": [
-                "2"
+                "2",
+                "3"
             ]
         },
         "cfgMaxCentrality": "100",

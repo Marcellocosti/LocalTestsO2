@@ -1,3 +1,0 @@
-/home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_001.root
-/home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_002.root
-/home/mdicosta/LocalTestsO2/TestFiles/RawData/PbPb_2023pass4/AO2D_003.root
