@@ -1,0 +1,917 @@
+[WARN] Task mctracks-to-aod has no inputs
+[WARN] Task generator-task has no inputs
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 3450150.
+[INFO] Driver listening on port: 8230
+[INFO] Rate limiting set up at 2000 MB and 64 timeframes distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 3450154
+[INFO] Starting generator-task on pid 3450155
+[INFO] Starting mctracks-to-aod on pid 3450156
+[INFO] Starting internal-dpl-aod-writer on pid 3450157
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 3450158
+[INFO] Redeployment of configuration done.
+[3450156:mctracks-to-aod]: [WARN] Task mctracks-to-aod has no inputs
+[3450157:internal-dpl-aod-writer]: [WARN] Task mctracks-to-aod has no inputs
+[3450156:mctracks-to-aod]: [INFO] Instrumenting crash signals
+[3450157:internal-dpl-aod-writer]: [INFO] Instrumenting crash signals
+[3450156:mctracks-to-aod]: [INFO] Spawning new device mctracks-to-aod in process with pid 3450156
+[3450156:mctracks-to-aod]: [10:20:18][INFO] 
+[3450156:mctracks-to-aod]:       ______      _    _______  _________ 
+[3450156:mctracks-to-aod]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3450156:mctracks-to-aod]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3450156:mctracks-to-aod]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3450156:mctracks-to-aod]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3450156:mctracks-to-aod]: 
+[3450156:mctracks-to-aod]: [10:20:18][STATE] Starting FairMQ state machine --> IDLE
+[3450157:internal-dpl-aod-writer]: [INFO] Spawning new device internal-dpl-aod-writer in process with pid 3450157
+[3450157:internal-dpl-aod-writer]: [10:20:18][INFO] 
+[3450157:internal-dpl-aod-writer]:       ______      _    _______  _________ 
+[3450157:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3450157:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3450157:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3450157:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3450157:internal-dpl-aod-writer]: 
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] Starting FairMQ state machine --> IDLE
+[3450156:mctracks-to-aod]: [10:20:18][STATE] IDLE ---> INITIALIZING DEVICE
+[3450156:mctracks-to-aod]: [10:20:18][WARN] No bunch filling provided, impose default one
+[3450156:mctracks-to-aod]: [10:20:18][INFO] Deducing mu=1.54383e-05 per BC from IR=100 with 576 BCs
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] IDLE ---> INITIALIZING DEVICE
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] INITIALIZED ---> BINDING
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] BINDING ---> BOUND
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] BOUND ---> CONNECTING
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] CONNECTING ---> DEVICE READY
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] DEVICE READY ---> INITIALIZING TASK
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] INITIALIZING TASK ---> READY
+[3450157:internal-dpl-aod-writer]: [10:20:18][STATE] READY ---> RUNNING
+[3450157:internal-dpl-aod-writer]: [10:20:18][INFO] fair::mq::Device running...
+[3450157:internal-dpl-aod-writer]: [10:20:18][INFO] LHCPeriod is not available, using current month MAY
+[3450157:internal-dpl-aod-writer]: [10:20:18][INFO] Correctly handshaken websocket connection.
+[3450154:internal-dpl-clock]: [WARN] Task generator-task has no inputs
+[3450155:generator-task]: [WARN] Task generator-task has no inputs
+[3450154:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[3450155:generator-task]: [INFO] Instrumenting crash signals
+[3450154:internal-dpl-clock]: [INFO] Spawning new device internal-dpl-clock in process with pid 3450154
+[3450155:generator-task]: [INFO] Spawning new device generator-task in process with pid 3450155
+[3450154:internal-dpl-clock]: [10:20:18][INFO] 
+[3450154:internal-dpl-clock]:       ______      _    _______  _________ 
+[3450154:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3450154:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3450154:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3450154:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3450154:internal-dpl-clock]: 
+[3450154:internal-dpl-clock]: [10:20:18][STATE] Starting FairMQ state machine --> IDLE
+[3450155:generator-task]: [10:20:18][INFO] 
+[3450155:generator-task]:       ______      _    _______  _________ 
+[3450155:generator-task]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3450155:generator-task]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3450155:generator-task]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3450155:generator-task]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3450155:generator-task]: 
+[3450155:generator-task]: [10:20:18][STATE] Starting FairMQ state machine --> IDLE
+[3450158:internal-dpl-injected-dummy-sink]: [WARN] Task generator-task has no inputs
+[3450158:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[3450154:internal-dpl-clock]: [10:20:18][STATE] IDLE ---> INITIALIZING DEVICE
+[3450154:internal-dpl-clock]: [10:20:18][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3450154:internal-dpl-clock]: [10:20:18][STATE] INITIALIZED ---> BINDING
+[3450155:generator-task]: [10:20:18][STATE] IDLE ---> INITIALIZING DEVICE
+[3450158:internal-dpl-injected-dummy-sink]: [INFO] Spawning new device internal-dpl-injected-dummy-sink in process with pid 3450158
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][INFO] 
+[3450158:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[3450158:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.10.1
+[3450158:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[3450158:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[3450158:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[3450158:internal-dpl-injected-dummy-sink]: 
+[3450154:internal-dpl-clock]: [10:20:18][STATE] BINDING ---> BOUND
+[3450154:internal-dpl-clock]: [10:20:18][STATE] BOUND ---> CONNECTING
+[3450154:internal-dpl-clock]: [10:20:18][STATE] CONNECTING ---> DEVICE READY
+[3450154:internal-dpl-clock]: [10:20:18][STATE] DEVICE READY ---> INITIALIZING TASK
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] Starting FairMQ state machine --> IDLE
+[3450154:internal-dpl-clock]: [10:20:18][STATE] INITIALIZING TASK ---> READY
+[3450154:internal-dpl-clock]: [10:20:18][STATE] READY ---> RUNNING
+[3450154:internal-dpl-clock]: [10:20:18][INFO] fair::mq::Device running...
+[3450154:internal-dpl-clock]: [10:20:18][INFO] LHCPeriod is not available, using current month MAY
+[3450154:internal-dpl-clock]: [10:20:18][INFO] Correctly handshaken websocket connection.
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] IDLE ---> INITIALIZING DEVICE
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] INITIALIZED ---> BINDING
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] BINDING ---> BOUND
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] BOUND ---> CONNECTING
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] CONNECTING ---> DEVICE READY
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] DEVICE READY ---> INITIALIZING TASK
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] INITIALIZING TASK ---> READY
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][STATE] READY ---> RUNNING
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][INFO] fair::mq::Device running...
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][INFO] LHCPeriod is not available, using current month MAY
+[3450158:internal-dpl-injected-dummy-sink]: [10:20:18][INFO] Correctly handshaken websocket connection.
+[3450155:generator-task]: [10:20:18][INFO] Running with official detector version 'ALICE2'
+[3450155:generator-task]: Warning in <TDatabasePDG::AddParticle>: Particle with PDGcode=1000030040 already defined
+[3450155:generator-task]: [10:20:18][INFO] ** Generator to use: 'external'
+[3450155:generator-task]: [10:20:18][INFO] Setting up external generator with following parameters
+[3450155:generator-task]: [10:20:18][INFO] GeneratorExternal.fileName : ${O2DPG_MC_CONFIG_ROOT}/MC/config/ALICE3/pythia8/generator_pythia8_ALICE3.C		[ RT ]
+[3450155:generator-task]: GeneratorExternal.funcName : generator_pythia8_ALICE3()		[ RT ]
+[3450155:generator-task]: GeneratorExternal.markAllAsPrimary : true		[ CODE ]
+[3450155:generator-task]: 
+[3450156:mctracks-to-aod]: [10:20:19][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3450156:mctracks-to-aod]: [10:20:19][STATE] INITIALIZED ---> BINDING
+[3450156:mctracks-to-aod]: [10:20:19][STATE] BINDING ---> BOUND
+[3450156:mctracks-to-aod]: [10:20:19][STATE] BOUND ---> CONNECTING
+[3450156:mctracks-to-aod]: [10:20:19][STATE] CONNECTING ---> DEVICE READY
+[3450156:mctracks-to-aod]: [10:20:19][STATE] DEVICE READY ---> INITIALIZING TASK
+[3450156:mctracks-to-aod]: [10:20:19][STATE] INITIALIZING TASK ---> READY
+[3450156:mctracks-to-aod]: [10:20:19][STATE] READY ---> RUNNING
+[3450156:mctracks-to-aod]: [10:20:19][INFO] fair::mq::Device running...
+[3450156:mctracks-to-aod]: [10:20:19][INFO] LHCPeriod is not available, using current month MAY
+[3450156:mctracks-to-aod]: [10:20:19][INFO] Correctly handshaken websocket connection.
+[3450155:generator-task]: [10:20:21][WARN] Warning: No collisioncontext.root file found!
+[3450155:generator-task]: [10:20:21][WARN] Loopers will be kept OFF.
+[3450155:generator-task]: 
+[3450155:generator-task]:  *------------------------------------------------------------------------------------* 
+[3450155:generator-task]:  |                                                                                    | 
+[3450155:generator-task]:  |  *------------------------------------------------------------------------------*  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   PPP   Y   Y  TTTTT  H   H  III    A      Welcome to the Lund Monte Carlo!  |  | 
+[3450155:generator-task]:  |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.315      |  | 
+[3450155:generator-task]:  |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change: 27 May 2025  |  | 
+[3450155:generator-task]:  |  |   P       Y      T    H   H   I   A   A                                      |  | 
+[3450155:generator-task]:  |  |   P       Y      T    H   H  III  A   A    Now is 08 May 2026 at 10:20:21    |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   Program documentation and an archive of historic versions is found on:     |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |                               https://pythia.org/                            |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   PYTHIA is authored by a collaboration consisting of:                       |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   Javira Altmann, Christian Bierlich, Naomi Cooke, Nishita Desai,            |  | 
+[3450155:generator-task]:  |  |   Ilkka Helenius, Philip Ilten, Leif Lonnblad, Stephen Mrenna,               |  | 
+[3450155:generator-task]:  |  |   Christian Preuss, Torbjorn Sjostrand, and Peter Skands.                    |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   The complete list of authors, including contact information and            |  | 
+[3450155:generator-task]:  |  |   affiliations, can be found on https://pythia.org/.                         |  | 
+[3450155:generator-task]:  |  |   Problems or bugs should be reported on email at authors@pythia.org.        |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   The main program reference is C. Bierlich et al,                           |  | 
+[3450155:generator-task]:  |  |   'A comprehensive guide to the physics and usage of Pythia 8.3',            |  | 
+[3450155:generator-task]:  |  |   SciPost Phys. Codebases 8-r8.3 (2022) [arXiv:2203.11601 [hep-ph]]          |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   PYTHIA is released under the GNU General Public Licence version 2          |  | 
+[3450155:generator-task]:  |  |   or later. Please respect the MCnet Guidelines for Generator Authors        |  | 
+[3450155:generator-task]:  |  |   and Users.                                                                 |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   Disclaimer: this program comes without any guarantees.                     |  | 
+[3450155:generator-task]:  |  |   Beware of errors and use common sense when interpreting results.           |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |   Copyright (C) 2025 Torbjorn Sjostrand                                      |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  |                                                                              |  | 
+[3450155:generator-task]:  |  *------------------------------------------------------------------------------*  | 
+[3450155:generator-task]:  |                                                                                    | 
+[3450155:generator-task]:  *------------------------------------------------------------------------------------* 
+[3450155:generator-task]: 
+[3450155:generator-task]: [10:20:21][INFO] Instance 'Pythia8' generator with following parameters
+[3450155:generator-task]: [10:20:21][INFO] config: ${O2DPG_MC_CONFIG_ROOT}/MC/config/ALICE3/pythia8/generator/pythia8_pp.cfg
+[3450155:generator-task]: [10:20:21][INFO] hooksFileName: 
+[3450155:generator-task]: [10:20:21][INFO] hooksFuncName: 
+[3450155:generator-task]: [10:20:21][INFO] GeneratorPythia8 constructed from GeneratorPythia8Param ConfigurableParam
+[3450155:generator-task]: [10:20:21][INFO] Unable to retrieve ALIEN_PROC_ID
+[3450155:generator-task]: [10:20:21][INFO] Setting seed to 0 (random)
+[3450155:generator-task]: [10:20:21][INFO] Initialising primary generator
+[3450155:generator-task]: [10:20:21][INFO] GeneratorPythia8: Using random seed from gRandom % 900000001: 157581903
+[3450155:generator-task]: [10:20:21][INFO] Reading configuration from file: /home/mdicosta/alice/sw/ubuntu2404_x86-64/O2DPG/daily-20260501-0000-1/MC/config/ALICE3/pythia8/generator/pythia8_pp.cfg
+[3450155:generator-task]: 
+[3450155:generator-task]:  *-------  PYTHIA Process Initialization  --------------------------*
+[3450155:generator-task]:  |                                                                  |
+[3450155:generator-task]:  | We collide p+ with p+ at a CM energy of 1.400e+04 GeV            |
+[3450155:generator-task]:  |                                                                  |
+[3450155:generator-task]:  |------------------------------------------------------------------|
+[3450155:generator-task]:  |                                                    |             |
+[3450155:generator-task]:  | Subprocess                                    Code |   Estimated |
+[3450155:generator-task]:  |                                                    |    max (mb) |
+[3450155:generator-task]:  |                                                    |             |
+[3450155:generator-task]:  |------------------------------------------------------------------|
+[3450155:generator-task]:  |                                                    |             |
+[3450155:generator-task]:  | non-diffractive                                101 |   5.717e+01 |
+[3450155:generator-task]:  | A B -> X B single diffractive                  103 |   6.442e+00 |
+[3450155:generator-task]:  | A B -> A X single diffractive                  104 |   6.442e+00 |
+[3450155:generator-task]:  | A B -> X X double diffractive                  105 |   8.881e+00 |
+[3450155:generator-task]:  | A B -> A X B central diffractive               106 |   0.000e+00 |
+[3450155:generator-task]:  |                                                                  |
+[3450155:generator-task]:  *-------  End PYTHIA Process Initialization -----------------------*
+[3450155:generator-task]: 
+[3450155:generator-task]:  *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  |                   sigmaNonDiffractive =    57.17 mb              | 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  |    pT0 =  2.65 gives sigmaInteraction =   327.01 mb: accepted    | 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+[3450155:generator-task]: 
+[3450155:generator-task]:  *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  |   diffraction XB for p+ on p+                                    | 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  |   diffractive mass = 1.00e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.56 gives sigmaInteraction =    25.10 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.62e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.62 gives sigmaInteraction =    24.00 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 2.63e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.69 gives sigmaInteraction =    22.28 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 4.26e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.76 gives sigmaInteraction =    20.07 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 6.90e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.84 gives sigmaInteraction =    18.18 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.12e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.94 gives sigmaInteraction =    16.90 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.81e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.04 gives sigmaInteraction =    16.57 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 2.94e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.15 gives sigmaInteraction =    17.14 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 4.76e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.28 gives sigmaInteraction =    18.84 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 7.72e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.42 gives sigmaInteraction =    21.53 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.25e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.57 gives sigmaInteraction =    25.61 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 2.03e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.75 gives sigmaInteraction =    30.50 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 3.29e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.94 gives sigmaInteraction =    37.05 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 5.33e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  2.15 gives sigmaInteraction =    44.60 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 8.64e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  2.39 gives sigmaInteraction =    52.99 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.40e+04 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  2.65 gives sigmaInteraction =    62.47 mb: accepted    | 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+[3450155:generator-task]:  PYTHIA Warning in MultipartonInteractions::init: maximum increased by factor 4.152
+[3450155:generator-task]: 
+[3450155:generator-task]:  *-------  PYTHIA Multiparton Interactions Initialization  ---------* 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  |   diffraction AX for p+ on p+                                    | 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  |   diffractive mass = 1.00e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.56 gives sigmaInteraction =    24.97 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.62e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.62 gives sigmaInteraction =    24.02 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 2.63e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.69 gives sigmaInteraction =    22.33 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 4.26e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.76 gives sigmaInteraction =    20.07 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 6.90e+01 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.84 gives sigmaInteraction =    18.18 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.12e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  0.94 gives sigmaInteraction =    16.96 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.81e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.04 gives sigmaInteraction =    16.58 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 2.94e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.15 gives sigmaInteraction =    17.08 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 4.76e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.28 gives sigmaInteraction =    18.94 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 7.72e+02 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.42 gives sigmaInteraction =    21.45 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.25e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.57 gives sigmaInteraction =    25.69 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 2.03e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.75 gives sigmaInteraction =    30.95 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 3.29e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  1.94 gives sigmaInteraction =    37.29 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 5.33e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  2.15 gives sigmaInteraction =    44.94 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 8.64e+03 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  2.39 gives sigmaInteraction =    53.05 mb: accepted    | 
+[3450155:generator-task]:  |   diffractive mass = 1.40e+04 GeV and sigmaNorm =    10.00 mb    | 
+[3450155:generator-task]:  |    pT0 =  2.65 gives sigmaInteraction =    62.71 mb: accepted    | 
+[3450155:generator-task]:  |                                                                  | 
+[3450155:generator-task]:  *-------  End PYTHIA Multiparton Interactions Initialization  -----* 
+[3450155:generator-task]: 
+[3450155:generator-task]:  *-------  PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings (changes only)  ------------------* 
+[3450155:generator-task]:  |                                                                                                                 | 
+[3450155:generator-task]:  | Name                                          |                      Now |      Default         Min         Max | 
+[3450155:generator-task]:  |                                               |                          |                                      | 
+[3450155:generator-task]:  | ParticleDecays:limitTau0                      |                       on |          off                         | 
+[3450155:generator-task]:  | Random:seed                                   |                157581903 |           -1               900000000 | 
+[3450155:generator-task]:  | Random:setSeed                                |                       on |          off                         | 
+[3450155:generator-task]:  | SoftQCD:inelastic                             |                       on |          off                         | 
+[3450155:generator-task]:  | StringZ:useOldAExtra                          |                       on |          off                         | 
+[3450155:generator-task]:  |                                                                                                                 | 
+[3450155:generator-task]:  *-------  End PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings  -----------------------------* 
+[3450155:generator-task]: 
+[3450155:generator-task]:  --------  PYTHIA Particle Data Table (changed only)  ------------------------------------------------------------------------------
+[3450155:generator-task]:  
+[3450155:generator-task]:       id   name            antiName         spn chg col      m0        mWidth      mMin       mMax       tau0    res dec ext vis wid
+[3450155:generator-task]:              no onMode   bRatio   meMode     products 
+[3450155:generator-task]: 
+[3450155:generator-task]: 1000100200  20Ne                                6  30   0   19.99244    0.00000   19.99244   19.99244  0.00000e+00   0   0   0   1   0
+[3450155:generator-task]: 
+[3450155:generator-task]:  --------  End PYTHIA Particle Data Table  -----------------------------------------------------------------------------------------
+[3450155:generator-task]: 
+[3450155:generator-task]: [10:20:28][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[3450155:generator-task]: [10:20:28][STATE] INITIALIZED ---> BINDING
+[3450155:generator-task]: [10:20:28][STATE] BINDING ---> BOUND
+[3450155:generator-task]: [10:20:28][STATE] BOUND ---> CONNECTING
+[3450155:generator-task]: [10:20:28][STATE] CONNECTING ---> DEVICE READY
+[3450155:generator-task]: [10:20:28][STATE] DEVICE READY ---> INITIALIZING TASK
+[3450155:generator-task]: [10:20:28][STATE] INITIALIZING TASK ---> READY
+[3450155:generator-task]: [10:20:28][STATE] READY ---> RUNNING
+[3450155:generator-task]: [10:20:28][INFO] fair::mq::Device running...
+[3450155:generator-task]: [10:20:28][INFO] LHCPeriod is not available, using current month MAY
+[3450155:generator-task]: 
+[3450155:generator-task]:  --------  PYTHIA Info Listing  ---------------------------------------- 
+[3450155:generator-task]:  
+[3450155:generator-task]:  Beam A: id =   2212, pz =  7.000e+03, e =  7.000e+03, m =  9.383e-01.
+[3450155:generator-task]:  Beam B: id =   2212, pz = -7.000e+03, e =  7.000e+03, m =  9.383e-01.
+[3450155:generator-task]: 
+[3450155:generator-task]:  In 1: id =   21, x =  1.240e-06, pdf =  9.063e+01 at Q2 =  6.492e+00.
+[3450155:generator-task]:  In 2: id =   21, x =  1.303e-01, pdf =  9.418e-01 at same Q2.
+[3450155:generator-task]: 
+[3450155:generator-task]:  Process non-diffractive with code 101 is 2 -> 2.
+[3450155:generator-task]:  Subprocess g g -> g g with code 111 is 2 -> 2.
+[3450155:generator-task]:  It has sHat =  3.166e+01,    tHat = -9.117e+00,    uHat = -2.255e+01,
+[3450155:generator-task]:        pTHat =  2.548e+00,   m3Hat =  0.000e+00,   m4Hat =  0.000e+00,
+[3450155:generator-task]:     thetaHat =  1.133e+00,  phiHat =  5.474e+00.
+[3450155:generator-task]:      alphaEM =  7.546e-03,  alphaS =  2.670e-01    at Q2 =  1.350e+01.
+[3450155:generator-task]: 
+[3450155:generator-task]:  Impact parameter b =  1.611e+00 gives enhancement factor =  3.990e-02.
+[3450155:generator-task]:  Max pT scale for MPI =  2.548e+00, ISR =  2.548e+00, FSR =  2.548e+00.
+[3450155:generator-task]:  Number of MPI =     1, ISR =     4, FSRproc =    11, FSRreson =     0.
+[3450155:generator-task]: 
+[3450155:generator-task]:  --------  End PYTHIA Info Listing  ------------------------------------
+[3450155:generator-task]: 
+[3450155:generator-task]:  --------  PYTHIA Event Listing  (hard process)  -----------------------------------------------------------------------------------
+[3450155:generator-task]:  
+[3450155:generator-task]:     no         id  name            status     mothers   daughters     colours      p_x        p_y        p_z         e          m 
+[3450155:generator-task]:      0         90  (system)           -11     0     0     0     0     0     0      0.000      0.000      0.000  14000.000  14000.000
+[3450155:generator-task]:      1       2212  (p+)               -12     0     0     3     0     0     0      0.000      0.000   7000.000   7000.000      0.938
+[3450155:generator-task]:      2       2212  (p+)               -12     0     0     4     0     0     0      0.000      0.000  -7000.000   7000.000      0.938
+[3450155:generator-task]:      3         21  (g)                -21     1     0     5     6   101   102      0.000      0.000      0.009      0.009      0.000
+[3450155:generator-task]:      4         21  (g)                -21     2     0     5     6   102   103      0.000      0.000   -911.879    911.879      0.000
+[3450155:generator-task]:      5         21  g                   23     3     4     0     0   101   104     -1.844      1.759   -262.556    262.568      0.000
+[3450155:generator-task]:      6         21  g                   23     3     4     0     0   104   103      1.844     -1.759   -649.314    649.319      0.000
+[3450155:generator-task]:                                    Charge sum:  0.000           Momentum sum:      0.000      0.000   -911.870    911.888      5.627
+[3450155:generator-task]: 
+[3450155:generator-task]:  --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
+[3450155:generator-task]: 
+[3450155:generator-task]:  --------  PYTHIA Event Listing  (complete event)  ---------------------------------------------------------------------------------
+[3450155:generator-task]:  
+[3450155:generator-task]:     no         id  name            status     mothers   daughters     colours      p_x        p_y        p_z         e          m 
+[3450155:generator-task]:      0         90  (system)           -11     0     0     0     0     0     0      0.000      0.000      0.000  14000.000  14000.000
+[3450155:generator-task]:      1       2212  (p+)               -12     0     0    73     0     0     0      0.000      0.000   7000.000   7000.000      0.938
+[3450155:generator-task]:      2       2212  (p+)               -12     0     0    74     0     0     0      0.000      0.000  -7000.000   7000.000      0.938
+[3450155:generator-task]:      3         21  (g)                -21     7     0     5     6   101   102      0.000      0.000      0.009      0.009      0.000
+[3450155:generator-task]:      4         21  (g)                -21     8     8     5     6   102   103      0.000      0.000   -911.879    911.879      0.000
+[3450155:generator-task]:      5         21  (g)                -23     3     4     9     9   101   104     -1.844      1.759   -262.556    262.568      0.000
+[3450155:generator-task]:      6         21  (g)                -23     3     4    10    10   104   103      1.844     -1.759   -649.314    649.319      0.000
+[3450155:generator-task]:      7         21  (g)                -41    12    12    11     3   105   102     -0.000      0.000      4.137      4.137      0.000
+[3450155:generator-task]:      8         21  (g)                -42    13     0     4     4   102   103     -0.000      0.000   -911.879    911.879      0.000
+[3450155:generator-task]:      9         21  (g)                -44     5     5    14    14   101   104     -1.638      0.463   -105.818    105.832      0.000
+[3450155:generator-task]:     10         21  (g)                -44     6     6    15    15   104   103      1.927     -2.283   -805.845    805.851      0.000
+[3450155:generator-task]:     11         21  (g)                -43     7     0    16    16   105   101     -0.288      1.820      3.922      4.333      0.000
+[3450155:generator-task]:     12         21  (g)                -42    21     0     7     7   105   102      0.000     -0.000      4.137      4.137      0.000
+[3450155:generator-task]:     13         21  (g)                -41    22    22    17     8   102   106     -0.000      0.000  -1233.600   1233.600      0.000
+[3450155:generator-task]:     14         21  (g)                -44     9     9    20    20   101   104     -1.681      0.654   -105.895    105.910      0.000
+[3450155:generator-task]:     15         21  (g)                -44    10    10    24    24   104   103      1.601     -0.822   -806.436    806.438      0.000
+[3450155:generator-task]:     16         21  (g)                -44    11    11    18    19   105   101     -0.288      1.821      3.920      4.332      0.000
+[3450155:generator-task]:     17         21  (g)                -43    13     0    26    26   103   106      0.368     -1.653   -321.053    321.057      0.000
+[3450155:generator-task]:     18         21  (g)                -51    16     0    25    25   105   107      0.758      2.372      2.195      3.320      0.000
+[3450155:generator-task]:     19         21  (g)                -51    16     0    27    27   107   101     -1.056     -0.548      1.110      1.627      0.000
+[3450155:generator-task]:     20         21  (g)                -52    14    14    23    23   101   104     -1.671      0.651   -105.280    105.295      0.000
+[3450155:generator-task]:     21         21  (g)                -41    44     0    28    12   108   102     -0.000      0.000     13.962     13.962      0.000
+[3450155:generator-task]:     22         21  (g)                -42    45    45    13    13   102   106      0.000      0.000  -1233.600   1233.600      0.000
+[3450155:generator-task]:     23         21  (g)                -44    20    20    29    30   101   104     -1.674      0.650   -105.530    105.545      0.000
+[3450155:generator-task]:     24         21  (g)                -44    15    15    47    47   104   103      1.601     -0.822   -806.083    806.085      0.000
+[3450155:generator-task]:     25         21  (g)                -44    18    18    34    34   105   107     -0.144      2.288      2.281      3.234      0.000
+[3450155:generator-task]:     26         21  (g)                -44    17    17    49    49   103   106      0.367     -1.653   -320.977    320.981      0.000
+[3450155:generator-task]:     27         21  (g)                -44    19    19    31    31   107   101     -1.503     -0.590      0.892      1.845      0.000
+[3450155:generator-task]:     28         21  (g)                -43    21     0    32    33   108   105      1.353      0.127      9.777      9.871      0.000
+[3450155:generator-task]:     29         21  (g)                -51    23     0    41    42   109   104     -0.464      0.436    -90.988     90.990      0.000
+[3450155:generator-task]:     30         21  (g)                -51    23     0    43    43   101   109     -1.232      0.206    -14.529     14.582      0.000
+[3450155:generator-task]:     31         21  (g)                -52    27    27    38    39   107   101     -1.481     -0.581      0.879      1.818      0.000
+[3450155:generator-task]:     32         21  (g)                -51    28     0    51    51   108   110      0.065     -0.634      3.123      3.188      0.000
+[3450155:generator-task]:     33         21  (g)                -51    28     0    35    36   110   105      1.260      1.193      7.085      7.294      0.000
+[3450155:generator-task]:     34         21  (g)                -52    25    25    37    37   105   107     -0.117      1.856      1.851      2.624      0.000
+[3450155:generator-task]:     35         21  (g)                -51    33     0    53    53   110   111      1.170      1.573      7.733      7.977      0.000
+[3450155:generator-task]:     36         21  (g)                -51    33     0    54    54   111   105      0.040      0.416      0.147      0.443      0.000
+[3450155:generator-task]:     37         21  (g)                -52    34    34    40    40   105   107     -0.067      1.059      1.056      1.497      0.000
+[3450155:generator-task]:     38         21  (g)                -51    31     0    50    50   112   101      0.173     -0.409      0.068      0.449      0.000
+[3450155:generator-task]:     39         21  (g)                -51    31     0    55    55   107   112     -1.695      0.479      1.461      2.288      0.000
+[3450155:generator-task]:     40         21  (g)                -52    37    37    48    48   105   107     -0.026      0.409      0.407      0.577      0.000
+[3450155:generator-task]:     41         21  (g)                -51    29     0    46    46   113   104     -0.206     -0.546    -43.332     43.336      0.000
+[3450155:generator-task]:     42         21  (g)                -51    29     0    56    56   109   113     -0.624      1.043    -51.967     51.981      0.000
+[3450155:generator-task]:     43         21  (g)                -52    30    30    52    52   101   109     -0.866      0.145    -10.218     10.255      0.000
+[3450155:generator-task]:     44         21  (g)                -41    73    73    57    21   114   102     -0.000      0.000   4129.030   4129.030      0.000
+[3450155:generator-task]:     45         21  (g)                -42    74    74    22    22   102   106     -0.000      0.000  -1233.600   1233.600      0.000
+[3450155:generator-task]:     46         21  (g)                -44    41    41    64    65   113   104     -0.206     -0.546    -43.328     43.332      0.000
+[3450155:generator-task]:     47         21  (g)                -44    24    24    76    76   104   103      1.601     -0.822   -806.039    806.041      0.000
+[3450155:generator-task]:     48         21  (g)                -44    40    40    77    77   105   107     -0.043      0.422      0.401      0.584      0.000
+[3450155:generator-task]:     49         21  (g)                -44    26    26    78    78   103   106      0.367     -1.653   -320.947    320.951      0.000
+[3450155:generator-task]:     50         21  (g)                -44    38    38    79    79   112   101      0.164     -0.402      0.076      0.441      0.000
+[3450155:generator-task]:     51         21  (g)                -44    32    32    63    63   108   110     -0.046     -0.550      3.131      3.180      0.000
+[3450155:generator-task]:     52         21  (g)                -44    43    43    81    81   101   109     -0.867      0.145    -10.235     10.272      0.000
+[3450155:generator-task]:     53         21  (g)                -44    35    35    58    59   110   111      0.893      1.782      7.728      7.981      0.000
+[3450155:generator-task]:     54         21  (g)                -44    36    36    60    60   111   105      0.029      0.424      0.142      0.448      0.000
+[3450155:generator-task]:     55         21  (g)                -44    39    39    84    84   107   112     -1.761      0.529      1.423      2.325      0.000
+[3450155:generator-task]:     56         21  (g)                -44    42    42    66    66   109   113     -0.624      1.043    -51.992     52.006      0.000
+[3450155:generator-task]:     57         21  (g)                -43    44     0    61    62   114   108      0.493     -0.371   4115.068   4115.068      0.000
+[3450155:generator-task]:     58         21  (g)                -51    53     0    82    82   110   115      0.154      1.030      5.400      5.499      0.000
+[3450155:generator-task]:     59         21  (g)                -51    53     0    87    87   115   111      0.751      0.932      2.389      2.672      0.000
+[3450155:generator-task]:     60         21  (g)                -52    54    54    83    83   111   105      0.017      0.245      0.082      0.258      0.000
+[3450155:generator-task]:     61         21  (g)                -51    57     0    86    86   114   116     -0.095     -0.518   3636.597   3636.597      0.000
+[3450155:generator-task]:     62         21  (g)                -51    57     0    67    68   116   108      0.587      0.143    478.496    478.496      0.000
+[3450155:generator-task]:     63         21  (g)                -52    51    51    69    69   108   110     -0.046     -0.546      3.107      3.155      0.000
+[3450155:generator-task]:     64         21  (g)                -51    46     0    75    75   117   104     -0.125     -0.338    -57.040     57.041      0.000
+[3450155:generator-task]:     65         21  (g)                -51    46     0    89    89   113   117     -0.419      0.358    -14.487     14.498      0.000
+[3450155:generator-task]:     66         21  (g)                -52    56    56    85    85   109   113     -0.286      0.477    -23.792     23.799      0.000
+[3450155:generator-task]:     67         21  (g)                -51    62     0    88    88   116   118     -0.026      0.088    402.096    402.096      0.000
+[3450155:generator-task]:     68         21  (g)                -51    62     0    70    71   118   108      0.612      0.031     76.534     76.537      0.000
+[3450155:generator-task]:     69         21  (g)                -52    63    63    72    72   108   110     -0.044     -0.522      2.972      3.018      0.000
+[3450155:generator-task]:     70         21  (g)                -51    68     0    90    90   118   119      0.139     -0.511     17.446     17.454      0.000
+[3450155:generator-task]:     71         21  (g)                -51    68     0    91    91   119   108      0.464      0.440     59.673     59.676      0.000
+[3450155:generator-task]:     72         21  (g)                -52    69    69    80    80   108   110     -0.035     -0.420      2.389      2.425      0.000
+[3450155:generator-task]:     73         21  (g)                -61     1     0    44    44   114   102     -1.245      0.149   4129.029   4129.030      0.000
+[3450155:generator-task]:     74         21  (g)                -61     2     0    45    45   102   106     -0.032     -2.023  -1233.599   1233.601      0.000
+[3450155:generator-task]:     75         21  (g)                -62    64    64   115   115   117   104     -0.127     -0.432    -57.040     57.042      0.000
+[3450155:generator-task]:     76         21  (g)                -62    47    47   114   114   104   103      1.580     -2.144   -806.038    806.042      0.000
+[3450155:generator-task]:     77         21  (g)                -62    48    48    96     0   105   107     -0.043      0.421      0.401      0.583      0.000
+[3450155:generator-task]:     78         21  (g)                -62    49    49   113   113   103   106      0.359     -2.180   -320.945    320.952      0.000
+[3450155:generator-task]:     79         21  (g)                -62    50    50   118   118   112   101      0.164     -0.403      0.076      0.441      0.000
+[3450155:generator-task]:     80         21  (g)                -62    72    72   123   123   108   110     -0.036     -0.420      2.389      2.426      0.000
+[3450155:generator-task]:     81         21  (g)                -62    52    52   117   117   101   109     -0.867      0.128    -10.235     10.272      0.000
+[3450155:generator-task]:     82         21  (g)                -62    58    58   122   122   110   115      0.153      1.030      5.399      5.499      0.000
+[3450155:generator-task]:     83         21  (g)                -62    60    60    96     0   111   105      0.017      0.244      0.082      0.258      0.000
+[3450155:generator-task]:     84         21  (g)                -62    55    55   119   119   107   112     -1.762      0.528      1.423      2.325      0.000
+[3450155:generator-task]:     85         21  (g)                -62    66    66    97     0   109   113     -0.286      0.438    -23.793     23.799      0.000
+[3450155:generator-task]:     86         21  (g)                -62    61    61    98     0   114   116     -1.192     -0.387   3636.597   3636.597      0.000
+[3450155:generator-task]:     87         21  (g)                -62    59    59   121   121   115   111      0.750      0.932      2.388      2.671      0.000
+[3450155:generator-task]:     88         21  (g)                -62    67    67    98     0   116   118     -0.148      0.102    402.096    402.096      0.000
+[3450155:generator-task]:     89         21  (g)                -62    65    65    97     0   113   117     -0.420      0.334    -14.488     14.498      0.000
+[3450155:generator-task]:     90         21  (g)                -62    70    70   125   125   118   119      0.134     -0.510     17.446     17.454      0.000
+[3450155:generator-task]:     91         21  (g)                -62    71    71   124   124   119   108      0.446      0.442     59.672     59.676      0.000
+[3450155:generator-task]:     92       2101  (ud_0)             -63     1     0   127   127     0   114      0.531     -0.288   2803.340   2803.340      0.579
+[3450155:generator-task]:     93          2  (u)                -63     1     0    99   111   102     0      0.715      0.139     67.627     67.631      0.330
+[3450155:generator-task]:     94       2203  (uu_1)             -63     2     0    99   111     0   102      0.371      0.778  -3029.094   3029.094      0.771
+[3450155:generator-task]:     95          1  (d)                -63     2     0   112   112   106     0     -0.339      1.245  -2737.303   2737.303      0.330
+[3450155:generator-task]:     96         21  (g)                -73    77    83   120   120   111   107     -0.026      0.666      0.482      0.842      0.177
+[3450155:generator-task]:     97         21  (g)                -73    85    89   116   116   109   117     -0.706      0.772    -38.281     38.296      0.326
+[3450155:generator-task]:     98         21  (g)                -73    86    88   126   126   114   118     -1.339     -0.285   4038.693   4038.693      0.438
+[3450155:generator-task]:     99        223  (omega)            -83    93    94   183   185     0     0      0.505     -0.164     33.131     33.144      0.769
+[3450155:generator-task]:    100        211  pi+                 83    93    94     0     0     0     0      0.032     -0.089     29.497     29.498      0.140
+[3450155:generator-task]:    101        111  (pi0)              -83    93    94   186   187     0     0      0.049      0.348      0.154      0.407      0.135
+[3450155:generator-task]:    102       -213  (rho-)             -84    93    94   162   163     0     0      0.424     -0.323      3.802      3.922      0.802
+[3450155:generator-task]:    103        321  K+                  84    93    94     0     0     0     0     -0.651      0.624      0.221      1.052      0.494
+[3450155:generator-task]:    104       3322  Xi0                 84    93    94     0     0     0     0      0.162     -0.060     -2.658      2.970      1.315
+[3450155:generator-task]:    105      -3222  Sigmabar-           84    93    94     0     0     0     0      0.327     -0.045     -6.980      7.089      1.189
+[3450155:generator-task]:    106        223  (omega)            -84    93    94   188   190     0     0      0.058     -0.397   -122.883    122.886      0.791
+[3450155:generator-task]:    107       2212  p+                  84    93    94     0     0     0     0     -0.399      0.262   -167.810    167.814      0.938
+[3450155:generator-task]:    108      -2212  pbar-               84    93    94     0     0     0     0      0.309      0.521   -386.361    386.363      0.938
+[3450155:generator-task]:    109        113  (rho0)             -84    93    94   164   165     0     0     -0.407     -0.058   -607.372    607.373      1.353
+[3450155:generator-task]:    110       3222  Sigma+              84    93    94     0     0     0     0      0.727      0.303   -687.942    687.944      1.189
+[3450155:generator-task]:    111        323  (K*+)              -84    93    94   166   167     0     0     -0.050     -0.006  -1046.265   1046.265      0.855
+[3450155:generator-task]:    112          1  (d)                -71    95    95   128   161   106     0     -0.339      1.245  -2737.303   2737.303      0.330
+[3450155:generator-task]:    113         21  (g)                -71    78    78   128   161   103   106      0.359     -2.180   -320.945    320.952      0.000
+[3450155:generator-task]:    114         21  (g)                -71    76    76   128   161   104   103      1.580     -2.144   -806.038    806.042      0.000
+[3450155:generator-task]:    115         21  (g)                -71    75    75   128   161   117   104     -0.127     -0.432    -57.040     57.042      0.000
+[3450155:generator-task]:    116         21  (g)                -71    97    97   128   161   109   117     -0.706      0.772    -38.281     38.296      0.326
+[3450155:generator-task]:    117         21  (g)                -71    81    81   128   161   101   109     -0.867      0.128    -10.235     10.272      0.000
+[3450155:generator-task]:    118         21  (g)                -71    79    79   128   161   112   101      0.164     -0.403      0.076      0.441      0.000
+[3450155:generator-task]:    119         21  (g)                -71    84    84   128   161   107   112     -1.762      0.528      1.423      2.325      0.000
+[3450155:generator-task]:    120         21  (g)                -71    96    96   128   161   111   107     -0.026      0.666      0.482      0.842      0.177
+[3450155:generator-task]:    121         21  (g)                -71    87    87   128   161   115   111      0.750      0.932      2.388      2.671      0.000
+[3450155:generator-task]:    122         21  (g)                -71    82    82   128   161   110   115      0.153      1.030      5.399      5.499      0.000
+[3450155:generator-task]:    123         21  (g)                -71    80    80   128   161   108   110     -0.036     -0.420      2.389      2.426      0.000
+[3450155:generator-task]:    124         21  (g)                -71    91    91   128   161   119   108      0.446      0.442     59.672     59.676      0.000
+[3450155:generator-task]:    125         21  (g)                -71    90    90   128   161   118   119      0.134     -0.510     17.446     17.454      0.000
+[3450155:generator-task]:    126         21  (g)                -71    98    98   128   161   114   118     -1.339     -0.285   4038.693   4038.693      0.438
+[3450155:generator-task]:    127       2101  (ud_0)             -71    92    92   128   161     0   114      0.531     -0.288   2803.340   2803.340      0.579
+[3450155:generator-task]:    128        221  (eta)              -83   112   127   191   192     0     0      0.055      0.717  -1714.815   1714.815      0.548
+[3450155:generator-task]:    129        223  (omega)            -83   112   127   193   195     0     0     -0.686      0.027   -744.704    744.704      0.777
+[3450155:generator-task]:    130        111  (pi0)              -83   112   127   196   197     0     0      0.626     -0.666   -164.915    164.918      0.135
+[3450155:generator-task]:    131       -211  pi-                 83   112   127     0     0     0     0     -0.168      0.008    -61.325     61.325      0.140
+[3450155:generator-task]:    132        211  pi+                 83   112   127     0     0     0     0      0.936     -1.229   -588.461    588.463      0.140
+[3450155:generator-task]:    133        313  (K*0)              -83   112   127   168   169     0     0     -0.048     -0.647   -105.872    105.877      0.902
+[3450155:generator-task]:    134        333  (phi)              -83   112   127   198   199     0     0      0.938     -1.348   -483.040    483.044      1.023
+[3450155:generator-task]:    135       -313  (K*bar0)           -83   112   127   170   171     0     0     -0.509      0.005    -59.201     59.214      1.137
+[3450155:generator-task]:    136       -211  pi-                 83   112   127     0     0     0     0     -0.950     -0.153    -22.972     22.993      0.140
+[3450155:generator-task]:    137        211  pi+                 83   112   127     0     0     0     0      0.437     -0.198     -5.188      5.212      0.140
+[3450155:generator-task]:    138        113  (rho0)             -83   112   127   172   173     0     0     -0.325      1.039    -13.361     13.432      0.849
+[3450155:generator-task]:    139       2112  n0                  83   112   127     0     0     0     0     -0.115     -0.646     -4.069      4.228      0.940
+[3450155:generator-task]:    140      -2212  pbar-               83   112   127     0     0     0     0     -0.166      0.432     -0.922      1.394      0.938
+[3450155:generator-task]:    141        221  (eta)              -84   112   127   200   201     0     0     -1.215      0.268      0.301      1.393      0.548
+[3450155:generator-task]:    142        211  pi+                 84   112   127     0     0     0     0     -0.051     -0.147     -0.320      0.382      0.140
+[3450155:generator-task]:    143       2112  n0                  84   112   127     0     0     0     0      0.789      0.375      1.326      1.845      0.940
+[3450155:generator-task]:    144      -2212  pbar-               84   112   127     0     0     0     0     -0.971      0.647      1.703      2.268      0.938
+[3450155:generator-task]:    145        213  (rho+)             -84   112   127   174   175     0     0      0.223      0.296      1.960      2.103      0.668
+[3450155:generator-task]:    146        111  (pi0)              -84   112   127   202   203     0     0     -0.002      0.127      0.696      0.721      0.135
+[3450155:generator-task]:    147        223  (omega)            -84   112   127   204   206     0     0      0.271      0.320      2.553      2.703      0.784
+[3450155:generator-task]:    148       -211  pi-                 84   112   127     0     0     0     0     -0.194     -0.004      4.575      4.581      0.140
+[3450155:generator-task]:    149        111  (pi0)              -84   112   127   207   208     0     0      0.164      0.032      4.560      4.565      0.135
+[3450155:generator-task]:    150        211  pi+                 84   112   127     0     0     0     0     -0.037     -0.161      1.443      1.460      0.140
+[3450155:generator-task]:    151        223  (omega)            -84   112   127   209   211     0     0      0.488      0.245      6.987      7.052      0.785
+[3450155:generator-task]:    152       -213  (rho-)             -84   112   127   176   177     0     0      0.062      0.822     19.775     19.814      0.923
+[3450155:generator-task]:    153        211  pi+                 84   112   127     0     0     0     0     -0.045     -0.207     18.387     18.389      0.140
+[3450155:generator-task]:    154       -213  (rho-)             -84   112   127   178   179     0     0      0.297     -0.283     50.578     50.587      0.838
+[3450155:generator-task]:    155        213  (rho+)             -84   112   127   180   181     0     0      0.078      0.116     82.743     82.747      0.820
+[3450155:generator-task]:    156       -211  pi-                 84   112   127     0     0     0     0     -0.609     -0.192    155.811    155.812      0.140
+[3450155:generator-task]:    157        111  (pi0)              -84   112   127   212   213     0     0      0.197      0.570    207.907    207.908      0.135
+[3450155:generator-task]:    158        211  pi+                 84   112   127     0     0     0     0      0.274     -0.759    310.043    310.045      0.140
+[3450155:generator-task]:    159       -211  pi-                 84   112   127     0     0     0     0     -0.437      0.570   1524.119   1524.119      0.140
+[3450155:generator-task]:    160        321  K+                  84   112   127     0     0     0     0      0.028     -0.494    881.395    881.396      0.494
+[3450155:generator-task]:    161       3122  Lambda0             84   112   127     0     0     0     0     -0.419     -0.398   3653.766   3653.767      1.116
+[3450155:generator-task]:    162       -211  pi-                 91   102     0     0     0     0     0     -0.037     -0.445      1.799      1.859      0.140
+[3450155:generator-task]:    163        111  (pi0)              -91   102     0   214   215     0     0      0.460      0.122      2.003      2.063      0.135
+[3450155:generator-task]:    164        211  pi+                 91   109     0     0     0     0     0     -0.159      0.403    -75.866     75.868      0.140
+[3450155:generator-task]:    165       -211  pi-                 91   109     0     0     0     0     0     -0.248     -0.462   -531.505    531.506      0.140
+[3450155:generator-task]:    166        321  K+                  91   111     0     0     0     0     0      0.070      0.233   -609.929    609.929      0.494
+[3450155:generator-task]:    167        111  (pi0)              -91   111     0   216   217     0     0     -0.119     -0.239   -436.336    436.336      0.135
+[3450155:generator-task]:    168        321  K+                  91   133     0     0     0     0     0      0.133     -0.116    -43.886     43.889      0.494
+[3450155:generator-task]:    169       -211  pi-                 91   133     0     0     0     0     0     -0.182     -0.530    -61.986     61.988      0.140
+[3450155:generator-task]:    170       -311  (Kbar0)            -91   135     0   182   182     0     0     -0.129     -0.132    -12.611     12.622      0.498
+[3450155:generator-task]:    171        111  (pi0)              -91   135     0   218   219     0     0     -0.380      0.137    -46.590     46.592      0.135
+[3450155:generator-task]:    172        211  pi+                 91   138     0     0     0     0     0     -0.229      0.092     -1.198      1.231      0.140
+[3450155:generator-task]:    173       -211  pi-                 91   138     0     0     0     0     0     -0.095      0.947    -12.163     12.201      0.140
+[3450155:generator-task]:    174        211  pi+                 91   145     0     0     0     0     0      0.363      0.159      0.664      0.786      0.140
+[3450155:generator-task]:    175        111  (pi0)              -91   145     0   220   221     0     0     -0.141      0.137      1.295      1.317      0.135
+[3450155:generator-task]:    176       -211  pi-                 91   152     0     0     0     0     0      0.346      0.591      7.510      7.543      0.140
+[3450155:generator-task]:    177        111  (pi0)              -91   152     0   222   223     0     0     -0.284      0.230     12.265     12.271      0.135
+[3450155:generator-task]:    178       -211  pi-                 91   154     0     0     0     0     0      0.292      0.054     41.581     41.582      0.140
+[3450155:generator-task]:    179        111  (pi0)              -91   154     0   224   225     0     0      0.004     -0.337      8.998      9.005      0.135
+[3450155:generator-task]:    180        211  pi+                 91   155     0     0     0     0     0     -0.095      0.375     62.506     62.508      0.140
+[3450155:generator-task]:    181        111  (pi0)              -91   155     0   226   227     0     0      0.173     -0.258     20.237     20.239      0.135
+[3450155:generator-task]:    182        130  K_L0                91   170   170     0     0     0     0     -0.129     -0.132    -12.611     12.622      0.498
+[3450155:generator-task]:    183        211  pi+                 91    99     0     0     0     0     0     -0.012     -0.003      4.108      4.110      0.140
+[3450155:generator-task]:    184       -211  pi-                 91    99     0     0     0     0     0      0.072     -0.099     17.821     17.822      0.140
+[3450155:generator-task]:    185        111  (pi0)              -91    99     0   228   229     0     0      0.445     -0.062     11.201     11.211      0.135
+[3450155:generator-task]:    186         22  gamma               91   101     0     0     0     0     0      0.086      0.298      0.104      0.327      0.000
+[3450155:generator-task]:    187         22  gamma               91   101     0     0     0     0     0     -0.037      0.050      0.049      0.080      0.000
+[3450155:generator-task]:    188        211  pi+                 91   106     0     0     0     0     0     -0.085     -0.073    -31.124     31.124      0.140
+[3450155:generator-task]:    189       -211  pi-                 91   106     0     0     0     0     0     -0.120     -0.357    -48.753     48.754      0.140
+[3450155:generator-task]:    190        111  (pi0)              -91   106     0   230   231     0     0      0.263      0.033    -43.006     43.007      0.135
+[3450155:generator-task]:    191         22  gamma               91   128     0     0     0     0     0      0.051      0.718  -1086.549   1086.549      0.000
+[3450155:generator-task]:    192         22  gamma               91   128     0     0     0     0     0      0.004     -0.001   -628.266    628.266      0.000
+[3450155:generator-task]:    193        211  pi+                 91   129     0     0     0     0     0      0.031      0.112   -114.586    114.586      0.140
+[3450155:generator-task]:    194       -211  pi-                 91   129     0     0     0     0     0     -0.511      0.084   -340.776    340.776      0.140
+[3450155:generator-task]:    195        111  (pi0)              -91   129     0   232   233     0     0     -0.206     -0.170   -289.342    289.343      0.135
+[3450155:generator-task]:    196         22  gamma               91   130     0     0     0     0     0      0.478     -0.427   -109.502    109.504      0.000
+[3450155:generator-task]:    197         22  gamma               91   130     0     0     0     0     0      0.148     -0.239    -55.413     55.414      0.000
+[3450155:generator-task]:    198        130  K_L0                91   134     0     0     0     0     0      0.482     -0.536   -205.788    205.790      0.498
+[3450155:generator-task]:    199        310  K_S0                91   134     0     0     0     0     0      0.456     -0.813   -277.251    277.253      0.498
+[3450155:generator-task]:    200         22  gamma               91   141     0     0     0     0     0     -0.799      0.324      0.416      0.957      0.000
+[3450155:generator-task]:    201         22  gamma               91   141     0     0     0     0     0     -0.417     -0.056     -0.115      0.436      0.000
+[3450155:generator-task]:    202         22  gamma               91   146     0     0     0     0     0     -0.040     -0.010      0.207      0.211      0.000
+[3450155:generator-task]:    203         22  gamma               91   146     0     0     0     0     0      0.038      0.137      0.489      0.509      0.000
+[3450155:generator-task]:    204        211  pi+                 91   147     0     0     0     0     0      0.136      0.222      1.011      1.053      0.140
+[3450155:generator-task]:    205       -211  pi-                 91   147     0     0     0     0     0      0.061      0.092      1.468      1.479      0.140
+[3450155:generator-task]:    206        111  (pi0)              -91   147     0   234   235     0     0      0.074      0.005      0.073      0.171      0.135
+[3450155:generator-task]:    207         22  gamma               91   149     0     0     0     0     0      0.056     -0.000      3.161      3.162      0.000
+[3450155:generator-task]:    208         22  gamma               91   149     0     0     0     0     0      0.108      0.033      1.399      1.404      0.000
+[3450155:generator-task]:    209        211  pi+                 91   151     0     0     0     0     0      0.054      0.138      1.095      1.114      0.140
+[3450155:generator-task]:    210       -211  pi-                 91   151     0     0     0     0     0      0.336      0.143      5.459      5.473      0.140
+[3450155:generator-task]:    211        111  (pi0)              -91   151     0   236   237     0     0      0.098     -0.036      0.433      0.465      0.135
+[3450155:generator-task]:    212         22  gamma               91   157     0     0     0     0     0      0.100      0.411    159.401    159.402      0.000
+[3450155:generator-task]:    213         22  gamma               91   157     0     0     0     0     0      0.097      0.159     48.506     48.506      0.000
+[3450155:generator-task]:    214         22  gamma               91   163     0     0     0     0     0      0.247      0.090      0.832      0.873      0.000
+[3450155:generator-task]:    215         22  gamma               91   163     0     0     0     0     0      0.213      0.032      1.171      1.190      0.000
+[3450155:generator-task]:    216         22  gamma               91   167     0     0     0     0     0     -0.070     -0.050   -212.056    212.056      0.000
+[3450155:generator-task]:    217         22  gamma               91   167     0     0     0     0     0     -0.049     -0.189   -224.279    224.279      0.000
+[3450155:generator-task]:    218         22  gamma               91   171     0     0     0     0     0     -0.284      0.119    -40.420     40.421      0.000
+[3450155:generator-task]:    219         22  gamma               91   171     0     0     0     0     0     -0.096      0.019     -6.170      6.171      0.000
+[3450155:generator-task]:    220         22  gamma               91   175     0     0     0     0     0     -0.066      0.104      0.412      0.430      0.000
+[3450155:generator-task]:    221         22  gamma               91   175     0     0     0     0     0     -0.074      0.033      0.883      0.887      0.000
+[3450155:generator-task]:    222         22  gamma               91   177     0     0     0     0     0     -0.296      0.201     11.375     11.380      0.000
+[3450155:generator-task]:    223         22  gamma               91   177     0     0     0     0     0      0.012      0.029      0.890      0.891      0.000
+[3450155:generator-task]:    224         22  gamma               91   179     0     0     0     0     0     -0.056     -0.141      4.683      4.685      0.000
+[3450155:generator-task]:    225         22  gamma               91   179     0     0     0     0     0      0.060     -0.196      4.315      4.319      0.000
+[3450155:generator-task]:    226         22  gamma               91   181     0     0     0     0     0     -0.012     -0.011      3.163      3.163      0.000
+[3450155:generator-task]:    227         22  gamma               91   181     0     0     0     0     0      0.185     -0.248     17.074     17.077      0.000
+[3450155:generator-task]:    228         22  gamma               91   185     0     0     0     0     0      0.154      0.007      2.545      2.550      0.000
+[3450155:generator-task]:    229         22  gamma               91   185     0     0     0     0     0      0.291     -0.069      8.656      8.661      0.000
+[3450155:generator-task]:    230         22  gamma               91   190     0     0     0     0     0      0.087     -0.028    -22.487     22.487      0.000
+[3450155:generator-task]:    231         22  gamma               91   190     0     0     0     0     0      0.176      0.061    -20.520     20.520      0.000
+[3450155:generator-task]:    232         22  gamma               91   195     0     0     0     0     0     -0.059     -0.013   -124.058    124.058      0.000
+[3450155:generator-task]:    233         22  gamma               91   195     0     0     0     0     0     -0.147     -0.157   -165.284    165.284      0.000
+[3450155:generator-task]:    234         22  gamma               91   206     0     0     0     0     0     -0.020     -0.035     -0.006      0.041      0.000
+[3450155:generator-task]:    235         22  gamma               91   206     0     0     0     0     0      0.094      0.040      0.080      0.130      0.000
+[3450155:generator-task]:    236         22  gamma               91   211     0     0     0     0     0     -0.025     -0.019      0.030      0.044      0.000
+[3450155:generator-task]:    237         22  gamma               91   211     0     0     0     0     0      0.123     -0.017      0.402      0.421      0.000
+[3450155:generator-task]:                                    Charge sum:  2.000           Momentum sum:     -0.000      0.000     -0.000  14000.000  14000.000
+[3450155:generator-task]: 
+[3450155:generator-task]:  --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
+[3450155:generator-task]: [10:20:28][INFO] Correctly handshaken websocket connection.
+[3450156:mctracks-to-aod]: Warning in <TDatabasePDG::AddParticle>: Particle with PDGcode=1000030040 already defined
+[3450155:generator-task]:  PYTHIA Warning in SimpleSpaceShower::pT2nextQCD: weight above unity
+[3450155:generator-task]:  PYTHIA Error in BeamRemnants::setKinematics: kinematics construction failed after retrying 10 times
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 1000 events have been generated 
+[3450155:generator-task]:  PYTHIA Warning in MultipartonInteractions::pTnext: weight above unity
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 2000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 3000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 4000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 5000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 6000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 7000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 8000 events have been generated 
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code 9000221 unknown from TDatabasePDG
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code 9000221 unknown from TDatabasePDG
+[3450156:mctracks-to-aod]: [10:20:51][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 9000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 10000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 11000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 12000 events have been generated 
+[3450155:generator-task]:  PYTHIA Error in SimpleSpaceShower::pT2nearThreshold: stuck in loop
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 13000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 14000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 15000 events have been generated 
+[3450155:generator-task]:  PYTHIA Warning in Pythia::check: energy-momentum not quite conserved
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 16000 events have been generated 
+[3450155:generator-task]:  PYTHIA Warning in SimpleSpaceShower::pT2nextQCD: small daughter PDF
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 17000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 18000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 19000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 20000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 21000 events have been generated 
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code -14122 unknown from TDatabasePDG
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code -14122 unknown from TDatabasePDG
+[3450156:mctracks-to-aod]: [10:21:27][WARN] MCTrack: Cannot determine mass for pdg -14122 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 22000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 23000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 24000 events have been generated 
+[3450155:generator-task]:  PYTHIA Error in StringFragmentation::fragment: stuck in joining
+[3450155:generator-task]:  PYTHIA Error in Pythia::next: hadronLevel failed; try again
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 25000 events have been generated 
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code 9000221 unknown from TDatabasePDG
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code 9000221 unknown from TDatabasePDG
+[3450156:mctracks-to-aod]: [10:21:37][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 26000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 27000 events have been generated 
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code -4124 unknown from TDatabasePDG
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code -4124 unknown from TDatabasePDG
+[3450156:mctracks-to-aod]: [10:21:43][WARN] MCTrack: Cannot determine mass for pdg -4124 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code -14122 unknown from TDatabasePDG
+[3450155:generator-task]: Warning in <TParticle::SetPdgCode>: PDG code -14122 unknown from TDatabasePDG
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 28000 events have been generated 
+[3450156:mctracks-to-aod]: [10:21:45][WARN] MCTrack: Cannot determine mass for pdg -14122 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 29000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 30000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 31000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 32000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 33000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 34000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 35000 events have been generated 
+[3450156:mctracks-to-aod]: [10:22:04][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 36000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 37000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 38000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 39000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 40000 events have been generated 
+[3450156:mctracks-to-aod]: [10:22:18][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 41000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 42000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 43000 events have been generated 
+[3450156:mctracks-to-aod]: [10:22:27][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450156:mctracks-to-aod]: [10:22:28][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 44000 events have been generated 
+[3450156:mctracks-to-aod]: [10:22:31][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 45000 events have been generated 
+[3450156:mctracks-to-aod]: [10:22:34][WARN] MCTrack: Cannot determine mass for pdg 14122 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 46000 events have been generated 
+[3450156:mctracks-to-aod]: [10:22:37][WARN] MCTrack: Cannot determine mass for pdg 14122 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 47000 events have been generated 
+[3450156:mctracks-to-aod]: [10:22:39][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 48000 events have been generated 
+[3450156:mctracks-to-aod]: [10:22:43][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 49000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 50000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 51000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 52000 events have been generated 
+[3450155:generator-task]:  PYTHIA Warning in Pythia::check: not quite matched particle energy/momentum/mass
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 53000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 54000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 55000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 56000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 57000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 58000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 59000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 60000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 61000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 62000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 63000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 64000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 65000 events have been generated 
+[3450156:mctracks-to-aod]: [10:23:29][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 66000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 67000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 68000 events have been generated 
+[3450156:mctracks-to-aod]: [10:23:37][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 69000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 70000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 71000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 72000 events have been generated 
+[3450156:mctracks-to-aod]: [10:23:50][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 73000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 74000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 75000 events have been generated 
+[3450156:mctracks-to-aod]: [10:23:57][WARN] MCTrack: Cannot determine mass for pdg 100441 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 76000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 77000 events have been generated 
+[3450156:mctracks-to-aod]: [10:24:03][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 78000 events have been generated 
+[3450156:mctracks-to-aod]: [10:24:05][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 79000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 80000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 81000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 82000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 83000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 84000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 85000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 86000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 87000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 88000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 89000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 90000 events have been generated 
+[3450156:mctracks-to-aod]: [10:24:39][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 91000 events have been generated 
+[3450156:mctracks-to-aod]: [10:24:42][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 92000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 93000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 94000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 95000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 96000 events have been generated 
+[3450156:mctracks-to-aod]: [10:24:56][WARN] MCTrack: Cannot determine mass for pdg 100441 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 97000 events have been generated 
+[3450156:mctracks-to-aod]: [10:24:58][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450156:mctracks-to-aod]: [10:24:59][WARN] MCTrack: Cannot determine mass for pdg 100441 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 98000 events have been generated 
+[3450155:generator-task]: 
+[3450155:generator-task]:  Pythia::next(): 99000 events have been generated 
+[3450156:mctracks-to-aod]: [10:25:02][WARN] MCTrack: Cannot determine mass for pdg 9000221 (possibly missing in TDatabasePDG)
+[3450155:generator-task]: [10:25:05][INFO] Sending end-of-stream message to channel from_generator-task_to_mctracks-to-aod
+[3450156:mctracks-to-aod]: [10:25:05][INFO] Sending end-of-stream message to channel from_mctracks-to-aod_to_internal-dpl-aod-writer
+[3450157:internal-dpl-aod-writer]: [10:25:05][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-writer_to_internal-dpl-injected-dummy-sink
+[INFO] Quitting
+[INFO] Quit requested at Fri May  8 10:25:05 2026
+
+[3450154:internal-dpl-clock]: [10:25:05][INFO] Received device shutdown request (signal 15).
+[3450154:internal-dpl-clock]: [10:25:05][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3450154:internal-dpl-clock]: [10:25:05][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3450154:internal-dpl-clock]: [10:25:05][INFO] Sending end-of-stream message to channel from_internal-dpl-clock_to_generator-task
+[3450154:internal-dpl-clock]: [10:25:05][STATE] RUNNING ---> READY
+[3450154:internal-dpl-clock]: [10:25:05][STATE] READY ---> RESETTING TASK
+[3450154:internal-dpl-clock]: [10:25:05][STATE] RESETTING TASK ---> DEVICE READY
+[3450154:internal-dpl-clock]: [10:25:05][STATE] DEVICE READY ---> RESETTING DEVICE
+[3450154:internal-dpl-clock]: [10:25:05][STATE] RESETTING DEVICE ---> IDLE
+[3450154:internal-dpl-clock]: [10:25:05][STATE] IDLE ---> EXITING
+[3450154:internal-dpl-clock]: [10:25:05][STATE] Exiting FairMQ state machine
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][INFO] Received device shutdown request (signal 15).
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][STATE] RUNNING ---> READY
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][STATE] READY ---> RESETTING TASK
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][STATE] RESETTING TASK ---> DEVICE READY
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][STATE] DEVICE READY ---> RESETTING DEVICE
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][STATE] RESETTING DEVICE ---> IDLE
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][STATE] IDLE ---> EXITING
+[3450158:internal-dpl-injected-dummy-sink]: [10:25:05][STATE] Exiting FairMQ state machine
+[3450157:internal-dpl-aod-writer]: [10:25:05][INFO] Received device shutdown request (signal 15).
+[3450157:internal-dpl-aod-writer]: [10:25:05][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3450156:mctracks-to-aod]: [10:25:05][INFO] Received device shutdown request (signal 15).
+[3450156:mctracks-to-aod]: [10:25:05][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3450157:internal-dpl-aod-writer]: [10:25:05][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3450157:internal-dpl-aod-writer]: [10:25:05][STATE] RUNNING ---> READY
+[3450156:mctracks-to-aod]: [10:25:05][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3450156:mctracks-to-aod]: [10:25:05][STATE] RUNNING ---> READY
+[3450156:mctracks-to-aod]: [10:25:05][STATE] READY ---> RESETTING TASK
+[3450156:mctracks-to-aod]: [10:25:05][STATE] RESETTING TASK ---> DEVICE READY
+[3450156:mctracks-to-aod]: [10:25:05][STATE] DEVICE READY ---> RESETTING DEVICE
+[3450157:internal-dpl-aod-writer]: [10:25:05][STATE] READY ---> RESETTING TASK
+[3450157:internal-dpl-aod-writer]: [10:25:05][STATE] RESETTING TASK ---> DEVICE READY
+[3450157:internal-dpl-aod-writer]: [10:25:05][STATE] DEVICE READY ---> RESETTING DEVICE
+[3450157:internal-dpl-aod-writer]: [10:25:05][STATE] RESETTING DEVICE ---> IDLE
+[3450157:internal-dpl-aod-writer]: [10:25:05][STATE] IDLE ---> EXITING
+[3450156:mctracks-to-aod]: [10:25:05][STATE] RESETTING DEVICE ---> IDLE
+[3450156:mctracks-to-aod]: [10:25:05][STATE] IDLE ---> EXITING
+[3450157:internal-dpl-aod-writer]: [10:25:05][STATE] Exiting FairMQ state machine
+[3450156:mctracks-to-aod]: [10:25:05][STATE] Exiting FairMQ state machine
+[3450155:generator-task]: [10:25:05][INFO] Received device shutdown request (signal 15).
+[3450155:generator-task]: [10:25:05][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[3450155:generator-task]: [10:25:05][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[3450155:generator-task]: [10:25:05][STATE] RUNNING ---> READY
+[3450155:generator-task]: [10:25:05][STATE] READY ---> RESETTING TASK
+[3450155:generator-task]: [10:25:05][STATE] RESETTING TASK ---> DEVICE READY
+[3450155:generator-task]: [10:25:05][STATE] DEVICE READY ---> RESETTING DEVICE
+[3450155:generator-task]: [10:25:05][INFO] Cleaning up for shared memory id '0cbc49bd'...
+[3450155:generator-task]: [10:25:05][INFO] Found 0 unmanaged regions...
+[3450155:generator-task]: [10:25:05][INFO] Found 1 managed segments...
+[3450155:generator-task]: [10:25:05][INFO] Successfully removed 'fmq_0cbc49bd_m_0'.
+[3450155:generator-task]: [10:25:05][INFO] Successfully removed 'fmq_0cbc49bd_mng'.
+[3450155:generator-task]: [10:25:05][STATE] RESETTING DEVICE ---> IDLE
+[3450155:generator-task]: [10:25:05][STATE] IDLE ---> EXITING
+[3450155:generator-task]: [10:25:05][STATE] Exiting FairMQ state machine
+[INFO] ## Processes completed. Run summary:
+[INFO] ### Devices started: 5
+[INFO]  - Device internal-dpl-clock: pid 3450154 (exit 0)
+[INFO]  - Device generator-task: pid 3450155 (exit 0)
+[INFO]  - Device mctracks-to-aod: pid 3450156 (exit 0)
+[INFO]  - Device internal-dpl-aod-writer: pid 3450157 (exit 0)
+[INFO]  - Device internal-dpl-injected-dummy-sink: pid 3450158 (exit 0)
+[INFO] Dumping used configuration in dpl-config.json
