@@ -1,0 +1,12 @@
+{ 
+  "OutputDirector": 
+  {
+    "debug_mode": true,
+    "resfile": "AO2D",
+    "OutputDescriptors": [
+      {"table": "AOD/UPGRADECASCADES/0"},
+      {"table": "AOD/UPGRADEV0S/0"}
+    ],
+    "ntfmerge": 1
+  } 
+}
