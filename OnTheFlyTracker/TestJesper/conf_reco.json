@@ -1,0 +1,713 @@
+{
+    "internal-dpl-clock": "",
+    "internal-dpl-aod-reader": {
+        "aod-file-private": ".\/AO2D_pp_Xicc.root",
+        "aod-max-io-rate": "0",
+        "time-limit": "0",
+        "orbit-offset-enumeration": "0",
+        "orbit-multiplier-enumeration": "0",
+        "start-value-enumeration": "0",
+        "end-value-enumeration": "-1",
+        "step-value-enumeration": "1"
+    },
+    "internal-dpl-aod-spawner": "",
+    "on-the-fly-tracker": {
+        "seed": "0",
+        "maxEta": "1.5",
+        "multEtaRange": "2",
+        "minPt": "0.00999999978",
+        "enablePrimarySmearing": "true",
+        "enableSecondarySmearing": "true",
+        "enableNucleiSmearing": "false",
+        "enablePrimaryVertexing": "false",
+        "primaryVertexOption": "pvertexer.maxChi2TZDebris=10;pvertexer.acceptableScale2=9;pvertexer.minScale2=2;pvertexer.timeMarginVertexTime=1.3;;pvertexer.maxChi2TZDebris=40;pvertexer.maxChi2Mean=12;pvertexer.maxMultRatDebris=1.;pvertexer.addTimeSigma2Debris=1e-2;pvertexer.meanVertexExtraErrSelection=0.03;",
+        "interpolateLutEfficiencyVsNch": "true",
+        "populateTracksDCA": "true",
+        "populateTracksDCACov": "false",
+        "populateTracksExtra": "false",
+        "populateTrackSelection": "false",
+        "processUnreconstructedTracks": "false",
+        "doExtraQA": "true",
+        "extraQAwithoutDecayDaughters": "true",
+        "axisMomentum": {
+            "values": [
+                "0",
+                "0",
+                "0.10000000149011612",
+                "0.20000000298023224",
+                "0.30000001192092896",
+                "0.4000000059604645",
+                "0.5",
+                "0.6000000238418579",
+                "0.699999988079071",
+                "0.800000011920929",
+                "0.8999999761581421",
+                "1",
+                "1.100000023841858",
+                "1.2000000476837158",
+                "1.2999999523162842",
+                "1.399999976158142",
+                "1.5",
+                "1.600000023841858",
+                "1.7000000476837158",
+                "1.7999999523162842",
+                "1.899999976158142",
+                "2",
+                "2.200000047683716",
+                "2.4000000953674316",
+                "2.5999999046325684",
+                "2.799999952316284",
+                "3",
+                "3.200000047683716",
+                "3.4000000953674316",
+                "3.5999999046325684",
+                "3.799999952316284",
+                "4",
+                "4.400000095367432",
+                "4.800000190734863",
+                "5.199999809265137",
+                "5.599999904632568",
+                "6",
+                "6.5",
+                "7",
+                "7.5",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "17",
+                "19",
+                "21",
+                "23",
+                "25",
+                "30",
+                "35",
+                "40",
+                "50"
+            ]
+        },
+        "axisNVertices": {
+            "values": [
+                "1",
+                "-0.5",
+                "0.5"
+            ]
+        },
+        "axisDeltaVtxCoord": {
+            "values": [
+                "100",
+                "-5",
+                "5"
+            ]
+        },
+        "axisDeltaMultPVRecoGen": {
+            "values": [
+                "51",
+                "-25",
+                "25"
+            ]
+        },
+        "axisVtxMult": {
+            "values": [
+                "101",
+                "0",
+                "100"
+            ]
+        },
+        "axisMultiplicity": {
+            "values": [
+                "1000",
+                "-0.5",
+                "19999.5"
+            ]
+        },
+        "axisVertexZ": {
+            "values": [
+                "40",
+                "-20",
+                "20"
+            ]
+        },
+        "axisDCA": {
+            "values": [
+                "400",
+                "-200",
+                "200"
+            ]
+        },
+        "axisX": {
+            "values": [
+                "250",
+                "-50",
+                "200"
+            ]
+        },
+        "axisDecayRadius": {
+            "values": [
+                "55",
+                "0.01",
+                "100"
+            ]
+        },
+        "axisK0Mass": {
+            "values": [
+                "200",
+                "0.4000000059604645",
+                "0.6000000238418579"
+            ]
+        },
+        "axisLambdaMass": {
+            "values": [
+                "200",
+                "1.1009999513626099",
+                "1.13100004196167"
+            ]
+        },
+        "axisXiMass": {
+            "values": [
+                "200",
+                "1.2200000286102295",
+                "1.4199999570846558"
+            ]
+        },
+        "axisPtRes": {
+            "values": [
+                "200",
+                "-0.4000000059604645",
+                "0.4000000059604645"
+            ]
+        },
+        "axisDeltaPt": {
+            "values": [
+                "200",
+                "-1",
+                "1"
+            ]
+        },
+        "axisDeltaEta": {
+            "values": [
+                "200",
+                "-0.5",
+                "0.5"
+            ]
+        },
+        "axisRadius": {
+            "values": [
+                "2500",
+                "0",
+                "250"
+            ]
+        },
+        "axisZ": {
+            "values": [
+                "100",
+                "-250",
+                "250"
+            ]
+        },
+        "fastTrackerSettings": {
+            "minSiliconHits": "6",
+            "minSiliconHitsForKinkReco": "4",
+            "minSiliconHitsIfTPCUsed": "2",
+            "minTPCClusters": "70",
+            "applyZacceptance": "false",
+            "applyMSCorrection": "true",
+            "applyElossCorrection": "false"
+        },
+        "fastPrimaryTrackerSettings": {
+            "fastTrackPrimaries": "false",
+            "minSiliconHits": "4",
+            "applyZacceptance": "false",
+            "applyMSCorrection": "true",
+            "applyElossCorrection": "true"
+        },
+        "cascadeDecaySettings": {
+            "decayXi": "true",
+            "findXi": "true",
+            "trackXi": "true",
+            "doXiQA": "true",
+            "minStraTrackHits": "1",
+            "doKinkReco": "0"
+        },
+        "v0DecaySettings": {
+            "decayV0": "false",
+            "findV0": "false",
+            "doV0QA": "false"
+        },
+        "cfgFitter": {
+            "propagateToPCA": "false",
+            "maxR": "200",
+            "minParamChange": "0.001",
+            "minRelChi2Change": "0.90000000000000002",
+            "maxDZIni": "1000000000",
+            "maxDXYIni": "4",
+            "maxVtxChi2": "1000000000",
+            "useAbsDCA": "true",
+            "useWeightedFinalPCA": "false"
+        },
+        "processOnTheFly": "true",
+        "processDecayer": "false"
+    },
+    "on-the-fly-detector-geometry-provider": {
+        "cleanLutWhenLoaded": "true",
+        "detectorConfiguration": {
+            "values": [
+                "ccdb:\/Users\/j\/jekarlss\/ALICE3\/Geometries\/v3b"
+            ]
+        }
+    },
+    "on-the-fly-tof-pid": {
+        "considerEventTime": "true",
+        "innerTOFRadius": "20",
+        "outerTOFRadius": "80",
+        "innerTOFLength": "124",
+        "outerTOFLength": "250",
+        "innerTOFPixelDimension": {
+            "_M_elems[0]": "0.100000001",
+            "_M_elems[1]": "0.100000001"
+        },
+        "innerTOFFractionOfInactiveArea": "0",
+        "outerTOFPixelDimension": {
+            "_M_elems[0]": "0.100000001",
+            "_M_elems[1]": "0.100000001"
+        },
+        "outerTOFFractionOfInactiveArea": "0",
+        "innerTOFTimeReso": "20",
+        "outerTOFTimeReso": "20",
+        "nStepsLIntegrator": "200",
+        "multiplicityEtaRange": "0.800000012",
+        "flagIncludeTrackTimeRes": "true",
+        "flagTOFLoadDelphesLUTs": "false",
+        "doQAplots": "true",
+        "doSeparationVsPt": "true",
+        "nBinsBeta": "2200",
+        "nBinsP": "80",
+        "nBinsTrackLengthInner": "300",
+        "nBinsTrackLengthOuter": "300",
+        "nBinsTrackDeltaLength": "100",
+        "nBinsNsigmaCorrectSpecies": "200",
+        "nBinsNsigmaWrongSpecies": "200",
+        "minNsigmaRange": "-10",
+        "maxNsigmaRange": "10",
+        "nBinsDeltaCorrectSpecies": "200",
+        "nBinsDeltaWrongSpecies": "200",
+        "minDeltaRange": "-100",
+        "maxDeltaRange": "100",
+        "nBinsTimeRes": "400",
+        "nBinsRelativeEtaPt": "400",
+        "nBinsEta": "400",
+        "nBinsMult": "200",
+        "maxMultRange": "1000"
+    },
+    "on-the-fly-tracker-initializer": "",
+    "alice3decaypreselector": {
+        "nSigmaTOF": "4",
+        "nSigmaRICH": "4",
+        "processInitialize": "true",
+        "processFilterInnerTOF": "true",
+        "processFilterOuterTOF": "false",
+        "processFilterRICH": "false",
+        "processFilterOnMonteCarloTruth": "false",
+        "processPublishDecision": "true"
+    },
+    "alice3-multicharm-finder": {
+        "derivedTable": {
+            "fillMCharmIdx": "true",
+            "fillMCharmCore": "true",
+            "fillMCharmExtra": "true"
+        },
+        "cfgFitter": {
+            "propagateToPCA": "false",
+            "maxR": "200",
+            "minParamChange": "0.001",
+            "minRelChi2Change": "0.90000000000000002",
+            "maxDZIni": "1000000000",
+            "maxDXYIni": "4",
+            "maxVtxChi2": "1000000000",
+            "useAbsDCA": "true",
+            "useWeightedFinalPCA": "false"
+        },
+        "cfgMagneticField": "-1",
+        "doDCAplots": "true",
+        "mcSameMotherCheck": "true",
+        "minNTracks": {
+            "values": [
+                "-1"
+            ]
+        },
+        "xiMinConstDCAxy": "0.000500000024",
+        "xiMinConstDCAz": "0.000500000024",
+        "xiMinPtDepDCAxy": "0",
+        "xiMinPtDepDCAz": "0",
+        "xiMinDecayRadius": "0.5",
+        "xiMassWindow": "0.00499999989",
+        "picMinConstDCAxy": "0.000500000024",
+        "picMinConstDCAz": "0.000500000024",
+        "picMinPtDepDCAxy": "0",
+        "picMinPtDepDCAz": "0",
+        "picMinPt": "0.150000006",
+        "xicMaxDauDCA": "0.00499999989",
+        "xicMaxDCAxy": "0.000500000024",
+        "xicMaxDCAz": "0.000500000024",
+        "xicMinDecayRadius": "-1",
+        "xicMinDecayDistanceFromPV": "-1",
+        "xicMinProperLength": "0.00200000009",
+        "xicMaxProperLength": "0.100000001",
+        "xicMassWindow": "0.0120000001",
+        "piccMinConstDCAxy": "0.000500000024",
+        "piccMinConstDCAz": "0.000500000024",
+        "piccMinPtDepDCAxy": "0",
+        "piccMinPtDepDCAz": "0",
+        "piccMinPt": "0.300000012",
+        "xiccMaxDauDCA": "0.00499999989",
+        "xiccMaxDCAxy": "0.00499999989",
+        "xiccMaxDCAz": "0.00499999989",
+        "xiccMaxEta": "1.5",
+        "xiccMinDecayRadius": "-1",
+        "xiccMinProperLength": "-1",
+        "xiccMaxProperLength": "999",
+        "xiccMassWindow": "0.25",
+        "axisEta": {
+            "values": [
+                "80",
+                "-4",
+                "4"
+            ]
+        },
+        "axisPt": {
+            "values": [
+                "0",
+                "0",
+                "0.10000000149011612",
+                "0.20000000298023224",
+                "0.30000001192092896",
+                "0.40000000596046448",
+                "0.5",
+                "0.60000002384185791",
+                "0.69999998807907104",
+                "0.80000001192092896",
+                "0.89999997615814209",
+                "1",
+                "1.1000000238418579",
+                "1.200000047683716",
+                "1.2999999523162842",
+                "1.3999999761581421",
+                "1.5",
+                "1.6000000238418579",
+                "1.700000047683716",
+                "1.7999999523162842",
+                "1.8999999761581421",
+                "2",
+                "2.2000000476837158",
+                "2.4000000953674321",
+                "2.5999999046325684",
+                "2.7999999523162842",
+                "3",
+                "3.2000000476837158",
+                "3.4000000953674321",
+                "3.5999999046325684",
+                "3.7999999523162842",
+                "4",
+                "4.4000000953674316",
+                "4.8000001907348633",
+                "5.1999998092651367",
+                "5.5999999046325684",
+                "6",
+                "6.5",
+                "7",
+                "7.5",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "17",
+                "19",
+                "21",
+                "23",
+                "25",
+                "30",
+                "35",
+                "40",
+                "50"
+            ]
+        },
+        "axisDCA2D": {
+            "values": [
+                "400",
+                "-200",
+                "200"
+            ]
+        },
+        "axisDCA": {
+            "values": [
+                "400",
+                "0",
+                "400"
+            ]
+        },
+        "axisRadius": {
+            "values": [
+                "10000",
+                "0",
+                "10000"
+            ]
+        },
+        "axisRadius2D": {
+            "values": [
+                "1000",
+                "0",
+                "100000"
+            ]
+        },
+        "axisRadius2DXi": {
+            "values": [
+                "1000",
+                "0",
+                "20"
+            ]
+        },
+        "axisDecayLength": {
+            "values": [
+                "2000",
+                "0",
+                "2000"
+            ]
+        },
+        "axisTOFTrack": {
+            "values": [
+                "1000",
+                "0",
+                "5000"
+            ]
+        },
+        "axisXiMass": {
+            "values": [
+                "200",
+                "1.2209999561309817",
+                "1.4210000038146973"
+            ]
+        },
+        "axisXiCMass": {
+            "values": [
+                "200",
+                "2.3680000305175781",
+                "2.5680000782012939"
+            ]
+        },
+        "axisXiCCMass": {
+            "values": [
+                "200",
+                "3.5209999084472656",
+                "3.7209999561309814"
+            ]
+        },
+        "axisDCAXiCDaughters": {
+            "values": [
+                "200",
+                "0",
+                "100"
+            ]
+        },
+        "axisDCAXiCCDaughters": {
+            "values": [
+                "200",
+                "0",
+                "100"
+            ]
+        },
+        "axisNConsidered": {
+            "values": [
+                "200",
+                "-0.5",
+                "199.5"
+            ]
+        },
+        "processGenerated": "true",
+        "processFindXicc": "true"
+    },
+    "alice3-multicharm": {
+        "bdt": {
+            "ccdbUrl": "http:\/\/alice-ccdb.cern.ch",
+            "localPath": "MCharm_BDTModel.onnx",
+            "pathCCDB": "Users\/j\/jekarlss\/MLModels",
+            "timestampCCDB": "1695750420200",
+            "loadModelsFromCCDB": "false",
+            "enableOptimizations": "false",
+            "enableML": "false"
+        },
+        "axisEta": {
+            "values": [
+                "80",
+                "-4",
+                "4"
+            ]
+        },
+        "axisXicMass": {
+            "values": [
+                "200",
+                "2.3680000305175781",
+                "2.5680000782012939"
+            ]
+        },
+        "axisXiccMass": {
+            "values": [
+                "200",
+                "3.5209999084472656",
+                "3.7209999561309814"
+            ]
+        },
+        "axisDCA": {
+            "values": [
+                "400",
+                "0",
+                "400"
+            ]
+        },
+        "axisRadiusLarge": {
+            "values": [
+                "1000",
+                "0",
+                "20"
+            ]
+        },
+        "axisRadius": {
+            "values": [
+                "10000",
+                "0",
+                "10000"
+            ]
+        },
+        "axisTofTrackDelta": {
+            "values": [
+                "200",
+                "0",
+                "1000"
+            ]
+        },
+        "axisNSigma": {
+            "values": [
+                "21",
+                "-10",
+                "10"
+            ]
+        },
+        "axisDecayLength": {
+            "values": [
+                "2000",
+                "0",
+                "2000"
+            ]
+        },
+        "axisDcaDaughters": {
+            "values": [
+                "200",
+                "0",
+                "100"
+            ]
+        },
+        "axisBDTScore": {
+            "values": [
+                "100",
+                "0",
+                "1"
+            ]
+        },
+        "axisPt": {
+            "values": [
+                "0",
+                "0",
+                "0.10000000149011612",
+                "0.20000000298023224",
+                "0.30000001192092896",
+                "0.40000000596046448",
+                "0.5",
+                "0.60000002384185791",
+                "0.69999998807907104",
+                "0.80000001192092896",
+                "0.89999997615814209",
+                "1",
+                "1.1000000238418579",
+                "1.200000047683716",
+                "1.2999999523162842",
+                "1.3999999761581421",
+                "1.5",
+                "1.6000000238418579",
+                "1.700000047683716",
+                "1.7999999523162842",
+                "1.8999999761581421",
+                "2",
+                "2.2000000476837158",
+                "2.4000000953674321",
+                "2.5999999046325684",
+                "2.7999999523162842",
+                "3",
+                "3.2000000476837158",
+                "3.4000000953674321",
+                "3.5999999046325684",
+                "3.7999999523162842",
+                "4",
+                "4.4000000953674316",
+                "4.8000001907348633",
+                "5.1999998092651367",
+                "5.5999999046325684",
+                "6",
+                "6.5",
+                "7",
+                "7.5",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "17",
+                "19",
+                "21",
+                "23",
+                "25",
+                "30",
+                "35",
+                "40",
+                "50"
+            ]
+        },
+        "xiMinDCAxy": "-1",
+        "xiMinDCAz": "-1",
+        "xiMinRadius": "-1",
+        "picMinDCAxy": "-1",
+        "picMinDCAz": "-1",
+        "picMinPt": "-1",
+        "piccMinDCAxy": "-1",
+        "piccMinDCAz": "-1",
+        "piccMinPt": "-1",
+        "xicMaxDauDCA": "10000",
+        "xicMinDCAxy": "-1",
+        "xicMinDCAz": "-1",
+        "xiccMaxDCAxy": "10000",
+        "xiccMaxDCAz": "10000",
+        "xicMinRadius": "-1",
+        "xicMinDecayDistanceFromPV": "-1",
+        "xicMinProperLength": "-1",
+        "xicMaxProperLength": "10000",
+        "xiccMaxDauDCA": "10000",
+        "xiccMinRadius": "-1",
+        "xiccMinProperLength": "-1",
+        "xiccMaxProperLength": "10000",
+        "otfConfig": "0",
+        "processXicc": "true",
+        "processXiccExtra": "true"
+    },
+    "internal-dpl-aod-global-analysis-file-sink": "",
+    "internal-dpl-aod-writer": "",
+    "internal-dpl-injected-dummy-sink": ""
+}
