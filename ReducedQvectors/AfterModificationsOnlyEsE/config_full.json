@@ -6,6 +6,100 @@
         "processV001ToV002": "true"
     },
     "tracks-extra-spawner": "",
+    "q-vectors-correction": {
+        "cfgnMods": {
+            "values": [
+                "2",
+                "3"
+            ]
+        },
+        "cfgDetName": "FT0C",
+        "cfgRefAName": "TPCpos",
+        "cfgRefBName": "TPCneg",
+        "cfgAddEvtSel": "true",
+        "cfgEvtSel": "0",
+        "cfgnTotalSystem": "7",
+        "cfgNbinsEP": "360",
+        "cfgQAAll": "false",
+        "cfgQAFinal": "false",
+        "cfgQAFlowStudy": "false",
+        "cfgQAOccupancyStudy": "false",
+        "cfgAddEvtSelPileup": "false",
+        "cfgShiftCorPrep": "false",
+        "cfgMinPt": "0.150000006",
+        "cfgMaxEta": "0.800000012",
+        "cfgMaxDCArToPVcut": "0.100000001",
+        "cfgMaxDCAzToPVcut": "1",
+        "cfgMaxOccupancy": "999999",
+        "cfgMinOccupancy": "0",
+        "cfgaxisQvecF": {
+            "values": [
+                "300",
+                "-1",
+                "1"
+            ]
+        },
+        "cfgaxisQvec": {
+            "values": [
+                "100",
+                "-3",
+                "3"
+            ]
+        },
+        "cfgaxisCent": {
+            "values": [
+                "100",
+                "0",
+                "100"
+            ]
+        },
+        "cfgaxiscos": {
+            "values": [
+                "102",
+                "-1.02",
+                "1.02"
+            ]
+        },
+        "cfgaxispt": {
+            "values": [
+                "100",
+                "0",
+                "10"
+            ]
+        },
+        "cfgaxisCentMerged": {
+            "values": [
+                "20",
+                "0",
+                "100"
+            ]
+        },
+        "cfgaxisAzimuth": {
+            "values": [
+                "72",
+                "0",
+                "6.2831854820251474"
+            ]
+        },
+        "cfgaxisOccupancy": {
+            "values": [
+                "0",
+                "-1",
+                "0",
+                "100",
+                "500",
+                "1000",
+                "2000",
+                "3000",
+                "4000",
+                "5000",
+                "10000",
+                "99999"
+            ]
+        },
+        "processSp": "false",
+        "processEse": "true"
+    },
     "eventselection-run3": {
         "timestamp": {
             "verbose": "false",
@@ -768,7 +862,8 @@
         "cfgCorrLevel": "4",
         "cfgnMods": {
             "values": [
-                "2"
+                "2",
+                "3"
             ]
         },
         "cfgMaxCentrality": "100",

@@ -210,9 +210,9 @@
             ]
         },
         "fastTrackerSettings": {
-            "minSiliconHits": "6",
-            "minSiliconHitsForKinkReco": "4",
-            "minSiliconHitsIfTPCUsed": "2",
+            "minSiliconHits": "0",
+            "minSiliconHitsForKinkReco": "0",
+            "minSiliconHitsIfTPCUsed": "0",
             "minTPCClusters": "70",
             "applyZacceptance": "false",
             "applyMSCorrection": "true",
@@ -234,9 +234,9 @@
             "doKinkReco": "0"
         },
         "v0DecaySettings": {
-            "decayV0": "false",
-            "findV0": "false",
-            "doV0QA": "false"
+            "decayV0": "true",
+            "findV0": "true",
+            "doV0QA": "true"
         },
         "cfgFitter": {
             "propagateToPCA": "false",
