@@ -1,0 +1,10 @@
+{ "OutputDirector": {
+  "debug_mode": true,
+  "resfile": "AO2D",
+  "OutputDescriptors": [
+    {"table": "AOD/KINKCANDS/0"},
+    {"table": "AOD/LAMBDA1405/0"},
+    {"table": "AOD/LAMBDA1405FLOW/0"}
+  ],
+  "ntfmerge": 1
+} }

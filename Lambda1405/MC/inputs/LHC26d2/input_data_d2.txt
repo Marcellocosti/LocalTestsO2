@@ -1,0 +1,3 @@
+/home/mdicosta/LocalTestsO2/Lambda1405/MC/inputs/LHC26d2/AO2D_001.root
+/home/mdicosta/LocalTestsO2/Lambda1405/MC/inputs/LHC26d2/AO2D_002.root
+/home/mdicosta/LocalTestsO2/Lambda1405/MC/inputs/LHC26d2/AO2D_003.root

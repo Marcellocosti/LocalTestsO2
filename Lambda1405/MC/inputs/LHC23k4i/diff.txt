@@ -1,0 +1,51 @@
+Keys present in filled but not in local: mc-centrality, track-selection
+Keys present in local but not in filled: lambda1405analysis, sigmaminustask
+
+---------------------- internal-dpl-clock -------------------------
+
+---------------------- internal-dpl-aod-reader -------------------------
+        KEY aod-file-private: filled = @input_data.txt, local = @input_data_k3i.txt
+        KEY time-limit: filled = 300, local = 0
+
+---------------------- internal-dpl-aod-spawner -------------------------
+
+---------------------- internal-dpl-aod-index-builder -------------------------
+
+---------------------- mc-collision-converter -------------------------
+
+---------------------- tracks-extra-v002-converter -------------------------
+
+---------------------- tracks-extra-spawner -------------------------
+
+---------------------- eventselection-run3 -------------------------
+
+---------------------- kink-builder -------------------------
+    Keys present in local but not in filled: skipBkgCands, zDiffBins, phiDiffBins, dcaMothToPVBins, dcaDaugToPVBins, mothDecRad2Bins, processData, processMc
+
+        KEY etaMax: filled = 1, local = 0.800000012
+        KEY minPtMoth: filled = 0.600000024, local = 0.5
+
+---------------------- pid-tpc-service -------------------------
+
+---------------------- ft0-corrected-table -------------------------
+        KEY resoFT0A: filled = 5.6500001, local = 20
+        KEY resoFT0C: filled = 5.6500001, local = 20
+
+---------------------- propagation-service -------------------------
+
+---------------------- tof-signal -------------------------
+
+---------------------- mult-cent-table -------------------------
+    Keys present in local but not in filled: minNclsMFTTrack, maxDCAxyToPVMFTTrack, minEtaMFTTrack, maxEtaMFTTrack
+
+        KEY generatorName: filled = PYTHIA, local = 
+
+---------------------- tof-event-time -------------------------
+
+---------------------- tof-pid-merge -------------------------
+
+---------------------- internal-dpl-aod-global-analysis-file-sink -------------------------
+
+---------------------- internal-dpl-aod-writer -------------------------
+
+---------------------- internal-dpl-injected-dummy-sink -------------------------

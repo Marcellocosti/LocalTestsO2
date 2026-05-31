@@ -20,9 +20,9 @@
         "cfgEvtSel": "0",
         "cfgnTotalSystem": "7",
         "cfgNbinsEP": "360",
-        "cfgQAAll": "false",
-        "cfgQAFinal": "false",
-        "cfgQAFlowStudy": "false",
+        "cfgQAAll": "true",
+        "cfgQAFinal": "true",
+        "cfgQAFlowStudy": "true",
         "cfgQAOccupancyStudy": "false",
         "cfgAddEvtSelPileup": "false",
         "cfgShiftCorPrep": "false",
@@ -34,16 +34,16 @@
         "cfgMinOccupancy": "0",
         "cfgaxisQvecF": {
             "values": [
-                "300",
-                "-1",
-                "1"
+                "1000",
+                "-10",
+                "10"
             ]
         },
         "cfgaxisQvec": {
             "values": [
-                "100",
-                "-3",
-                "3"
+                "1000",
+                "-10",
+                "10"
             ]
         },
         "cfgaxisCent": {
@@ -859,7 +859,7 @@
         "cfgMaxPtOnTPC": "3",
         "cfgEtaMax": "0.800000012",
         "cfgEtaMin": "-0.800000012",
-        "cfgCorrLevel": "4",
+        "cfgCorrLevel": "0",
         "cfgnMods": {
             "values": [
                 "2",
