@@ -965,8 +965,8 @@
                 "1"
             ]
         },
-        "processData": "true",
-        "processDataWCentQVecs": "false",
+        "processData": "false",
+        "processDataWCentQVecs": "true",
         "processMC": "false"
     },
     "internal-dpl-aod-global-analysis-file-sink": "",

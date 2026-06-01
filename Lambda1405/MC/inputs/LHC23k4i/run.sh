@@ -1,9 +1,11 @@
 #!/bin/bash
 
 DATASET=$1
+TYPE=$2
 
-OPTION="-b --configuration json:///home/mdicosta/LocalTestsO2/Lambda1405/MC/config.json"
-LOGFILE="log.txt"
+# OPTION="-b --configuration json:///home/mdicosta/LocalTestsO2/Lambda1405/MC/config_data.json"
+OPTION="-b --configuration json:///home/mdicosta/LocalTestsO2/Lambda1405/MC/config_${TYPE}.json"
+LOGFILE="log_${TYPE}.txt"
 
 o2-analysis-ft0-corrected-table $OPTION |\
 o2-analysis-mccollision-converter $OPTION |\
@@ -29,8 +31,8 @@ fi
 
 touch ao2ds_to_merge.txt
 echo AO2D.root > ao2ds_to_merge.txt
-o2-aod-merger --input ao2ds_to_merge.txt --max-size 10000000000000 --output Tree_${DATASET}.root
+o2-aod-merger --input ao2ds_to_merge.txt --max-size 10000000000000 --output Tree_${DATASET}_${TYPE}.root
 rm ao2ds_to_merge.txt
 rm localhost*
 rm AO2D.root
-mv AnalysisResults.root AnalysisResults_${DATASET}.root
+mv AnalysisResults.root AnalysisResults_${DATASET}_${TYPE}.root

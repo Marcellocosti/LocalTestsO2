@@ -2,7 +2,7 @@
 
 DATASET=$1
 
-OPTION="-b --configuration json:///home/mdicosta/LocalTestsO2/Lambda1405/MC/config.json"
+OPTION="-b --configuration json:///home/mdicosta/LocalTestsO2/Lambda1405/MC/config_mc.json"
 LOGFILE="log.txt"
 
 o2-analysis-ft0-corrected-table $OPTION |\
